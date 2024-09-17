@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-Question Guessing Game</title>
+    <title>Fencing Quiz</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
+            padding: 20px;
         }
         .container {
             background-color: white;
@@ -20,7 +21,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
-            max-width: 500px;
+            max-width: 600px;
             width: 100%;
         }
         h1 {
@@ -28,7 +29,7 @@
         }
         .options {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: 1fr;
             gap: 1rem;
             margin-top: 1rem;
         }
@@ -45,41 +46,59 @@
         button:hover {
             background-color: #45a049;
         }
-        #result, #score {
+        #result, #score, #explanation {
             margin-top: 1rem;
             font-weight: bold;
         }
         #score {
             color: #4CAF50;
         }
+        #explanation {
+            font-weight: normal;
+            font-style: italic;
+            color: #666;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Multi-Question Guessing Game</h1>
+        <h1>Fencing Quiz</h1>
         <p id="question"></p>
         <div id="options" class="options"></div>
         <p id="result"></p>
+        <p id="explanation"></p>
         <p id="score">Score: 0 / 0</p>
     </div>
 
     <script>
         const questions = [
             {
-                question: "What is the capital of France?",
-                options: ["Paris", "London", "Berlin", "Rome"],
-                correctAnswer: "Paris"
-            },
-            {
-                question: "Which planet is known as the Red Planet?",
-                options: ["Mars", "Jupiter", "Venus", "Saturn"],
-                correctAnswer: "Mars"
-            },
-            {
-                question: "What is the largest mammal in the world?",
-                options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
-                correctAnswer: "Blue Whale"
+                "question": "Minimum for a fencer to rest between two direct elimination bouts?",
+                "answers": [
+                    {
+                        "isCorrect": false,
+                        "text": "5 minutes",
+                        "explanation": "This might seem reasonable because fencers often get short rest periods, but the FIE rules specifically mandate a minimum rest of 10 minutes between direct elimination bouts (Article t.122)."
+                    },
+                    {
+                        "isCorrect": false,
+                        "text": "15 minutes",
+                        "explanation": "While this would allow more recovery time, the FIE rules only require a minimum of 10 minutes between direct elimination bouts (Article t.122). Anything more than that is not mandatory."
+                    },
+                    {
+                        "isCorrect": false,
+                        "text": "No minimum rest is required",
+                        "explanation": "This is incorrect because the FIE rules ensure a fair competition by mandating at least 10 minutes of rest between two direct elimination bouts (Article t.122)."
+                    },
+                    {
+                        "isCorrect": true,
+                        "text": "10 minutes",
+                        "explanation": "This is the correct answer. According to Article t.122 of the FIE rules, a fencer is entitled to a minimum of 10 minutes of rest between two direct elimination bouts."
+                    }
+                ]
             }
+            // Add more questions here in the same format
         ];
 
         let currentQuestionIndex = 0;
@@ -92,43 +111,46 @@
             const optionsContainer = document.getElementById('options');
             optionsContainer.innerHTML = '';
             
-            question.options.forEach(option => {
+            question.answers.forEach(answer => {
                 const button = document.createElement('button');
-                button.textContent = option;
-                button.onclick = () => checkAnswer(option);
+                button.textContent = answer.text;
+                button.onclick = () => checkAnswer(answer);
                 optionsContainer.appendChild(button);
             });
+
+            document.getElementById('result').textContent = '';
+            document.getElementById('explanation').textContent = '';
         }
 
         function checkAnswer(answer) {
-            const question = questions[currentQuestionIndex];
             const resultElement = document.getElementById('result');
+            const explanationElement = document.getElementById('explanation');
             const scoreElement = document.getElementById('score');
 
-            if (answer === question.correctAnswer) {
+            if (answer.isCorrect) {
                 resultElement.textContent = 'Correct! Well done!';
                 resultElement.style.color = 'green';
                 score++;
             } else {
-                resultElement.textContent = `Sorry, that's incorrect. The correct answer is ${question.correctAnswer}.`;
+                resultElement.textContent = 'Sorry, that\'s incorrect.';
                 resultElement.style.color = 'red';
             }
 
+            explanationElement.textContent = answer.explanation;
             currentQuestionIndex++;
             scoreElement.textContent = `Score: ${score} / ${currentQuestionIndex}`;
 
+            const optionsContainer = document.getElementById('options');
+            optionsContainer.innerHTML = '';
+
             if (currentQuestionIndex < questions.length) {
-                setTimeout(() => {
-                    resultElement.textContent = '';
-                    loadQuestion();
-                }, 2000);
+                const nextButton = document.createElement('button');
+                nextButton.textContent = 'Next Question';
+                nextButton.onclick = loadQuestion;
+                optionsContainer.appendChild(nextButton);
             } else {
-                setTimeout(() => {
-                    document.getElementById('question').textContent = 'Game Over!';
-                    document.getElementById('options').innerHTML = '';
-                    resultElement.textContent = `Final Score: ${score} / ${questions.length}`;
-                    resultElement.style.color = 'blue';
-                }, 2000);
+                resultElement.textContent = 'Quiz Completed!';
+                explanationElement.textContent = `Final Score: ${score} / ${questions.length}`;
             }
         }
 
