@@ -2,14 +2,24 @@ let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 
-// Load questions from JSON file
-fetch('questions.json')
-    .then(response => response.json())
-    .then(data => {
-        questions = data;
-        loadQuestion();
-    })
-    .catch(error => console.error('Error loading questions:', error));
+document.addEventListener('DOMContentLoaded', () => {
+    const startButton = document.getElementById('start-button');
+    startButton.addEventListener('click', startQuiz);
+
+    // Load questions from JSON file
+    fetch('questions.json')
+        .then(response => response.json())
+        .then(data => {
+            questions = data;
+        })
+        .catch(error => console.error('Error loading questions:', error));
+});
+
+function startQuiz() {
+    document.getElementById('start-screen').style.display = 'none';
+    document.getElementById('quiz-screen').style.display = 'block';
+    loadQuestion();
+}
 
 function loadQuestion() {
     if (currentQuestionIndex >= questions.length) {
@@ -62,9 +72,10 @@ function checkAnswer(answer) {
 }
 
 function endQuiz() {
-    const container = document.querySelector('.container');
-    container.innerHTML = `
+    const quizScreen = document.getElementById('quiz-screen');
+    quizScreen.innerHTML = `
         <h1>Quiz Completed!</h1>
         <p>Final Score: ${score} / ${questions.length}</p>
+        <button onclick="location.reload()">Restart Quiz</button>
     `;
 }
