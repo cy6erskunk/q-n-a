@@ -15,7 +15,17 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error loading questions:', error));
 });
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 function startQuiz() {
+    shuffleArray(questions);
+    currentQuestionIndex = 0;
+    score = 0;
     document.getElementById('start-screen').style.display = 'none';
     document.getElementById('quiz-screen').style.display = 'block';
     loadQuestion();
@@ -33,7 +43,11 @@ function loadQuestion() {
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
     
-    question.answers.forEach(answer => {
+    // Shuffle the answers for this question
+    const shuffledAnswers = [...question.answers];
+    shuffleArray(shuffledAnswers);
+    
+    shuffledAnswers.forEach(answer => {
         const button = document.createElement('button');
         button.textContent = answer.text;
         button.onclick = () => checkAnswer(answer);
@@ -42,6 +56,7 @@ function loadQuestion() {
 
     document.getElementById('result').textContent = '';
     document.getElementById('explanation').textContent = '';
+    document.getElementById('score').textContent = `Score: ${score} / ${currentQuestionIndex}`;
 }
 
 function checkAnswer(answer) {
