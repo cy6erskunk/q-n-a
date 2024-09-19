@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             allQuestions = data;
+            loadProgress();
         })
         .catch(error => console.error('Error loading questions:', error));
 });
@@ -108,6 +109,8 @@ function checkAnswer(answer, question) {
     nextButton.textContent = 'Next Question';
     nextButton.onclick = loadQuestion;
     optionsContainer.appendChild(nextButton);
+
+    saveProgress();
 }
 
 function endQuiz() {
@@ -119,9 +122,33 @@ function endQuiz() {
         <button onclick="startQuiz()">Start Next Round</button>
         <button onclick="resetQuiz()">Reset Quiz</button>
     `;
+    saveProgress();
 }
 
 function resetQuiz() {
     answeredCorrectly.clear();
+    localStorage.removeItem('quizProgress');
     location.reload();
+}
+
+function saveProgress() {
+    const progress = {
+        answeredCorrectly: Array.from(answeredCorrectly),
+        totalAnswered: allQuestions.length
+    };
+    localStorage.setItem('quizProgress', JSON.stringify(progress));
+}
+
+function loadProgress() {
+    const savedProgress = localStorage.getItem('quizProgress');
+    if (savedProgress) {
+        const progress = JSON.parse(savedProgress);
+        answeredCorrectly = new Set(progress.answeredCorrectly);
+        
+        // Update the start screen with progress information
+        const startScreen = document.getElementById('start-screen');
+        const progressInfo = document.createElement('p');
+        progressInfo.textContent = `You've correctly answered ${answeredCorrectly.size} out of ${progress.totalAnswered} questions.`;
+        startScreen.insertBefore(progressInfo, startScreen.lastElementChild);
+    }
 }
