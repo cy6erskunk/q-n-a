@@ -155,199 +155,197 @@
     ]
   },
   {
-    "question":
-      "In a team match, if when the score is 9-5 in the second relay, the fencer in the lead scores a valid hit and at the same time the opponent receives a red card, what should the referee record on the score-sheet?",
+    "question": "In a team match, if when the score is 9-5 in the second relay, the fencer in the lead scores a valid hit and at the same time the opponent receives a red card, what should the referee record on the score-sheet?",
     "answers": [
       {
+        "isCorrect": false,
+        "text": "10-5. Only the valid hit should be recorded, as a red card does not affect the score.",
+        "explanation": "This answer is incorrect because, according to the rules, a red card adds a penalty hit to the opponent's score. Both the valid hit and the penalty hit from the red card should be recorded. [See t.165]"
+      },
+      {
+        "isCorrect": false,
+        "text": "12-5. The fencer in the lead should receive two hits for the valid hit and one for the red card.",
+        "explanation": "While a red card does award a penalty hit to the opponent, only one valid hit is awarded for the scored touch, and the red card penalty adds just one additional hit, not two. Therefore, the score should increase by two, not three. [See t.41.1]"
+      },
+      {
         "isCorrect": true,
-        "text": "11-5",
-        "explanation":
-          "Correct. The score would increase by 1 for the valid hit (making it 10-5) and 1 for the penalty from the red card, making the final score 11-5 (Article t.87)."
+        "text": "11-5. The valid hit and the penalty hit for the red card should both be recorded, making the score 11-5.",
+        "explanation": "This is the correct answer because when a valid hit is scored and a red card is awarded simultaneously, the valid hit and an additional penalty hit (due to the red card) are both added to the lead fencer’s score. [See t.41.1]"
       },
       {
         "isCorrect": false,
-        "text": "10-5",
-        "explanation":
-          "Incorrect. The red card adds a penalty hit to the score, so the correct result should be 11-5, not 10-5."
-      },
-      {
-        "isCorrect": false,
-        "text": "9-6",
-        "explanation":
-          "Incorrect. The fencer leading should receive 2 points, one for the valid hit and one for the red card penalty, increasing their score to 11."
-      },
-      {
-        "isCorrect": false,
-        "text": "10-6",
-        "explanation":
-          "Incorrect. The leading fencer receives the valid hit and the penalty hit, so the correct score should be 11-5, not 10-6."
+        "text": "9-5. The score should remain 9-5, with the red card being recorded separately without affecting the score.",
+        "explanation": "This answer is incorrect because, per the rules, a red card results in a penalty hit, which must be reflected in the score. The idea that a red card does not affect the score is false. [See t.41.1 and t.165]"
       }
     ]
   },
   {
-    "question":
-      "In a team match, when should the replacement of a team member by the reserve fencer be announced?",
+    "question": "In a team match, when should the replacement of a team member by the reserve fencer be announced?",
     "answers": [
       {
+        "isCorrect": false,
+        "text": "The replacement can be announced during any bout, even after the fencer's next bout has started.",
+        "explanation": "This answer is incorrect because, according to the rules, the substitution must be announced at the latest before the beginning of the bout preceding the next bout of the fencer being replaced. [See o.99.5]"
+      },
+      {
+        "isCorrect": false,
+        "text": "The replacement must be announced immediately after the reserve fencer is selected, without any timing restrictions.",
+        "explanation": "This answer is incorrect as the rules specify that the substitution must be made before the beginning of the preceding bout, not immediately after selecting the reserve. [See o.99.5]"
+      },
+      {
         "isCorrect": true,
-        "text": "Before the start of the next relay",
-        "explanation":
-          "Correct. Article o.44.1 requires that the substitution of a team member must be announced before the start of the next relay."
+        "text": "The replacement must be announced at the latest before the beginning of the bout preceding the next bout of the fencer being replaced.",
+        "explanation": "This is the correct answer. According to the rules, the team captain must announce the substitution before the start of the bout preceding the next bout of the fencer who is to be replaced. [See o.99.5]"
       },
       {
         "isCorrect": false,
-        "text": "During the rest between relays",
-        "explanation":
-          "Incorrect. The substitution must be announced before the start of the next relay, not during the rest."
-      },
-      {
-        "isCorrect": false,
-        "text": "After the injured fencer has left the piste",
-        "explanation":
-          "Incorrect. The announcement must happen before the start of the next relay, not after the injured fencer has already left the piste."
-      },
-      {
-        "isCorrect": false,
-        "text": "At the end of the match",
-        "explanation":
-          "Incorrect. The substitution must be made before the next relay, not after the match has finished, as per Article o.44.1."
+        "text": "The replacement can only be made after the referee calls for a substitution.",
+        "explanation": "This answer is incorrect because the substitution is initiated by the team captain, not the referee, and it must be announced according to the timing specified in the rules. [See o.99.5]"
       }
-    ]
+    ],
+    "quotes": {
+      "o.99.5": "The announcement that a fencer is to be substituted must be made at the latest before the beginning of the bout preceding the next bout of the fencer who is to be replaced"​
+    }
   },
   {
-    "question":
-      "In a team competition, can a fencer who has been replaced fence again in the same match?",
+    "question": "In a team competition, can a fencer who has been replaced fence again in the same match?",
     "answers": [
       {
+        "isCorrect": false,
+        "text": "Yes, a replaced fencer can fence again as long as the substitution was not due to an injury.",
+        "explanation": "This answer is incorrect. The rule specifies that a fencer who has been replaced can only fence again to replace the reserve who substituted them, regardless of the reason for the initial replacement. [See o.99.5.a]"
+      },
+      {
+        "isCorrect": false,
+        "text": "No, once a fencer is replaced, they cannot participate further in the same match under any circumstances.",
+        "explanation": "This answer is incorrect. A fencer who has been replaced can fence again during the same match, but only to replace the reserve who originally substituted them, provided the initial replacement was not for injury reasons. [See o.99.5.a]"
+      },
+      {
         "isCorrect": true,
-        "text": "No",
-        "explanation":
-          "Correct. According to Article o.44.1, once a fencer is replaced, they cannot return to fence again in the same match."
+        "text": "A replaced fencer may fence again in the same match, but only to substitute the reserve who initially replaced them.",
+        "explanation": "This is the correct answer. According to the rules, a replaced fencer may fence again during the match to substitute the reserve who replaced them, provided the initial replacement was not due to injury. [See o.99.5.a]"
       },
       {
         "isCorrect": false,
-        "text": "Yes, if it was a strategic substitution",
-        "explanation":
-          "Incorrect. Regardless of whether the substitution was strategic or for injury, the replaced fencer cannot return to fence in the same match."
-      },
-      {
-        "isCorrect": false,
-        "text": "Yes, if the reserve fencer is injured",
-        "explanation":
-          "Incorrect. Once a fencer has been replaced, they cannot return under any circumstances during the same match."
-      },
-      {
-        "isCorrect": false,
-        "text": "Yes, if the team captain requests it",
-        "explanation":
-          "Incorrect. The rules do not allow a fencer to return to the match once they have been substituted, as per Article o.44.1."
+        "text": "Yes, a replaced fencer can re-enter the match at any time, provided the team captain requests it.",
+        "explanation": "This answer is incorrect. A replaced fencer can only re-enter the match to replace the reserve who initially replaced them and not at any time. This second substitution is restricted to specific conditions. [See o.99.5.a]"
       }
-    ]
+    ],
+    "quotes": {
+      "o.99.5.a": "A fencer who has been replaced may fence one more time during that match, but only to replace the fencer who originally substituted him."
+    }
   },
   {
-    "question":
-      "In a team competition can a fencer who was replaced for medical reason fence again in the same match?",
+    "question": "In a team competition, can a fencer who was replaced for medical reason fence again in the same match?",
     "answers": [
       {
+        "isCorrect": false,
+        "text": "Yes, a fencer can return if they recover before the end of the match.",
+        "explanation": "This answer is incorrect. A fencer who is replaced for medical reasons cannot return to fence during the same match, regardless of their recovery. [See o.99.6.b]"
+      },
+      {
+        "isCorrect": false,
+        "text": "A fencer may return to the match only if their substitute withdraws due to injury.",
+        "explanation": "This answer is incorrect. Even if the substitute fencer is injured or withdraws, a fencer replaced for medical reasons is still not allowed to fence again during that match. [See o.99.6.b]"
+      },
+      {
         "isCorrect": true,
-        "text": "No",
-        "explanation":
-          "Correct. According to Article o.44.1, a fencer replaced for medical reasons is not allowed to return and fence again in the same match."
+        "text": "No, a fencer replaced for medical reasons cannot fence again in the same match.",
+        "explanation": "This is the correct answer. The rules clearly state that a fencer replaced due to an injury or medical reason cannot take part in the same match again. [See o.99.6.b]"
       },
       {
         "isCorrect": false,
-        "text": "Yes, if they recover before the match ends",
-        "explanation":
-          "Incorrect. The rules do not permit a fencer who has been substituted, even for medical reasons, to return during the same match."
-      },
-      {
-        "isCorrect": false,
-        "text": "Yes, but only in the final relay",
-        "explanation":
-          "Incorrect. Regardless of the circumstances, a fencer replaced for medical reasons cannot return during the same match."
-      },
-      {
-        "isCorrect": false,
-        "text": "Yes, if the team is losing",
-        "explanation":
-          "Incorrect. A replaced fencer cannot return to fence again under any circumstances in the same match, per Article o.44.1."
+        "text": "The replaced fencer may fence again if the team captain approves it.",
+        "explanation": "This answer is incorrect. Once a fencer is replaced for medical reasons, the team captain cannot allow them to rejoin the match. [See o.99.6.b]"
       }
-    ]
+    ],
+    "quotes": {
+      "o.99.6.b": "However, a competitor who is thus replaced cannot again take his place in the team during the same match."
+    }
   },
   {
     "question": "In a team competition which relay/bout can a replaced fencer fence again in the same match?",
     "answers": [
       {
+        "isCorrect": false,
+        "text": "A replaced fencer can return in any subsequent relay as long as it is before the final relay.",
+        "explanation": "This is incorrect because a replaced fencer can only return once and that is to replace the reserve who initially substituted them, and it must be after their substitution. [See o.99.5.a]"
+      },
+      {
         "isCorrect": true,
-        "text": "None",
-        "explanation": "Correct. According to Article o.44.1, once a fencer has been replaced, they cannot fence again in any relay or bout within the same match."
+        "text": "A replaced fencer can return only to substitute the reserve fencer who originally replaced them.",
+        "explanation": "This is the correct answer as the rules state that a fencer who has been replaced may only fence one more time, but only to replace the reserve who initially substituted them. [See o.99.5.a]"
       },
       {
         "isCorrect": false,
-        "text": "In the final relay",
-        "explanation": "Incorrect. A replaced fencer cannot return to fence again, even in the final relay, according to Article o.44.1."
+        "text": "A replaced fencer can return to any relay, provided that it is not immediately after their substitution.",
+        "explanation": "This answer is incorrect. A replaced fencer can only return to replace the reserve, not during any relay of their choice. [See o.99.5.a]"
       },
       {
         "isCorrect": false,
-        "text": "In the next bout if the reserve fencer is injured",
-        "explanation": "Incorrect. A replaced fencer cannot return to the match, even if the reserve is injured, as per Article o.44.1."
-      },
-      {
-        "isCorrect": false,
-        "text": "In the same relay they were replaced",
-        "explanation": "Incorrect. Once replaced, a fencer cannot return to the same match in any relay or bout, according to Article o.44.1."
+        "text": "A fencer replaced due to tactical reasons can fence in a later relay but only after a 5-minute rest.",
+        "explanation": "This is incorrect because the rules do not mention any rest period. The replaced fencer can only return to replace the reserve, without any such condition. [See o.99.5.a]"
       }
-    ]
+    ],
+    "quotes": {
+      "o.99.5.a": "A fencer who has been replaced may fence one more time during that match, but only to replace the fencer who originally substituted him."
+    }
   },
-  {
+ {
     "question": "In a team match if an injury is duly recognized by the competition doctor, can the reserve fencer continue the relay that the injured fencer has already begun?",
     "answers": [
       {
         "isCorrect": true,
-        "text": "No",
-        "explanation": "Correct. According to Article o.44.6, the reserve fencer cannot continue the relay that the injured fencer has already begun. The relay is stopped, and the next relay begins."
+        "text": "Yes, the reserve fencer can continue the relay from the point where the injured fencer withdrew.",
+        "explanation": "This is the correct answer. According to the rules, when an injury is recognized by the competition doctor, the reserve fencer can immediately take the place of the injured fencer, even during an ongoing relay, and continue from the point where the injured fencer had to stop. [See o.99.6.a]"
       },
       {
         "isCorrect": false,
-        "text": "Yes, but only if the injury occurs before the final relay",
-        "explanation": "Incorrect. The reserve fencer cannot continue the relay under any circumstances. The relay ends, and the next one begins."
+        "text": "No, the reserve fencer must wait until the next relay to participate.",
+        "explanation": "This is incorrect. The rules explicitly state that the substitution can occur immediately during the current relay if the injury is recognized by the competition doctor, allowing the reserve to continue the same bout. [See o.99.6.a]"
       },
       {
         "isCorrect": false,
-        "text": "Yes, the reserve can take over the same relay",
-        "explanation": "Incorrect. The reserve fencer cannot take over in the middle of a relay. A new relay must start after the injury, per Article o.44.6."
+        "text": "Yes, but the reserve fencer must restart the bout from 0-0.",
+        "explanation": "This is incorrect. The reserve fencer continues the relay from the exact score and point in the match where the injured fencer withdrew, rather than restarting the bout. [See o.99.6.a]"
       },
       {
         "isCorrect": false,
-        "text": "Yes, but only if the injured fencer cannot continue immediately",
-        "explanation": "Incorrect. Even if the fencer cannot continue immediately, the reserve fencer cannot take over the ongoing relay."
+        "text": "No, a new fencer cannot continue a relay that has already started.",
+        "explanation": "This is incorrect. The rules allow the reserve to step in immediately and continue the relay if an injury is recognized, meaning they can take over a relay in progress. [See o.99.6.a]"
       }
-    ]
+    ],
+    "quotes": {
+      "o.99.6.a": "If a member of a team is obliged to retire during a match as the result of an accident which has been duly recognised by a medical representative of the FIE, the captain of his team may ask to put in a reserve to continue the match at the point where the competitor who was obliged to retire withdrew, even during a bout in progress."​
+    }
   },
   {
     "question": "In a team match can a team start the match without a reserve fencer?",
     "answers": [
       {
+        "isCorrect": false,
+        "text": "No, a team cannot start the match without a reserve fencer.",
+        "explanation": "This answer is incorrect. The rules clearly state that a team can start the match without a reserve fencer as long as it has three fencers. The presence of a reserve fencer is optional. [See o.97]"
+      },
+      {
         "isCorrect": true,
-        "text": "Yes",
-        "explanation": "Correct. According to the FIE rules, teams are allowed to start a match without a reserve fencer. Having a reserve is not mandatory."
+        "text": "Yes, a team can start the match without a reserve fencer as long as it has three fencers.",
+        "explanation": "This is the correct answer. The rules specify that teams must have at least three fencers to start a match, but having a reserve fencer is not required. [See o.97]"
       },
       {
         "isCorrect": false,
-        "text": "No",
-        "explanation": "Incorrect. The FIE rules do not require teams to have a reserve fencer. They can start a match with just three fencers."
+        "text": "Yes, but the team will receive a penalty if there is no reserve fencer.",
+        "explanation": "This answer is incorrect. There is no mention in the rules of any penalty for starting a match without a reserve fencer. A team is allowed to start without a reserve without consequence. [See o.97]"
       },
       {
         "isCorrect": false,
-        "text": "Only if they notify the referee in advance",
-        "explanation": "Incorrect. There is no need to notify the referee. Teams are allowed to start a match without a reserve fencer by default."
-      },
-      {
-        "isCorrect": false,
-        "text": "Only in non-championship matches",
-        "explanation": "Incorrect. The rule applies to all official team matches, not just non-championship matches."
+        "text": "No, every team must have a reserve fencer to start a match.",
+        "explanation": "This answer is incorrect. The rules only require three fencers to start a match, and having a reserve is optional. [See o.97]"
       }
-    ]
+    ],
+    "quotes": {
+      "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
+    }
   },
   {
     "question": "In a team match can a team end the match with only two fencers?",
