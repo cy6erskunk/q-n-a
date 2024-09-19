@@ -1,6 +1,10 @@
-let questions = [];
+let allQuestions = [];
+let currentQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
+let answeredCorrectly = new Set();
+
+const QUESTIONS_PER_ROUND = 5;
 
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
@@ -10,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('questions.json')
         .then(response => response.json())
         .then(data => {
-            questions = data;
+            allQuestions = data;
         })
         .catch(error => console.error('Error loading questions:', error));
 });
@@ -22,8 +26,26 @@ function shuffleArray(array) {
     }
 }
 
+function selectQuestions() {
+    let unansweredQuestions = allQuestions.filter(q => !answeredCorrectly.has(q.question));
+    shuffleArray(unansweredQuestions);
+
+    currentQuestions = unansweredQuestions.slice(0, QUESTIONS_PER_ROUND);
+
+    // If we don't have enough unanswered questions, add some answered ones
+    if (currentQuestions.length < QUESTIONS_PER_ROUND) {
+        let answeredQuestions = allQuestions.filter(q => answeredCorrectly.has(q.question));
+        shuffleArray(answeredQuestions);
+        currentQuestions = currentQuestions.concat(
+            answeredQuestions.slice(0, QUESTIONS_PER_ROUND - currentQuestions.length)
+        );
+    }
+
+    shuffleArray(currentQuestions);
+}
+
 function startQuiz() {
-    shuffleArray(questions);
+    selectQuestions();
     currentQuestionIndex = 0;
     score = 0;
     document.getElementById('start-screen').style.display = 'none';
@@ -32,12 +54,12 @@ function startQuiz() {
 }
 
 function loadQuestion() {
-    if (currentQuestionIndex >= questions.length) {
+    if (currentQuestionIndex >= currentQuestions.length) {
         endQuiz();
         return;
     }
 
-    const question = questions[currentQuestionIndex];
+    const question = currentQuestions[currentQuestionIndex];
     document.getElementById('question').textContent = question.question;
     
     const optionsContainer = document.getElementById('options');
@@ -50,16 +72,17 @@ function loadQuestion() {
     shuffledAnswers.forEach(answer => {
         const button = document.createElement('button');
         button.textContent = answer.text;
-        button.onclick = () => checkAnswer(answer);
+        button.onclick = () => checkAnswer(answer, question);
         optionsContainer.appendChild(button);
     });
 
     document.getElementById('result').textContent = '';
     document.getElementById('explanation').textContent = '';
     document.getElementById('score').textContent = `Score: ${score} / ${currentQuestionIndex}`;
+    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${QUESTIONS_PER_ROUND}`;
 }
 
-function checkAnswer(answer) {
+function checkAnswer(answer, question) {
     const resultElement = document.getElementById('result');
     const explanationElement = document.getElementById('explanation');
     const scoreElement = document.getElementById('score');
@@ -68,6 +91,7 @@ function checkAnswer(answer) {
         resultElement.textContent = 'Correct! Well done!';
         resultElement.style.color = 'green';
         score++;
+        answeredCorrectly.add(question.question);
     } else {
         resultElement.textContent = 'Sorry, that\'s incorrect.';
         resultElement.style.color = 'red';
@@ -89,8 +113,15 @@ function checkAnswer(answer) {
 function endQuiz() {
     const quizScreen = document.getElementById('quiz-screen');
     quizScreen.innerHTML = `
-        <h1>Quiz Completed!</h1>
-        <p>Final Score: ${score} / ${questions.length}</p>
-        <button onclick="location.reload()">Restart Quiz</button>
+        <h1>Round Completed!</h1>
+        <p>Your Score: ${score} / ${QUESTIONS_PER_ROUND}</p>
+        <p>Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}</p>
+        <button onclick="startQuiz()">Start Next Round</button>
+        <button onclick="resetQuiz()">Reset Quiz</button>
     `;
+}
+
+function resetQuiz() {
+    answeredCorrectly.clear();
+    location.reload();
 }
