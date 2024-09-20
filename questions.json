@@ -351,51 +351,57 @@
     "question": "In a team match can a team end the match with only two fencers?",
     "answers": [
       {
+        "isCorrect": false,
+        "text": "Yes, a team can continue with two fencers if one of the team members is injured.",
+        "explanation": "This is incorrect. The rules specify that a team must have at least three fencers to participate in a match. If a team has fewer than three fencers during the match, they cannot continue. [See o.97]"
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, the match can continue with two fencers, but they will be penalized for the missing member.",
+        "explanation": "This is incorrect because the rules do not allow a team to continue with only two fencers, and there is no provision for penalties that would allow a match to continue under such circumstances. [See o.97]"
+      },
+      {
         "isCorrect": true,
-        "text": "No",
-        "explanation": "Correct. If a team is reduced to only two fencers, the team is considered to have forfeited the match, as per Article o.44.7."
+        "text": "No, a team cannot end the match with only two fencers.",
+        "explanation": "This is the correct answer. According to the rules, a team must have three fencers to start and finish a match. If a team is reduced to fewer than three members, they cannot continue. [See o.97]"
       },
       {
         "isCorrect": false,
-        "text": "Yes, if the two fencers agree to continue",
-        "explanation": "Incorrect. A team must have three fencers to continue the match. If reduced to two, the team forfeits the match, as per Article o.44.7."
-      },
-      {
-        "isCorrect": false,
-        "text": "Yes, but only in the final bout",
-        "explanation": "Incorrect. The team cannot continue with only two fencers at any point in the match. They are considered to have forfeited if this happens."
-      },
-      {
-        "isCorrect": false,
-        "text": "Yes, but the opposing team must approve it",
-        "explanation": "Incorrect. The rules do not allow a team to continue with only two fencers, regardless of the other team's approval."
+        "text": "A team can finish with two fencers only if the referee permits it.",
+        "explanation": "This is incorrect because the referee cannot allow a team to finish with fewer than three fencers, as the rules mandate a minimum of three fencers for the team to participate. [See o.97]"
       }
-    ]
+    ],
+    "quotes": {
+      "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
+    }
   },
   {
     "question": "If in a team match, after the announcement that a fencer is to be substituted, an accident occurs in the bout which follows the request for a substitution, can the team captain annul that request?",
     "answers": [
       {
+        "isCorrect": false,
+        "text": "No, once the substitution has been announced, it cannot be annulled even in case of an accident.",
+        "explanation": "This is incorrect. According to the rules, if an accident occurs in the bout following the substitution announcement, the team captain has the right to annul the request. [See o.99.5.b]"
+      },
+      {
         "isCorrect": true,
-        "text": "No",
-        "explanation": "Correct. Once a substitution has been announced, it cannot be annulled, even if an accident occurs in the following bout (Article o.44.5)."
+        "text": "Yes, the team captain may annul the substitution request if an accident occurs in the bout following the request.",
+        "explanation": "This is the correct answer. The rules explicitly allow the team captain to annul the substitution request if an accident happens in the bout following the announcement. [See o.99.5.b]"
       },
       {
         "isCorrect": false,
-        "text": "Yes, but only with the referee's approval",
-        "explanation": "Incorrect. The substitution cannot be annulled once announced, even if the referee agrees. The rule is clear on this (Article o.44.5)."
+        "text": "The substitution can only be annulled if the injured fencer cannot continue.",
+        "explanation": "This is incorrect. The rule allows the team captain to annul the substitution request in the case of an accident, even if the fencer can continue. [See o.99.5.b]"
       },
       {
         "isCorrect": false,
-        "text": "Yes, if the accident occurs before the substitution takes effect",
-        "explanation": "Incorrect. The substitution takes effect once it is announced, and cannot be annulled, per Article o.44.5."
-      },
-      {
-        "isCorrect": false,
-        "text": "Yes, but only if the injured fencer can continue",
-        "explanation": "Incorrect. The substitution cannot be reversed after being announced, regardless of whether the injured fencer recovers or not (Article o.44.5)."
+        "text": "The referee must decide if the substitution request can be annulled.",
+        "explanation": "This is incorrect. The decision to annul the substitution request lies with the team captain, not the referee, in the case of an accident after the announcement. [See o.99.5.b]"
       }
-    ]
+    ],
+    "quotes": {
+      "o.99.5.b": "If an accident occurs in the bout which follows the request for a substitution, the team captain may annul that request."
+    }
   },
   {
     "question": "Except where there is a special device (attachment or orthopedic shape) can the hand be slipping along the handle from front to back during an offensive action?",
@@ -420,7 +426,10 @@
         "text": "Yes, but only in direct elimination bouts",
         "explanation": "Incorrect. The rule applies universally, and the hand slipping along the handle during an offensive action is not allowed."
       }
-    ]
+    ],
+    "quotes": {
+      "t.21.2": "<...>the weapon <...> must be used without the hand leaving the handle and without the hand slipping along the handle from front to back during an offensive action."
+    }
   },
   {
     "question": "Can the weapon be used as a throwing weapon?",
@@ -445,7 +454,10 @@
         "text": "Yes, but only in épée",
         "explanation": "Incorrect. The rule applies to all three weapons. The weapon must not be used as a throwing weapon in any form of fencing."
       }
-    ]
+    ],
+    "quotes": {
+      "t.21.2": "<...>the weapon must not be — either permanently or temporarily, in an open or disguised manner — transformed into a throwing weapon"
+    }
   },
   {
     "question": "Can the fencer change the sword arm before the end of the bout?",
@@ -470,7 +482,10 @@
         "text": "Yes, if the weapon becomes faulty",
         "explanation": "Incorrect. The fencer can only change the weapon, not the sword arm, unless special permission is granted for injury."
       }
-    ]
+    ],
+    "quotes": {
+      "t.21.4": "The weapon must be used with one hand only; a fencer may not change hands before the end of the bout, unless the Referee gives special permission in the case of injury to the hand or arm."
+    }
   },
   {
     "question": "After the bout has been halted without awarding any hits after a penalty with a yellow card, where should the fencers be placed on guard?",
@@ -495,7 +510,10 @@
         "text": "On the on-guard line",
         "explanation": "Incorrect. The fencers are only placed on the on-guard line at the start of a bout, not after a halt where no hits have been awarded."
       }
-    ]
+    ],
+    "quotes": {
+      "t.22.7": "If no hit is awarded they are replaced in the position which they occupied when the bout was interrupted."
+    }
   },
   {
     "question": "Before the additional minute begins, where should the fencers be placed on guard?",
@@ -520,7 +538,71 @@
         "text": "1 meter back from the center",
         "explanation": "Incorrect. The rule mandates that the fencers be placed directly in the middle of the piste before the additional minute starts."
       }
-    ]
+    ],
+    "quotes" {
+      "t.22.8": "At the beginning of each period (in a direct elimination bout) and of any additional minute of fencing time, the fencers are placed on guard in the middle of the piste."
+    }
+  },
+  {
+    "question": "After the bout has been halted without awarding any hits, after a penalty with a red card, where should the fencers be placed on guard?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Fencers should be placed on guard in the middle of the piste.",
+        "explanation": "This applies after a valid hit is scored (t.22.6). In this case, since no hits were awarded, this rule does not apply. The fencers are only placed in the middle of the piste when starting or after a valid hit."
+      },
+      {
+        "isCorrect": false,
+        "text": "Fencers should be placed back at their starting positions behind the on-guard line.",
+        "explanation": "Fencers are placed behind the on-guard line only at the beginning of a bout (t.22.3). After an interruption due to a penalty, they are generally placed in their previous positions."
+      },
+      {
+        "isCorrect": true,
+        "text": "Fencers should be placed in the position they occupied when the bout was halted.",
+        "explanation": "According to the rules (t.22.7), after the bout is interrupted without any hit awarded, fencers are placed back in the position they were in before the interruption. This applies in this scenario since the bout was stopped after a red card penalty without any valid hits."
+      },
+      {
+        "isCorrect": false,
+        "text": "Fencers should be placed with a distance such that their points can touch in the 'point in line' position.",
+        "explanation": "This rule applies when fencers are placed on guard during the bout (t.22.5), ensuring that their points cannot touch. However, it is unrelated to the specific situation of halting the bout after a red card."
+      }
+    ],
+    "quotes": {
+      "t.22.6": "After the scoring of a valid hit the competitors are put on guard in the middle of the piste.",
+      "t.22.7": "If no hit is awarded they are replaced in the position which they occupied when the bout was interrupted.",
+      "t.22.3": "The Referee places each of the two competitors in such a way that the front foot of each is immediately behind the ‘on-guard’ line.",
+      "t.22.5": "When placed on guard during the bout, the distance between the two competitors must be such that, in the position ‘point in line’, the points of the two blades cannot make contact."
+    }
+  },
+  
+  {    
+    "nonOfficialQuestion": true,
+    "question": "What happens if a team becomes incomplete during a match and is left with only two fencers?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "The match can continue with two fencers, but they must forfeit one bout.",
+        "explanation": "This is incorrect. The rules specify that a team must have three fencers to participate. If a team is reduced to fewer than three fencers during the match, they cannot continue, and the match is forfeited. [See o.97]"
+      },
+      {
+        "isCorrect": true,
+        "text": "The team must forfeit the match if they are left with only two fencers.",
+        "explanation": "This is the correct answer. A team that becomes incomplete, with fewer than three fencers, cannot continue the match, and they must forfeit. [See o.97]"
+      },
+      {
+        "isCorrect": false,
+        "text": "The team can continue with two fencers, but their final score will be reduced.",
+        "explanation": "This is incorrect. A team cannot continue the match with only two fencers, regardless of the score. The match must be forfeited if the team is reduced to fewer than three fencers. [See o.97]"
+      },
+      {
+        "isCorrect": false,
+        "text": "The team can finish the match with two fencers if they are winning at the time.",
+        "explanation": "This is incorrect because the rules state that the team must have three fencers to continue the match, regardless of their current score or standing. [See o.97]"
+      }
+    ],
+    "quotes": {
+      "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
+    }
   }
 ]
 
