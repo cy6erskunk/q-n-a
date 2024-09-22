@@ -10,6 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
     startButton.addEventListener('click', startQuiz);
 
+    const nextRoundButton = document.getElementById('next-round-button');
+    nextRoundButton.addEventListener('click', startQuiz);
+
+    const resetQuizButton = document.getElementById('reset-quiz-button');
+    resetQuizButton.addEventListener('click', resetQuiz);
+
     // Load questions from JSON file
     fetch('questions.json')
         .then(response => response.json())
@@ -51,6 +57,7 @@ function startQuiz() {
     score = 0;
     document.getElementById('start-screen').style.display = 'none';
     document.getElementById('quiz-screen').style.display = 'block';
+    document.getElementById('end-screen').style.display = 'none';
     loadQuestion();
 }
 
@@ -114,14 +121,12 @@ function checkAnswer(answer, question) {
 }
 
 function endQuiz() {
-    const quizScreen = document.getElementById('quiz-screen');
-    quizScreen.innerHTML = `
-        <h1>Round Completed!</h1>
-        <p>Your Score: ${score} / ${QUESTIONS_PER_ROUND}</p>
-        <p>Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}</p>
-        <button onclick="startQuiz()">Start Next Round</button>
-        <button onclick="resetQuiz()">Reset Quiz</button>
-    `;
+    document.getElementById('quiz-screen').style.display = 'none';
+    document.getElementById('end-screen').style.display = 'block';
+    
+    document.getElementById('final-score').textContent = `Your Score: ${score} / ${QUESTIONS_PER_ROUND}`;
+    document.getElementById('total-score').textContent = `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
+    
     saveProgress();
 }
 

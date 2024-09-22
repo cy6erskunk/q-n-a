@@ -62,24 +62,32 @@
     </style>
 </head>
 <body>
-    <div class="container" id="quiz-container">
+    <div id="quiz-container" class="container">
         <div id="start-screen">
             <h1>Welcome to the Fencing Quiz!</h1>
             <p>Test your knowledge of fencing rules and regulations.</p>
             <p>Each round consists of 5 questions.</p>
             <button id="start-button">Start Quiz</button>
         </div>
+
         <div id="quiz-screen" style="display: none;">
             <h1>Fencing Quiz</h1>
-            <p id="progress"></p>
             <p id="question"></p>
             <div id="options" class="options"></div>
             <p id="result"></p>
             <p id="explanation"></p>
-            <p id="score">Score: 0 / 0</p>
+            <p id="score"></p>
+            <p id="progress"></p>
+        </div>
+
+        <div id="end-screen" style="display: none;">
+            <h1>Round Completed!</h1>
+            <p id="final-score"></p>
+            <p id="total-score"></p>
+            <button id="next-round-button">Start Next Round</button>
+            <button id="reset-quiz-button">Reset Quiz</button>
         </div>
     </div>
-
     <script src="quiz.js"></script>
 </body>
 </html>
