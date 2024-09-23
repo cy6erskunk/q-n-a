@@ -116,7 +116,7 @@ function checkAnswer(answer, question) {
     optionsContainer.innerHTML = '';
 
     const nextButton = document.createElement('button');
-    nextButton.textContent = 'Next Question';
+    nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Quiz';
     nextButton.onclick = loadQuestion;
     optionsContainer.appendChild(nextButton);
 
