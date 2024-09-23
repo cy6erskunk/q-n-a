@@ -75,6 +75,7 @@ function loadQuestion() {
     
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
+    document.getElementById('next-step').innerHTML = '';
     
     // Shuffle the answers for this question
     const shuffledAnswers = [...question.answers];
@@ -94,31 +95,30 @@ function loadQuestion() {
 }
 
 function checkAnswer(answer, question) {
-    const resultElement = document.getElementById('result');
     const explanationElement = document.getElementById('explanation');
     const scoreElement = document.getElementById('score');
 
+
+    const optionsContainer = document.getElementById('options');
+    optionsContainer.innerHTML = '';
+    optionsContainer.textContent = answer.text;
+
     if (answer.isCorrect) {
-        resultElement.textContent = 'Correct! Well done!';
-        resultElement.style.color = 'green';
+        optionsContainer.style.color = 'green';
         score++;
-        answeredCorrecrly.add(question.question);
+        answeredCorrectly.add(question.question);
     } else {
-        resultElement.textContent = 'Sorry, that\'s incorrect.';
-        resultElement.style.color = 'red';
+        optionsContainer.style.color = 'red';
     }
 
     explanationElement.textContent = answer.explanation;
     currentQuestionIndex++;
     scoreElement.textContent = `Score: ${score} / ${currentQuestionIndex}`;
 
-    const optionsContainer = document.getElementById('options');
-    optionsContainer.innerHTML = '';
-
     const nextButton = document.createElement('button');
     nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Quiz';
     nextButton.onclick = loadQuestion;
-    optionsContainer.appendChild(nextButton);
+    document.getElementById('next-step').append(nextButton);
 
     saveProgress();
 }
