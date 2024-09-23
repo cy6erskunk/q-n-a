@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetQuizButton = document.getElementById('reset-quiz-button');
     resetQuizButton.addEventListener('click', resetQuiz);
 
+    const exitButton = document.getElementById('exit-button');
+    exitButton.addEventListener('click', confirmExit);
+
     // Load questions from JSON file
     fetch('questions.json')
         .then(response => response.json())
@@ -99,7 +102,7 @@ function checkAnswer(answer, question) {
         resultElement.textContent = 'Correct! Well done!';
         resultElement.style.color = 'green';
         score++;
-        answeredCorrectly.add(question.question);
+        answeredCorrecrly.add(question.question);
     } else {
         resultElement.textContent = 'Sorry, that\'s incorrect.';
         resultElement.style.color = 'red';
@@ -123,10 +126,8 @@ function checkAnswer(answer, question) {
 function endQuiz() {
     document.getElementById('quiz-screen').style.display = 'none';
     document.getElementById('end-screen').style.display = 'block';
-    
     document.getElementById('final-score').textContent = `Your Score: ${score} / ${QUESTIONS_PER_ROUND}`;
     document.getElementById('total-score').textContent = `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
-    
     saveProgress();
 }
 
@@ -156,4 +157,19 @@ function loadProgress() {
         progressInfo.textContent = `You've correctly answered ${answeredCorrectly.size} out of ${progress.totalAnswered} questions.`;
         startScreen.insertBefore(progressInfo, startScreen.lastElementChild);
     }
+}
+
+function confirmExit() {
+    if (confirm("Are you sure you want to exit?")) {
+        exitQuiz();
+    }
+}
+
+function exitQuiz() {
+    currentQuestions = [];
+    currentQuestionIndex = 0;
+    score = 0;
+    document.getElementById('start-screen').style.display = 'block';
+    document.getElementById('quiz-screen').style.display = 'none';
+    document.getElementById('end-screen').style.display = 'none';
 }

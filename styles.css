@@ -52,3 +52,22 @@ button:hover {
     color: #666;
     text-align: left;
 }
+
+.exit-button {
+    position: absolute;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #777;
+    transition: color 0.3s ease;
+}
+
+.exit-button:hover {
+    color: #333;
+}
+
+#quiz-screen {
+    position: relative;
+}
