@@ -548,23 +548,23 @@
     "answers": [
       {
         "isCorrect": false,
-        "text": "Fencers should be placed on guard in the middle of the piste.",
-        "explanation": "This applies after a valid hit is scored (t.22.6). In this case, since no hits were awarded, this rule does not apply. The fencers are only placed in the middle of the piste when starting or after a valid hit."
-      },
-      {
-        "isCorrect": false,
-        "text": "Fencers should be placed back at their starting positions behind the on-guard line.",
-        "explanation": "Fencers are placed behind the on-guard line only at the beginning of a bout (t.22.3). After an interruption due to a penalty, they are generally placed in their previous positions."
+        "text": "Fencers should be placed on guard at the end of the piste where the penalty was given.",
+        "explanation": "This is incorrect. The penalty hit resulting from a red card is treated similarly to a valid hit, meaning fencers are placed on guard in the middle of the piste after the penalty is awarded (t.22.6). They are not placed at the end of the piste where the penalty was issued."
       },
       {
         "isCorrect": true,
-        "text": "Fencers should be placed in the position they occupied when the bout was halted.",
-        "explanation": "According to the rules (t.22.7), after the bout is interrupted without any hit awarded, fencers are placed back in the position they were in before the interruption. This applies in this scenario since the bout was stopped after a red card penalty without any valid hits."
+        "text": "Fencers should be placed on guard in the middle of the piste after the penalty hit is awarded.",
+        "explanation": "This is correct. When a penalty hit is awarded after a red card, it is treated similarly to a valid hit. As per t.22.6, fencers are placed on guard in the middle of the piste after a hit is scored."
       },
       {
         "isCorrect": false,
-        "text": "Fencers should be placed with a distance such that their points can touch in the 'point in line' position.",
-        "explanation": "This rule applies when fencers are placed on guard during the bout (t.22.5), ensuring that their points cannot touch. However, it is unrelated to the specific situation of halting the bout after a red card."
+        "text": "Fencers should be placed back at their previous positions on the piste.",
+        "explanation": "This is incorrect. After the penalty hit is awarded, the bout is resumed with the fencers placed in the middle of the piste (t.22.6), not in their previous positions."
+      },
+      {
+        "isCorrect": false,
+        "text": "Fencers should be placed at a distance such that their blades cannot touch in the 'point in line' position.",
+        "explanation": "This rule (t.22.5) applies during regular fencing, but it does not relate to how fencers are placed after a penalty hit is awarded. After a penalty hit, they should be placed on guard in the middle of the piste."
       }
     ],
     "quotes": {
@@ -573,8 +573,7 @@
       "t.22.3": "The Referee places each of the two competitors in such a way that the front foot of each is immediately behind the ‘on-guard’ line.",
       "t.22.5": "When placed on guard during the bout, the distance between the two competitors must be such that, in the position ‘point in line’, the points of the two blades cannot make contact."
     }
-  },
-  
+  }, 
   {    
     "nonOfficialQuestion": true,
     "question": "What happens if a team becomes incomplete during a match and is left with only two fencers?",
