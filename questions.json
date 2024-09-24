@@ -573,7 +573,64 @@
       "t.22.3": "The Referee places each of the two competitors in such a way that the front foot of each is immediately behind the ‘on-guard’ line.",
       "t.22.5": "When placed on guard during the bout, the distance between the two competitors must be such that, in the position ‘point in line’, the points of the two blades cannot make contact."
     }
-  }, 
+  },
+  {
+    "question": "If the lateral boundaries of the piste were not crossed, may the replacing on guard at the correct distance place one fencer behind the rear line?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, the fencer can be placed behind the rear line as long as they maintain correct distance.",
+        "explanation": "This is incorrect. According to rule t.22.8, competitors may not be replaced on guard, at their correct distance, if it leads a fencer to cross the rear line with both feet."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, as long as no hits were scored during the action.",
+        "explanation": "This is incorrect. Whether or not a hit is scored does not change the rule that crossing the rear line results in a point for the opponent, per t.22.8."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, If he already had one foot behind the rear line, he remains in that position.",
+        "explanation": "This is correct, as per t.22.8."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, the referee should shorten the distance to avoid placing the fencer behind the rear line.",
+        "explanation": "This is incorrect. The referee does not alter the correct distance but leaves a fencer who already had one foot behind the rear line in the same position."
+      }
+    ],
+    "qotes": {
+      "t.22.8": "The competitors may not be replaced on guard, at their correct distance, in such a way as to place behind the rear line of the piste a fencer who was in front of that line when the bout was halted",
+      "t.22.9": "If a fencer has crossed the lateral boundaries of the piste, with one or both feet, he must be placed on guard at the correct distance even if this means that he is placed behind the rear line and thus causes a hit to be awarded against him. (cf t.35.1, t.146)."
+    }
+  },
+  {
+    "question": "If a fencer crosses the lateral boundaries of the piste with one or two feet, how should the referee replace the fencers on guard, if the fencer who crossed the boundaries has done so after making an attack?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "The fencers should be placed on guard at the center of the piste.",
+        "explanation": "This is incorrect. According to rule t.22, fencers are placed on guard in the center of the piste after a valid hit, not after crossing the lateral boundaries."
+      },
+      {
+        "isCorrect": true,
+        "text": "The fencer must return to the position he occupied when he started his attack and then step back a further metre, and the opponent at a correct distance.",
+        "explanation": "This is correct, as per t.35.1."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencers should be placed back at their previous positions, both behind the on-guard lines.",
+        "explanation": "This is incorrect. After an action where the lateral boundaries are crossed, the fencer who crossed the line is returned to their previous position and steps back one metre, not behind the on-guard lines."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencers should be placed on guard where the crossing occurred.",
+        "explanation": "This is incorrect. The fencers are not placed where the crossing occurred. Instead, the fencer who crossed the line is returned to their previous position and steps back one metre."
+      }
+    ],
+    "quotes": {
+      "t.35.1": "If a competitor crosses one of the lateral boundaries of the piste with one or both feet, he must step back one metre from the point where he left the piste; and if he goes off the piste during an attack he must return to the position he occupied when he started his attack and then step back a further metre (but cf t.36)."
+    }
+  },  
   {    
     "nonOfficialQuestion": true,
     "question": "What happens if a team becomes incomplete during a match and is left with only two fencers?",
