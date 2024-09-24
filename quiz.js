@@ -139,8 +139,7 @@ function resetQuiz() {
 
 function saveProgress() {
     const progress = {
-        answeredCorrectly: Array.from(answeredCorrectly),
-        totalAnswered: allQuestions.length
+        answeredCorrectly: Array.from(answeredCorrectly)
     };
     localStorage.setItem('quizProgress', JSON.stringify(progress));
 }
@@ -154,7 +153,7 @@ function loadProgress() {
         // Update the start screen with progress information
         const startScreen = document.getElementById('start-screen');
         const progressInfo = document.createElement('p');
-        progressInfo.textContent = `You've correctly answered ${answeredCorrectly.size} out of ${progress.totalAnswered} questions.`;
+        progressInfo.textContent = `You've correctly answered ${answeredCorrectly.size} out of ${allQuestions.length} questions.`;
         startScreen.insertBefore(progressInfo, startScreen.lastElementChild);
     }
 }
