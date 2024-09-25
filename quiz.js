@@ -115,10 +115,9 @@ function checkAnswer(answer, question) {
     currentQuestionIndex++;
     scoreElement.textContent = `Score: ${score} / ${currentQuestionIndex}`;
 
-    const nextButton = document.createElement('button');
+    const nextButton = document.getElementById('next-button');
     nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Quiz';
     nextButton.onclick = loadQuestion;
-    document.getElementById('next-step').append(nextButton);
 
     saveProgress();
 }
@@ -151,10 +150,8 @@ function loadProgress() {
         answeredCorrectly = new Set(progress.answeredCorrectly);
         
         // Update the start screen with progress information
-        const startScreen = document.getElementById('start-screen');
-        const progressInfo = document.createElement('p');
+        const progressInfo = document.getElementById('progress-info');
         progressInfo.textContent = `You've correctly answered ${answeredCorrectly.size} out of ${allQuestions.length} questions.`;
-        startScreen.insertBefore(progressInfo, startScreen.lastElementChild);
     }
 }
 
