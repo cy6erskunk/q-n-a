@@ -58,9 +58,9 @@ function startQuiz() {
     selectQuestions();
     currentQuestionIndex = 0;
     score = 0;
-    document.getElementById('start-screen').style.display = 'none';
-    document.getElementById('quiz-screen').style.display = 'block';
-    document.getElementById('end-screen').style.display = 'none';
+    document.getElementById('start-screen').classList.add('hidden');
+    document.getElementById('quiz-screen').classList.remove('hidden');
+    document.getElementById('end-screen').classList.add('hidden');
     loadQuestion();
 }
 
@@ -124,8 +124,8 @@ function checkAnswer(answer, question) {
 }
 
 function endQuiz() {
-    document.getElementById('quiz-screen').style.display = 'none';
-    document.getElementById('end-screen').style.display = 'block';
+    document.getElementById('quiz-screen').classList.add('hidden');
+    document.getElementById('end-screen').classList.remove('hidden');
     document.getElementById('final-score').textContent = `Your Score: ${score} / ${QUESTIONS_PER_ROUND}`;
     document.getElementById('total-score').textContent = `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
     saveProgress();
@@ -166,7 +166,7 @@ function exitQuiz() {
     currentQuestions = [];
     currentQuestionIndex = 0;
     score = 0;
-    document.getElementById('start-screen').style.display = 'block';
-    document.getElementById('quiz-screen').style.display = 'none';
-    document.getElementById('end-screen').style.display = 'none';
+    document.getElementById('start-screen').classList.remove('hidden');
+    document.getElementById('quiz-screen').classList.add('hidden');
+    document.getElementById('end-screen').classList.add('hidden');
 }
