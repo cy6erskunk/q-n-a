@@ -71,3 +71,7 @@ button:hover {
 #quiz-screen {
     position: relative;
 }
+
+.hidden {
+    display: none;
+}

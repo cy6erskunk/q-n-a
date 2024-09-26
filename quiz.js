@@ -75,7 +75,7 @@ function loadQuestion() {
     
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
-    document.getElementById('next-step').innerHTML = '';
+    document.getElementById('next-step').classList.add('hidden');
     
     // Shuffle the answers for this question
     const shuffledAnswers = [...question.answers];
@@ -115,6 +115,7 @@ function checkAnswer(answer, question) {
     currentQuestionIndex++;
     scoreElement.textContent = `Score: ${score} / ${currentQuestionIndex}`;
 
+    document.getElementById('next-step').classList.remove('hidden');
     const nextButton = document.getElementById('next-button');
     nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Quiz';
     nextButton.onclick = loadQuestion;
