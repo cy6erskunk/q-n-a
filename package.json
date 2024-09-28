@@ -1,0 +1,17 @@
+{
+  "name": "q-n-a",
+  "version": "1.0.0",
+  "description": "A simple web-app to support quizes with multiple options to select from. # Local developlment Just serve the `index.html`, e.g., with `python -m http 8000` to have it available at [localhost](http://localhost:8000/)",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}
