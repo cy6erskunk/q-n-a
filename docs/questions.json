@@ -659,7 +659,133 @@
     "quotes": {
       "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
     }
+  },
+  {
+    "question": "If a fencer crosses the lateral boundaries of the piste with one or two feet following a lateral movement or a retreat, what should the referee do to replace the fencers on guard?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "The fencers should be placed on guard in the middle of the piste.",
+        "explanation": "This is incorrect. Rule t.22 states that fencers are placed in the middle of the piste after a valid hit. A lateral movement crossing does not involve a valid hit, so this rule does not apply."
+      },
+      {
+        "isCorrect": true,
+        "text": "The fencer who crossed the boundary should be placed one meter back from their original position.",
+        "explanation": "This is correct. According to rule t.35.1, when a fencer crosses the lateral boundary following lateral movement or a retreat, they are placed back on guard one meter back from where they originally were."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencers should be placed at their previous positions on the piste.",
+        "explanation": "This is incorrect. Rule t.35.1 indicates that the fencer who crossed the lateral boundary is penalized by losing ground, and they should be placed one meter back, not at their original position."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencers should be placed at a distance where their blades cannot touch.",
+        "explanation": "This is incorrect. The distance rule (t.22.5) applies during normal placement but does not relate to boundary crossings. Instead, the fencer who crossed the boundary is placed one meter back as a penalty for retreating off the piste."
+      }
+    ]
+  },
+  {
+    "question": "Can a hit be awarded to a fencer who has one foot off the piste, before the bout is halted?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, if the action that resulted in the hit started before the referee called 'Halt!'",
+        "explanation": "This is correct. According to rule t.33.3, if a fencer leaves the piste with only one foot, a hit scored is valid provided the action started before the referee called 'Halt!'"
+      },
+      {
+        "isCorrect": false,
+        "text": "No, a hit cannot be awarded to a fencer who has a foot off the piste.",
+        "explanation": "This is incorrect. Rule t.33.3 allows for a hit to be valid if only one foot is off the piste, as long as the action began before 'Halt!' was called."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, as long as the fencer's front foot remains on the piste.",
+        "explanation": "This is incorrect. The position of the front foot is irrelevant. Rule t.33.3 makes it clear that a hit is valid if one foot is off the piste, as long as the action started before 'Halt!'"
+      },
+      {
+        "isCorrect": false,
+        "text": "No, a hit is only valid if both feet remain on the piste.",
+        "explanation": "This is incorrect. Rule t.33.3 specifies that if only one foot is off the piste, the hit can still be valid if the action began before the referee called 'Halt!'"
+      }
+    ]
+  },
+  {
+    "question": "Can a hit be awarded to a fencer who has both feet off the piste, before the bout is halted?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, if the action started before both feet left the piste.",
+        "explanation": "This is incorrect. According to rule t.33.2, if a fencer crosses the boundary with both feet, any hit they make after that is annulled, even if the action began before they left the piste."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, a hit cannot be awarded to a fencer who has both feet off the piste.",
+        "explanation": "This is correct. Rule t.33.2 specifies that when a fencer crosses the boundary with both feet, any hits they make are annulled. Only hits received from a simple and immediate action by the opponent remain valid."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, if the hit was made before the referee noticed both feet off the piste.",
+        "explanation": "This is incorrect. The rule clearly states that no hit can be awarded if both feet are off the piste, regardless of whether the referee notices the crossing immediately (t.33.2)."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, as long as the fencer immediately returns to the piste after the hit.",
+        "explanation": "This is incorrect. Rule t.33.2 specifies that once both feet are off the piste, no hit made by the fencer can be awarded, even if they return to the piste quickly."
+      }
+    ]
+  },
+  {
+    "question": "Is the use of the non-sword hand or arm to perform a defensive or offensive action punishable, if the opponent still manages to make a hit?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "No, it is not punishable since the opponent managed to make a hit.",
+        "explanation": "This is incorrect. Article t.29.1 clearly states that the use of the non-sword hand or arm for offensive or defensive actions is forbidden and penalized, regardless of whether the opponent makes a hit. The offending fencer’s hit is annulled, and they receive a red card (second group penalty)."
+      },
+      {
+        "isCorrect": true,
+        "text": "Yes, the use of the non-sword hand or arm is punishable even if the opponent makes a hit.",
+        "explanation": "This is correct. As per article t.29.1, using the non-sword hand or arm for defensive or offensive actions is forbidden, and the fencer at fault is penalized with a red card. The hit made by the fencer at fault is annulled, even if the opponent successfully lands a hit."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only if the non-sword hand was used for an offensive action.",
+        "explanation": "This is incorrect. Article t.29.1 does not differentiate between offensive or defensive actions. Using the non-sword hand or arm in either case results in the annulment of the hit and a red card."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, the use of the non-sword hand or arm is only punishable if it prevents the opponent from making a hit.",
+        "explanation": "This is incorrect. Article t.29.1 forbids the use of the non-sword hand or arm for any offensive or defensive action, and it is penalized even if it does not prevent the opponent from making a hit. The offending fencer's hit is annulled, and they are issued a red card."
+      }
+    ]
+  },
+  {
+    "question": "Before the start of the bout, the fencer comes to the on-guard line on the piste completely ready to fence but with hair covering a valid surface or the name and nationality on the jacket. What should the referee do?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "The referee should issue a yellow card immediately.",
+        "explanation": "This is correct. According to t.115.2, the referee should apply penalties for group 1 offences, starting with a yellow card."
+      },
+      {
+        "isCorrect": false,
+        "text": "The referee should ask the fencer to adjust their hair so it no longer covers the valid surface, name, or nationality.",
+        "explanation": "This is correct. According to t.115.2, the referee must ensure that the fencer’s hair is properly fastened and does not cover any valid surface or the name and nationality. If the issue is fixed immediately, no penalty is applied."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencer should be asked to leave the piste and return when their appearance complies with the regulations.",
+        "explanation": "This is incorrect. The referee should simply ask the fencer to adjust their hair (t.115.2). If the fencer complies, no need exists for leaving the piste, and the referee should apply penalties for group 1 offences."
+      },
+      {
+        "isCorrect": false,
+        "text": "The referee should allow the bout to proceed but report the issue after the bout.",
+        "explanation": "This is incorrect. The bout should not begin until the issue is resolved. According to t.115.2, the referee should apply penalties for group 1 offences."
+      }
+    ]
   }
+    
 ]
 
 
