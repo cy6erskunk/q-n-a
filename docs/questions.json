@@ -784,8 +784,132 @@
         "explanation": "This is incorrect. The bout should not begin until the issue is resolved. According to t.115.2, the referee should apply penalties for group 1 offences."
       }
     ]
-  }
-    
+  },
+  {
+    "question": "During a bout, if the fencer uses their non-sword arm and touches their body wire, what should the referee do?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "The referee should issue a red card for a group 2 offence.",
+        "explanation": "This is incorrect. According to t.29.3, touching the body wire with the non-sword hand is a group 1 offence, not a group 2 offence. A yellow card (group 1 penalty) should be given, and any hit made by the fencer is annulled."
+      },
+      {
+        "isCorrect": true,
+        "text": "The referee should issue a yellow card and annul any hit made by the fencer at fault.",
+        "explanation": "This is correct. As per t.29.3, if a fencer touches any part of the electrical equipment (e.g., body wire) with their non-sword hand, it is considered a group 1 offence, and the referee must issue a yellow card. Additionally, any hit scored by the fencer at fault is annulled."
+      },
+      {
+        "isCorrect": false,
+        "text": "The referee should only issue a verbal warning and continue the bout.",
+        "explanation": "This is incorrect. According to t.29.3, touching the body wire is a group 1 offence, which requires the referee to issue a yellow card and annul any hit scored by the fencer, not just give a verbal warning."
+      },
+      {
+        "isCorrect": false,
+        "text": "The referee should ignore the action if no hit was prevented.",
+        "explanation": "This is incorrect. Even if no hit was prevented, touching the body wire with the non-sword hand is still a group 1 offence according to t.29.3, and the referee must issue a yellow card and annul any hit scored by the offending fencer."
+      }
+    ]
+  },
+  {
+    "question": "If an injury or cramp occurs during a bout, can a referee decide to give a break for medical reasons without obtaining the competition doctor’s opinion, if he is sure there is an injury?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, the referee can always give a break for medical reasons based on their own judgment.",
+        "explanation": "This is incorrect. According to the rules, the referee must consult with the competition doctor to determine whether a medical break is necessary, even if the referee believes there is an injury."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, the referee must immediately stop the bout and disqualify the fencer.",
+        "explanation": "This is incorrect. Disqualification is not the appropriate response to an injury or cramp. The referee is required to consult with the competition doctor before deciding on the course of action."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, the referee must consult the competition doctor before granting a medical break.",
+        "explanation": "This is correct. The referee cannot make the decision for a medical break without consulting the competition doctor. As per the rules, the competition doctor’s opinion is required to confirm the injury or cramp before allowing a break."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only if the fencer requests it.",
+        "explanation": "This is incorrect. The fencer’s request does not override the requirement for the competition doctor’s consultation. The referee must follow protocol and consult the doctor before allowing a medical break."
+      }
+    ]
+  },
+  {
+    "question": "Can a second break for medical reason be granted for the same injury in the same day?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, a second break can be granted as long as the fencer needs it.",
+        "explanation": "This is incorrect. The rules specify that only one break for the same injury can be granted on the same day. If the injury persists, the fencer must withdraw."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, a second break cannot be granted for the same injury on the same day.",
+        "explanation": "This is correct. According to the rules, only one break can be given for the same injury on the same day. If the fencer cannot continue due to the same injury, they must withdraw from the competition."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, as long as the competition doctor recommends it.",
+        "explanation": "This is incorrect. Even if the competition doctor recommends it, the rules clearly state that only one break is allowed for the same injury on the same day."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, but the fencer can request a third break if necessary.",
+        "explanation": "This is incorrect. A fencer cannot request multiple breaks for the same injury. Only one break is allowed per injury, per day."
+      }
+    ]
+  },
+  {
+    "question": "Can as many breaks for medical reasons be granted as there are different injuries, in the course of one day, with the agreement of the competition doctor?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, a medical break can be granted for each different injury with the agreement of the competition doctor.",
+        "explanation": "This is correct. The rules allow for multiple medical breaks to be granted as long as each break is for a different injury, and the competition doctor agrees to it."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, only one medical break is allowed per fencer per day.",
+        "explanation": "This is incorrect. While only one break is allowed per injury per day, the rules permit multiple breaks for different injuries, provided the competition doctor agrees."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only if the referee personally approves each break.",
+        "explanation": "This is incorrect. The decision to grant a medical break relies on the competition doctor’s opinion, not just the referee's decision."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, multiple breaks are only allowed if the fencer is not involved in direct elimination rounds.",
+        "explanation": "This is incorrect. The rules regarding medical breaks apply universally, whether the fencer is in a pool or direct elimination rounds, as long as the injury is new and the competition doctor agrees."
+      }
+    ]
+  },
+  {
+    "question": "Can a fencer who has been allowed a break for medical reasons following an injury resume the fight before the five-minute period has ended?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, the fencer can resume the fight before the five-minute break has ended if they feel ready.",
+        "explanation": "This is correct. The rules allow the fencer to resume the bout at any point during the five-minute medical break, provided they feel ready to continue and the referee agrees."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, the fencer must wait for the entire five-minute period to pass before resuming the bout.",
+        "explanation": "This is incorrect. The fencer is allowed to resume the bout as soon as they are ready, even if the five-minute break has not fully elapsed."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only if the competition doctor approves it.",
+        "explanation": "This is incorrect. The competition doctor's approval is required to initiate the break, but the fencer can resume the bout without needing further medical clearance if they feel ready before the five minutes are over."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, the fencer must wait for the referee to signal the end of the break period.",
+        "explanation": "This is incorrect. The fencer does not need to wait for the referee to signal the end of the full five minutes. They can resume the bout once they feel ready."
+      }
+    ]
+  }     
 ]
 
 
