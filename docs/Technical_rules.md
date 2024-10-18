@@ -1,25 +1,11 @@
-Title: 
-
 URL Source: https://static.fie.org/uploads/34/172615-technical%20rules%20ang.pdf
-
-Markdown Content:
-FIE 
-
-1
-
-October 2024 
-
 # Technical rules FIE 
-
-2
-
-October 2024 
 
 # TABLE OF CONTENTS 
 
 ## GENERAL RULES AND RULES COMMON TO THE THREE WEAPONS 
 
-Chapter 1. APPLICATION OF THE RULES 
+### Chapter 1. APPLICATION OF THE RULES 
 
 t.1 
 
@@ -47,13 +33,13 @@ Defensive actions t.14
 
 The point in line position t.15 
 
-Chapter 3. THE FIELD OF PLAY t.16–19 
+### Chapter 3. THE FIELD OF PLAY t.16–19 
 
-Chapter 4. THE FENCERS’ EQUIPMENT (Weapons, Equipment, Clothing) 
+### Chapter 4. THE FENCERS’ EQUIPMENT (Weapons, Equipment, Clothing) 
 
 Responsibility of fencers t.20 
 
-Chapter 5. FENCING 
+### Chapter 5. FENCING 
 
 Method of holding the weapon t.21 
 
@@ -79,7 +65,7 @@ Duration of the bout t.37-44
 
 Injuries, withdrawal of a competitor t.45 
 
-Chapter 6. REFEREEING AND JUDGING OF HITS 
+### Chapter 6. REFEREEING AND JUDGING OF HITS 
 
 The Referee t.46-47 
 
@@ -89,27 +75,27 @@ Video Consultants t.49
 
 Designation of referees and video consultants 
 
--Individual competitions t.50 
+- Individual competitions t.50 
 
--Team competitions t.51 
+- Team competitions t.51 
 
 World Cup competitions t.52 
 
 Method of judging hits 
 
--Materiality of the hit t.53-58 
+- Materiality of the hit t.53-58 
 
--Validity or priority of the hit (incl. Video-refereeing) t.59 
+- Validity or priority of the hit (incl. Video-refereeing) t.59 
 
--Appeals for video refereeing t.60-62 
+- Appeals for video refereeing t.60-62 
 
--Referees’ gestures t.63 
+- Referees’ gestures t.63 
 
 Regulation equipment and checking of equipment by the Referee t.64–69 
 
 Non-regulation equipment t.70-75 
 
-FOIL. THE CONVENTIONS OF FENCING 
+## FOIL. THE CONVENTIONS OF FENCING 
 
 METHOD OF MAKING A HIT t.76 
 
@@ -123,11 +109,7 @@ Extension of the valid target t.79
 
 JUDGING OF HITS AT FOIL 
 
-ANNULMENT OF A HIT t.80-81 FIE 
-
-3
-
-November 2023 
+ANNULMENT OF A HIT t.80-81 
 
 VALIDITY OR PRIORITY OF THE HIT 
 
@@ -137,7 +119,7 @@ Respect of the fencing phrase t.83–88
 
 Judging of hits t.89 
 
-EPEE.THE CONVENTIONS OF FENCING 
+## EPEE.THE CONVENTIONS OF FENCING 
 
 METHOD OF MAKING A HIT t.90 
 
@@ -147,7 +129,7 @@ JUDGING OF HITS AT EPEE t.92
 
 ANNULMENT OF HITS t.93-95 
 
-SABRE. THE CONVENTIONS OF FENCING 
+## SABRE. THE CONVENTIONS OF FENCING 
 
 METHOD OF MAKING A HIT t.96 
 
@@ -165,9 +147,9 @@ Respect of the fencing phrase t.101–105
 
 Judging of hits t.106 
 
-DISCIPLINARY RULES FOR COMPETITIONS 
+## DISCIPLINARY RULES FOR COMPETITIONS 
 
-Chapter 1. APPLICATION 
+### Chapter 1. APPLICATION 
 
 Persons subject to these rules t.107 
 
@@ -175,15 +157,15 @@ Order and discipline t.108–111
 
 The competitors 
 
--Pledge of honour t.112 
+- Pledge of honour t.112 
 
--Refusing to fence an opponent t.113 
+- Refusing to fence an opponent t.113 
 
--Presence on time t.114-120 
+- Presence on time t.114-120 
 
--Fencing etiquette t.121-127 
+- Fencing etiquette t.121-127 
 
--Personal effort t.128 
+- Personal effort t.128 
 
 The team manager t.129 
 
@@ -193,7 +175,7 @@ The instructors, trainers and technicians t.131-132
 
 The spectators t.133 
 
-Chapter 2. THE DISCIPLINARY AUTHORITIES AND THEIR COMPETENCE 
+### Chapter 2. THE DISCIPLINARY AUTHORITIES AND THEIR COMPETENCE 
 
 Preamble t.134 
 
@@ -209,7 +191,7 @@ The Executive Committee of the IOC at the Olympic Games t.142
 
 FIE - Central Office, Disciplinary Commission, Executive Committee, TAS t.143 
 
-Chapter 3. PENALTIES 
+### Chapter 3. PENALTIES 
 
 Classification of penalties t.144–145 
 
@@ -219,7 +201,7 @@ Disciplinary penalties t.150–156
 
 Announcement of penalties t.157 
 
-Chapter 4. THE PENALTIES AND THE COMPETENT JURIDICAL AUTHORITIES 
+### Chapter 4. THE PENALTIES AND THE COMPETENT JURIDICAL AUTHORITIES 
 
 The types (groups) of penalty t.158-163 
 
@@ -229,17 +211,13 @@ The First Group of offences t.165
 
 The Second Group of offences t.166 
 
-The Third Group of offences t.167-168 FIE 
-
-4
-
-November 2023 
+The Third Group of offences t.167-168
 
 The Fourth Group of offences t.169 
 
 Schedule of offences and penalties t.170 
 
-Chapter 5. PROCEDURE 
+### Chapter 5. PROCEDURE 
 
 Basic principle t.171 
 
@@ -251,15 +229,9 @@ Method of decision t.177
 
 Repetition of offence t.178 FIE 
 
-5
-
-November 2023 
-
 # BOOK 1. TECHNICAL RULES 
 
-# GENERAL RULES AND RULES 
-
-# COMMON TO THE THREE WEAPONS 
+# GENERAL RULES AND RULES COMMON TO THE THREE WEAPONS 
 
 ## Chapter 1 
 
@@ -319,11 +291,7 @@ Offensive and defensive actions
 
 t.9 
 
-Definition: FIE 
-
-6
-
-November 2023 
+Definition: 
 
 1 The offensive actions are the attack, the riposte and the counter-riposte. 
 
@@ -383,11 +351,7 @@ t.12 Counter-attacks are offensive or offensive–defensive actions made during 
 
 2 The stop hit made with opposition: a counter-attack made while closing the line in which the opponent’s attack will be completed (cf. t.83, t.84, t.85, t.101ss and t.102ss). 
 
-3 The stop hit made within a period of fencing time , i.e. ‘in time’ (cf. t.88, t.105). FIE 
-
-7
-
-November 2023 
+3 The stop hit made within a period of fencing time , i.e. ‘in time’ (cf. t.88, t.105).
 
 Other offensive actions 
 
@@ -421,7 +385,7 @@ t.15
 
 The point in line position is a specific position in which the fencer’s sword arm is kept straight and the point of his weapon continually threatens his opponent’s valid target (cf. t.84.1/2/3, t.89.4.e, t.89.5.a, t.102, t.103.3.e, t.106.4.a/b). 
 
-Chapter 3 
+## Chapter 3 
 
 ## THE FIELD OF PLAY 
 
@@ -435,21 +399,13 @@ t.17
 
 t.18 
 
-1 The combat area of the piste is 1.50 meters wide .FIE 
-
-8
-
-November 2023 
+1 The combat area of the piste is 1.50 meters wide . 
 
 2 The piste is 14 metres long , with a total tolerance on the whole length of 4 cm, so that each competitor , being placed at 2 metres from the centre line , has at his disposal for retreating a total distance of 5 metres without it being necessary for him to cross the rear limit of the piste with both feet. 
 
 3 The conductive safety borders, indicated in Fig. 1, the diagram of the pistes for poules, DE, finals and semi-finals, including the pistes already having safety borders, do not form part of the piste. 
 
-4 The distance between the score machine table or stand and the edge of the piste should be between 1 meter and 5 meters. Any slave score machine must not be placed nearer than 5 meters from the edge of the runback area. FIE 
-
-9
-
-November 2023 
+4 The distance between the score machine table or stand and the edge of the piste should be between 1 meter and 5 meters. Any slave score machine must not be placed nearer than 5 meters from the edge of the runback area. 
 
 t.19 Five lines should be drawn very clearly on the piste at right angles to its length, as follows: 
 
@@ -491,11 +447,7 @@ t.21 1 With all three weapons, defensive actions must be affected exclusively wi
 
 2 If the handle has no special device or attachment or special shape (e.g. orthopedic), a fencer 
 
-may hold it in any way he wishes and he may also alter the position of his hand on the handle during a bout. However, the weapon must not be — either permanently or temporarily, in an open or disguised manner — transformed into a throwing weapon ; it must be used without the hand leaving the handle and without the hand slipping along the handle from front FIE 
-
-10 
-
-November 2023 
+may hold it in any way he wishes and he may also alter the position of his hand on the handle during a bout. However, the weapon must not be — either permanently or temporarily, in an open or disguised manner — transformed into a throwing weapon ; it must be used without the hand leaving the handle and without the hand slipping along the handle from front
 
 to back during an offensive action. 
 
@@ -533,11 +485,7 @@ The competitors may not be replaced on guard, at their correct distance , in suc
 
 11 The fencers must come on guard correctly and remain completely still until the command ‘Play!’ is given by the Referee. 
 
-12 At foil and sabre fencers may not come on guard in the ‘ in line ’ position. FIE 
-
-11 
-
-November 2023 
+12 At foil and sabre fencers may not come on guard in the ‘ in line ’ position. 
 
 Beginning, stopping and restarting the bout 
 
@@ -581,11 +529,7 @@ t.26
 
 1 The ‘flèche ending systematically in a corps à corps’ referred to in this article must not be confused with the ‘flèche resulting in a shock which jostles the opponent’, which is considered as an act of intentional brutality at all three weapons and is punished as such (cf. t.121.2, t.170), for the offences of the 2nd group. 
 
-2 On the other hand the ‘ flèche which is made by running, even going past the opponent’, and without a corps à corps , is not forbidden: the Referee should not call ‘Halt!’ too soon, in order not to annul a possible riposte; if, when making such a running flèche without hitting his opponent, the fencer who makes the flèche crosses the lateral boundaries of the piste, he must be punished as laid down in Article t.35.3. FIE 
-
-12 
-
-November 2023 
+2 On the other hand the ‘ flèche which is made by running, even going past the opponent’, and without a corps à corps , is not forbidden: the Referee should not call ‘Halt!’ too soon, in order not to annul a possible riposte; if, when making such a running flèche without hitting his opponent, the fencer who makes the flèche crosses the lateral boundaries of the piste, he must be punished as laid down in Article t.35.3.
 
 Displacing the target and passing the opponent 
 
@@ -623,11 +567,7 @@ t.30
 
 Ground gained or lost 
 
-t.31 When the order ‘Halt!’ is given, ground gained is held until a hit has been given. When competitors are replaced on guard, each fencer should retire an equal distance in order FIE 
-
-13 
-
-November 2023 
+t.31 When the order ‘Halt!’ is given, ground gained is held until a hit has been given. When competitors are replaced on guard, each fencer should retire an equal distance in order
 
 to keep fencing distance (cf. t.22.3/4). 
 
@@ -673,11 +613,7 @@ t.37
 
 1 Duration of the bout is held to mean the effective duration , that is the total of the intervals of time between the orders ‘Play!’ and ‘Halt!’. 
 
-2 The duration of the bout is controlled by the Referee or by a time-keeper. For the finals of all official competitions, as well as for all bouts for which a chronometer is visible to the FIE 
-
-14 
-
-November 2023 
+2 The duration of the bout is controlled by the Referee or by a time-keeper. For the finals of all official competitions, as well as for all bouts for which a chronometer is visible to the
 
 spectators, the chronometer must be so placed that it is visible to the two fencers on the piste and to the Referee. 
 
@@ -727,11 +663,7 @@ Team competitions
 
 t.41 
 
-1 Each ‘lap’ (bout) of the relay match consists of five hits (5, 10, 15, 20, etc.). Exceptionally, a FIE 
-
-15 
-
-November 2023 
+1 Each ‘lap’ (bout) of the relay match consists of five hits (5, 10, 15, 20, etc.). Exceptionally, a
 
 relay may end at more than 5, 10, 15 etc. if a fencer scores a valid last hit of the relay and is at the same time awarded an additional penalty hit: in this case both hits will be counted; the maximum time for each bout is 3 minutes .
 
@@ -777,11 +709,7 @@ Injuries or other medical reason , withdrawal of a competitor
 
 t.45 
 
-1. For any injury or other medical reason which occurs in the course of a bout and which is properly attested by the delegate of the FIE Medical Commission or, in his /her absence, by FIE 
-
-16 
-
-November 2023 
+1. For any injury or other medical reason which occurs in the course of a bout and which is properly attested by the delegate of the FIE Medical Commission or, in his /her absence, by 
 
 the doctor and/or medical provider on duty, the Referee will allow a break in the fight lasting no longer than 5 minutes. Only the doctor and/or medical provider on duty can determine the length of time of treatment required when a medical time-out is granted. This break should be timed from the intervention of the delegate of the FIE Medical commission or, in his absence, the doctor. gave his opinion. This break should be strictly reserved for the requisite treatment. If the delegate of the FIE Medical Commission or, in his absence, the doctor on duty considers, before or at the end of the 5 minute break, that the fencer is incapable of continuing the fight, he/ she will decide that the fencer should retire (individual events) and/or be replaced, if possible (team events) (cf. o.99.6.a/b). 
 
@@ -819,11 +747,7 @@ a) The Referee calls the roll of the competitors (cf. t.114, t.118, t.119).
 
 b) The Referee directs the bout. 
 
-c) Before each bout, the Referee must check the weapons, clothes and equipment of the fencers, according to the regulations below. FIE 
-
-17 
-
-November 2023 
+c) Before each bout, the Referee must check the weapons, clothes and equipment of the fencers, according to the regulations below.
 
 d) The Referee superintends the proper functioning of the electrical apparatus. Either on own initiative or when asked to do so by a team captain or competitor, the Referee implements tests necessary to check the apparatus and locate any faults which may be found. The Referee will prevent the competitors from hindering the tests by unplugging or changing their equipment prematurely. 
 
@@ -877,11 +801,7 @@ t.50
 
 2 For the pools , the referee must be of a different nationality from that any of the fencers in the pool. 
 
-3 For the direct elimination tables at each weapon , the Refereeing Delegates establish, among the referees present, a list of the best referees at each weapon (according to the FIE 
-
-18 
-
-November 2023 
+3 For the direct elimination tables at each weapon , the Refereeing Delegates establish, among the referees present, a list of the best referees at each weapon (according to the 
 
 grades obtained during the season). 
 
@@ -923,11 +843,7 @@ Competitions are judged with an electrical recording apparatus .
 
 t.54 
 
-1 The materiality of the hit is established according to the indications of the apparatus, FIE 
-
-19 
-
-November 2023 
+1 The materiality of the hit is established according to the indications of the apparatus, 
 
 and when necessary by consulting the judges (cf. t.48). 
 
@@ -973,11 +889,7 @@ without being asked by the Referee to do so, before the Referee has given his de
 
 10 Hit made during or after a fall must be annulled. 
 
-11 A competitor who, intentionally drops his/her weapon during the fencing phrase will be penalised as specified in Articles t.166, t.170. However, a hit scored by the opponent is valid, provided that the action was started before the ‘Halt!’. FIE 
-
-20 
-
-November 2023 
+11 A competitor who, intentionally drops his/her weapon during the fencing phrase will be penalised as specified in Articles t.166, t.170. However, a hit scored by the opponent is valid, provided that the action was started before the ‘Halt!’. 
 
 t.57 Whenever accidental causes make it impossible to carry out tests, the hit will be considered 
 
@@ -1033,33 +945,13 @@ t.62
 
 - at the video consultant's request 
 
-the decision given by the referee is final and no other review of the same action can be requested. FIE 
-
-21 
-
-November 2023 
+the decision given by the referee is final and no other review of the same action can be requested. 
 
 6 Each time the referee consults the video, whether on his own initiative, following an appeal or at the suggestion of the video-consultant, the opinions of the referee and the video-consultant must be recorded on the match sheet. 
 
 t.63 
 
-The Referee must use the following signals :FIE 
-
-22 
-
-November 2023 FIE 
-
-23 
-
-November 2023 FIE 
-
-24 
-
-November 2023 FIE 
-
-25 
-
-November 2023 
+The Referee must use the following signals :
 
 Regulation equipment and checking of equipment by the referee 
 
@@ -1101,11 +993,7 @@ t.68
 
 2 He makes use of a weight to check the weapon, cf. m.11.3, m.19.3, m.42.2.d. 
 
-3 At épée he will check the total travel and the residual travel of the pointe d’arrêt: FIE 
-
-26 
-
-November 2023 
+3 At épée he will check the total travel and the residual travel of the pointe d’arrêt:
 
 - the total travel by inserting a gauge measuring 1.5 mm between the barrel of the pointe d’arrêt and the tip. 
 
@@ -1161,11 +1049,7 @@ t.73
 
 1 If, when a fencer appears on the piste or during a bout, it is established that the equipment used by the fencer: 
 
-a) does not bear the marks applied at the preliminary check, the Referee will: FIE 
-
-27 
-
-November 2023 
+a) does not bear the marks applied at the preliminary check, the Referee will:
 
 - annul the last hit, if any, scored by the fencer at fault; 
 
@@ -1209,11 +1093,7 @@ t.75
 
 If this is not done and except in cases of 'force majeure' the referee will eliminate the fencer from the event in question. 
 
-2 If an item of a fencer’s clothing bearing the name and nationality or the national logo becomes dangerous (e.g. tear, burst seam), the fencer must put on spare clothing, which conforms to the rules. If this clothing does not conform to the regulations or does not bear the name and nationality or the national logo, the fencer has until the next stage of the competition to get them printed on it. If this is not done and except in cases of force majeure. The sanctions specified in t.74 apply. FIE 
-
-28 
-
-November 2023 
+2 If an item of a fencer’s clothing bearing the name and nationality or the national logo becomes dangerous (e.g. tear, burst seam), the fencer must put on spare clothing, which conforms to the rules. If this clothing does not conform to the regulations or does not bear the name and nationality or the national logo, the fencer has until the next stage of the competition to get them printed on it. If this is not done and except in cases of force majeure. The sanctions specified in t.74 apply. 
 
 # FOIL 
 
@@ -1245,11 +1125,7 @@ Hits off the target
 
 t.78 A hit which is made on a part of the body other than the target (whether directly or as a result of a parry) or which arrives following a fencing fault or after going over the lateral boundary of the piste with both feet, is not counted as a valid hit, but stops the fencing phrase and annuls any subsequent hit. (cf t.79 ). 
 
-Extension of the valid target FIE 
-
-29 
-
-November 2023 
+Extension of the valid target 
 
 t.79 
 
@@ -1301,11 +1177,7 @@ t.83
 
 2 In order to judge the correctness of an attack the following points must be considered: 
 
-a) The simple attack, direct or indirect (cf. t.10 ), is correctly executed when the straightening of the arm, the point threatening the valid target, precedes the initiation of the lunge or the flèche. FIE 
-
-30 
-
-November 2023 
+a) The simple attack, direct or indirect (cf. t.10 ), is correctly executed when the straightening of the arm, the point threatening the valid target, precedes the initiation of the lunge or the flèche. 
 
 b) The compound attack (cf. t.10 ) is correctly executed when the arm is straightened in the presentation of the first feint, with the point threatening the valid target, and the arm is not bent during the successive actions of the attack and the initiation of the lunge or the flèche. 
 
@@ -1347,11 +1219,7 @@ t.89 In applying these basic conventions of foil fencing, the Referee should jud
 
 2 The simultaneous action is due to simultaneous conception and execution of an attack by both fencers; in this case the hits exchanged are annulled for both fencers even if one of them has been hit off the target. 
 
-3 The double hit , on the other hand, is the result of a faulty action on the part of one of the fencers. FIE 
-
-31 
-
-November 2023 
+3 The double hit , on the other hand, is the result of a faulty action on the part of one of the fencers. 
 
 Therefore, when there is not a period of fencing time between the hits: 
 
@@ -1401,11 +1269,7 @@ straighten it is also forbidden.
 
 Any breaking of this rule will be penalised according to Articles t.158-162, t.165, t.170, for the offences of the 1st group. 
 
-THE TARGET FIE 
-
-32 
-
-November 2023 
+THE TARGET 
 
 t.91 At épée the target includes the whole of the fencer’s body including his clothing and equipment. 
 
@@ -1439,11 +1303,7 @@ However, the fact that the épée of a competitor has large or small areas of in
 
 2 If a hit properly made by the competitor against whom the hit was registered does not cause the apparatus to register a hit; 
 
-3 If the apparatus fortuitously registers a hit on the side of the competitor against whom the hit was registered, for example, after a beat on the blade, by any movements of his FIE 
-
-33 
-
-November 2023 
+3 If the apparatus fortuitously registers a hit on the side of the competitor against whom the hit was registered, for example, after a beat on the blade, by any movements of his 
 
 opponent, or as a result of any cause other than a properly made hit; 
 
@@ -1489,11 +1349,7 @@ t.97
 
 The target comprises any part of the body above a horizontal line drawn between the top of the hip bones and then horizontally round the fencer’s trunk (see Figure 6). 
 
-2 At sabre, it is forbidden to protect the target area or to substitute another part of the body for the target area, by covering it (cf. t.158-162, t.165, t.170); any hit scored by the fencer at fault is annulled. FIE 
-
-34 
-
-November 2023 
+2 At sabre, it is forbidden to protect the target area or to substitute another part of the body for the target area, by covering it (cf. t.158-162, t.165, t.170); any hit scored by the fencer at fault is annulled. 
 
 If, during the fencing phrase, there is protection or substitution of a valid surface, the fencer at fault will be penalised as specified for offences of the 1 st group (cf. also t.29). 
 
@@ -1527,11 +1383,7 @@ Preface
 
 t.100 
 
-The Referee alone decides as to the validity or the priority of the hit by applying the following basic rules which are the conventions applicable to sabre fencing. FIE 
-
-35 
-
-November 2023 
+The Referee alone decides as to the validity or the priority of the hit by applying the following basic rules which are the conventions applicable to sabre fencing. 
 
 Respect of the fencing phrase 
 
@@ -1577,11 +1429,7 @@ b) A feint with a cut, the arm straightened, the blade and the arm forming an ob
 
 t.104 Attacks by beats on the blade 
 
-1 In an attack by beating on the blade, the attack is correctly carried out and retains its priority when the beat is made on the foible of the opponent’s blade , i.e. the two-thirds of FIE 
-
-36 
-
-November 2023 
+1 In an attack by beating on the blade, the attack is correctly carried out and retains its priority when the beat is made on the foible of the opponent’s blade , i.e. the two-thirds of 
 
 the blade furthest from the guard. 
 
@@ -1631,11 +1479,7 @@ b) If he attempts to find the blade, does not succeed (because of a derobement )
 
 c) If, during a compound attack, he allows his opponent to find the blade , and continues the attack while his opponent ripostes immediately. 
 
-d) If, during a compound attack, he bends his arm or makes a momentary pause , during which time the opponent makes a stop hit or an attack while the attacker continues his own attack. FIE 
-
-37 
-
-November 2023 
+d) If, during a compound attack, he bends his arm or makes a momentary pause , during which time the opponent makes a stop hit or an attack while the attacker continues his own attack. 
 
 e) If, during a compound attack, he is stop-hit one period of fencing time (temps d’escrime) before he makes his final movement. 
 
@@ -1679,11 +1523,7 @@ Any person present who witnesses a breach of the FIE Ethical Code or the Safegua
 
 t.110 Smoking in competition halls is forbidden. Smoking will be considered as a disturbance of the smooth running of the competition (cf. t .111 ). 
 
-Any breach of these rules will be punished as laid down in Articles t.158-162, t.167, t.168, t.170, for the offences of the 3rd group. FIE 
-
-38 
-
-November 2023 
+Any breach of these rules will be punished as laid down in Articles t.158-162, t.167, t.168, t.170, for the offences of the 3rd group. 
 
 t.111 The Referee and/or the Directoire Technique, on their own authority or at the request of an official delegate of the FIE or of the Organising Committee, can decide to expel from the competition venue, with or without a warning, any person who by his/her gestures, attitude , or language or by breaching the FIE Safeguarding Policy disturbs the good order or smooth running of the event. 
 
@@ -1733,11 +1573,7 @@ two bodywires (one as a spare) and two mask wires (one as a spare) which satisfy
 
 t.118 
 
-Before the start of the pool, the team match or the bouts of direct elimination FIE 
-
-39 
-
-November 2023 
+Before the start of the pool, the team match or the bouts of direct elimination 
 
 (individual or team): 
 
@@ -1785,11 +1621,7 @@ Application: until the end of the 2024-2025 season
 
 t.123 
 
-During or after a bout , even if the fencer has already left the piste, any act against the spirit of sportsmanship such as violently or dangerously throwing one’s mask or any other piece of equipment will be penalised as specified in article t.169 (c.f. t.108.1, 2 and t.109), for the offences of the 4th group .FIE 
-
-40 
-
-November 2023 
+During or after a bout , even if the fencer has already left the piste, any act against the spirit of sportsmanship such as violently or dangerously throwing one’s mask or any other piece of equipment will be penalised as specified in article t.169 (c.f. t.108.1, 2 and t.109), for the offences of the 4th group . 
 
 Unwillingness to fight (Non-combativity) 
 
@@ -1827,11 +1659,7 @@ c) When, for the third time, there is one minute of unwillingness to fight, a P-
 
 i) If the scores for the two teams are equal, the Referee sanctions the team with the lower initial seeding in the competition, which is based on the FIE ranking, with a P-Black card. The team with the higher initial seeding in the competition, which is based on the FIE ranking, wins the match. 
 
-ii) If the scores for the two teams are not equal, the Referee sanctions the team with the lower score with a P-Black card. The team with the higher score wins the match. FIE 
-
-41 
-
-November 2023 
+ii) If the scores for the two teams are not equal, the Referee sanctions the team with the lower score with a P-Black card. The team with the higher score wins the match. 
 
 3 In both individual and team competitions 
 
@@ -1869,11 +1697,7 @@ team manager (who may or may not fence), who is responsible to the Directoire Te
 
 The team captain 
 
-t.130 In team events, only the team captain has the right to be to approach the Referee and/or the refereeing delegates in order to decide with them any technical matters or to register protests. FIE 
-
-42 
-
-November 2023 
+t.130 In team events, only the team captain has the right to be to approach the Referee and/or the refereeing delegates in order to decide with them any technical matters or to register protests. 
 
 The procedure for claims is set out in articles t.172-175. 
 
@@ -1915,11 +1739,7 @@ t.135 The following are the competent disciplinary authorities:
 
 - the Referee (cf . t.137 ); 
 
-- the Refereeing Commission delegate(s); FIE 
-
-43 
-
-November 2023 
+- the Refereeing Commission delegate(s); 
 
 - the Directoire Technique (cf. t.139, o.15 to o.22 ); 
 
@@ -1977,11 +1797,7 @@ t.139
 
 4 The Directoire Technique is responsible for sending direct to the Central Office of the FIE 
 
-announcements of disciplinary penalties pronounced during the competitions, as well as any requests for censure, suspension, extension of penalty or permanent suspension, and requests for ultimate appeals. FIE 
-
-44 
-
-November 2023 
+announcements of disciplinary penalties pronounced during the competitions, as well as any requests for censure, suspension, extension of penalty or permanent suspension, and requests for ultimate appeals. 
 
 5 The Directoire Technique activates any penalty imposed against which no appeal is possible or which is not subject to suspension ( cf. t.136 ). 
 
@@ -2023,11 +1839,7 @@ Classification of penalties
 
 t.144 There are distinct categories of penalty applicable to different sorts of offence (cf. t.158ss). 
 
-1 Penalties related to fencing , applicable to offences committed while fencing. These are: FIE 
-
-45 
-
-November 2023 
+1 Penalties related to fencing , applicable to offences committed while fencing. These are: 
 
 - the loss of ground on the piste 
 
@@ -2089,11 +1901,7 @@ t.149
 
 2 A competitor who is excluded from a competition may not continue to take part in that competition, even if he is already qualified for promotion to the next round. He loses the right to his individual classification and all the fencers ranked after the disqualified fencer move up one place in the results of the competition. If necessary the two third places are decided according to their ranking for the composition of the table. Under all circumstances, only fencers who have actually received points in the competition can move up a place in the competition’s results. 
 
-DISCIPLINARY PENALTIES FIE 
-
-46 
-
-November 2023 
+DISCIPLINARY PENALTIES 
 
 Exclusion from the competition 
 
@@ -2149,11 +1957,7 @@ t.157
 
 penalties applied during the competition and their reasons (cf. t.139.4 ). 
 
-2 At the Olympic Games , the Directoire Technique must advise the IOC via the Organising Committee. FIE 
-
-47 
-
-November 2023 
+2 At the Olympic Games , the Directoire Technique must advise the IOC via the Organising Committee. 
 
 ## Chapter 4 
 
@@ -2195,11 +1999,7 @@ t.165–t.169 ). All these penalties are within the competence of the Referee , 
 
 The First Group of offences 
 
-t.165 FIE 
-
-48 
-
-November 2023 
+t.165 
 
 The first infringement in this First Group is penalised by a YELLOW CARD (warning). If during the same bout the fencer commits the same or a different offence in this group the Referee penalises him on each occasion, with a RED CARD (penalty hit). If the fencer at fault has already been penalised by a RED CARD because of an offence listed in the Second or Third Group, he receives a further RED CARD for his first infringement relating to the First Group. 
 
@@ -2233,11 +2033,7 @@ t.169
 
 1 The first infringement in the Fourth Group, is penalised by a BLACK CARD (exclusion from the competition, suspension from the remainder of the tournament and for the following 60 days of the active season (1 September – World Championships for the Juniors, and 1 September – World Championships for the Seniors), whether current or forthcoming or both). 
 
-2 Furthermore any black card awarded at a competition of the FIE or at a competition organized by any Confederation which has subscribed to the FIE disciplinary code shall be reported within 10 days to the President of the FIE, for him to assess whether the severity of the offence committed warrants the sending of the report made by the FIE supervisor or by the Directoire Technique to the president of the Legal Commission, requesting him to establish a Disciplinary Tribunal to determine if penalties in addition to those imposed at the competition should be imposed. FIE 
-
-49 
-
-November 2023 
+2 Furthermore any black card awarded at a competition of the FIE or at a competition organized by any Confederation which has subscribed to the FIE disciplinary code shall be reported within 10 days to the President of the FIE, for him to assess whether the severity of the offence committed warrants the sending of the report made by the FIE supervisor or by the Directoire Technique to the president of the Legal Commission, requesting him to establish a Disciplinary Tribunal to determine if penalties in addition to those imposed at the competition should be imposed. 
 
 Offences and penalties 
 
@@ -2357,11 +2153,7 @@ t.137.2 RED
 
 BLACK 3.2 Dishonest fencing * t.121 RED 
 
-3.3 Offence against Publicity Code Publicity Code FIE 
-
-50 
-
-November 2023 
+3.3 Offence against Publicity Code Publicity Code 
 
 3.4 Any person not on piste disturbing good order ; smoking in the competition halls (including with electronic cigarettes). In the most serious cases, the Referee may award a black card immediately 
 
@@ -2429,11 +2221,7 @@ P-yellow (warning), P -red (penalty hit), P -black (possible loss of the bout or
 
 individual and team competitions, fencers and teams who have lost the bout/match following 
 
-the award of a P-Black card, will be ranked in the final results of the competition as having lost the bout/match. They receive the corresponding points. FIE 
-
-51 
-
-November 2023 
+the award of a P-Black card, will be ranked in the final results of the competition as having lost the bout/match. They receive the corresponding points. 
 
 ## Chapter 5 
 
@@ -2481,11 +2269,7 @@ Method of decision
 
 t.177 
 
-The decisions of the Directoire Technique are by majority vote , the chairman (president) having the casting vote in case of a tie. FIE 
-
-52 
-
-November 2023 
+The decisions of the Directoire Technique are by majority vote , the chairman (president) having the casting vote in case of a tie. 
 
 Repetition of offence 
 
@@ -2501,11 +2285,7 @@ a) Exclusion from the competition , if the previous penalty was a censure.
 
 b) Disqualification from participation in the whole tournament , if the previous penalty was exclusion or disqualification from a competition. 
 
-See also the Disciplinary Code of the FIE (Chapter VII, FIE Statutes). FIE 
-
-53 
-
-November 2023 
+See also the Disciplinary Code of the FIE (Chapter VII, FIE Statutes). 
 
 ## INDEX TO ARTICLES 
 
@@ -2623,11 +2403,7 @@ Broken blade: t.56.7
 
 Brutality: t.25.3, t.26, t.170 
 
-Bureau of the FIE (Central Office of the FIE): t.135. t.139.4, t.143.4, t.157, t.176 FIE 
-
-54 
-
-November 2023 
+Bureau of the FIE (Central Office of the FIE): t.135. t.139.4, t.143.4, t.157, t.176 
 
 Cadets: t.61.4 
 
@@ -2745,11 +2521,7 @@ Delegates — SEMI: see «SEMI (Committee)»: t.66.1, t.73, t.56,
 
 Delegates — FIE Medical Committee: t.45 
 
-Delegates — FIE Refereeing Committee: t.50,t.51, t.52, t.111, t.130, t.135, t.138-141, t.143.2, t.174 FIE 
-
-55 
-
-November 2023 
+Delegates — FIE Refereeing Committee: t.50,t.51, t.52, t.111, t.130, t.135, t.138-141, t.143.2, t.174 
 
 Deliberate: t.55.2, t.170 
 
@@ -2865,11 +2637,7 @@ Favouring an opponent: t.128, t.170
 
 Feint: t.83, t.87, t.89, t.101, t.103 
 
-Fencers (obligations of): t.20, t.107, t.108, t.112 FIE 
-
-56 
-
-November 2023 
+Fencers (obligations of): t.20, t.107, t.108, t.112 
 
 Fencing: t. 21ss 
 
@@ -2985,11 +2753,7 @@ Hits (doubtful): t.56, t.57, t.72, t.81, t.94.4, t.95, t.99
 
 Hits (judging): t.28, t.33, t.46, t.48.1, t.53, t.54.2, t.59.2, t.81, t.84, t.89, t.93, t.94, t.96, t.98, t.99, t.102, t.106, t.137.1/2, 
 
-Hits (method of making): t.9-13, t.28.2, t.76, t.90, t.96, t.97, t.98, t.106 FIE 
-
-57 
-
-November 2023 
+Hits (method of making): t.9-13, t.28.2, t.76, t.90, t.96, t.97, t.98, t.106 
 
 Hits (not valid): t.44.4, t.78, t.79.1.b, t.94.5, t.97.2,b, t.98 
 
@@ -3105,11 +2869,7 @@ Mask: t.20.2, t.64, t.66.1, t.68.1, t.71, t.72, t.73.1.g, t.115, t.123, t.125, t
 
 Match: t.41, t.44.3, t.45.1/4, t.48.4, t.49, t.51, t.62.3, t.64, t.114, t.118, t.124, t.132, t.160, t.163, t.170 
 
-Material; see «Bodywire», «Checking (equipment)», «Mask» FIE 
-
-58 
-
-November 2023 
+Material; see «Bodywire», «Checking (equipment)», «Mask» 
 
 Materiality of hits: t.54, t.59, t.82, t.92, t.99 
 
@@ -3227,11 +2987,7 @@ Protection (of the valid target): t.29, t.30, t.79.1, t.170
 
 Protective plastron: t.64.5, t.66.1, t.71, t.73.1.g 
 
-Protest (procedure): t.130, t.172, t.175 FIE 
-
-59 
-
-November 2023 
+Protest (procedure): t.130, t.172, t.175 
 
 Protests: see «Appeals» 
 
@@ -3345,11 +3101,7 @@ Statutes (FIE): t.108.1, t.113.2, t.134, t.176
 
 Step forward: t.83.2.c, t.84.3, t.101.4, t.170 
 
-Step back: t.35.1, FIE 
-
-60 
-
-November 2023 
+Step back: t.35.1, 
 
 Stop hit: t.12, t.13.3, t.88, t.89, t.89, t.103.2, t.106 
 
@@ -3465,11 +3217,7 @@ Warning (penalty): t.72, t.132.2, t.162.1, t.165, t.168, t.170
 
 Weapon (throwing): t.21.2 
 
-Weapon (working order/spare): t.70, t.114, t.115, t.117, t.170 FIE 
-
-61 
-
-November 2023 
+Weapon (working order/spare): t.70, t.114, t.115, t.117, t.170 
 
 Weapon control: t.64, t.66, t.170 
 
