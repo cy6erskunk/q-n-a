@@ -1,17 +1,6 @@
-Title: 
-
 URL Source: https://static.fie.org/uploads/34/172606-Organisation%20rules%20ang.pdf
 
-Markdown Content:
-> October 2024
-> 1
-> FIE
-
-# Organisation rules October 2024 
-
-2
-
-FIE 
+# Organisation rules
 
 # BOOK 2. ORGANISATION RULES 
 
@@ -93,11 +82,7 @@ Zonal Championship o.52
 
 Olympic Games o.53 
 
-Regional Games o.54 October 2024 
-
-3
-
-FIE 
+Regional Games o.54
 
 Chapter 3. Entries 
 
@@ -177,11 +162,7 @@ Entries for competitions o.117
 
 Composition of the pools for the individual Veterans Championships o.118 
 
-VETERANS TEAM EVENTS o.119 October 2024 
-
-4
-
-FIE 
+VETERANS TEAM EVENTS o.119
 
 # BOOK 2. ORGANISATION RULES 
 
@@ -235,11 +216,7 @@ An individual competition can only be classed or kept as a World Cup competition
 
 ## 2 Participation must include a minimum of ten fencers listed in the top 32 in the official ranking of the FIE and representing at least five different countries for senior competitions in Europe (no requirement for competitions outside Europe). 
 
-## 3 The competition must be attended by at least four FIE A or B Grade referees of different nationalities. October 2024 
-
-5
-
-FIE 
+## 3 The competition must be attended by at least four FIE A or B Grade referees of different nationalities.
 
 ## 4 The Rules of the FIE must be faithfully applied, as well as the specifications for World Cup competitions. The organisers must use automatic judging equipment of which the prototype has been approved by the SEMI. 
 
@@ -291,11 +268,7 @@ The aggregate of the relays fought between the fencers of two different teams is
 
 ## Championship 
 
-## o.9 A championship is the name given to a competition held to determine the best fencer or the best team at each weapon for a federation, for a specific region or for the world and for a specific period of time. October 2024 
-
-6
-
-FIE 
+## o.9 A championship is the name given to a competition held to determine the best fencer or the best team at each weapon for a federation, for a specific region or for the world and for a specific period of time.
 
 # Chapter 3 
 
@@ -343,11 +316,7 @@ The technical organisation of competitions is entrusted to a Directoire Techniqu
 
 ## o.15 
 
-1 Apart from the specific areas of competence which are the responsibility of the other FIE technical delegates specified hereafter, the technical management of the official competitions of the FIE is entrusted to a Directoire Technique .October 2024 
-
-7
-
-FIE 
+1 Apart from the specific areas of competence which are the responsibility of the other FIE technical delegates specified hereafter, the technical management of the official competitions of the FIE is entrusted to a Directoire Technique .
 
 2 The members of the Directoire Technique and the other official delegates of the FIE cannot act in any other capacity at the competition, such as team captain, official delegate of their federation, referee, competitor, etc. 
 
@@ -389,11 +358,7 @@ The Directoire Technique is composed of three qualified persons from the country
 
 1 The functions of the Directoire Technique include the strict organisation of the different events, except the responsibilities of the other delegates of the FIE (cf o.12, o.19, o.20, o.21, o.22). It has the obligation to see that the Rules are adhered to and cannot decide on any departure from the Rules except when circumstances arise in which it is absolutely impossible to apply them. 
 
-2 The Directoire Technique is responsible for the technical organisation of the competitions and for ensuring their smooth running. October 2024 
-
-8
-
-FIE 
+2 The Directoire Technique is responsible for the technical organisation of the competitions and for ensuring their smooth running.
 
 3 Hence: 
 
@@ -453,11 +418,7 @@ One Refereeing delegate is appointed by the Executive Committee following the re
 
 3 They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
 
-4 They assist referees over material problems during matches. October 2024 
-
-9
-
-FIE 
+4 They assist referees over material problems during matches.
 
 ## The Refereeing delegates 
 
@@ -511,11 +472,7 @@ c) Evaluate the medical situation and supervise the intervention or recognized t
 
 ## o.23 
 
-- a member of a FIE Commission, October 2024 
-
-10 
-
-FIE 
+- a member of a FIE Commission,
 
 - a member of the FIE Executive Committee other than the members of the Bureau, 
 
@@ -546,12 +503,6 @@ competitions and satellite competitions is:
 10 or more fencers: Two referees  
 
 > 1 Junior Team: One referee
-
-October 2024 
-
-11 
-
-FIE 
 
 For junior World Cup competitions and satellite competitions, the name(s) of the referee(s) (who must have an FIE category in the weapon of the competition for which they are entered) must be notified via the FIE website 7 days before the competition (midnight, Lausanne time). 
 
@@ -599,11 +550,7 @@ equipment of the fencers.
 
 ## Checking of Equipment 
 
-## o.28 October 2024 
-
-12 
-
-FIE 
+## o.28
 
 The checking of the organization equipment , as well as the equipment of the fencers, must be 
 
@@ -639,11 +586,7 @@ participant to act on behalf of the participant regarding health-related issues;
 
 b) have such power of attorney issued to a person who has achieved his/her majority and who will be at the competition site during the competition and has agreed to accept the responsibility delineated in such power. 
 
-## o.30 October 2024 
-
-13 
-
-FIE 
+## o.30
 
 # Chapter 5 
 
@@ -707,11 +650,7 @@ without a valid FIE participation of the fine
 
 licence for the 
 
-current season October 2024 
-
-14 
-
-FIE 
+current season
 
 Required number of o.25.1.b 1000 euros At the Organiser By the 
 
@@ -783,11 +722,7 @@ The first round of all the individual and team competitions, including the World
 
 ## SENIOR WORLD CHAMPIONSHIPS 
 
-## o.36 October 2024 
-
-15 
-
-FIE 
+## o.36
 
 The programme of the Senior World Fencing Championships comprises twelve events, six individual and six team — male foil, female foil, male épée, female épée, male sabre and female sabre. 
 
@@ -841,11 +776,7 @@ b) The teams are made up of three fencers , with or without a substitute.
 
 c) The matches proceed according to the team-relay formula , as provided for in Article o.99 of these Rules. 
 
-3 Participation October 2024 
-
-16 
-
-FIE 
+3 Participation
 
 Team participation is open to all countries and limited to one team per weapon per country. 
 
@@ -883,11 +814,7 @@ The programme of fencing events at the Olympic Games currently comprises twelve 
 
 Satellite competitions may be organized at any of the 6 weapons. 
 
-There are no minimum participation standards. October 2024 
-
-17 
-
-FIE 
+There are no minimum participation standards.
 
 # Chapter 2 
 
@@ -928,11 +855,7 @@ Eight members of the Directoire Technique appointed by the Executive Committee o
 
 of whom one must belong to the organising country and one is Head of Protocol. 
 
-Three members of the SEMI Commission , appointed by the Executive Committee of the FIE. October 2024 
-
-18 
-
-FIE 
+Three members of the SEMI Commission , appointed by the Executive Committee of the FIE.
 
 d) Six members of the Refereeing Commission , one of whom is designated principal delegate, 
 
@@ -996,11 +919,7 @@ the importance of the fencing events at the Games. These representatives are app
 
 3 Refereeing delegate: A representative of the Refereeing Committee , appointed by the 
 
-Executive Committee of the FIE. October 2024 
-
-19 
-
-FIE 
+Executive Committee of the FIE.
 
 4 Neutral referees: At least two international referees from countries outside the region of the 
 
@@ -1060,11 +979,7 @@ The Junior and Cadet World Championships are open to all FIE member federations.
 
 ## o.59 
 
-For the Cadet World Championships, entries are limited to three fencers per weapon per nation for the individual events. October 2024 
-
-20 
-
-FIE 
+For the Cadet World Championships, entries are limited to three fencers per weapon per nation for the individual events.
 
 For the Junior World Championships, the entries are limited to four fencers per nation for each individual event, and one team per weapon per nation for the team events. 
 
@@ -1110,11 +1025,7 @@ To do this, the national federation must send to the FIE (by fax or e-mail) a re
 
 o.31, table of financial penalties and fines), refuse the entry of any fencers not appearing on lists conforming with the above, any entry not requested by a federation and any entry of either fencer or referee not in possession of an FIE licence valid for the current season. 
 
-## o.62 October 2024 
-
-21 
-
-FIE 
+## o.62
 
 1 For Grand Prix competitions and Individual World Cup competitions , both Senior and Junior, at each weapon, each national federation may enter a maximum of 12 fencers. The organising country may enter up to 20 fencers plus the number needed to make up the pools. 
 
@@ -1132,11 +1043,7 @@ Entries must be sent to the organisers by the competitors’ National Olympic Co
 
 ## o.65 
 
-…………. October 2024 
-
-22 
-
-FIE 
+………….
 
 # PART C: PROCEDURES DURING THE COMPETITIONS 
 
@@ -1200,11 +1107,7 @@ Fencer ranked 1 2 3
 
 18 17 16 
 
-19 20 21 October 2024 
-
-23 
-
-FIE 
+19 20 21
 
 2 The allocation of fencers in the pools must be made in such a way as to place fencers of the 
 
@@ -1280,11 +1183,7 @@ the fencers’ names are placed on the pool sheet in the following way:
 
 - the fencers of nationality A are given numbers 1, 2 and 3; 
 
-- the fencers of nationality B are given numbers 4 and 5 or 4, 5 and 6. October 2024 
-
-24 
-
-FIE 
+- the fencers of nationality B are given numbers 4 and 5 or 4, 5 and 6.
 
 c) When a pool contains among its six fencers four fencers of the same nationality A and two others of different nationalities, the four fencers of nationality A are placed on the pool sheet as 1, 2, 3 and 4 and the order of bouts in the pool is as follows: 
 
@@ -1360,11 +1259,7 @@ of fencers who will be eliminated based on the ranking established by the pools 
 
 a) The results written up on the summary table are added up to ascertain the two indices required. 
 
-b) The first index , for the initial classification, is obtained by dividing the number of victories by the number of bouts fought, using the formula V/M.October 2024 
-
-25 
-
-FIE 
+b) The first index , for the initial classification, is obtained by dividing the number of victories by the number of bouts fought, using the formula V/M.
 
 c) The fencer with the highest index (maximum 1) is seeded first. 
 
@@ -1414,11 +1309,7 @@ Withdrawal
 
 1 From the beginning of the direct elimination tableau, if for whatever reason, a fencer does not fence, or is unable to fence, or does not complete his bout , his opponent is declared winner of that bout. A fencer who withdraws does not lose his place in the overall classification of the competition and is recorded in the result list with the information “Did Not Finish”. 
 
-2 A fencer who is excluded is scratched from the direct elimination table and his results are annulled as if he had not taken part. The fencer is recorded without a classification at the end of the final classification list with the information “Excluded”. Cf. t.124.3.b, t.170. October 2024 
-
-26 
-
-FIE 
+2 A fencer who is excluded is scratched from the direct elimination table and his results are annulled as if he had not taken part. The fencer is recorded without a classification at the end of the final classification list with the information “Excluded”. Cf. t.124.3.b, t.170.
 
 Order of bouts 
 
@@ -1482,11 +1373,7 @@ Apart from the details that follow, the general rules for pools and direct elimi
 
 2 The 16 fencers entered who are ranked highest in the most recent official FIE classification 
 
-are exempt from the preliminary phase. October 2024 
-
-27 
-
-FIE 
+are exempt from the preliminary phase.
 
 3 Should a fencer who has been entered not turn up, a fine (cf o.31 , table of financial penalties and fines), payable to the FIE, is inflicted on the Federation of the fencer at fault except in a case of force majeure which is duly justified. 
 
@@ -1548,11 +1435,7 @@ Mixed Formula B
 
 ## o.89 
 
-One qualifying round of pools, a direct elimination table to qualify for a final by direct elimination. October 2024 
-
-28 
-
-FIE 
+One qualifying round of pools, a direct elimination table to qualify for a final by direct elimination.
 
 This formula is used for the individual competitions of the Junior and Cadet World Championships and the Junior World Cup competitions and Zonal Championships. The seeding rules for the Zonal Cadet Championships are established by the Zonal Confederations. 
 
@@ -1594,11 +1477,7 @@ The organisation formulae for the Olympic Games are established by the Executive
 
 ## o.96 
 
-The organization formulae for the Regional Games are established by the Executive Committee, with the approval of the IOC. (See chapter 9 of the Administrative rules). October 2024 
-
-29 
-
-FIE 
+The organization formulae for the Regional Games are established by the Executive Committee, with the approval of the IOC. (See chapter 9 of the Administrative rules).
 
 # TEAM COMPETITIONS 
 
@@ -1658,11 +1537,7 @@ implemented or cancelled .
 
 6
 
-a) If a member of a team is obliged to retire during a match as the result of an accident which has been duly recognised by a medical representative of the FIE, the captain of his team may October 2024 
-
-30 
-
-FIE 
+a) If a member of a team is obliged to retire during a match as the result of an accident which has been duly recognised by a medical representative of the FIE, the captain of his team may
 
 ask to put in a reserve to continue the match at the point where the competitor who was obliged to retire withdrew, even during a bout in progress. 
 
@@ -1710,11 +1585,7 @@ At the Zonal Championships, teams without FIE ranking will occupy the last place
 
 ## o.103 
 
--------------------October 2024 
-
-31 
-
-FIE 
+-------------------
 
 ## C. OLYMPIC GAMES 
 
@@ -1790,11 +1661,7 @@ Championships T 32 T 16
 
 Senior Zonal 
 
-Championship T 64 T 16 4 or 8 T 1-8 October 2024 
-
-32 
-
-FIE 
+Championship T 64 T 16 4 or 8 T 1-8
 
 Junior Zonal 
 
@@ -1818,11 +1685,7 @@ Pools -------------
 
 - All pistes --------------
 
-Olympic Games Mandatory for all phases of the Olympic competition October 2024 
-
-33 
-
-FIE 
+Olympic Games Mandatory for all phases of the Olympic competition
 
 # Chapter 3 
 
@@ -1870,11 +1733,7 @@ Official FIE individual ranking
 
 a) The official Senior ranking of the FIE takes into account the best five results of the World Cup, 
 
-Grand Prix or Satellite competitions in which the fencer has participated, irrespective of continent, plus the World Championships or Olympic Games and the Zonal Championships. October 2024 
-
-34 
-
-FIE 
+Grand Prix or Satellite competitions in which the fencer has participated, irrespective of continent, plus the World Championships or Olympic Games and the Zonal Championships.
 
 b) The official Junior ranking of the FIE takes into account the best six results of the World Cup 
 
@@ -1940,11 +1799,7 @@ f) Only fencers who have actually participated in a direct elimination table can
 
 The winner (first ranked fencer) of each senior official ranking of the FIE will be announced at 
 
-the end of the Senior World Championships or Olympic Games. October 2024 
-
-35 
-
-FIE 
+the end of the Senior World Championships or Olympic Games.
 
 The winner (first ranked fencer) of each junior official ranking will be announced at the end of the Junior World Championships. 
 
@@ -2006,11 +1861,7 @@ c) Points obtained in a Zonal Team Championship have a factor of 1.0.
 
 The winner (first ranked team) of each official Junior and Senior team ranking of the FIE will be 
 
-announced at the end of the Senior World Championships or Olympic Games. October 2024 
-
-36 
-
-FIE 
+announced at the end of the Senior World Championships or Olympic Games.
 
 # Chapter 2 
 
@@ -2034,19 +1885,7 @@ If two nations have equal scores, the winner will be the one which has won the m
 
 If there is still equality, the winner will be the one which has won the most bronze medals. 
 
-If there is still equality, both nations are declared winners, and both will receive the Grand Prix des nations. October 2024 
-
-37 
-
-FIE October 2024 
-
-38 
-
-FIE October 2024 
-
-39 
-
-FIE 
+If there is still equality, both nations are declared winners, and both will receive the Grand Prix des nations. 
 
 PART E - VETERANS 
 
@@ -2098,11 +1937,7 @@ c) Age group 60-69: Must be at least 60 years old and less than 70 years old in 
 
 d) Age group 70+: Must be at least 70 years old in the year of the competition. 
 
-Application : during the test at the 2025 World Championships (not applicable in 2023 and 2024). October 2024 
-
-40 
-
-FIE 
+Application : during the test at the 2025 World Championships (not applicable in 2023 and 2024).
 
 Pre-competition procedures 
 
@@ -2144,11 +1979,7 @@ b) Four members of the Directoire Technique appointed by the Executive Committee
 
 c) One member of the SEMI Commission, appointed by the Executive Committee of the FIE. 
 
-d) Two members of the Refereeing Commission, appointed by the Executive Committee of the FIE. October 2024 
-
-41 
-
-FIE 
+d) Two members of the Refereeing Commission, appointed by the Executive Committee of the FIE.
 
 e) Two members of the Medical Commission, appointed by the Executive Committee of the FIE. 
 
@@ -2192,11 +2023,7 @@ Composition of the pools for the individual Veterans championships
 
 o.118 
 
-The pools are composed taking into account the following orders of strength: October 2024 
-
-42 
-
-FIE 
+The pools are composed taking into account the following orders of strength:
 
 1 The fencers ranked from the addition of the results in the previous two Veterans World Championships, irrespective of age category changes. 
 
@@ -2272,11 +2099,7 @@ Scores are awarded according to the following table:
 
 3 The allocation of fencers in the pools must be made in such a way as to place fencers of the same nationality in different pools, as far as possible (staggering). 
 
-4 If in any category there are fewer than ten competitors, the competition is held as a poule unique followed by direct elimination. October 2024 
-
-43 
-
-FIE 
+4 If in any category there are fewer than ten competitors, the competition is held as a poule unique followed by direct elimination.
 
 5 If in any category there are fewer than 6 competitors, they will fence with the next lower age category. A separate ranking for that category will be extrapolated from the combined categories’ final rankings at the end of the competition. 
 
@@ -2314,11 +2137,7 @@ There can only be one substitution per team per match.
 
 6 The order of categories for each match is established by the referee with the captains on the piste prior to the start of the match: The referee will draw lots and the winning captain will choose the first category in the order. The losing captain will choose the second category. 
 
-7 The competition consists of a round of pools of 3 or 4 teams, in which all the teams participate, and a direct elimination phase for the highest placed 16 teams; the other teams will be classified according to their ranking after the round of pools. October 2024 
-
-44 
-
-FIE 
+7 The competition consists of a round of pools of 3 or 4 teams, in which all the teams participate, and a direct elimination phase for the highest placed 16 teams; the other teams will be classified according to their ranking after the round of pools.
 
 a) The order of matches in a pool of 4 is as follows: 
 
@@ -2370,11 +2189,7 @@ Fencing mode is 45 hits relay described in o.99 with application of non-combativ
 
 The competition begins with a round of pools of 3 and 4 teams -established according to o.103 c) - and followed by a direct elimination phase according to o.103 7. 
 
-Particular cases depending on the number of teams: October 2024 
-
-45 
-
-FIE 
+Particular cases depending on the number of teams:
 
 • only 1 team: the organisers must inform all nations that there will be no competition at that weapon. 
 
@@ -2396,11 +2211,7 @@ c) Each team may request, before a given relay, the substitution of a fencer. Ho
 
 There can be up to two substitutions of reserves per match but must maintain compliance with the age category representation requirement. 
 
-Application : during the test at the 2025 World Championships (not applicable in 2023 and 2024). October 2024 
-
-46 
-
-FIE 
+Application : during the test at the 2025 World Championships (not applicable in 2023 and 2024).
 
 INDEX TO ARTICLES 
 
@@ -2520,11 +2331,7 @@ Control (doping): see «anti-doping»
 
 Control by FIE: o.12, o.48, o.54, o.107.2 
 
-Criteria for World Cup: see «World Cup» October 2024 
-
-47 
-
-FIE 
+Criteria for World Cup: see «World Cup»
 
 Deadlines (equipment checking/displaying first round): o.35 
 
@@ -2646,11 +2453,7 @@ International officials: o.48, o.50.2
 
 Interruption of a bout: o.71 
 
-Invitation: o.46-47, o.51-53, o.55 October 2024 
-
-48 
-
-FIE 
+Invitation: o.46-47, o.51-53, o.55
 
 Licence: o.2, o.29.1, o.31, o.61.6, o.63.4 
 
@@ -2766,11 +2569,7 @@ Round (pools): o.4.6, o.35, o.39.3, o.66-67, o.82.4/5, o.83, o.86, o.87.5, o.89,
 
 Satellite: o.3, o.25, o.45, o.51, o.61, o.108 
 
-Scale of points: o.108, o.109 October 2024 
-
-49 
-
-FIE 
+Scale of points: o.108, o.109
 
 Score (sheet):o.17.1, o.27.1, o.68.3, o.70, o.99.4; (see TECHNICAL RULES, t.38, t.40, t.41, t.45.1, t.50.7, t.124, t.163, t.168) 
 
