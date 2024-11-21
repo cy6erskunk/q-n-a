@@ -22,7 +22,8 @@
         "text": "No minimum rest required",
         "explanation": "Incorrect. The FIE rules clearly specify that there must be a 10-minute rest period between two direct elimination bouts (Article o.80.3)."
       }
-    ]
+    ],
+    "id": "8e8efe9f-a2b0-42d9-b800-7e396250fc15"
   },
   {
     "question": "Minimum for a fencer to rest between two pool bouts?",
@@ -47,7 +48,8 @@
         "text": "No minimum rest required",
         "explanation": "Incorrect. The FIE rules require a 3-minute minimum rest period between pool bouts (Article o.71.2)."
       }
-    ]
+    ],
+    "id": "eb53cef8-7817-46c5-8226-d234ef7b0a02"
   },
   {
     "question": "If two fencers in a pool have the same nationality, what should the referee check in relation to the bout order?",
@@ -72,37 +74,34 @@
         "text": "The referee does not need to check anything special",
         "explanation": "Incorrect. The referee must ensure the bout between same-nationality fencers occurs first, before they meet others (Article o.70)."
       }
-    ]
+    ],
+    "id": "47aad3f9-5295-4b78-aed6-64f3b2f7163c"
   },
   {
-    "question":
-      "What should the referee do if scores are equal at the end of regulation time in a pool bout?",
+    "question": "What should the referee do if scores are equal at the end of regulation time in a pool bout?",
     "answers": [
       {
         "isCorrect": true,
         "text": "Proceed with an additional minute",
-        "explanation":
-          "Correct. When scores are tied at the end of regulation time in a pool bout, the referee will call for an additional minute, as per Article t.38."
+        "explanation": "Correct. When scores are tied at the end of regulation time in a pool bout, the referee will call for an additional minute, as per Article t.38."
       },
       {
         "isCorrect": false,
         "text": "Call the bout a draw",
-        "explanation":
-          "Incorrect. There are no draws in fencing pool bouts. The rules require an additional minute for a deciding hit."
+        "explanation": "Incorrect. There are no draws in fencing pool bouts. The rules require an additional minute for a deciding hit."
       },
       {
         "isCorrect": false,
         "text": "Award the victory based on who was leading earlier",
-        "explanation":
-          "Incorrect. Victory cannot be awarded based on earlier leads. The bout must be decided in the additional minute."
+        "explanation": "Incorrect. Victory cannot be awarded based on earlier leads. The bout must be decided in the additional minute."
       },
       {
         "isCorrect": false,
         "text": "Announce both fencers as winners",
-        "explanation":
-          "Incorrect. There must be a clear winner. An additional minute of fencing is required to determine this."
+        "explanation": "Incorrect. There must be a clear winner. An additional minute of fencing is required to determine this."
       }
-    ]
+    ],
+    "id": "284270c4-fc9c-4137-b44e-476815a2676a"
   },
   {
     "question": "If after the additional minute at the end of regulation time, neither of the fencers has managed to score a valid hit, what should the referee mark down on the score-sheet if the score is 0 - 0?",
@@ -127,7 +126,8 @@
         "text": "Both fencers lose",
         "explanation": "Incorrect. A winner must be declared based on the drawn priority, and the score is marked as 'V0 - 0'."
       }
-    ]
+    ],
+    "id": "6ee1b9c4-9a9a-4edc-9c75-6f8b5938cf92"
   },
   {
     "question": "In a team match, if the order of relay bouts is changed, intentionally or unintentionally, what should the referee do?",
@@ -152,7 +152,8 @@
         "text": "Let the bout continue in the wrong order",
         "explanation": "Incorrect. The referee must correct the order as soon as it is noticed and continue from there."
       }
-    ]
+    ],
+    "id": "5b09a47d-8430-488a-9055-ea526b5838b4"
   },
   {
     "question": "In a team match, if when the score is 9-5 in the second relay, the fencer in the lead scores a valid hit and at the same time the opponent receives a red card, what should the referee record on the score-sheet?",
@@ -177,7 +178,8 @@
         "text": "9-5. The score should remain 9-5, with the red card being recorded separately without affecting the score.",
         "explanation": "This answer is incorrect because, per the rules, a red card results in a penalty hit, which must be reflected in the score. The idea that a red card does not affect the score is false. [See t.41.1 and t.165]"
       }
-    ]
+    ],
+    "id": "460f17ef-0b3f-4dbf-a28e-134368923d7c"
   },
   {
     "question": "In a team match, when should the replacement of a team member by the reserve fencer be announced?",
@@ -205,7 +207,8 @@
     ],
     "quotes": {
       "o.99.5": "The announcement that a fencer is to be substituted must be made at the latest before the beginning of the bout preceding the next bout of the fencer who is to be replaced"
-    }
+    },
+    "id": "4be3084b-6685-4b72-a24f-9ef14c9be638"
   },
   {
     "question": "In a team competition, can a fencer who has been replaced fence again in the same match?",
@@ -233,7 +236,8 @@
     ],
     "quotes": {
       "o.99.5.a": "A fencer who has been replaced may fence one more time during that match, but only to replace the fencer who originally substituted him."
-    }
+    },
+    "id": "5530f008-f8b1-4200-b189-d8d64f2f11e9"
   },
   {
     "question": "In a team competition, can a fencer who was replaced for medical reason fence again in the same match?",
@@ -261,7 +265,8 @@
     ],
     "quotes": {
       "o.99.6.b": "However, a competitor who is thus replaced cannot again take his place in the team during the same match."
-    }
+    },
+    "id": "b8f650c6-3d13-4fda-b06e-54c3c028efe1"
   },
   {
     "question": "In a team competition which relay/bout can a replaced fencer fence again in the same match?",
@@ -289,9 +294,10 @@
     ],
     "quotes": {
       "o.99.5.a": "A fencer who has been replaced may fence one more time during that match, but only to replace the fencer who originally substituted him."
-    }
+    },
+    "id": "b8f93608-931e-455b-996b-ab1edea924e4"
   },
- {
+  {
     "question": "In a team match if an injury is duly recognized by the competition doctor, can the reserve fencer continue the relay that the injured fencer has already begun?",
     "answers": [
       {
@@ -317,7 +323,8 @@
     ],
     "quotes": {
       "o.99.6.a": "If a member of a team is obliged to retire during a match as the result of an accident which has been duly recognised by a medical representative of the FIE, the captain of his team may ask to put in a reserve to continue the match at the point where the competitor who was obliged to retire withdrew, even during a bout in progress."
-    }
+    },
+    "id": "ff5377b4-3bd7-4952-9c2d-6f798d117921"
   },
   {
     "question": "In a team match can a team start the match without a reserve fencer?",
@@ -345,7 +352,8 @@
     ],
     "quotes": {
       "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
-    }
+    },
+    "id": "9f708408-15c8-4208-9220-4635c290a700"
   },
   {
     "question": "In a team match can a team end the match with only two fencers?",
@@ -373,7 +381,8 @@
     ],
     "quotes": {
       "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
-    }
+    },
+    "id": "5fb4341c-68c6-42aa-9b7b-d6e6be95b125"
   },
   {
     "question": "If in a team match, after the announcement that a fencer is to be substituted, an accident occurs in the bout which follows the request for a substitution, can the team captain annul that request?",
@@ -401,7 +410,8 @@
     ],
     "quotes": {
       "o.99.5.b": "If an accident occurs in the bout which follows the request for a substitution, the team captain may annul that request."
-    }
+    },
+    "id": "a8399d7d-9104-493a-bb09-aab27871c3dc"
   },
   {
     "question": "Except where there is a special device (attachment or orthopedic shape) can the hand be slipping along the handle from front to back during an offensive action?",
@@ -429,7 +439,8 @@
     ],
     "quotes": {
       "t.21.2": "<...>the weapon <...> must be used without the hand leaving the handle and without the hand slipping along the handle from front to back during an offensive action."
-    }
+    },
+    "id": "509a5ad1-9fef-4bba-8acf-b754e44b9988"
   },
   {
     "question": "Can the weapon be used as a throwing weapon?",
@@ -457,7 +468,8 @@
     ],
     "quotes": {
       "t.21.2": "<...>the weapon must not be — either permanently or temporarily, in an open or disguised manner — transformed into a throwing weapon"
-    }
+    },
+    "id": "583aff39-8f51-4963-be9b-d0508e0cd41d"
   },
   {
     "question": "Can the fencer change the sword arm before the end of the bout?",
@@ -485,7 +497,8 @@
     ],
     "quotes": {
       "t.21.4": "The weapon must be used with one hand only; a fencer may not change hands before the end of the bout, unless the Referee gives special permission in the case of injury to the hand or arm."
-    }
+    },
+    "id": "4d2d1689-29f3-46e3-8926-4963fc640266"
   },
   {
     "question": "After the bout has been halted without awarding any hits after a penalty with a yellow card, where should the fencers be placed on guard?",
@@ -513,7 +526,8 @@
     ],
     "quotes": {
       "t.22.7": "If no hit is awarded they are replaced in the position which they occupied when the bout was interrupted."
-    }
+    },
+    "id": "145b6622-1700-48eb-aa29-8c6d01bc72cd"
   },
   {
     "question": "Before the additional minute begins, where should the fencers be placed on guard?",
@@ -541,7 +555,8 @@
     ],
     "quotes": {
       "t.22.8": "At the beginning of each period (in a direct elimination bout) and of any additional minute of fencing time, the fencers are placed on guard in the middle of the piste."
-    }
+    },
+    "id": "3fdd737e-4f7c-4cc9-ae1d-36042d4877f8"
   },
   {
     "question": "After the bout has been halted without awarding any hits, after a penalty with a red card, where should the fencers be placed on guard?",
@@ -572,7 +587,8 @@
       "t.22.7": "If no hit is awarded they are replaced in the position which they occupied when the bout was interrupted.",
       "t.22.3": "The Referee places each of the two competitors in such a way that the front foot of each is immediately behind the ‘on-guard’ line.",
       "t.22.5": "When placed on guard during the bout, the distance between the two competitors must be such that, in the position ‘point in line’, the points of the two blades cannot make contact."
-    }
+    },
+    "id": "4e587f35-1c4f-4942-8395-c27e1e335cca"
   },
   {
     "question": "If the lateral boundaries of the piste were not crossed, may the replacing on guard at the correct distance place one fencer behind the rear line?",
@@ -601,7 +617,8 @@
     "qotes": {
       "t.22.8": "The competitors may not be replaced on guard, at their correct distance, in such a way as to place behind the rear line of the piste a fencer who was in front of that line when the bout was halted",
       "t.22.9": "If a fencer has crossed the lateral boundaries of the piste, with one or both feet, he must be placed on guard at the correct distance even if this means that he is placed behind the rear line and thus causes a hit to be awarded against him. (cf t.35.1, t.146)."
-    }
+    },
+    "id": "5780a54f-18ff-43dc-bcb2-12840693cca9"
   },
   {
     "question": "If a fencer crosses the lateral boundaries of the piste with one or two feet, how should the referee replace the fencers on guard, if the fencer who crossed the boundaries has done so after making an attack?",
@@ -629,9 +646,10 @@
     ],
     "quotes": {
       "t.35.1": "If a competitor crosses one of the lateral boundaries of the piste with one or both feet, he must step back one metre from the point where he left the piste; and if he goes off the piste during an attack he must return to the position he occupied when he started his attack and then step back a further metre (but cf t.36)."
-    }
-  },  
-  {    
+    },
+    "id": "5f184767-c2eb-4abe-99d5-c0970ad920f9"
+  },
+  {
     "nonOfficialQuestion": true,
     "question": "What happens if a team becomes incomplete during a match and is left with only two fencers?",
     "answers": [
@@ -658,7 +676,8 @@
     ],
     "quotes": {
       "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
-    }
+    },
+    "id": "b5472301-8396-45f4-bb7b-0063beb36381"
   },
   {
     "question": "If a fencer crosses the lateral boundaries of the piste with one or two feet following a lateral movement or a retreat, what should the referee do to replace the fencers on guard?",
@@ -683,7 +702,8 @@
         "text": "The fencers should be placed at a distance where their blades cannot touch.",
         "explanation": "This is incorrect. The distance rule (t.22.5) applies during normal placement but does not relate to boundary crossings. Instead, the fencer who crossed the boundary is placed one meter back as a penalty for retreating off the piste."
       }
-    ]
+    ],
+    "id": "6c6bdf14-b0ac-48e0-a4d1-ee25f53ef3d5"
   },
   {
     "question": "Can a hit be awarded to a fencer who has one foot off the piste, before the bout is halted?",
@@ -708,7 +728,8 @@
         "text": "No, a hit is only valid if both feet remain on the piste.",
         "explanation": "This is incorrect. Rule t.33.3 specifies that if only one foot is off the piste, the hit can still be valid if the action began before the referee called 'Halt!'"
       }
-    ]
+    ],
+    "id": "bb2474f7-8eba-4650-9306-efcb8843bcdb"
   },
   {
     "question": "Can a hit be awarded to a fencer who has both feet off the piste, before the bout is halted?",
@@ -733,7 +754,8 @@
         "text": "Yes, as long as the fencer immediately returns to the piste after the hit.",
         "explanation": "This is incorrect. Rule t.33.2 specifies that once both feet are off the piste, no hit made by the fencer can be awarded, even if they return to the piste quickly."
       }
-    ]
+    ],
+    "id": "5c7bdeb3-9353-4e98-9ea7-1541228586c2"
   },
   {
     "question": "Is the use of the non-sword hand or arm to perform a defensive or offensive action punishable, if the opponent still manages to make a hit?",
@@ -758,7 +780,8 @@
         "text": "No, the use of the non-sword hand or arm is only punishable if it prevents the opponent from making a hit.",
         "explanation": "This is incorrect. Article t.29.1 forbids the use of the non-sword hand or arm for any offensive or defensive action, and it is penalized even if it does not prevent the opponent from making a hit. The offending fencer's hit is annulled, and they are issued a red card."
       }
-    ]
+    ],
+    "id": "3342c5e0-3372-468a-a6df-d59b6ad90326"
   },
   {
     "question": "Before the start of the bout, the fencer comes to the on-guard line on the piste completely ready to fence but with hair covering a valid surface or the name and nationality on the jacket. What should the referee do?",
@@ -783,7 +806,8 @@
         "text": "The referee should allow the bout to proceed but report the issue after the bout.",
         "explanation": "This is incorrect. The bout should not begin until the issue is resolved. According to t.115.2, the referee should apply penalties for group 1 offences."
       }
-    ]
+    ],
+    "id": "80389533-74ba-45a0-9e52-4fcc7173391d"
   },
   {
     "question": "During a bout, if the fencer uses their non-sword arm and touches their body wire, what should the referee do?",
@@ -808,7 +832,8 @@
         "text": "The referee should ignore the action if no hit was prevented.",
         "explanation": "This is incorrect. Even if no hit was prevented, touching the body wire with the non-sword hand is still a group 1 offence according to t.29.3, and the referee must issue a yellow card and annul any hit scored by the offending fencer."
       }
-    ]
+    ],
+    "id": "c6396182-626c-48e7-a77d-d86732fd07d3"
   },
   {
     "question": "If an injury or cramp occurs during a bout, can a referee decide to give a break for medical reasons without obtaining the competition doctor’s opinion, if he is sure there is an injury?",
@@ -833,7 +858,8 @@
         "text": "Yes, but only if the fencer requests it.",
         "explanation": "This is incorrect. The fencer’s request does not override the requirement for the competition doctor’s consultation. The referee must follow protocol and consult the doctor before allowing a medical break."
       }
-    ]
+    ],
+    "id": "5c0dccf6-87ac-4e27-9550-fb108ca0e2c4"
   },
   {
     "question": "Can a second break for medical reason be granted for the same injury in the same day?",
@@ -858,7 +884,8 @@
         "text": "No, but the fencer can request a third break if necessary.",
         "explanation": "This is incorrect. A fencer cannot request multiple breaks for the same injury. Only one break is allowed per injury, per day."
       }
-    ]
+    ],
+    "id": "ac9f8657-f10f-43af-af7f-f0d5f0298699"
   },
   {
     "question": "Can as many breaks for medical reasons be granted as there are different injuries, in the course of one day, with the agreement of the competition doctor?",
@@ -883,7 +910,8 @@
         "text": "No, multiple breaks are only allowed if the fencer is not involved in direct elimination rounds.",
         "explanation": "This is incorrect. The rules regarding medical breaks apply universally, whether the fencer is in a pool or direct elimination rounds, as long as the injury is new and the competition doctor agrees."
       }
-    ]
+    ],
+    "id": "5c8cfa49-d767-4867-81c5-992cfde547b9"
   },
   {
     "question": "Can a fencer who has been allowed a break for medical reasons following an injury resume the fight before the five-minute period has ended?",
@@ -908,8 +936,7 @@
         "text": "No, the fencer must wait for the referee to signal the end of the break period.",
         "explanation": "This is incorrect. The fencer does not need to wait for the referee to signal the end of the full five minutes. They can resume the bout once they feel ready."
       }
-    ]
-  }     
+    ],
+    "id": "193bfc81-db97-486e-b1bf-cb14957a7f7f"
+  }
 ]
-
-
