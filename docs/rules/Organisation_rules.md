@@ -12,11 +12,11 @@ URL Source: https://static.fie.org/uploads/34/172606-Organisation%20rules%20ang.
 
 ## Application 
 
-## o.1 
+### o.1
 
 The official competitions of the FIE are organised according to the following rules. 
 
-## o.2 
+### o.2
 
 ## 1 The official competitions of the FIE are open to fencers (individual or team) of all FIE member countries. 
 
@@ -24,7 +24,9 @@ The official competitions of the FIE are organised according to the following ru
 
 ## Types of Competition 
 
-## o.3 These Rules are obligatory without modification for the ‘Official Competitions of the FIE’, viz.: 
+### o.3
+
+These Rules are obligatory without modification for the ‘Official Competitions of the FIE’, viz.: 
 
 - The fencing events at the Olympic Games 
 
@@ -40,7 +42,7 @@ The official competitions of the FIE are organised according to the following ru
 
 ## Criteria for World Cup Competition Admission 
 
-## o.4 
+### o.4
 
 An individual competition can only be classed or kept as a World Cup competition if it satisfies the following criteria. 
 
@@ -76,7 +78,7 @@ An individual competition can only be classed or kept as a World Cup competition
 
 ## Assaults and bouts 
 
-## o.5 
+### o.5
 
 A friendly combat between two fencers is called an assault . When the score of such an assault 
 
@@ -88,13 +90,13 @@ In a match (cf o.6) between teams each of the nine bouts is called a relay .
 
 ## Match 
 
-## o.6 
+### o.6
 
 The aggregate of the relays fought between the fencers of two different teams is called a match .
 
 ## Competition 
 
-## o.7 
+### o.7
 
 ## 1 A competition is the aggregate of the bouts (individual competitions) or of the matches (team competitions) required to determine the winner of the event. 
 
@@ -102,11 +104,15 @@ The aggregate of the relays fought between the fencers of two different teams is
 
 ## Tournament 
 
-## o.8 Tournament is the name given to a number of competitions, individual and team, held at the same place, at the same period and under the same aegis. 
+### o.8
+
+Tournament is the name given to a number of competitions, individual and team, held at the same place, at the same period and under the same aegis. 
 
 ## Championship 
 
-## o.9 A championship is the name given to a competition held to determine the best fencer or the best team at each weapon for a federation, for a specific region or for the world and for a specific period of time.
+### o.9
+
+A championship is the name given to a competition held to determine the best fencer or the best team at each weapon for a federation, for a specific region or for the world and for a specific period of time.
 
 # Chapter 3 
 
@@ -116,7 +122,7 @@ The aggregate of the relays fought between the fencers of two different teams is
 
 ## The Organising Committee 
 
-## o.10 
+### o.10
 
 1 The Organising Committee is the group of persons responsible for organising the competition. 
 
@@ -126,11 +132,13 @@ The aggregate of the relays fought between the fencers of two different teams is
 
 ## The Central Office of the FIE 
 
-## o.11 The Central Office of the FIE controls the activities of the Directoire Technique at the Olympic Games, the World Championships, the Junior and Cadet and Veterans World Championships, as described in Article o.12. 
+### o.11
+
+The Central Office of the FIE controls the activities of the Directoire Technique at the Olympic Games, the World Championships, the Junior and Cadet and Veterans World Championships, as described in Article o.12. 
 
 ## Supervision by the FIE 
 
-## o.12 
+### o.12
 
 1 With the aim of ensuring that the rules are observed at the World Championships and Olympic Games, the President and the members of the Bureau of the FIE have the right to attend all meetings of the Directoire Technique and of the official delegates of the FIE. The Directoire Technique is obliged to give them notice of such meetings. 
 
@@ -138,7 +146,7 @@ The aggregate of the relays fought between the fencers of two different teams is
 
 ## Technical delegate of the FIE 
 
-## o.13 
+### o.13
 
 1 The Technical delegate of the FIE, who represents the FIE in accordance with the Olympic Rules for Regional Games, will be chosen by the President of the FIE, after consultation with the Executive Committee, according to criteria of recognised technical abilities. 
 
@@ -146,13 +154,13 @@ The aggregate of the relays fought between the fencers of two different teams is
 
 ## The Directoire Technique 
 
-## o.14 
+### o.14
 
 The technical organisation of competitions is entrusted to a Directoire Technique , the functions and scope of whose activities are described in the Rules ( cf. t.139-141, o.15 - o.17 ). 
 
 ## The Directoire Technique and the FIE delegates at official competitions 
 
-## o.15 
+### o.15
 
 1 Apart from the specific areas of competence which are the responsibility of the other FIE technical delegates specified hereafter, the technical management of the official competitions of the FIE is entrusted to a Directoire Technique .
 
@@ -170,7 +178,7 @@ The technical organisation of competitions is entrusted to a Directoire Techniqu
 
 ## Nomination of the Directoire Technique 
 
-## o.16 
+### o.16
 
 The Directoire Technique is composed of people who have the experience and competence 
 
@@ -192,7 +200,7 @@ The Directoire Technique is composed of three qualified persons from the country
 
 ## Functions of the Directoire Technique 
 
-## o.17 
+### o.17
 
 1 The functions of the Directoire Technique include the strict organisation of the different events, except the responsibilities of the other delegates of the FIE (cf o.12, o.19, o.20, o.21, o.22). It has the obligation to see that the Rules are adhered to and cannot decide on any departure from the Rules except when circumstances arise in which it is absolutely impossible to apply them. 
 
@@ -222,7 +230,7 @@ Directoire Technique President is decisive .
 
 ## Designation of refereeing, SEMI, and medical delegates 
 
-## o.18 
+### o.18
 
 Refereeing delegates must be members of the FIE Refereeing Commission. 
 
@@ -248,7 +256,7 @@ One Refereeing delegate is appointed by the Executive Committee following the re
 
 ## The SEMI delegate 
 
-## o.19 
+### o.19
 
 1 The SEMI delegates check the technical installations and the homologation of the various items of equipment. 
 
@@ -260,7 +268,7 @@ One Refereeing delegate is appointed by the Executive Committee following the re
 
 ## The Refereeing delegates 
 
-## o.20 
+### o.20
 
 1 The functions of the Refereeing delegates include the strict and complete organisation of the refereeing of events, ensuring their perfect running. They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
 
@@ -280,7 +288,7 @@ d) They review protests and provide solutions in conformity with the instruction
 
 ## The Medical delegates 
 
-## o.21 
+### o.21
 
 1 The functions of the medical delegates include the strict and complete organisation of the medical aspect. They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
 
@@ -294,7 +302,7 @@ c) Evaluate the medical situation and supervise the intervention or recognized t
 
 ## Supervisor 
 
-## o.22 
+### o.22
 
 1 The Organizing Committees of Grands Prix and World Cup events, individual and team, must ensure the presence of a supervisor of the FIE from a country other than that where the competition is held, whose task it will be to verify that the competition properly fulfils the World Cup criteria. 
 
@@ -308,7 +316,7 @@ c) Evaluate the medical situation and supervise the intervention or recognized t
 
 ## This supervisor is either: 
 
-## o.23 
+### o.23
 
 - a member of a FIE Commission,
 
@@ -318,7 +326,7 @@ c) Evaluate the medical situation and supervise the intervention or recognized t
 
 ## Refereeing 
 
-## o.24 
+### o.24
 
 1 Refereeing at World Championships is carried out by referees chosen by the Executive 
 
@@ -328,7 +336,7 @@ Committee of the FIE at the proposal of the Refereeing Commission.
 
 3 Referees must attend the refereeing meeting that takes place the day before the World Championships. 
 
-## o.25 
+### o.25
 
 1 The number of FIE A or B Grade referees that must accompany teams to junior World Cup 
 
@@ -348,7 +356,7 @@ For junior World Cup competitions and satellite competitions, the name(s) of the
 
 3 In addition, the FIE Supervisor of junior World Cup competitions is required to report on gender diversity of the registered referees through the FIE Supervisor’s report. 
 
-## o.26 
+### o.26
 
 For Senior World Cup, Grands Prix and World Cup team competitions, 8 referees, proposed by the Refereeing Commission, will be designated by the Executive Committee and delegations will not have to provide any referees. 
 
@@ -356,7 +364,7 @@ The additional referees required (not less than 5) will be provided by the organ
 
 ## Specialized personnel 
 
-## o.27 
+### o.27
 
 The organising committee must appoint: 
 
@@ -388,7 +396,7 @@ equipment of the fencers.
 
 ## Checking of Equipment 
 
-## o.28
+### o.28
 
 The checking of the organization equipment , as well as the equipment of the fencers, must be 
 
@@ -402,7 +410,7 @@ SEMI Commission, this function must be carried out by them or under their contro
 
 # AGE OF PARTICIPANTS 
 
-## o.29 
+### o.29
 
 1 No fencer may obtain an FIE licence, enabling him or her to enter for an official FIE competition, until he or she has reached their 13 th birthday. 
 
@@ -424,7 +432,7 @@ participant to act on behalf of the participant regarding health-related issues;
 
 b) have such power of attorney issued to a person who has achieved his/her majority and who will be at the competition site during the competition and has agreed to accept the responsibility delineated in such power. 
 
-## o.30
+### o.30
 
 # Chapter 5 
 
@@ -432,7 +440,7 @@ b) have such power of attorney issued to a person who has achieved his/her major
 
 ## Table of Financial Penalties and Fines 
 
-## o.31 
+### o.31
 
 Article Amount Date of To be By whom 
 
@@ -534,13 +542,13 @@ respected Federation
 
 ## Programme of the competitions 
 
-## o.32 
+### o.32
 
 The Organizing Committee must submit the programme of events to the Executive Committee for its approval. 
 
 ## Timetable 
 
-## o.33 
+### o.33
 
 1 The programme must be displayed, communicated and respected and must take into 
 
@@ -550,27 +558,27 @@ a way that no fencer is obliged to participate in events for more than 12 hours 
 
 2 Whatever programme is adopted, the final shall start at a time which, having regard to local routines, will ensure that the results can be communicated to the media in sufficient time to allow them to be published. 
 
-## o.34 
+### o.34
 
 In their timetable the Organizing committee must allow sufficient time for it to be possible to carry out the checking of the fencers’ equipment , i.e. a minimum of one day per weapon. 
 
-## o.35 
+### o.35
 
 The first round of all the individual and team competitions, including the World Championships and Olympic Games, must be displayed by 4 p.m. local time, at the latest the day before the competition. (t.175). 
 
 ## SENIOR WORLD CHAMPIONSHIPS 
 
-## o.36
+### o.36
 
 The programme of the Senior World Fencing Championships comprises twelve events, six individual and six team — male foil, female foil, male épée, female épée, male sabre and female sabre. 
 
 ## JUNIOR AND CADET WORLD CHAMPIONSHIPS 
 
-## o.37 
+### o.37
 
 The programme of the Junior and Cadet World Fencing Championships comprises twelve individual events (six junior and six cadet), and six junior team events — at male foil, female foil, male épée, female épée, male sabre and female sabre. These begin with the cadet events, followed by the individual junior events and lastly the junior team events. 
 
-## o.38 
+### o.38
 
 When drawing pools in the World Cadet Championships , the Directoire Technique must take account of the following orders of strength: 
 
@@ -586,17 +594,17 @@ When drawing pools in the World Cadet Championships , the Directoire Technique m
 
 6 The Directoire Technique’s decision .
 
-## o.39 
+### o.39
 
 ----------------------
 
-## o.40 
+### o.40
 
 ## ……….. 
 
 ## TEAM WORLD CUP COMPETITIONS 
 
-## o.41 
+### o.41
 
 1 Application 
 
@@ -620,7 +628,7 @@ Team participation is open to all countries and limited to one team per weapon p
 
 ## ZONAL CHAMPIONSHIPS 
 
-## o.42 
+### o.42
 
 1. The Zonal Championships recognised by the FIE are the Senior Zonal Championships and the Junior Zonal Championships. Other competitions may be organized by the Zonal Confederations (Veterans, U 23, Cadet circuit, etc.). 
 
@@ -634,13 +642,13 @@ Team participation is open to all countries and limited to one team per weapon p
 
 ## OLYMPIC GAMES 
 
-## o.43 
+### o.43
 
 The programme of fencing events at the Olympic Games currently comprises twelve events. Any change in the number of events must be approved by the Congress .
 
 ## REGIONAL GAMES 
 
-## o.44 
+### o.44
 
 1 The Regional Games recognised by the FIE are the same as those recognised by the International Olympic Committee, when fencing is on the programme (e.g. the Mediterranean Games, the Pan-American Games, the Central American and Caribbean Games, etc.) as well as the Commonwealth Games. 
 
@@ -648,7 +656,7 @@ The programme of fencing events at the Olympic Games currently comprises twelve 
 
 ## SATELLITE COMPETITIONS 
 
-## o.45 
+### o.45
 
 Satellite competitions may be organized at any of the 6 weapons. 
 
@@ -660,11 +668,11 @@ There are no minimum participation standards.
 
 ## Official Invitation 
 
-## o.46 
+### o.46
 
 For all the official competitions of the FIE except the Olympic Games, the official invitation is the letter in which the Organising Committee invites every FIE member federation to take part in the event. 
 
-## o.47 
+### o.47
 
 For World Championships , this invitation must be sent to every FIE member federation four months before the competition. 
 
@@ -672,7 +680,7 @@ For World Championships , this invitation must be sent to every FIE member feder
 
 World Championships 
 
-## o.48 
+### o.48
 
 1 Any proposed candidature for organising the Senior, Junior and Cadet World 
 
@@ -703,17 +711,17 @@ e) Three members of the Medical Commission , appointed by the Executive Committe
 
 f) The referees designated by the Executive Committee at the proposal of the Refereeing Commission in accordance with the Handbook of Regulations. 
 
-## o.49 
+### o.49
 
 -----------------
 
-## o.50 
+### o.50
 
 ## Grands Prix, Senior and Junior World Cups, Satellites 
 
 Official invitation 
 
-## o.51 
+### o.51
 
 For World Cup competitions and Grands Prix, the invitations must be sent out at least two months before the competition in question. 
 
@@ -721,7 +729,7 @@ If an organising federation fails to comply with the above mentioned deadlines, 
 
 ## Zonal Championships 
 
-## o.52 
+### o.52
 
 For Zonal Championships, invitations must be sent out at least three months before the competition. 
 
@@ -729,7 +737,7 @@ If an organizing federation fails to comply with the above-mentioned deadline, i
 
 ## Olympic Games 
 
-## o.53 
+### o.53
 
 The rules for the invitation to and participation in the Olympic Games are established by the IOC .
 
@@ -737,7 +745,7 @@ The rules for the invitation to and participation in the Olympic Games are estab
 
 Technical officials and referees 
 
-## o.54 
+### o.54
 
 The Olympic Rules for Regional Games stipulate that the control of all the technical 
 
@@ -769,13 +777,13 @@ Games, appointed by the Executive Committee of the FIE at the proposal of the Re
 
 ## Senior and Junior World Championships, Zonal championships Intention to participate in the World Championships 
 
-## o.55 
+### o.55
 
 The forms must be sent to all federations at the same time as the official invitation. The federations must indicate their intention to participate three months before the beginning of the Championships. 
 
 ## Entries for World Championships (all categories) and Zonal Senior and Junior Championships 
 
-## o.56 
+### o.56
 
 1 Three months before the start of the World Championships, the federations will receive an entry 
 
@@ -807,15 +815,15 @@ to the FIE of a penalty (cf o.31, table of financial penalties and fines) per fe
 
 hours before the start of each event. 
 
-## o.57 
+### o.57
 
 At the Senior World Championships , entries are limited to four fencers per weapon per nation for the individual events and one team per weapon per nation for the team events. 
 
-## o.58 
+### o.58
 
 The Junior and Cadet World Championships are open to all FIE member federations. 
 
-## o.59 
+### o.59
 
 For the Cadet World Championships, entries are limited to three fencers per weapon per nation for the individual events.
 
@@ -823,7 +831,7 @@ For the Junior World Championships, the entries are limited to four fencers per 
 
 ## Zone Championship 
 
-## o.60 
+### o.60
 
 For junior and senior Individual Zone Championship competitions, at each weapon, the federations may enter up to 4 fencers. 
 
@@ -831,7 +839,7 @@ For junior and senior Team Zone Championship competitions, at each weapon, the f
 
 ## Grand Prix, Senior and Junior World Cups (individual and team), and Satellite competitions. 
 
-## o.61 
+### o.61
 
 1 The entry of the names of the fencers and all possible replacements, and the entry of teams, 
 
@@ -863,23 +871,23 @@ To do this, the national federation must send to the FIE (by fax or e-mail) a re
 
 o.31, table of financial penalties and fines), refuse the entry of any fencers not appearing on lists conforming with the above, any entry not requested by a federation and any entry of either fencer or referee not in possession of an FIE licence valid for the current season. 
 
-## o.62
+### o.62
 
 1 For Grand Prix competitions and Individual World Cup competitions , both Senior and Junior, at each weapon, each national federation may enter a maximum of 12 fencers. The organising country may enter up to 20 fencers plus the number needed to make up the pools. 
 
 2 For Individual World Cup competitions outside Europe , the organising country may enter up to 30 fencers plus the number needed to make up the pools. 
 
-## o.63 
+### o.63
 
 ## ------------------
 
 ## Olympic Games 
 
-## o.64 
+### o.64
 
 Entries must be sent to the organisers by the competitors’ National Olympic Committee. 
 
-## o.65 
+### o.65
 
 ………….
 
@@ -891,7 +899,7 @@ Entries must be sent to the organisers by the competitors’ National Olympic Co
 
 # INDIVIDUAL COMPETITIONS 
 
-## o.66 
+### o.66
 
 Individual competitions may be organised: 
 
@@ -909,7 +917,7 @@ as an annexe.)
 
 ## A. GENERAL RULES FOR THE ROUND OF POOLS 
 
-## o.67 
+### o.67
 
 1 In all competitions for which the formula includes a round of pools , these pools consist of 7
 
@@ -927,7 +935,7 @@ number of fencers of their own nationality for all the pools to consist of 7 fen
 
 Composition of pools 
 
-## o.68 
+### o.68
 
 1 The pools are composed taking account of the initial seeding in the competition, which is based on the latest official FIE ranking and by drawing lots among any fencers who are not in the ranking. The pools are composed using the following method :
 
@@ -957,7 +965,7 @@ remain in the original pool .
 
 4 The pools must be fenced up to the last bout .
 
-## o.69 
+### o.69
 
 The order of bouts in the pools is as follows: 
 
@@ -977,7 +985,7 @@ The order of bouts in the pools is as follows:
 
 6–7 7–2 4–7
 
-## o.70 
+### o.70
 
 When there are several fencers from the same country in a pool: 
 
@@ -1075,19 +1083,19 @@ The order of bouts for the pool of seven, detailed in Article o.69, is no longer
 
 5–1 5–6 3–6 
 
-## o.71 
+### o.71
 
 1 If a bout in a pool is interrupted by an accidental cause , and this interruption is likely to be prolonged, the Referee may (with the consent of the Directoire Technique, or possibly the Organising Committee) alter the order of bouts in such a way as to allow the normal progress of the competition to proceed. 
 
 2 The time allowed for a fencer to rest between two consecutive bouts in a pool is three minutes. 
 
-## o.72 
+### o.72
 
 Before the competition starts, the Directoire Technique will decide on and announce the number 
 
 of fencers who will be eliminated based on the ranking established by the pools .
 
-## o.73 
+### o.73
 
 1 After the pools, a single general ranking is established of all the fencers who have taken part in the pools, taking account, successively, of the indices V/M, HS – HR , HS .
 
@@ -1113,7 +1121,7 @@ f) In cases of absolute equality between two or more fencers, their seeding orde
 
 Withdrawal 
 
-## o.74 
+### o.74
 
 1 A fencer who is not present at the start of the pool is scratched from the pool and is recorded without a classification at the end of the final classification list with the information “Did Not Start”. 
 
@@ -1121,21 +1129,21 @@ Withdrawal
 
 3. A fencer who is excluded during the pool phase is scratched from the pool, and his results are annulled as if he had not taken part. The fencer is recorded without a classification at the end of the final classification list with the information “Excluded”. 
 
-## o.75 
+### o.75
 
 ---------------------
 
 # B. GENERAL RULES FOR THE DIRECT ELIMINATION 
 
-## o.76 
+### o.76
 
 The direct elimination table (bout plan) is established taking account of the classification table and the special rules for each competition (see Figure 7a). The principle of protection of nationality will not be applied. 
 
-## o.77 
+### o.77
 
 The Organizing committee of a competition must publish the direct elimination bout plan ,showing on it the scheduled time for each bout from the table of 64 onwards. 
 
-## o.78 
+### o.78
 
 1 During the one-minute rests a person, named before the bout, may have access to the fencer. 
 
@@ -1143,7 +1151,7 @@ The Organizing committee of a competition must publish the direct elimination bo
 
 Withdrawal 
 
-## o.79 
+### o.79
 
 1 From the beginning of the direct elimination tableau, if for whatever reason, a fencer does not fence, or is unable to fence, or does not complete his bout , his opponent is declared winner of that bout. A fencer who withdraws does not lose his place in the overall classification of the competition and is recorded in the result list with the information “Did Not Finish”. 
 
@@ -1151,7 +1159,7 @@ Withdrawal
 
 Order of bouts 
 
-## o. 80 
+### o. 80 
 
 1 In each round of the direct elimination table (256, 128, 64, 32, 16, 8 or 4), the bouts are always called in the order of the bout plan , starting at the top and ending at the bottom. 
 
@@ -1161,7 +1169,7 @@ Order of bouts
 
 The final 
 
-## o.81 
+### o.81
 
 1 The final, which is by direct elimination, will preferably consist of 4 fencers. 
 
@@ -1169,7 +1177,7 @@ The final
 
 Classification 
 
-## o.82 
+### o.82
 
 1 The general classification is obtained as follows: 
 
@@ -1195,17 +1203,17 @@ round and they are placed after those who qualified for the direct elimination.
 
 Mixed formula A 
 
-## o.83 
+### o.83
 
 One qualifying round of pools, a preliminary direct elimination table, a main direct elimination table of 64 fencers to qualify for a final by direct elimination. 
 
 This formula is used for the individual competitions of the Senior World Championships as well as for the Senior World Cup competitions and Grand Prix competitions .
 
-## o.84 
+### o.84
 
 Apart from the details that follow, the general rules for pools and direct elimination prescribed above apply. 
 
-## o.85 
+### o.85
 
 1 The competition consists of two phases , a preliminary phase and a main phase, each of which are run on one day. 
 
@@ -1219,7 +1227,7 @@ are exempt from the preliminary phase.
 
 place, lots are drawn to decide which of these fencers will benefit from exemption from the preliminary phase. 
 
-## o.86 
+### o.86
 
 1 The preliminary phase consists of one round of pools, from which 20%–30% of the participants 
 
@@ -1237,7 +1245,7 @@ elimination table . This will be based on the indices of the fencers in all the 
 
 a tie on indices, the fencers will be separated by drawing lots). This table, be it complete or incomplete, will be fenced until only 32 fencers remain. 
 
-## o.87 
+### o.87
 
 1 The main phase consists of an integral direct elimination table, which is fenced on four pistes, 
 
@@ -1261,7 +1269,7 @@ exempt from the preliminary direct elimination table will take places 17–32, c
 
 6 The drawing of lots and allocation of the qualified fencers in the main table (T64) shall be made at the end of the preliminary table in the presence of the Directoire Technique President. 
 
-## o.88 
+### o.88
 
 There will be no bout for the third place. The two fencers who lose the semi-final matches will be placed equal third .
 
@@ -1271,25 +1279,25 @@ There will be no bout for the third place. The two fencers who lose the semi-fin
 
 Mixed Formula B 
 
-## o.89 
+### o.89
 
 One qualifying round of pools, a direct elimination table to qualify for a final by direct elimination.
 
 This formula is used for the individual competitions of the Junior and Cadet World Championships and the Junior World Cup competitions and Zonal Championships. The seeding rules for the Zonal Cadet Championships are established by the Zonal Confederations. 
 
-## o.90 
+### o.90
 
 Apart from the details that follow , the general rules for pools and direct elimination described above apply. 
 
-## o.91 
+### o.91
 
 The competitions are run on one single day per weapon. 
 
-## o.92 
+### o.92
 
 The competition consists of one round of pools , in which all the fencers present take part , and an integral direct elimination table. 
 
-## o.93 
+### o.93
 
 1 All the fencers qualifying from the round of pools are placed in a direct elimination table, complete or incomplete, according to the indices resulting from the pools . This table is fenced right through to the final. 
 
@@ -1299,7 +1307,7 @@ The competition consists of one round of pools , in which all the fencers presen
 
 - or on 8 pistes, with each quarter of the table fenced on 2 pistes. 
 
-## o.94 
+### o.94
 
 There will be no bout for the third place. The two fencers who lose the semi-final matches will be placed equal third .
 
@@ -1307,13 +1315,13 @@ There will be no bout for the third place. The two fencers who lose the semi-fin
 
 ## Olympic Games 
 
-## o.95 
+### o.95
 
 The organisation formulae for the Olympic Games are established by the Executive Committee, with the approval of the IOC. (See art. 9.1.1.1 of the Administrative rules). 
 
 ## Regional Games 
 
-## o.96 
+### o.96
 
 The organization formulae for the Regional Games are established by the Executive Committee, with the approval of the IOC. (See chapter 9 of the Administrative rules).
 
@@ -1321,13 +1329,13 @@ The organization formulae for the Regional Games are established by the Executiv
 
 # A. SENIOR AND JUNIOR WORLD CHAMPIONSHIPS 
 
-## o.97 
+### o.97
 
 At each weapon teams consist of three fencers , with or without a reserve. 
 
 A team may begin a match only if it is complete .
 
-## o.98 
+### o.98
 
 1 The competition is run by integral direct elimination with a direct elimination table which may be incomplete (see table Annex b). 
 
@@ -1337,7 +1345,7 @@ A team may begin a match only if it is complete .
 
 fought for. From 17th place onwards teams are classified, within each round of the table, according to their initial place in the table. 
 
-## o.99 
+### o.99
 
 The formula for the competition is as follows. 
 
@@ -1403,15 +1411,15 @@ b) as not competing at all in the event, if it is its first match.
 
 # B. SENIOR AND JUNIOR TEAM WORLD CUPS AND ZONAL CHAMPIONSHIPS 
 
-## o.100 
+### o.100
 
 Apart from the following aspects, the competition is run in accordance with rules laid down for the team events in the Junior, Senior World Championships and Zonal Championships respectively. 
 
-## o.101 
+### o.101
 
 If a team does not begin a match they will be disqualified from the competition and thus will not receive any World Team Cup points, unless this is because of an injury or other medical reason ,duly attested by the duty doctor. 
 
-## o.102 
+### o.102
 
 1 The first four teams are placed in the direct elimination table according to the current official team ranking of the FIE (cf. o.109); the remaining ranked teams will be placed in the table by drawing of lots in pairs. 
 
@@ -1421,13 +1429,13 @@ The teams that are not classified will occupy the last places in the table and w
 
 At the Zonal Championships, teams without FIE ranking will occupy the last places in the table. They will be separated according to the final ranking obtained in the individual competition by the three best fencers in the team. The fencers of the teams who do not have a ranking in the individual competition will take the last place +1. 
 
-## o.103 
+### o.103
 
 -------------------
 
 ## C. OLYMPIC GAMES 
 
-## o.104 
+### o.104
 
 The organisation formulae for the Olympic Games are established by the Executive Committee, with the approval of the IOC. (See art. 9.1.1.1 of the Administrative rules). 
 
@@ -1437,7 +1445,7 @@ The organisation formulae for the Olympic Games are established by the Executive
 
 ## Video Refereeing 
 
-## o.105 
+### o.105
 
 Video-refereeing is compulsory at all three weapons at Grand Prix, Senior World Cup individual and team competitions, the Junior and Cadet World Championships, the World Championships and Olympic Games, Zonal Championships and qualification events for the Olympic Games. It is optional at the Veteran World Championships. 
 
@@ -1531,11 +1539,11 @@ Olympic Games Mandatory for all phases of the Olympic competition
 
 # Anti-doping testing 
 
-## o.106 
+### o.106
 
 An anti-doping test must be carried out at all official competitions of the FIE in accordance with the regulations in Article o.107 and the Anti-Doping Rules of the FIE. It may begin from the start of the competition and applies to fencers who have finished fencing. 
 
-## o.107 
+### o.107
 
 1 Doping is forbidden by the FIE. Any breaking of this rule will incur disciplinary action. 
 
@@ -1565,7 +1573,7 @@ An anti-doping test must be carried out at all official competitions of the FIE 
 
 Official FIE individual ranking 
 
-## o.108 
+### o.108
 
 1 Principles 
 
@@ -1641,7 +1649,7 @@ the end of the Senior World Championships or Olympic Games.
 
 The winner (first ranked fencer) of each junior official ranking will be announced at the end of the Junior World Championships. 
 
-## o.109 
+### o.109
 
 1 Official team ranking of the FIE 
 
@@ -1705,7 +1713,7 @@ announced at the end of the Senior World Championships or Olympic Games.
 
 # NATIONS’ GRAND PRIX RANKING 
 
-## o.110 
+### o.110
 
 The FIE gold medal, which is the Grand Prix des Nations, is awarded each year as follows: 
 
@@ -1731,13 +1739,13 @@ BODIES RESPONSIBLE FOR ORGANISATION AND CONTROL
 
 Organising Committee Veterans 
 
-o.111 
+### o.111 
 
 The Directoire Technique is composed of people who have the experience and competence to organise competitions. 
 
 The Directoire Technique is composed of four members of different nationalities, one of whom must represent the country where the competition is held and, if possible, a representative of the country where the competition will be held the following year. There must be at least one member from each gender. 
 
-o.112 
+### o.112 
 
 Appointment of refereeing, SEMI and medical delegates 
 
@@ -1747,7 +1755,7 @@ For the Veteran World Championships, of the 5 designated delegates there must be
 
 Refereeing 
 
-o.113 
+### o.113 
 
 Refereeing at Veteran World Championships is carried out by referees appointed by the Executive Committee of the FIE, selected by the Refereeing Commission on indication of the Organizing Committee and Veterans Council. 
 
@@ -1755,7 +1763,7 @@ Referees must attend the refereeing meeting that takes place the day before the 
 
 AGE OF PARTICIPANTS 
 
-o.114 
+### o.114
 
 The age groups in veteran competitions are: 
 
@@ -1783,7 +1791,7 @@ PROGRAMMING
 
 VETERANS WORLD CHAMPIONSHIPS 
 
-o.115 
+### o.115
 
 1 The programme of the Veteran World Fencing Championships comprises twenty-four events, eighteen individual – three categories for each weapon - and six team — male foil, female foil, male epee, female epee, male sabre and female sabre. The programme must be arranged in such a way as to allow any fencer to participate in all weapons. Team events must be held on the day following the last championship of the three categories of each weapon. 
 
@@ -1805,7 +1813,7 @@ Invitation to international officials
 
 Veterans 
 
-o.116 
+### o.116
 
 1 Any proposed candidature for organising the Veteran World Championships must be studied at the venue concerned by an ad hoc delegation designated by the Executive Committee, at the invitation of the candidate federation. 
 
@@ -1831,7 +1839,7 @@ Veterans World Championships
 
 Entries for competitions 
 
-o.117 
+### o.117
 
 1 The entry of the names of the fencers and all possible replacements, and the entry of teams, must be made via the FIE website 7 days before the competition at the latest (midnight Lausanne time). 
 
@@ -1859,7 +1867,7 @@ PROCEDURES DURING COMPETITIONS
 
 Composition of the pools for the individual Veterans championships 
 
-o.118 
+### o.118
 
 The pools are composed taking into account the following orders of strength:
 
@@ -1947,7 +1955,7 @@ Scores are awarded according to the following table:
 
 VETERANS TEAM EVENTS 
 
-o.119 
+### o.119
 
 1 Participation 
 
