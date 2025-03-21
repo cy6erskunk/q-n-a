@@ -1331,7 +1331,7 @@ The organization formulae for the Regional Games are established by the Executiv
 
 ### o.97
 
-At each weapon teams consist of three fencers , with or without a reserve. 
+At each weapon teams consist of three fencers, with or without a reserve. 
 
 A team may begin a match only if it is complete .
 
