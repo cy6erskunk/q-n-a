@@ -83,7 +83,7 @@
       {
         "isCorrect": true,
         "text": "Proceed with an additional minute",
-        "explanation": "Correct. When scores are tied at the end of regulation time in a pool bout, the referee will call for an additional minute, as per Article t.38."
+        "explanation": "Correct. When scores are tied at the end of regulation time in a pool bout, the referee will call for an additional minute, as per Article t.38.2.b."
       },
       {
         "isCorrect": false,
@@ -109,7 +109,7 @@
       {
         "isCorrect": true,
         "text": "V0 - 0",
-        "explanation": "Correct. If no valid hit is scored during the additional minute, the referee must declare the priority winner and mark the score as 'V0 - 0' on the score sheet (Article t.38)."
+        "explanation": "Correct. If no valid hit is scored during the additional minute, the referee must declare the priority winner and mark the score as 'V0 - 0' on the score sheet (Article t.38.2.c)."
       },
       {
         "isCorrect": false,
@@ -579,13 +579,11 @@
       {
         "isCorrect": false,
         "text": "Fencers should be placed at a distance such that their blades cannot touch in the 'point in line' position.",
-        "explanation": "This rule (t.22.5) applies during regular fencing, but it does not relate to how fencers are placed after a penalty hit is awarded. After a penalty hit, they should be placed on guard in the middle of the piste."
+        "explanation": "This rule (t.22.5) applies during regular fencing, but it does not relate to how fencers are placed after a penalty hit is awarded. After a penalty hit, they should be placed on guard in the middle of the piste (t.22.6)."
       }
     ],
     "quotes": {
       "t.22.6": "After the scoring of a valid hit the competitors are put on guard in the middle of the piste.",
-      "t.22.7": "If no hit is awarded they are replaced in the position which they occupied when the bout was interrupted.",
-      "t.22.3": "The Referee places each of the two competitors in such a way that the front foot of each is immediately behind the ‘on-guard’ line.",
       "t.22.5": "When placed on guard during the bout, the distance between the two competitors must be such that, in the position ‘point in line’, the points of the two blades cannot make contact."
     },
     "id": "4e587f35-1c4f-4942-8395-c27e1e335cca"
@@ -703,6 +701,9 @@
         "explanation": "This is incorrect. The distance rule (t.22.5) applies during normal placement but does not relate to boundary crossings. Instead, the fencer who crossed the boundary is placed one meter back as a penalty for retreating off the piste."
       }
     ],
+    "quotes": {
+      "t.35.1": "When a fencer crosses the lateral boundary following lateral movement or a retreat, he/she is placed back on guard one meter back from where he/she originally was."
+    },
     "id": "6c6bdf14-b0ac-48e0-a4d1-ee25f53ef3d5"
   },
   {
@@ -729,6 +730,9 @@
         "explanation": "This is incorrect. Rule t.33.3 specifies that if only one foot is off the piste, the hit can still be valid if the action began before the referee called 'Halt!'"
       }
     ],
+    "quotes": {
+      "t.33.3": "If a competitor leaves the piste with only one foot, a hit scored is valid provided the action started before the referee called 'Halt!'"
+    },
     "id": "bb2474f7-8eba-4650-9306-efcb8843bcdb"
   },
   {
@@ -755,6 +759,9 @@
         "explanation": "This is incorrect. Rule t.33.2 specifies that once both feet are off the piste, no hit made by the fencer can be awarded, even if they return to the piste quickly."
       }
     ],
+    "quotes": {
+      "t.33.2": "If the fencer goes off the piste with both feet, the Referee must annul everything that has occurred after the boundary has been crossed, except a hit received by the competitor who has crossed the boundary even after he has crossed it, provided that this hit results from a simple and immediate action."
+    },
     "id": "5c7bdeb3-9353-4e98-9ea7-1541228586c2"
   },
   {
@@ -781,6 +788,9 @@
         "explanation": "This is incorrect. Article t.29.1 forbids the use of the non-sword hand or arm for any offensive or defensive action, and it is penalized even if it does not prevent the opponent from making a hit. The offending fencer's hit is annulled, and they are issued a red card."
       }
     ],
+    "quotes": {
+      "t.29.1": "The use of the non-sword hand and arm to carry out an offensive or defensive action is forbidden"
+    },
     "id": "3342c5e0-3372-468a-a6df-d59b6ad90326"
   },
   {
@@ -807,6 +817,9 @@
         "explanation": "This is incorrect. The bout should not begin until the issue is resolved. According to t.115.2, the referee should apply penalties for group 1 offences."
       }
     ],
+    "quotes": {
+      "t.115.2": "Before the start of the bout, the fencers’ hair must be fastened and placed inside the clothing and/or mask <...> In the case of violation of this rule, the referee will apply the penalties for group 1 offences"
+    },
     "id": "80389533-74ba-45a0-9e52-4fcc7173391d"
   },
   {
@@ -833,6 +846,9 @@
         "explanation": "This is incorrect. Even if no hit was prevented, touching the body wire with the non-sword hand is still a group 1 offence according to t.29.3, and the referee must issue a yellow card and annul any hit scored by the offending fencer."
       }
     ],
+    "quotes": {
+      "t.29.3": "During the fight, the fencer must not, under any circumstances, take hold of any part of the electrical equipment with his non-sword hand the referee imposes him/her the penalties for the offences of the first group"
+    },
     "id": "c6396182-626c-48e7-a77d-d86732fd07d3"
   },
   {
@@ -841,24 +857,27 @@
       {
         "isCorrect": false,
         "text": "Yes, the referee can always give a break for medical reasons based on their own judgment.",
-        "explanation": "This is incorrect. According to the rules, the referee must consult with the competition doctor to determine whether a medical break is necessary, even if the referee believes there is an injury."
+        "explanation": "This is incorrect. According to the rules, the referee must consult with the competition doctor to determine whether a medical break is necessary, even if the referee believes there is an injury (see t.45.1)."
       },
       {
         "isCorrect": false,
         "text": "No, the referee must immediately stop the bout and disqualify the fencer.",
-        "explanation": "This is incorrect. Disqualification is not the appropriate response to an injury or cramp. The referee is required to consult with the competition doctor before deciding on the course of action."
+        "explanation": "This is incorrect. Disqualification is not the appropriate response to an injury or cramp. The referee is required to consult with the competition doctor before deciding on the course of action (see t.45.1)."
       },
       {
         "isCorrect": true,
         "text": "No, the referee must consult the competition doctor before granting a medical break.",
-        "explanation": "This is correct. The referee cannot make the decision for a medical break without consulting the competition doctor. As per the rules, the competition doctor’s opinion is required to confirm the injury or cramp before allowing a break."
+        "explanation": "This is correct. The referee cannot make the decision for a medical break without consulting the competition doctor. As per the rules, the competition doctor’s opinion is required to confirm the injury or cramp before allowing a break (see t.45.1)."
       },
       {
         "isCorrect": false,
         "text": "Yes, but only if the fencer requests it.",
-        "explanation": "This is incorrect. The fencer’s request does not override the requirement for the competition doctor’s consultation. The referee must follow protocol and consult the doctor before allowing a medical break."
+        "explanation": "This is incorrect. The fencer’s request does not override the requirement for the competition doctor’s consultation. The referee must follow protocol and consult the doctor before allowing a medical break (see t.45.1)."
       }
     ],
+    "quotes": {
+      "t.45.1": "For any injury or other medical reason which occurs in the course of a bout and which is properly attested by the delegate of the FIE Medical Commission or, in his /her absence, by the doctor and/or medical provider on duty, the Referee will allow a break in the fight lasting no longer than 5 minutes."
+    },
     "id": "5c0dccf6-87ac-4e27-9550-fb108ca0e2c4"
   },
   {
@@ -867,24 +886,27 @@
       {
         "isCorrect": false,
         "text": "Yes, a second break can be granted as long as the fencer needs it.",
-        "explanation": "This is incorrect. The rules specify that only one break for the same injury can be granted on the same day. If the injury persists, the fencer must withdraw."
+        "explanation": "This is incorrect. The rules specify that only one break for the same injury can be granted on the same day. If the injury persists, the fencer must withdraw (see t.45.2)."
       },
       {
         "isCorrect": true,
         "text": "No, a second break cannot be granted for the same injury on the same day.",
-        "explanation": "This is correct. According to the rules, only one break can be given for the same injury on the same day. If the fencer cannot continue due to the same injury, they must withdraw from the competition."
+        "explanation": "This is correct. According to the rules, only one break can be given for the same injury on the same day. If the fencer cannot continue due to the same injury, they must withdraw from the competition (see t.45.2)."
       },
       {
         "isCorrect": false,
         "text": "Yes, as long as the competition doctor recommends it.",
-        "explanation": "This is incorrect. Even if the competition doctor recommends it, the rules clearly state that only one break is allowed for the same injury on the same day."
+        "explanation": "This is incorrect. Even if the competition doctor recommends it, the rules clearly state that only one break is allowed for the same injury on the same day (see t.45.2)."
       },
       {
         "isCorrect": false,
         "text": "No, but the fencer can request a third break if necessary.",
-        "explanation": "This is incorrect. A fencer cannot request multiple breaks for the same injury. Only one break is allowed per injury, per day."
+        "explanation": "This is incorrect. A fencer cannot request multiple breaks for the same injury. Only one break is allowed per injury, per day (see t.45.2)."
       }
     ],
+    "quotes": {
+      "t.45.2": "During the remainder of the same day, a fencer cannot be allowed a further break unless as a result of a different injury or other medical reason"
+    },
     "id": "ac9f8657-f10f-43af-af7f-f0d5f0298699"
   },
   {
@@ -893,24 +915,27 @@
       {
         "isCorrect": true,
         "text": "Yes, a medical break can be granted for each different injury with the agreement of the competition doctor.",
-        "explanation": "This is correct. The rules allow for multiple medical breaks to be granted as long as each break is for a different injury, and the competition doctor agrees to it."
+        "explanation": "This is correct. The rules allow for multiple medical breaks to be granted as long as each break is for a different injury, and the competition doctor agrees (see t.45.2)."
       },
       {
         "isCorrect": false,
         "text": "No, only one medical break is allowed per fencer per day.",
-        "explanation": "This is incorrect. While only one break is allowed per injury per day, the rules permit multiple breaks for different injuries, provided the competition doctor agrees."
+        "explanation": "This is incorrect. While only one break is allowed per injury per day, the rules permit multiple breaks for different injuries, provided the competition doctor agrees (see t.45.2)."
       },
       {
         "isCorrect": false,
         "text": "Yes, but only if the referee personally approves each break.",
-        "explanation": "This is incorrect. The decision to grant a medical break relies on the competition doctor’s opinion, not just the referee's decision."
+        "explanation": "This is incorrect. The decision to grant a medical break relies on the competition doctor’s opinion, not just the referee's decision(see t.45.2)."
       },
       {
         "isCorrect": false,
         "text": "No, multiple breaks are only allowed if the fencer is not involved in direct elimination rounds.",
-        "explanation": "This is incorrect. The rules regarding medical breaks apply universally, whether the fencer is in a pool or direct elimination rounds, as long as the injury is new and the competition doctor agrees."
+        "explanation": "This is incorrect. The rules regarding medical breaks apply universally, whether the fencer is in a pool or direct elimination rounds, as long as the injury is new and the competition doctor agrees (see t.45.2)."
       }
     ],
+    "quotes": {
+      "t.45.2": "During the remainder of the same day, a fencer cannot be allowed a further break unless as a result of a different injury or other medical reason"
+    },
     "id": "5c8cfa49-d767-4867-81c5-992cfde547b9"
   },
   {
@@ -937,6 +962,9 @@
         "explanation": "This is incorrect. The fencer does not need to wait for the referee to signal the end of the full five minutes. They can resume the bout once they feel ready."
       }
     ],
+    "quotes": {
+      "t.45.1": "<...>Only the doctor and/or medical provider on duty can determine the length of time of treatment required when a medical time-out is granted."
+    },
     "id": "193bfc81-db97-486e-b1bf-cb14957a7f7f"
   }
 ]
