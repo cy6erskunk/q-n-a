@@ -966,5 +966,1374 @@
       "t.45.1": "<...>Only the doctor and/or medical provider on duty can determine the length of time of treatment required when a medical time-out is granted."
     },
     "id": "193bfc81-db97-486e-b1bf-cb14957a7f7f"
+  },
+  {
+    "question": "In which competition must the name and nationality appear on the back of the fencer's jacket?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "In all official FIE competitions",
+        "explanation": "The name and nationality must appear on the back of the jacket in all official FIE competitions. According to technical rule t.74, every fencer must appear with name and nationality on the back of the jacket."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only in World Championships and Olympic Games",
+        "explanation": "This is incorrect. The requirement applies to all official FIE competitions, not just World Championships and Olympic Games."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only in individual competitions",
+        "explanation": "This is incorrect. The requirement applies to both individual and team competitions in all official FIE events."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only in team competitions",
+        "explanation": "This is incorrect. The requirement applies to both individual and team competitions in all official FIE events."
+      }
+    ],
+    "quotes": {
+      "t.74": "For all official FIE competitions, every fencer must appear on the piste with clothing conforming to the rules as follows: 1) Name and nationality, in accordance with the rules, on the back of the jacket."
+    },
+    "id": "05fef5f0-96bf-48f1-aa8d-5c81cc47f379"
+  },
+  {
+    "question": "In which competitions is the wearing of national logos compulsory?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "In all official FIE competitions",
+        "explanation": "According to technical rule t.74, wearing the national uniform and logo is mandatory in all official FIE competitions."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only in World Cup team events",
+        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just World Cup team events."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only in individual World Cup events",
+        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just individual World Cup events."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only in Grand Prix competitions",
+        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just Grand Prix competitions."
+      }
+    ],
+    "quotes": {
+      "t.74": "For all official FIE competitions, every fencer must appear on the piste with clothing conforming to the rules as follows: 2) Wearing his national uniform and logo (cf. m.25.3)."
+    },
+    "id": "ee93abd6-6f44-4b15-bad6-d25c992b1ce6"
+  },
+  {
+    "question": "What penalty is applied if the name and nationality on the jacket of fencer are missing in a senior team World Cup competition?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Elimination from the competition",
+        "explanation": "According to technical rule t.74, if the name and nationality are missing, the referee will eliminate the fencer at fault from the event in question."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yellow card (warning)",
+        "explanation": "This is incorrect. The penalty is not a yellow card but elimination from the competition."
+      },
+      {
+        "isCorrect": false,
+        "text": "Red card (penalty hit)",
+        "explanation": "This is incorrect. The penalty is not a red card but elimination from the competition."
+      },
+      {
+        "isCorrect": false,
+        "text": "Black card (exclusion from the tournament)",
+        "explanation": "This is incorrect. The penalty is elimination from the event in question, not a black card exclusion from the entire tournament."
+      }
+    ],
+    "quotes": {
+      "t.74": "In case of violation of this rule, the referee will eliminate the fencer at fault from the event in question."
+    },
+    "id": "a4e4fc21-d6ae-421a-920b-6af4b7c99036"
+  },
+  {
+    "question": "When a complete team does not present themselves to the Referee at his first call, ten minutes before the time indicated to come on to the piste for the start, what is the penalty?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "The team is eliminated",
+        "explanation": "According to technical rule t.118.1, when a team does not present themselves at the referee's first call, ten minutes before the time indicated to come onto the piste, the team is eliminated."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yellow card to the team captain",
+        "explanation": "This is incorrect. The penalty is elimination of the team, not a yellow card to the team captain."
+      },
+      {
+        "isCorrect": false,
+        "text": "Red card to the team",
+        "explanation": "This is incorrect. The penalty is elimination of the team, not a red card."
+      },
+      {
+        "isCorrect": false,
+        "text": "The team starts with a penalty point in the first match",
+        "explanation": "This is incorrect. The penalty is elimination of the team, not starting with a penalty point."
+      }
+    ],
+    "quotes": {
+      "t.118.1": "When a fencer or complete team do not present themselves to the Referee at his first call, ten minutes before the time indicated to come onto the piste for the start of the pool or team match, or the start of the bouts of direct elimination (cf. Article t.66.1), the fencer or team concerned will be eliminated."
+    },
+    "id": "14ce3261-50fa-44c7-b547-71795b83d872"
+  },
+  {
+    "question": "During the competition, when pools have started, what penalty is indicated for a fencer who fails to appear on the piste when called by the referee?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "First call: Yellow card, Second call: Red card, Third call: Elimination from the competition",
+        "explanation": "According to technical rule t.119, a progressive penalty system is applied: first call - yellow card, second call - red card, third call - elimination from the competition."
+      },
+      {
+        "isCorrect": false,
+        "text": "Immediate elimination from the competition",
+        "explanation": "This is incorrect. The fencer is not immediately eliminated but is given three calls with progressive penalties."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yellow card followed immediately by a red card",
+        "explanation": "This is incorrect. The penalty sequence is yellow card on first call, red card on second call, and elimination on third call."
+      },
+      {
+        "isCorrect": false,
+        "text": "No penalty, the bout is postponed",
+        "explanation": "This is incorrect. Penalties are applied and the bout is not postponed for a fencer who fails to appear."
+      }
+    ],
+    "quotes": {
+      "t.119": "During a competition, individual or team, if a fencer does not present himself on the piste, ready to fence, when ordered to do so by the Referee: a. The fencer or team member not present will be penalised with a Yellow Card; b. A second call will be made, one minute after the first call, followed by a Red Card for the fencer or team member not present; c. A third and last call will be made, one minute after the second call, followed by elimination from the competition for the fencer not present in an individual competition or for the whole team in a team competition."
+    },
+    "id": "f2fed91c-636c-4a9f-8db9-7c41b832ce2f"
+  },
+  {
+    "question": "If a fencer appears on the piste without a protective under-plastron (offence of the first group) and with a weapon without a weapon control mark (second group offence), with which fault does the referee begin?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "The referee penalizes the least serious fault first (first group offence - yellow card for no under-plastron)",
+        "explanation": "According to technical rule t.158, if a referee has to penalise a fencer who has committed several faults at the same time, he should penalise the least serious fault first."
+      },
+      {
+        "isCorrect": false,
+        "text": "The referee penalizes the more serious fault first (second group offence - red card for no weapon control mark)",
+        "explanation": "This is incorrect. The rules specify that the least serious fault should be penalized first."
+      },
+      {
+        "isCorrect": false,
+        "text": "The referee issues both penalties simultaneously (yellow and red cards)",
+        "explanation": "This is incorrect. The rules specify that the least serious fault should be penalized first, not simultaneously."
+      },
+      {
+        "isCorrect": false,
+        "text": "The referee penalizes only the more serious fault and ignores the lesser one",
+        "explanation": "This is incorrect. The referee must penalize both faults, starting with the least serious."
+      }
+    ],
+    "quotes": {
+      "t.158": "There are three types of penalty to be applied in the cases indicated in the table in Article t.170. If a referee has to penalise a fencer who has committed several faults at the same time, he should penalise the least serious fault first."
+    },
+    "id": "2282472d-107d-49a1-85ee-224c66d96593"
+  },
+  {
+    "question": "What are the width and length of pistes?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Width: 1.5 meters, Length: 14 meters",
+        "explanation": "According to technical rules t.17.1 and t.18, the combat area of the piste is 1.50 meters wide and 14 meters long."
+      },
+      {
+        "isCorrect": false,
+        "text": "Width: 2 meters, Length: 14 meters",
+        "explanation": "This is incorrect. The width is 1.5 meters, not 2 meters."
+      },
+      {
+        "isCorrect": false,
+        "text": "Width: 1.5 meters, Length: 12 meters",
+        "explanation": "This is incorrect. The length is 14 meters, not 12 meters."
+      },
+      {
+        "isCorrect": false,
+        "text": "Width: 1.8 meters, Length: 14 meters",
+        "explanation": "This is incorrect. The width is 1.5 meters, not 1.8 meters."
+      }
+    ],
+    "quotes": {
+      "t.17.1": "That portion of the field of play which is used for fencing is called the piste.",
+      "t.18": "1. The combat area of the piste is 1.50 meters wide. 2. The piste is 14 metres long, with a total tolerance on the whole length of 4 cm, so that each competitor, being placed at 2 metres from the centre line, has at his disposal for retreating a total distance of 5 metres without it being necessary for him to cross the rear limit of the piste with both feet."
+    },
+    "id": "57e676fe-5bb3-427b-bb87-684ea2f1b095"
+  },
+  {
+    "question": "Are the conductive safety borders, alongside the piste in the final a part of the pistes?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, they are part of the piste",
+        "explanation": "This is incorrect. According to technical rule t.18.3, the conductive safety borders do not form part of the piste."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, they are not part of the piste",
+        "explanation": "According to technical rule t.18.3, the conductive safety borders do not form part of the piste."
+      },
+      {
+        "isCorrect": false,
+        "text": "They are considered part of the piste only in team competitions",
+        "explanation": "This is incorrect. The conductive safety borders do not form part of the piste in any competition."
+      },
+      {
+        "isCorrect": false,
+        "text": "They are considered part of the piste only for the finals",
+        "explanation": "This is incorrect. The conductive safety borders do not form part of the piste in any competition, including finals."
+      }
+    ],
+    "quotes": {
+      "t.18.3": "The conductive safety borders, indicated in Fig. 1, the diagram of the pistes for poules, DE, finals and semi-finals, including the pistes already having safety borders, do not form part of the piste."
+    },
+    "id": "20e9154c-99af-4930-9649-106f9168f07b"
+  },
+  {
+    "question": "If both fencers are warming up at an official FIE competition venue, what clothing should they wear?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Fencing clothing and equipment that conforms to the FIE regulations",
+        "explanation": "According to technical rule t.20.2, it is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition to wear fencing clothing and equipment which conforms with the FIE regulations."
+      },
+      {
+        "isCorrect": false,
+        "text": "At least a mask and gloves",
+        "explanation": "This is incorrect. The rule requires full fencing clothing and equipment conforming to FIE regulations, not just a mask and gloves."
+      },
+      {
+        "isCorrect": false,
+        "text": "Any protective clothing, not necessarily conforming to FIE regulations",
+        "explanation": "This is incorrect. The clothing and equipment must conform to FIE regulations."
+      },
+      {
+        "isCorrect": false,
+        "text": "Warm-up suits are sufficient",
+        "explanation": "This is incorrect. The rule requires fencing clothing and equipment conforming to FIE regulations, not warm-up suits."
+      }
+    ],
+    "quotes": {
+      "t.20.2": "It is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition (including in the training halls linked to the competition) to wear fencing clothing and equipment which conforms with the FIE regulations."
+    },
+    "id": "139e416f-0640-4dee-a20c-de0be7fefa91"
+  },
+  {
+    "question": "What is the minimum a fencer should wear if he is having a lesson at an FIE competition venue?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "At least a mask and a glove",
+        "explanation": "According to technical rule t.20.2, any fencer taking a lesson must wear at least a mask and a glove."
+      },
+      {
+        "isCorrect": false,
+        "text": "Complete fencing equipment conforming to FIE regulations",
+        "explanation": "This is incorrect. While complete equipment is required for warming up with another fencer, for taking a lesson the minimum requirement is a mask and a glove."
+      },
+      {
+        "isCorrect": false,
+        "text": "A mask, a glove, and a fencing jacket",
+        "explanation": "This is incorrect. The minimum requirement for taking a lesson is only a mask and a glove."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only a mask",
+        "explanation": "This is incorrect. The minimum requirement for taking a lesson is a mask and a glove, not just a mask."
+      }
+    ],
+    "quotes": {
+      "t.20.2": "Any fencer taking a lesson must wear at least a mask and a glove."
+    },
+    "id": "25d3f244-4b3d-4494-9343-3753444e3123"
+  },
+  {
+    "question": "Can a coach give a lesson without a mask and without a plastron at an FIE competition venue?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, coaches are exempt from protective equipment requirements",
+        "explanation": "This is incorrect. According to technical rule t.20.2, any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove and a mask conforming with the regulations."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, a coach must wear at least a fencing master's plastron, a fencing glove, and a mask",
+        "explanation": "According to technical rule t.20.2, any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove and a mask conforming with the regulations."
+      },
+      {
+        "isCorrect": false,
+        "text": "A coach only needs to wear a mask",
+        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, and a mask."
+      },
+      {
+        "isCorrect": false,
+        "text": "A coach only needs to wear a plastron",
+        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, and a mask."
+      }
+    ],
+    "quotes": {
+      "t.20.2": "Any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove and a mask conforming with the regulations."
+    },
+    "id": "b2808a6a-e1db-42c2-95a8-88348f053572"
+  },
+  {
+    "question": "In the case of a simple corps à corps (contact between two fencers), what should the referee do?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Stop the bout",
+        "explanation": "According to technical rule t.25.1, when corps à corps exists (when the two competitors are in contact), the Referee must stop the bout."
+      },
+      {
+        "isCorrect": false,
+        "text": "Let the bout continue",
+        "explanation": "This is incorrect. The referee must stop the bout when corps à corps exists."
+      },
+      {
+        "isCorrect": false,
+        "text": "Issue a yellow card to both fencers",
+        "explanation": "This is incorrect. Simple corps à corps does not result in a penalty card, but the referee must stop the bout."
+      },
+      {
+        "isCorrect": false,
+        "text": "Award a hit against the fencer who caused the corps à corps",
+        "explanation": "This is incorrect. Simple corps à corps does not result in a hit being awarded, but the referee must stop the bout."
+      }
+    ],
+    "quotes": {
+      "t.25.1": "Corps à corps is said to exist when the two competitors are in contact; when this occurs the Referee must stop the bout (cf. t.32, t.26)."
+    },
+    "id": "d49d3161-ba6e-4a50-a4f2-c51ecf3d4e2a"
+  },
+  {
+    "question": "Can an intentional corps a corps to avoid a hit be punishable, even if the fencer who has been subjected to the fault succeeded in scoring a hit?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, the fencer at fault is penalized and any hit scored by this fencer is annulled",
+        "explanation": "According to technical rule t.25.2, it is forbidden for a fencer to cause corps à corps intentionally to avoid being hit. If such an offence occurs, the Referee will penalise the fencer at fault and any hit scored by the fencer at fault is annulled."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, if the other fencer scored a hit, no penalty is applied",
+        "explanation": "This is incorrect. The fencer who causes intentional corps à corps is penalized regardless of whether the opponent scored a hit or not."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only if the referee determines that the hit of the fencer subjected to the fault was valid",
+        "explanation": "This is incorrect. The penalty for causing intentional corps à corps is applied independently of whether a hit was scored by either fencer."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only if the hit scored by the fencer who caused the corps à corps was on target",
+        "explanation": "This is incorrect. Any hit scored by the fencer who caused intentional corps à corps is annulled, whether on target or not."
+      }
+    ],
+    "quotes": {
+      "t.25.2": "At all three weapons it is forbidden for a fencer to cause corps à corps intentionally to avoid being hit, or to jostle his opponent. Should such an offence occur, the Referee will penalise the fencer at fault as specified in Articles t.158-162, t.165, t.170, for the offences of the 1st group and any hit scored by the fencer at fault is annulled."
+    },
+    "id": "449860c5-c612-4e5c-bca8-a9bd73ac4eb9"
+  },
+  {
+    "question": "Is ducking with the non-sword hand and the knee of rear leg touching the piste permitted?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, it is permitted",
+        "explanation": "According to technical rule t.27.1, displacing the target and ducking are allowed even if during the action the unarmed hand and/or the knee of the rear leg comes into contact with the piste."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, it is forbidden and results in a yellow card",
+        "explanation": "This is incorrect. Ducking with the non-sword hand and the knee of rear leg touching the piste is permitted."
+      },
+      {
+        "isCorrect": false,
+        "text": "It is permitted only in foil and epee, but not in sabre",
+        "explanation": "This is incorrect. This action is permitted in all three weapons."
+      },
+      {
+        "isCorrect": false,
+        "text": "It is only permitted if the fencer does not lose balance",
+        "explanation": "This is incorrect. The rule permits this action without such conditions."
+      }
+    ],
+    "quotes": {
+      "t.27.1": "Displacing the target and ducking are allowed even if during the action the unarmed hand and/or the knee of the rear leg comes into contact with the piste."
+    },
+    "id": "d2475f34-c234-4067-b9b1-3e3d449839c3"
+  },
+  {
+    "question": "Is a hit made after passing his opponent by the competitor who has made the passing movement valid?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, all hits made after passing are valid",
+        "explanation": "This is incorrect. According to technical rule t.28.2, a hit made after passing the opponent by the competitor who has made the passing movement is annulled."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, such a hit is annulled",
+        "explanation": "According to technical rule t.28.2, a hit made after passing the opponent by the competitor who has made the passing movement is annulled."
+      },
+      {
+        "isCorrect": false,
+        "text": "It is valid only if the fencer announces that he has passed the opponent",
+        "explanation": "This is incorrect. A hit made after passing is annulled regardless of any announcement."
+      },
+      {
+        "isCorrect": false,
+        "text": "It is valid only in epee",
+        "explanation": "This is incorrect. The rule applies to all three weapons."
+      }
+    ],
+    "quotes": {
+      "t.28.2": "When hits are made as a fencer passes his opponent, the hit made immediately is valid; a hit made after passing his opponent by the competitor who has made the passing movement is annulled, but the hit made immediately, even when turning round, by the competitor who has been subjected to the offensive action, is valid."
+    },
+    "id": "e289fabe-7eb4-4a6f-a772-b803342f30d2"
+  },
+  {
+    "question": "Is the hit made immediately, even when turning round, by the competitor who has been subjected to the offensive action valid?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, such a hit is valid",
+        "explanation": "According to technical rule t.28.2, a hit made immediately, even when turning round, by the competitor who has been subjected to the offensive action, is valid."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, such a hit is annulled",
+        "explanation": "This is incorrect. The hit is valid according to the rules."
+      },
+      {
+        "isCorrect": false,
+        "text": "It is valid only if made within one second",
+        "explanation": "This is incorrect. The rule states the hit is valid if made 'immediately', without specifying a time limit."
+      },
+      {
+        "isCorrect": false,
+        "text": "It is valid only in sabre",
+        "explanation": "This is incorrect. The rule applies to all three weapons."
+      }
+    ],
+    "quotes": {
+      "t.28.2": "When hits are made as a fencer passes his opponent, the hit made immediately is valid; a hit made after passing his opponent by the competitor who has made the passing movement is annulled, but the hit made immediately, even when turning round, by the competitor who has been subjected to the offensive action, is valid."
+    },
+    "id": "920c2936-ffc9-4b2b-b1e9-a622ad5b2544"
+  },
+  {
+    "question": "At which stage in the individual competition does the use of judges become mandatory in individual events?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "For the final (4 fencers)",
+        "explanation": "According to technical rule t.48.2, the judges are obligatory for all individual competition finals (4 fencers)."
+      },
+      {
+        "isCorrect": false,
+        "text": "From the table of 64",
+        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers)."
+      },
+      {
+        "isCorrect": false,
+        "text": "From the table of 8",
+        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers)."
+      },
+      {
+        "isCorrect": false,
+        "text": "For all direct elimination bouts",
+        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers)."
+      }
+    ],
+    "quotes": {
+      "t.48.2": "The judges are obligatory for all individual competition finals (4 fencers) and for the final (2 teams) of team events."
+    },
+    "id": "ab8c5e34-8e36-4c6a-a460-6748069ae988"
+  },
+  {
+    "question": "In the event of a request for a break for an injury deemed unjustified by the doctor, should the fencer at fault be punished?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, with a red card (penalty hit)",
+        "explanation": "According to technical rule t.45.3, if a fencer demands a break which is deemed by the delegate of the Medical Commission or the doctor on duty to be unjustified, the Referee will penalise that fencer as specified in Articles t.158-162, t.166, t.170 for the offences of the 2nd group, which means a red card (penalty hit)."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, with a yellow card (warning)",
+        "explanation": "This is incorrect. The penalty is a red card (penalty hit) for a 2nd group offense, not a yellow card."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, with a black card (exclusion)",
+        "explanation": "This is incorrect. The penalty is a red card (penalty hit) for a 2nd group offense, not a black card."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, there is no penalty",
+        "explanation": "This is incorrect. The fencer is penalized with a red card (penalty hit) for a 2nd group offense."
+      }
+    ],
+    "quotes": {
+      "t.45.3": "Should a fencer demand a break which is deemed by the delegate of the Medical Commission or, in his absence, by the doctor on duty to be unjustified, the Referee will penalise that fencer as specified in Articles t.158-162, t.166, t.170 for the offences of the 2nd group.",
+      "t.166": "Every offence in the Second Group, including the first infringement, is penalised by a RED CARD (penalty hit)."
+    },
+    "id": "2d3b08b4-f9c6-4079-bf86-5e77dc45c151"
+  },
+  {
+    "question": "Can a hit that clearly arrives on a valid target, but which is not registered by the scoring apparatus, as either valid or invalid, be counted?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, the referee can award the hit at their discretion",
+        "explanation": "This is incorrect. According to technical rule t.54.2, only the indications of the electrical apparatus can be taken into consideration for judging hits. Under no circumstances can the Referee declare a competitor to be hit unless the hit has been properly registered by the apparatus (except in cases specified in the rules)."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, except in specific cases provided for in the rules",
+        "explanation": "According to technical rule t.54.2, only the indications of the electrical apparatus can be taken into consideration for judging hits. The Referee cannot declare a competitor to be hit unless the hit has been properly registered by the apparatus (except in cases specifically provided for in the rules, such as Article t.79 or when a penalty hit has been awarded)."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only if two judges confirm having seen the hit",
+        "explanation": "This is incorrect. The rules state that only the indications of the electrical apparatus can be taken into consideration, with specific exceptions."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only in the final phase of the competition",
+        "explanation": "This is incorrect. The rules apply throughout the competition, not just in the final phase."
+      }
+    ],
+    "quotes": {
+      "t.54.2": "Only the indications of the electrical apparatus as indicated by its own lamps or by the extension lamps can be taken into consideration for judging hits. Under no circumstances can the Referee declare a competitor to be hit unless the hit has been properly registered by the apparatus (except as provided for in Article t.79 or when a penalty hit has been awarded)."
+    },
+    "id": "bae60b32-b8af-4885-9750-f9ad277ac0d3"
+  },
+  {
+    "question": "Who can ask the referee for a video review in a team match?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Only the fencer on the piste",
+        "explanation": "According to technical rule t.60, both in team and individual events, only the fencer on the piste has the right to request a video review."
+      },
+      {
+        "isCorrect": false,
+        "text": "The team captain",
+        "explanation": "This is incorrect. Only the fencer on the piste can request a video review, not the team captain."
+      },
+      {
+        "isCorrect": false,
+        "text": "Any member of the team",
+        "explanation": "This is incorrect. Only the fencer on the piste can request a video review, not any member of the team."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencer or the team captain",
+        "explanation": "This is incorrect. Only the fencer on the piste can request a video review."
+      }
+    ],
+    "quotes": {
+      "t.60": "Both in team and individual events, only the fencer on the piste has the right to request a video review."
+    },
+    "id": "843233e1-c595-4878-a40b-7029a5b7173f"
+  },
+  {
+    "question": "Apart from a request from one of the fencers, does the referee have other possibilities for consulting the video?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, the referee can consult the video at any time before making a decision",
+        "explanation": "According to technical rule t.62.3, at all weapons and at any time, the referee may consult his monitor before making a decision."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, the referee can only consult the video upon request from a fencer",
+        "explanation": "This is incorrect. The referee can consult the video at any time before making a decision."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only in case of equal scores at the end of a match for the decisive hit",
+        "explanation": "This is incorrect. While the referee must use video-refereeing in this case, they can also consult the video at any other time."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only if the video consultant requests it",
+        "explanation": "This is incorrect. While the video consultant can request the referee to use video-refereeing, the referee can also consult the video at their own initiative."
+      }
+    ],
+    "quotes": {
+      "t.62.3": "At all weapons and at any time, the referee may consult his monitor before making a decision."
+    },
+    "id": "3e173fbd-d187-4719-ab44-a85f86d14966"
+  },
+  {
+    "question": "Can the referee consult the video a second time about the same action?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, the referee can consult the video as many times as needed",
+        "explanation": "This is incorrect. According to technical rule t.62.5, once the referee, together with the video consultant, has analyzed the action, the decision given is final and no other review of the same action can be requested."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, once the referee has made a decision after consulting the video, it is final",
+        "explanation": "According to technical rule t.62.5, once the referee, together with the video consultant, has analyzed the action, the decision given is final and no other review of the same action can be requested."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only if new evidence becomes available",
+        "explanation": "This is incorrect. The rules state that once a decision is made after video review, no other review of the same action can be requested under any circumstances."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only if the video consultant disagrees with the referee's decision",
+        "explanation": "This is incorrect. The decision made after video review is final, regardless of any disagreement."
+      }
+    ],
+    "quotes": {
+      "t.62.5": "Once the referee, together with the video consultant, has analysed the action, whether it is: - at the referee's initiative - at the request of the athlete - in case of a tied score, before the decisive hit - at the video consultant's request, the decision given by the referee is final and no other review of the same action can be requested."
+    },
+    "id": "74f54627-784a-4bae-8e62-36195f08f1fb"
+  },
+  {
+    "question": "A fencer who, intentionally, causes the apparatus to register a hit on any surface other than that of his opponent",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Will be penalized with a Red Card (penalty hit for a 2nd group offense)",
+        "explanation": "According to technical rule t.55.2, a competitor who, intentionally, causes the apparatus to register a hit by placing his point on the ground or on any surface other than that of his opponent will be penalised as specified in Articles t.158-162, t.166, t.170, for the offences of the 2nd group, which means a red card (penalty hit)."
+      },
+      {
+        "isCorrect": false,
+        "text": "Will be penalized with a Yellow Card (warning for a 1st group offense)",
+        "explanation": "This is incorrect. The penalty is a red card for a 2nd group offense, not a yellow card."
+      },
+      {
+        "isCorrect": false,
+        "text": "Will be penalized with a Black Card (exclusion from the competition)",
+        "explanation": "This is incorrect. The penalty is a red card for a 2nd group offense, not a black card."
+      },
+      {
+        "isCorrect": false,
+        "text": "Will not be penalized, but the hit will be annulled",
+        "explanation": "This is incorrect. The fencer will be penalized with a red card for a 2nd group offense, and any hit registered will be annulled."
+      }
+    ],
+    "quotes": {
+      "t.55.2": "A competitor who, intentionally, causes the apparatus to register a hit by placing his point on the ground or on any surface other than that of his opponent will be penalised as specified in Articles t.158-162, t.166, t.170, for the offences of the 2nd group.",
+      "t.166": "Every offence in the Second Group, including the first infringement, is penalised by a RED CARD (penalty hit)."
+    },
+    "id": "6d52487f-6f5c-41e4-bf20-8e4d3dbe947f"
+  },
+  {
+    "question": "Can a fencer who has been hit ask for the hit to be cancelled because of a failure of equipment if he made any modifications?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, if the modifications did not affect the functioning of the equipment",
+        "explanation": "This is incorrect. According to technical rule t.56.3, a competitor who makes any modification in or who changes his equipment without being asked by the Referee to do so, before the Referee has given his decision, loses all right to the annulment of the hit."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, such a fencer loses all right to the annulment of the hit",
+        "explanation": "According to technical rule t.56.3, a competitor who makes any modification in or who changes his equipment without being asked by the Referee to do so, before the Referee has given his decision, loses all right to the annulment of the hit."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only if the modification was made after the hit was registered",
+        "explanation": "This is incorrect. Any modification made before the referee gives their decision results in losing the right to annulment of the hit."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only with the agreement of the opponent",
+        "explanation": "This is incorrect. The rule is clear that any unauthorized modification results in losing the right to annulment of the hit, regardless of the opponent's agreement."
+      }
+    ],
+    "quotes": {
+      "t.56.3": "A competitor who makes any modification in or who changes his equipment without being asked by the Referee to do so, before the Referee has given his decision, loses all right to the annulment of the hit."
+    },
+    "id": "a1babe45-fbf0-493d-969c-c77ff0184aa5"
+  },
+  {
+    "question": "After the bout has effectively recommenced, may a fencer ask for a hit to be annulled due to failure of equipment?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, if the failure occurred before the recommencement",
+        "explanation": "This is incorrect. According to technical rule t.56.4, if the bout has effectively recommenced, a competitor cannot claim the annulment of a hit awarded against him before the said recommencement of the bout."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, a fencer cannot claim the annulment of a hit awarded before the recommencement of the bout",
+        "explanation": "According to technical rule t.56.4, if the bout has effectively recommenced, a competitor cannot claim the annulment of a hit awarded against him before the said recommencement of the bout."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only within 10 seconds of the recommencement",
+        "explanation": "This is incorrect. Once the bout has recommenced, the fencer cannot claim annulment of a hit awarded before the recommencement, regardless of timing."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, if the referee agrees that the equipment was faulty",
+        "explanation": "This is incorrect. The rule states that once the bout has recommenced, no annulment can be claimed for hits awarded before the recommencement, regardless of the condition of the equipment."
+      }
+    ],
+    "quotes": {
+      "t.56.4": "If the bout has effectively recommenced a competitor cannot claim the annulment of a hit awarded against him before the said recommencement of the bout."
+    },
+    "id": "ed0a7a84-5df0-472c-a650-fa8a81cdd0b1"
+  },
+  {
+    "question": "How many times must the referee observe a repeated failure of equipment before annulling a hit?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "At least once",
+        "explanation": "According to technical rule t.56.6, it is not necessary that the failure found should repeat itself each time a test is made; but it is essential that the fault should be observed by the Referee without the possibility of doubt at least once during the tests made by him or under his supervision."
+      },
+      {
+        "isCorrect": false,
+        "text": "At least twice",
+        "explanation": "This is incorrect. The rule states that the fault must be observed at least once, not twice."
+      },
+      {
+        "isCorrect": false,
+        "text": "At least three times",
+        "explanation": "This is incorrect. The rule states that the fault must be observed at least once, not three times."
+      },
+      {
+        "isCorrect": false,
+        "text": "Every time a test is made",
+        "explanation": "This is incorrect. The rule specifically states that it is not necessary that the failure should repeat itself each time a test is made."
+      }
+    ],
+    "quotes": {
+      "t.56.6": "It is not necessary that the failure found should repeat itself each time a test is made; but it is essential that the fault should be observed by the Referee without the possibility of doubt at least once during the tests made by him or under his supervision."
+    },
+    "id": "aeed5e55-7fe0-457f-8a42-056123faec1b"
+  },
+  {
+    "question": "When a competitor against whom a hit has been registered has broken his blade clearly after the hit has been registered, must the referee cancel the hit?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, the hit must be cancelled",
+        "explanation": "This is incorrect. According to technical rule t.56.7, when a competitor against whom a hit has been registered has broken his blade, the hit must be annulled unless the breaking of the blade has occurred clearly after the hit has been registered."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, the hit is not cancelled",
+        "explanation": "According to technical rule t.56.7, when a competitor against whom a hit has been registered has broken his blade, the hit must be annulled unless the breaking of the blade has occurred clearly after the hit has been registered. In this case, the hit is not cancelled since the break occurred after the hit was registered."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only if the blade broke due to a faulty action",
+        "explanation": "This is incorrect. The timing of the break is what matters, not the cause. If the break occurs clearly after the hit is registered, the hit is not cancelled."
+      },
+      {
+        "isCorrect": false,
+        "text": "The referee decides at their discretion",
+        "explanation": "This is incorrect. The rule provides clear guidance: if the break occurs clearly after the hit is registered, the hit is not cancelled."
+      }
+    ],
+    "quotes": {
+      "t.56.7": "When a competitor against whom a hit has been registered has broken his blade, the hit must be annulled unless the breaking of the blade has occurred clearly after the hit has been registered."
+    },
+    "id": "158affd7-6740-4d8c-b4d7-60c6b44d7961"
+  },
+  {
+    "question": "When a competitor against whom a hit has been registered has broken his blade during the action, must the referee cancel the hit?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, the hit must be cancelled",
+        "explanation": "According to technical rule t.56.7, when a competitor against whom a hit has been registered has broken his blade, the hit must be annulled unless the breaking of the blade has occurred clearly after the hit has been registered. In this case, since the blade broke during the action, and not clearly after the hit was registered, the hit must be annulled."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, the hit is not cancelled",
+        "explanation": "This is incorrect. The hit must be annulled if the breaking of the blade occurred during the action, not clearly after the hit was registered."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only if the blade broke before the hit was registered",
+        "explanation": "This is incorrect. The rule states that the hit must be annulled unless the breaking of the blade occurred clearly after the hit was registered. If it broke during the action, the hit is annulled."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only if the broken blade caused a malfunction in the electrical apparatus",
+        "explanation": "This is incorrect. The rule does not require a malfunction in the electrical apparatus; it only considers the timing of the blade breaking relative to the hit registration."
+      }
+    ],
+    "quotes": {
+      "t.56.7": "When a competitor against whom a hit has been registered has broken his blade, the hit must be annulled unless the breaking of the blade has occurred clearly after the hit has been registered."
+    },
+    "id": "64e45756-462d-4e34-afe0-4be9871f46c1"
+  },
+  {
+    "question": "How many times may the fencer appeal for video-refereeing in direct elimination bout?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Two possible appeals",
+        "explanation": "According to technical rule t.61.1, in direct elimination bouts, the fencer has two possible appeals for video-refereeing."
+      },
+      {
+        "isCorrect": false,
+        "text": "One possible appeal",
+        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals."
+      },
+      {
+        "isCorrect": false,
+        "text": "Three possible appeals",
+        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals."
+      },
+      {
+        "isCorrect": false,
+        "text": "Unlimited appeals",
+        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals."
+      }
+    ],
+    "quotes": {
+      "t.61.1": "In direct elimination bouts, the fencer has two possible appeals."
+    },
+    "id": "ecba680a-f731-4a0d-9075-b4cfb471e847"
+  },
+  {
+    "question": "In the bout/relay of a team match, how many times may a fencer appeal for video-refereeing?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "One possible appeal per relay",
+        "explanation": "According to technical rule t.61.2, in team events, the fencers have one possible right to appeal to the video-refereeing per relay."
+      },
+      {
+        "isCorrect": false,
+        "text": "Two possible appeals per relay",
+        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay."
+      },
+      {
+        "isCorrect": false,
+        "text": "One possible appeal per match",
+        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay, not just one per match."
+      },
+      {
+        "isCorrect": false,
+        "text": "Three possible appeals per relay",
+        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay."
+      }
+    ],
+    "quotes": {
+      "t.61.2": "In team events, the fencers have one possible right to appeal to the video-refereeing per relay."
+    },
+    "id": "7980291d-3f39-461e-a7d6-e41b6aecae9f"
+  },
+  {
+    "question": "When may a fencer retain the right of appeal for video-refereeing in the same bout?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "If the referee agrees with the fencer who appealed",
+        "explanation": "According to technical rule t.61.1, if the referee agrees with the fencer who appealed for the video-refereeing, the latter is entitled to retain the right of appeal."
+      },
+      {
+        "isCorrect": false,
+        "text": "If the video consultant disagrees with the referee",
+        "explanation": "This is incorrect. The right to retain the appeal depends on whether the referee agrees with the fencer who appealed, not on disagreement between the referee and video consultant."
+      },
+      {
+        "isCorrect": false,
+        "text": "If the opponent agrees with the appeal",
+        "explanation": "This is incorrect. The right to retain the appeal depends on whether the referee agrees with the fencer who appealed, not on the opponent's agreement."
+      },
+      {
+        "isCorrect": false,
+        "text": "If the fencer scores a hit after the appeal",
+        "explanation": "This is incorrect. Scoring a hit after the appeal has no bearing on retaining the right of appeal."
+      }
+    ],
+    "quotes": {
+      "t.61.1": "Should the referee agree with the fencer who appealed for the video-refereeing, the latter is entitled to retain the right of appeal."
+    },
+    "id": "b5ff16da-2218-44b7-b7c1-535fd9968487"
+  },
+  {
+    "question": "What does the national uniform include?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "The national colors, the national logo, and the name and nationality on the back of the jacket",
+        "explanation": "According to technical rule t.74, the national uniform includes wearing the national colors, the national logo, and having the name and nationality on the back of the jacket."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only the name on the back of the jacket",
+        "explanation": "This is incorrect. The national uniform includes more than just the name on the back."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only the national colors on the sleeve",
+        "explanation": "This is incorrect. The national uniform includes the national colors, the national logo, and the name and nationality on the back."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only the national logo on the mask",
+        "explanation": "This is incorrect. The national uniform includes the national colors, the national logo, and the name and nationality on the back of the jacket."
+      }
+    ],
+    "quotes": {
+      "t.74": "For all official FIE competitions, every fencer must appear on the piste with clothing conforming to the rules as follows: 1) Name and nationality, in accordance with the rules, on the back of the jacket. 2) Wearing his national uniform and logo (cf. m.25.3)."
+    },
+    "id": "07b11d2a-5c8c-4a51-b447-6f4f0ccf489a"
+  },
+  {
+    "question": "May the referees combine their function with other activity during the tournament?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Yes, they can serve as team captains or coaches",
+        "explanation": "This is incorrect. According to technical rule t.46.2, referees may not combine their function with any other activity during the tournament."
+      },
+      {
+        "isCorrect": true,
+        "text": "No, they may not combine their function with any other activity",
+        "explanation": "According to technical rule t.46.2, referees may not combine their function with any other activity during the tournament, such as member of the Directoire Technique, team captain, official delegate of their national federation, trainer, etc."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only as official delegates of their national federation",
+        "explanation": "This is incorrect. The rule explicitly prohibits combining the referee function with activities such as being an official delegate of their national federation."
+      },
+      {
+        "isCorrect": false,
+        "text": "Yes, but only as members of the Directoire Technique",
+        "explanation": "This is incorrect. The rule explicitly prohibits combining the referee function with activities such as being a member of the Directoire Technique."
+      }
+    ],
+    "quotes": {
+      "t.46.2": "Referees may not combine their function with any other activity during the tournament, such as member of the Directoire Technique, team captain, official delegate of their national federation, trainer, etc."
+    },
+    "id": "51df5483-b56e-4e93-9b3a-a9176f933489"
+  },
+  {
+    "question": "Who has the right in team events to make an appeal to Referee against the decision of the Referee?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Only the team captain",
+        "explanation": "According to technical rule t.130, in team events, only the team captain has the right to be to approach the Referee and/or the refereeing delegates in order to decide with them any technical matters or to register protests."
+      },
+      {
+        "isCorrect": false,
+        "text": "Any member of the team",
+        "explanation": "This is incorrect. Only the team captain has this right in team events."
+      },
+      {
+        "isCorrect": false,
+        "text": "The team captain or the coach",
+        "explanation": "This is incorrect. Only the team captain has this right, not the coach."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencer involved in the disputed action",
+        "explanation": "This is incorrect. Only the team captain has this right, not individual fencers."
+      }
+    ],
+    "quotes": {
+      "t.130": "In team events, only the team captain has the right to be to approach the Referee and/or the refereeing delegates in order to decide with them any technical matters or to register protests."
+    },
+    "id": "de53974b-87d1-45fd-a553-b08a747254f9"
+  },
+  {
+    "question": "Who has the right in individual events to make an appeal to Referee against the decision of the Referee?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "The fencer",
+        "explanation": "According to technical rule t.173.1, in individual events, an appeal against the referee's decision must be made by the fencer."
+      },
+      {
+        "isCorrect": false,
+        "text": "The coach",
+        "explanation": "This is incorrect. The appeal must be made by the fencer, not the coach."
+      },
+      {
+        "isCorrect": false,
+        "text": "The team captain",
+        "explanation": "This is incorrect. In individual events, the appeal must be made by the fencer, not the team captain."
+      },
+      {
+        "isCorrect": false,
+        "text": "Any official of the fencer's federation",
+        "explanation": "This is incorrect. The appeal must be made by the fencer, not any official of their federation."
+      }
+    ],
+    "quotes": {
+      "t.173": "This appeal must be made: 1) in individual events, by the fencer,"
+    },
+    "id": "bfcc1f76-c672-4db7-b46c-554a77c460e2"
+  },
+  {
+    "question": "What is the fencing time?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "The time required to perform one simple fencing action",
+        "explanation": "According to technical rule t.8, fencing time is the time required to perform one simple fencing action."
+      },
+      {
+        "isCorrect": false,
+        "text": "The duration of a bout",
+        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not the entire bout."
+      },
+      {
+        "isCorrect": false,
+        "text": "The time allowed for a fencer to return to the on-guard position",
+        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not returning to the on-guard position."
+      },
+      {
+        "isCorrect": false,
+        "text": "The total time a fencer spends in a competition",
+        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not the entire competition time."
+      }
+    ],
+    "quotes": {
+      "t.8": "Fencing time is the time required to perform one simple fencing action."
+    },
+    "id": "5d27eb27-e44f-47ca-b9c4-7d037e555ad3"
+  },
+  {
+    "question": "How many appeals for video-refereeing has the fencer in the individual events?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "One possible appeal in all bouts",
+        "explanation": "This is incorrect. The number of appeals depends on the stage of the competition."
+      },
+      {
+        "isCorrect": true,
+        "text": "In pools, one possible appeal during each bout; in direct elimination bouts, two possible appeals",
+        "explanation": "According to technical rule t.61.1, in the individual events, the fencer has: - in pools, one possible appeal during each bout; - in direct elimination bouts, two possible appeals."
+      },
+      {
+        "isCorrect": false,
+        "text": "Two possible appeals in all bouts",
+        "explanation": "This is incorrect. In pools, the fencer has one appeal per bout, and in direct elimination, two appeals."
+      },
+      {
+        "isCorrect": false,
+        "text": "Three possible appeals in all bouts",
+        "explanation": "This is incorrect. In pools, the fencer has one appeal per bout, and in direct elimination, two appeals."
+      }
+    ],
+    "quotes": {
+      "t.61.1": "In the individual events, the fencer has: - in pools, one possible appeal during each bout; - in direct elimination bouts, two possible appeals."
+    },
+    "id": "bcc5952e-f703-4f51-9b9f-5a779b35650c"
+  },
+  {
+    "question": "Which of the actions below is defensive?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Parry",
+        "explanation": "According to technical rule t.9.2, the defensive actions are the parries. The parry is the defensive action made with the weapon to prevent an offensive action arriving."
+      },
+      {
+        "isCorrect": false,
+        "text": "Attack",
+        "explanation": "This is incorrect. The attack is an offensive action, not defensive."
+      },
+      {
+        "isCorrect": false,
+        "text": "Riposte",
+        "explanation": "This is incorrect. The riposte is an offensive action, not defensive."
+      },
+      {
+        "isCorrect": false,
+        "text": "Counter-riposte",
+        "explanation": "This is incorrect. The counter-riposte is an offensive action, not defensive."
+      }
+    ],
+    "quotes": {
+      "t.9.2": "The defensive actions are the parries. The parry is the defensive action made with the weapon to prevent an offensive action arriving."
+    },
+    "id": "0a354ac9-18b7-466f-b08c-0d40a5008820"
+  },
+  {
+    "question": "Which of the actions below is offensive?",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "Parry",
+        "explanation": "This is incorrect. The parry is a defensive action, not offensive."
+      },
+      {
+        "isCorrect": true,
+        "text": "Riposte",
+        "explanation": "According to technical rule t.9.1, the offensive actions are the attack, the riposte and the counter-riposte. The riposte is the offensive action made by the fencer who has parried the attack."
+      },
+      {
+        "isCorrect": false,
+        "text": "Circular parry",
+        "explanation": "This is incorrect. A circular parry (counter-parry) is a defensive action, not offensive."
+      },
+      {
+        "isCorrect": false,
+        "text": "Direct parry",
+        "explanation": "This is incorrect. A direct parry is a defensive action, not offensive."
+      }
+    ],
+    "quotes": {
+      "t.9.1": "The offensive actions are the attack, the riposte and the counter-riposte. - The attack is the initial offensive action made by extending the arm and continuously threatening the opponent's target, preceding the launching of the lunge or flèche (cf. t.83, t.84, t.85 and t.101ss). - The riposte is the offensive action made by the fencer who has parried the attack. - The counter-riposte is the offensive action made by the fencer who has parried the riposte."
+    },
+    "id": "391a66c8-9701-4cfa-b328-65b11903e733"
+  },
+  {
+    "question": "How will the fencer be penalized for unjustified appeal?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yellow card for a 1st group offense",
+        "explanation": "According to technical rule t.172.2 and the table of offenses in t.170, if a fencer infringes the principle of not casting doubt on the referee's decision on a point of fact, they will be penalized with a yellow card for a 1st group offense."
+      },
+      {
+        "isCorrect": false,
+        "text": "Red card for a 2nd group offense",
+        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense, not a red card."
+      },
+      {
+        "isCorrect": false,
+        "text": "Black card for a 3rd group offense",
+        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense, not a black card."
+      },
+      {
+        "isCorrect": false,
+        "text": "No penalty",
+        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense."
+      }
+    ],
+    "quotes": {
+      "t.172.2": "If a fencer infringes this principle, casting doubt on the decision of the Referee on a point of fact during the bout, he will be penalised according to the rules (cf. t.158-162, t.165, t.170), for the offences of the 1st group.",
+      "t.170": "1.17 Unjustified appeal, casting doubt on the decision of the referee on a point of fact. [First offense: YELLOW CARD]"
+    },
+    "id": "3d86ba7f-d72f-4710-a559-37dff8882667"
+  },
+  {
+    "question": "When can the fencer take off his mask on or off the piste?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "After the referee calls 'Halt!'",
+        "explanation": "According to technical rule t.125, the fencer, whether on or off the piste, must keep his mask on until the Referee calls 'Halt!'"
+      },
+      {
+        "isCorrect": false,
+        "text": "After scoring a hit",
+        "explanation": "This is incorrect. The fencer must keep the mask on until the referee calls 'Halt!', not just after scoring a hit."
+      },
+      {
+        "isCorrect": false,
+        "text": "After leaving the piste",
+        "explanation": "This is incorrect. The rule states that the fencer, whether on or off the piste, must keep his mask on until the Referee calls 'Halt!'"
+      },
+      {
+        "isCorrect": false,
+        "text": "After the opponent scores a hit",
+        "explanation": "This is incorrect. The fencer must keep the mask on until the referee calls 'Halt!', not just after the opponent scores a hit."
+      }
+    ],
+    "quotes": {
+      "t.125": "The fencer, whether on or off the piste, must keep his mask on until the Referee calls 'Halt!'"
+    },
+    "id": "c9b96b57-ad39-4fa3-8e21-fa352e1be202"
+  },
+  {
+    "question": "A left handed fencer arrives on the piste with an under-plastron for right handed fencer.",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "The fencer is allowed to fence as long as the under-plastron is regulation and gives sufficient protection",
+        "explanation": "The rules do not specify that the under-plastron must be specifically for left or right-handed fencers. According to technical rules t.20.2 and t.71, what matters is that the fencer has a regulation protective under-plastron. As long as the under-plastron meets the regulatory requirements and provides sufficient protection, the fencer is allowed to fence."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencer receives a yellow card and must change the under-plastron",
+        "explanation": "This is incorrect. There is no specific rule requiring a handedness-specific under-plastron, only that it must be regulation and provide sufficient protection."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencer is eliminated from the competition",
+        "explanation": "This is incorrect. There is no basis for elimination in this case, as long as the under-plastron meets regulatory requirements."
+      },
+      {
+        "isCorrect": false,
+        "text": "The fencer must fence without an under-plastron",
+        "explanation": "This is incorrect and dangerous. Fencing without an under-plastron would violate rule t.71, which requires fencers to have a protective under-plastron."
+      }
+    ],
+    "quotes": {
+      "t.20.2": "Fencers arm, equip and clothe themselves and fence at their own responsibility and at their own risk.",
+      "t.71": "If a fencer appears on the piste: - with only one regulation weapon (cf. t.114, 115); or - with only one regulation bodywire; or - with only one regulation mask wire; or - with a weapon or a bodywire which does not work or which does not conform with the Rules; or - without his protective under-plastron (cf. t.64.5); or - with a conductive jacket which does not fully cover the valid target; or - with a mask whose 2nd security device is not securely fixed to the body of the mask; or - with clothing which does not conform with the Rules; the Referee will apply the penalties stipulated in Articles t.158-162, t.165, t.170, for the offences of the 1st group."
+    },
+    "id": "79cd5873-ebfc-47ed-a8f2-d5ee18e0b3e6"
+  },
+  {
+    "question": "The correct distance between two fencers when they come on guard (other than at the on guard lines) is:",
+    "answers": [
+      {
+        "isCorrect": false,
+        "text": "The same as at the on-guard lines (2 meters apart)",
+        "explanation": "This is incorrect. According to technical rule t.22.5, when placed on guard during the bout, the distance between the two competitors must be such that, in the position 'point in line', the points of the two blades cannot make contact."
+      },
+      {
+        "isCorrect": true,
+        "text": "Such that in the 'point in line' position, the points of the two blades cannot make contact",
+        "explanation": "According to technical rule t.22.5, when placed on guard during the bout, the distance between the two competitors must be such that, in the position 'point in line', the points of the two blades cannot make contact."
+      },
+      {
+        "isCorrect": false,
+        "text": "4 meters",
+        "explanation": "This is incorrect. The distance is not a fixed measurement but based on the criterion that in the 'point in line' position, the points of the two blades cannot make contact."
+      },
+      {
+        "isCorrect": false,
+        "text": "A distance chosen by the referee",
+        "explanation": "This is incorrect. The rule specifies a clear criterion: in the 'point in line' position, the points of the two blades cannot make contact."
+      }
+    ],
+    "quotes": {
+      "t.22.5": "When placed on guard during the bout, the distance between the two competitors must be such that, in the position 'point in line', the points of the two blades cannot make contact."
+    },
+    "id": "31744d7b-d198-45c8-80b6-98d2fc272fbb"
+  },
+  {
+    "question": "Must a hit made during or after a fall be annulled?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "Yes, such a hit must be annulled",
+        "explanation": "According to technical rule t.56.10, a hit made during or after a fall must be annulled."
+      },
+      {
+        "isCorrect": false,
+        "text": "No, such a hit is valid",
+        "explanation": "This is incorrect. A hit made during or after a fall must be annulled according to the rules."
+      },
+      {
+        "isCorrect": false,
+        "text": "It depends on whether the fencer fell before or after the hit",
+        "explanation": "This is incorrect. The rule states clearly that a hit made during or after a fall must be annulled, without considering the timing of the fall relative to the hit."
+      },
+      {
+        "isCorrect": false,
+        "text": "Only if the fall was intentional",
+        "explanation": "This is incorrect. The rule does not distinguish between intentional and unintentional falls; all hits made during or after a fall must be annulled."
+      }
+    ],
+    "quotes": {
+      "t.56.10": "Hit made during or after a fall must be annulled."
+    },
+    "id": "9334c650-a7fb-4675-826c-3c9c123aa270"
+  },
+  {
+    "question": "During the attack of fencer X, fencer Y intentional falls down to avoid the touch and hit the opponent X",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "The hit by Y is annulled and Y receives a yellow card",
+        "explanation": "According to technical rule t.121.2 (referenced in t.170), irregular movements on the piste and intentional falls to avoid being hit are offenses of the 1st group, penalized with a yellow card (for a first offense). Furthermore, according to rule t.170, any hit scored by the fencer at fault in such cases is annulled."
+      },
+      {
+        "isCorrect": false,
+        "text": "The hit by Y is valid",
+        "explanation": "This is incorrect. Hits made by a fencer who intentionally falls to avoid being hit are annulled."
+      },
+      {
+        "isCorrect": false,
+        "text": "The hit by Y is annulled and Y receives a red card",
+        "explanation": "This is incorrect. An intentional fall to avoid being hit is a 1st group offense, which for a first occurrence is penalized with a yellow card, not a red card."
+      },
+      {
+        "isCorrect": false,
+        "text": "The hit by Y is annulled, but Y receives no penalty",
+        "explanation": "This is incorrect. An intentional fall to avoid being hit is a 1st group offense, which for a first occurrence is penalized with a yellow card."
+      }
+    ],
+    "quotes": {
+      "t.121.2": "All bouts must preserve the character of a courteous and frank encounter. All irregular actions (fleche attack which finishes with a collision jostling the opponent, disorderly fencing, irregular movements on the piste, hits achieved with violence, blows struck with the guard, an intentional fall down to avoid the touch) or anti-sporting behaviour are strictly forbidden (cf. t.158-162, t.170). Should such an offence occur, any hit scored by the fencer at fault is annulled.",
+      "t.170": "1.16 Irregular movements on the piste*; hits made with violence*; Intentional fall to avoid the hit* [First offense: YELLOW CARD]"
+    },
+    "id": "2e97be09-e790-43eb-8da5-a40b065d186e"
+  },
+  {
+    "question": "From which point should be timed the break for medical reason?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "From the point when the delegate of the FIE Medical Commission or the doctor on duty gave their opinion",
+        "explanation": "According to technical rule t.45.1, a break for injury should be timed from when the delegate of the FIE Medical commission or, in his absence, the doctor on duty gave his opinion."
+      },
+      {
+        "isCorrect": false,
+        "text": "From the point when the injury occurred",
+        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the injury occurred."
+      },
+      {
+        "isCorrect": false,
+        "text": "From the point when the referee stopped the bout",
+        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the referee stopped the bout."
+      },
+      {
+        "isCorrect": false,
+        "text": "From the point when the fencer requested the break",
+        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the fencer requested the break."
+      }
+    ],
+    "quotes": {
+      "t.45.1": "For any injury or other medical reason which occurs in the course of a bout and which is properly attested by the delegate of the FIE Medical Commission or, in his/her absence, by the doctor and/or medical provider on duty, the Referee will allow a break in the fight lasting no longer than 5 minutes. Only the doctor and/or medical provider on duty can determine the length of time of treatment required when a medical time-out is granted. This break should be timed from the intervention of the delegate of the FIE Medical commission or, in his absence, the doctor."
+    },
+    "id": "f92c77b6-41ea-41c3-9b6e-ca9b44197942"
+  },
+  {
+    "question": "How many maximum repetitions of the action can a referee review for the video analyzing?",
+    "answers": [
+      {
+        "isCorrect": true,
+        "text": "A maximum of 4 repetitions",
+        "explanation": "According to technical rule t.62.1, there shall only be a maximum of 4 repetitions of the action under review."
+      },
+      {
+        "isCorrect": false,
+        "text": "A maximum of 2 repetitions",
+        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not 2."
+      },
+      {
+        "isCorrect": false,
+        "text": "A maximum of 6 repetitions",
+        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not 6."
+      },
+      {
+        "isCorrect": false,
+        "text": "Unlimited repetitions",
+        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not unlimited."
+      }
+    ],
+    "quotes": {
+      "t.62.1": "There shall only be a maximum of 4 repetitions of the action. The referee can choose to review the action in real time or in slow motion, at any speed he wishes."
+    },
+    "id": "5d06e777-e64c-4496-8218-90c5b5981b62"
   }
 ]
