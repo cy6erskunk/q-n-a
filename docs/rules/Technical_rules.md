@@ -1911,193 +1911,79 @@ The Fourth Group of Offences
 
 2 Furthermore any black card awarded at a competition of the FIE or at a competition organized by any Confederation which has subscribed to the FIE disciplinary code shall be reported within 10 days to the President of the FIE, for him to assess whether the severity of the offence committed warrants the sending of the report made by the FIE supervisor or by the Directoire Technique to the president of the Legal Commission, requesting him to establish a Disciplinary Tribunal to determine if penalties in addition to those imposed at the competition should be imposed. 
 
-Offences and penalties 
+### Offences and penalties 
 
 ### t.170 
 
 This table is intended to be a convenient summary: it is not a substitute for the full texts of the articles concerned which should be consulted in any case of doubt. 
 
-OFFENCE ARTICLES PENALTIES 
-
-0.1 
-
-Absence of name and nationality on the back, absence of national uniform or logo t.74 
-
-Elimination from the competition 0.2 Absence of name on back due to changing a non-conforming jacket t.75 
-
-0.3 Non presentation when first called by Referee ten minutes before time indicated for start of pool/team match/bouts of direct elimination t.118 
-
-0.4 Non presentation on the piste ready to fence when ordered by the Referee, after three calls at one-minute intervals t.119 1st call 2nd call 3rd call Elimination 
-
-0.5 Unwillingness to fight: the sanctions imposed are shown by specific P- cards which are not cumulative with any other sanction awarded. 
-
-t.124.1, t.124.2 1 st time 
-
-P-Yellow 
-
-2 nd time 
-
-P-Red 
-
-3rd time 
-
-P-Black 
-
-1st group 1st offence 2nd offence 3rd offence and subseq. 
-
-1.1 Leaving piste without permission t.23.6 
-
-YELLOW RED RED 
-
-1.2 Corps à corps to avoid being hit * t.25.2 
-
-1.3 Turning back on opponent * t.27.2 
-
-1.4 Covering/substitution of valid target * t.29.2, t.30.1, t.79, t.97 
-
-1.5 Touching/taking hold of electrical equipment * t.29.3 
-
-1.6 Crossing lateral boundary of the piste to avoid being hit * t.35.3 
-
-1.7 Interruption of bout without valid reason t.43.2 
-
-1.8 Clothing/equipment not conforming. Curve of blade exceeding that permitted. Absence of regulation/spare weapon or bodywire 
-
-t.71, t.72, t.73.1.a, t.117 
-
-1.9 Placing weapon on the conductive piste to straighten it t.76.2, t.90.2, t.96.5 
-
-1.10 At foil and épée, bending, dragging weapon point on conductive piste t.76.2, t.90.2 
-
-1.12 At sabre, hit made with the guard *, any forward movement crossing the legs or feet * t.96.3, t.101.5 
-
-1.13 Refusal to obey the Referee t.108, t.112 
-
-1.14 Hair not conforming to the Rules t.115.2 
-
-1.15 Jostling, disorderly fencing * ; taking off mask before the Referee calls ' 
-
-Halt!'; dressing or undressing on the piste 
-
-t.116, t.121.2, 
-
-t.125, t.126 
-
-1.16 Irregular movements on the piste *; hits made with violence 
-
-*; Intentional fall to avoid the hit * t.121.2 
-
-1.17 Unjustified appeal, casting doubt on the decision of the referee on a point of fact. t.172, t.173, t.174 
-
-1.18 Entering the Piste enclosure without the Referee’s permission + t.132.2 
-
-2nd group 1st offence 2nd offence 3rd offence and subseq. 
-
-2.1 Use of non-sword arm/hand * t.29.1, t.30 
-
-RED RED RED 
-
-2.2 Demanding a break for medical reason deemed unjustified 
-
-by doctor t.45.3 
-
-2.3 Absence of weapon control marks * t.73.1a 
-
-2.4 
-
-Intentionally dropping a weapon during the fencing phrase t.56.11 
-
-2.5 Deliberate hit not on opponent * t.55.2 
-
-2.6 Dangerous, violent or vindictive action, blow with guard or pommel * 
-
-t.26.1, t.121.2, 
-
-t.147, 
-
-OFFENCE ARTICLES PENALTIES (Cards) 
-
-3rd group 1st time 2nd time 
-
-3.1 Fencer disturbing order when on piste. In the most serious cases, the 
-
-Referee may award a black card immediately 
-
-t.108.2, 
-
-t.137.2 RED 
-
-BLACK 3.2 Dishonest fencing * t.121 RED 
-
-3.3 Offence against Publicity Code Publicity Code 
-
-3.4 Any person not on piste disturbing good order ; smoking in the competition halls (including with electronic cigarettes). In the most serious cases, the Referee may award a black card immediately 
-
-t.109, t.110, t.111, t.133, t.137.3/4, t.168 
-
-YELLOW 
-
-BLACK 3.5 Warming up or training without wearing fencing clothing or equipment that conforms to the FIE regulations. t.20.2 
-
-3.6 Anti-sporting behaviour t.121.2 RED 
-
-4th group PENALTIES (Cards) 
-
-4.1 
-
-Fencer equipped with electronic communication equipment permitting 
-
-him to receive communications during bout, t.64.6, t.73.1.g 
-
-BLACK 
-
-4.2 Fraudulent equipment, control marks that are imitated or transferred t.73.1.c-d-e 
-
-4.3 Equipment altered to allow the recording of hits or the non-functioning of the apparatus at will 
-
-t.73.1.f; m.5.5.d 
-
-4.4 Refusal of a fencer to fence another competitor (individual or team) 
-
-properly entered t.113 
-
-4.5 Offence against sportsmanship t.121.2, 
-
-t.122; t.123; t.149.1 
-
-4.6 Refusal of a fencer to salute his opponent, the referee and the spectators before the beginning of the bout or after the last hit t.122 
-
-4.7 Profiting from collusion, favouring an opponent t.128, 149.1 
-
-4.8 Violent or vindictive actions t.149.1 
-
-4.9 Doping o.107 
-
-EXPLANATIONS 
-
-## * Annulment of any hit scored by the fencer at fault 
-
-## + Special YELLOW CARD for the whole team and valid for the whole team 
-
-match. If, during the same team match, a fencer commits an offence of the 1 st group the Referee penalises with a RED CARD each time. 
-
-YELLOW CARD 
-
-Warning valid for the bout (whether one or several encounters). If a fencer commits an offence of the 1st group after having been penalised with a RED CARD, for whatever reason, he receives a further RED CARD. 
-
-RED CARD Penalty hit 
-
-BLACK CARD 
-
-Exclusion from the competition , suspension from the remainder of the tournament and for the following 60 days of the active season (1st September – World Championships for the juniors and 1st September – World Championships for the seniors), whether current or forthcoming. 
-
-P CARDS (t.124) 
-
-P-yellow (warning), P -red (penalty hit), P -black (possible loss of the bout or match). In both 
-
-individual and team competitions, fencers and teams who have lost the bout/match following 
-
-the award of a P-Black card, will be ranked in the final results of the competition as having lost the bout/match. They receive the corresponding points. 
+| OFFENCE | ARTICLES | PENALTIES |
+|---------|----------|-----------|
+| 0.1 Absence of name and nationality on the back, absence of national uniform or logo | t.74 | Elimination from the competition |
+| 0.2 Absence of name on back due to changing a non-conforming jacket | t.75 | Elimination from the competition |
+| 0.3 Non presentation when first called by Referee ten minutes before time indicated for start of pool/team match/bouts of direct elimination | t.118 | Elimination from the competition |
+|0.4 Non presentation on the piste ready to fence when ordered by the Referee, after three calls at one-minute intervals |t.119 |  1st call - Y /2nd call - R / 3rd call -  Elimination |
+|0.5 Unwillingness to fight: the sanctions imposed are shown by specific P- cards which are not cumulative with any other sanction awarded. | t.124.1, t.124.2 | 1 st time P-Yellow / 2 nd time P-Red / 3rd time P-Black |
+
+| 1st group | articles| 1st offence | 2nd offence | 3rd offence and subseq. |
+|---------|-------|----------|-----------|---------------------|
+| 1.1 Leaving piste without permission |t.23.6 | YELLOW | RED | RED |
+| 1.2 Corps à corps to avoid being hit *| t.25.2 | YELLOW | RED | RED |
+| 1.3 Turning back on opponent *| t.27.2 | YELLOW | RED | RED |
+| 1.4 Covering/substitution of valid target *| t.29.2, t.30.1, t.79, t.97 | YELLOW | RED | RED |
+| 1.5 Touching/taking hold of electrical equipment *| t.29.3 | YELLOW | RED | RED |
+| 1.6 Crossing lateral boundary of the piste to avoid being hit *| t.35.3 | YELLOW | RED | RED |
+| 1.7 Interruption of bout without valid reason | t.43.2 | YELLOW | RED | RED |
+| 1.8 Clothing/equipment not conforming. Curve of blade exceeding that permitted. Absence of regulation/spare weapon or bodywire | t.71, t.72, t.73.1.a, t.117 | YELLOW | RED | RED |
+| 1.9 Placing weapon on the conductive piste to straighten it |t.76.2, t.90.2, t.96.5    | YELLOW | RED | RED |
+| 1.10 At foil and épée, bending, dragging weapon point on conductive piste |t.76.2, t.90.2 | YELLOW | RED | RED |
+| 1.12 At sabre, hit made with the guard *, any forward movement crossing the legs or feet * |t.96.3, t.101.5 | YELLOW | RED | RED |
+| 1.13 Refusal to obey the Referee | t.108, t.112 | YELLOW | RED | RED |
+| 1.14 Hair not conforming to the Rules | t.115.2 | YELLOW | RED | RED |
+| 1.15 Jostling, disorderly fencing * ; taking off mask before the Referee calls 'Halt!'; dressing or undressing on the piste |t.116, t.121.2, t.125, t.126 | YELLOW | RED | RED |
+| 1.16 Irregular movements on the piste *; hits made with violence *; Intentional fall to avoid the hit * |t.121.2 | YELLOW | RED | RED |
+| 1.17 Unjustified appeal, casting doubt on the decision of the referee on a point of fact. | t.172, t.173, t.174 | YELLOW | RED | RED |
+| 1.18 Entering the Piste enclosure without the Referee’s permission + |t.132.2 | YELLOW | RED | RED |
+
+|2nd group | articles | 1st offence | 2nd offence | 3rd offence and subseq. |
+|---------|----------|-----------|-----------|---------------------|
+|2.1 Use of non-sword arm/hand * | t.29.1, t.30 | RED | RED | RED |
+|2.2 Demanding a break for medical reason deemed unjustified by doctor t.45.3 | RED | RED | RED |
+|2.3 Absence of weapon control marks * | t.73.1a | RED | RED | RED |
+|2.4 Intentionally dropping a weapon during the fencing phrase t.56.11 | RED | RED | RED |
+|2.5 Deliberate hit not on opponent * | t.55.2 | RED | RED | RED |
+|2.6 Dangerous, violent or vindictive action, blow with guard or pommel * | t.26.1, t.121.2, t.147 | RED | RED | RED |
+
+| OFFENCE  |ARTICLES  |PENALTIES (Cards) | |
+|---------|----------|------------------|--|
+|3rd group| articles | 1st time |2nd time |
+|3.1 Fencer disturbing order when on piste. In the most serious cases, the Referee may award a black card immediately |t.108.2, t.137.2 |RED |BLACK |
+|3.2 Dishonest fencing * t.121 RED | BLACK |
+|3.3 Offence against Publicity Code |Publicity Code| RED | BLACK |
+|3.4 Any person not on piste disturbing good order ; smoking in the competition halls (including with electronic cigarettes). In the most serious cases, the Referee may award a black card immediately |t.109, t.110, t.111, t.133, t.137.3/4, t.168 |YELLOW |BLACK |
+|3.5 Warming up or training without wearing fencing clothing or equipment that conforms to the FIE regulations. | t.20.2 |YELLOW |BLACK |
+|3.6 Anti-sporting behaviour |t.121.2 | RED | BLACK |
+
+|4th group |  | PENALTIES (Cards) |
+|---------|----------|------------------|
+| 4.1 Fencer equipped with electronic communication equipment permitting him to receive communications during bout | t.64.6, t.73.1.g | BLACK |
+| 4.2 Fraudulent equipment, control marks that are imitated or transferred | t.73.1.c-d-e |BLACK |
+| 4.3 Equipment altered to allow the recording of hits or the non-functioning of the apparatus at will | t.73.1.f; m.5.5.d | BLACK |
+| 4.4 Refusal of a fencer to fence another competitor (individual or team) properly entered |t.113 | BLACK |
+| 4.5 Offence against sportsmanship |t.121.2, t.122; t.123; t.149.1 | BLACK |
+| 4.6 Refusal of a fencer to salute his opponent, the referee and the spectators before the beginning of the bout or after the last hit | t.122 | BLACK |
+| 4.7 Profiting from collusion, favouring an opponent | t.128, 149.1 | BLACK |
+| 4.8 Violent or vindictive actions | t.149.1 | BLACK |
+| 4.9 Doping | o.107 | BLACK |
+
+|  | EXPLANATIONS |
+|--|---|
+| * | Annulment of any hit scored by the fencer at fault |
+| + | Special YELLOW CARD for the whole team and valid for the whole team match. If, during the same team match, a fencer commits an offence of the 1 st group the Referee penalises with a RED CARD each time. |
+|YELLOW CARD| Warning valid for the bout (whether one or several encounters). If a fencer commits an offence of the 1st group after having been penalised with a RED CARD, for whatever reason, he receives a further RED CARD. |
+| RED CARD | Penalty hit |
+| BLACK CARD | Exclusion from the competition , suspension from the remainder of the tournament and for the following 60 days of the active season (1st September – World Championships for the juniors and 1st September – World Championships for the seniors), whether current or forthcoming. |
+| P CARDS (t.124) | P-yellow (warning), P -red (penalty hit), P -black (possible loss of the bout or match). In both individual and team competitions, fencers and teams who have lost the bout/match following the award of a P-Black card, will be ranked in the final results of the competition as having lost the bout/match. They receive the corresponding points. |
 
 ## Chapter 5 
 
