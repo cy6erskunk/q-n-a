@@ -1948,9 +1948,9 @@ This table is intended to be a convenient summary: it is not a substitute for th
 |2nd group | articles | 1st offence | 2nd offence | 3rd offence and subseq. |
 |---------|----------|-----------|-----------|---------------------|
 |2.1 Use of non-sword arm/hand * | t.29.1, t.30 | RED | RED | RED |
-|2.2 Demanding a break for medical reason deemed unjustified by doctor t.45.3 | RED | RED | RED |
+|2.2 Demanding a break for medical reason deemed unjustified by doctor | t.45.3 | RED | RED | RED |
 |2.3 Absence of weapon control marks * | t.73.1a | RED | RED | RED |
-|2.4 Intentionally dropping a weapon during the fencing phrase t.56.11 | RED | RED | RED |
+|2.4 Intentionally dropping a weapon during the fencing phrase | t.56.11 | RED | RED | RED |
 |2.5 Deliberate hit not on opponent * | t.55.2 | RED | RED | RED |
 |2.6 Dangerous, violent or vindictive action, blow with guard or pommel * | t.26.1, t.121.2, t.147 | RED | RED | RED |
 
@@ -1958,7 +1958,7 @@ This table is intended to be a convenient summary: it is not a substitute for th
 |---------|----------|------------------|--|
 |3rd group| articles | 1st time |2nd time |
 |3.1 Fencer disturbing order when on piste. In the most serious cases, the Referee may award a black card immediately |t.108.2, t.137.2 |RED |BLACK |
-|3.2 Dishonest fencing * t.121 RED | BLACK |
+|3.2 Dishonest fencing * | t.121 | RED | BLACK |
 |3.3 Offence against Publicity Code |Publicity Code| RED | BLACK |
 |3.4 Any person not on piste disturbing good order ; smoking in the competition halls (including with electronic cigarettes). In the most serious cases, the Referee may award a black card immediately |t.109, t.110, t.111, t.133, t.137.3/4, t.168 |YELLOW |BLACK |
 |3.5 Warming up or training without wearing fencing clothing or equipment that conforms to the FIE regulations. | t.20.2 |YELLOW |BLACK |
