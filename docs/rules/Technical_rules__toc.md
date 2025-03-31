@@ -7,17 +7,17 @@ URL Source: https://static.fie.org/uploads/34/172615-technical%20rules%20ang.pdf
 
 ### Chapter 1. APPLICATION OF THE RULES 
 
-t.1 
+[t.1](Technical_rules.html#t1) 
 
-………… t.2 
+[………… t.2](Technical_rules.html#t2)
 
-………… t.3 
+[………… t.3](Technical_rules.html#t3)
 
-………… t.4 
+[………… t.4](Technical_rules.html#t4) 
 
-………… t.5 
+[………… t.5](Technical_rules.html#t5) 
 
-………… t.6 
+[………… t.6](Technical_rules.html#t6) 
 
 EXPLANATION OF SOME TECHNICAL TERMS 
 
