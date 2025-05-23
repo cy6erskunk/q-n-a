@@ -1,24 +1,38 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #f5f7fa;
     padding: 20px;
+    color: #333;
+    line-height: 1.6;
 }
 .container {
     background-color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
     text-align: center;
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 h1 {
-    color: #333;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+h3 {
+    color: #2c3e50;
+    margin: 0 0 1rem 0;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 .options {
     display: grid;
@@ -26,18 +40,64 @@ h1 {
     gap: 1rem;
     margin-top: 1rem;
 }
-button {
-    padding: 0.5rem 1rem;
+.primary-btn {
+    padding: 0.8rem 2rem;
     font-size: 1rem;
     background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
 }
-button:hover {
+
+.primary-btn:hover {
     background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 110, 224, 0.3);
+}
+
+.secondary-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #fff;
+    color: #4a6ee0;
+    border: 2px solid #4a6ee0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 200px;
+}
+
+.secondary-btn:hover {
+    background-color: #f0f3ff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 110, 224, 0.2);
+}
+
+.number-btn {
+    background: #f5f7fa;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.number-btn:hover {
+    background: #e8ecf5;
+    border-color: #c2cfe0;
 }
 #result, #score, #explanation, #progress {
     margin-top: 1rem;
@@ -74,6 +134,72 @@ button:hover {
 
 .hidden {
     display: none;
+}
+
+/* Start Screen Styles */
+.mode-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.mode-option {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid #e1e6f0;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.mode-option:hover {
+    border-color: #c2cfe0;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.mode-option p {
+    color: #5a6b8c;
+    margin: 0.5rem 0;
+}
+
+.questions-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.questions-selector span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    min-width: 40px;
+    display: inline-block;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8a94a6;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #e1e6f0;
+}
+
+.divider:not(:empty)::before {
+    margin-right: 1.5rem;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 1.5rem;
 }
 
 /* Settings Button */
@@ -167,7 +293,38 @@ dialog::backdrop {
 
 .form-group {
     margin-bottom: 1.5rem;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Style for sliders */
+.slider {
+    width: 100%;
+    margin: 0.5rem 0 1rem;
+}
+
+/* Style for number input */
+input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+/* Style for slider labels */
+.form-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Ensure proper spacing for the exam settings */
+#exam-questions-count-container {
+    margin-top: 15px;
 }
 
 .form-group label {
