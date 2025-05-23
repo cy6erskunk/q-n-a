@@ -20,7 +20,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Next Question' }).click();
 
   await page.getByRole('button').nth(4).click();
-  
+
   /* Finish quiz */
   await page.getByRole('button', { name: 'Finish Quiz' }).click();
 
@@ -46,7 +46,8 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Finish Quiz' }).click();
 
   /* Reset quiz */
-  await page.getByRole('button', { name: 'Reset Quiz' }).click();
+  await page.getByLabel('Settings').click();
+  await page.getByRole('button', { name: 'Reset All Progress' }).click();
 
   /* Start quiz */
   await page.getByRole('button', { name: 'Start Quiz' }).click();
@@ -58,7 +59,7 @@ test('test', async ({ page }) => {
   /* click x button and confirm */
   page.once('dialog', dialog => {
     console.log(`Dialog message: ${dialog.message()}`);
-    dialog.dismiss().catch(() => {});
+    dialog.dismiss().catch(() => { });
   });
   await page.getByRole('button', { name: '×' }).click();
 
@@ -69,7 +70,7 @@ test('test', async ({ page }) => {
   /* click x button and confirm */
   page.once('dialog', dialog => {
     console.log(`Dialog message: ${dialog.message()}`);
-    dialog.accept().catch(() => {});
+    dialog.accept().catch(() => { });
   });
   await page.getByRole('button', { name: '×' }).click();
 

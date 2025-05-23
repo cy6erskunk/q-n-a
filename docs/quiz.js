@@ -4,22 +4,73 @@ let currentQuestionIndex = 0;
 let score = 0;
 let answeredCorrectly = new Set();
 
-const QUESTIONS_PER_ROUND = 5;
+const INITIAL_QUESTIONS_PER_ROUND = 5;
+let QUESTIONS_PER_ROUND = parseInt(localStorage.getItem('questionsPerRound')) || INITIAL_QUESTIONS_PER_ROUND;
 
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
-    startButton.addEventListener('click', startQuiz);
-
     const nextRoundButton = document.getElementById('next-round-button');
-    nextRoundButton.addEventListener('click', startQuiz);
-
     const resetQuizButton = document.getElementById('reset-quiz-button');
-    resetQuizButton.addEventListener('click', resetQuiz);
-
     const exitButton = document.getElementById('exit-button');
+    const settingsButton = document.getElementById('settings-button');
+    const closeSettings = document.getElementById('close-settings');
+    const cancelSettings = document.getElementById('cancel-settings');
+    const saveSettings = document.getElementById('save-settings');
+    const questionsPerRoundInput = document.getElementById('questions-per-round');
+    const questionsValue = document.getElementById('questions-value');
+    const questionsCount = document.getElementById('questions-count');
+    const settingsDialog = document.getElementById('settings-dialog');
+
+    let initialQuestionsPerRound = QUESTIONS_PER_ROUND;
+
+    startButton.addEventListener('click', startQuiz);
+    nextRoundButton.addEventListener('click', startQuiz);
+    resetQuizButton.addEventListener('click', resetQuiz);
     exitButton.addEventListener('click', confirmExit);
 
-    // Load questions from JSON file
+    settingsButton.addEventListener('click', () => {
+        initialQuestionsPerRound = QUESTIONS_PER_ROUND;
+        questionsPerRoundInput.value = QUESTIONS_PER_ROUND;
+        questionsValue.textContent = QUESTIONS_PER_ROUND;
+        settingsDialog.showModal();
+    });
+
+    closeSettings.addEventListener('click', () => {
+        resetToInitialValues();
+        settingsDialog.close();
+    });
+    cancelSettings.addEventListener('click', () => {
+        resetToInitialValues();
+        settingsDialog.close();
+    });
+    saveSettings.addEventListener('click', () => {
+        QUESTIONS_PER_ROUND = parseInt(questionsPerRoundInput.value);
+        questionsCount.textContent = QUESTIONS_PER_ROUND;
+        localStorage.setItem('questionsPerRound', QUESTIONS_PER_ROUND);
+        settingsDialog.close();
+    });
+
+    questionsPerRoundInput.addEventListener('input', (e) => {
+        questionsValue.textContent = e.target.value;
+    });
+    settingsDialog.addEventListener('click', (e) => {
+        if (e.target === settingsDialog) {
+            resetToInitialValues();
+            settingsDialog.close();
+        }
+    });
+
+    settingsDialog.addEventListener('cancel', (e) => {
+        resetToInitialValues();
+    });
+    function resetToInitialValues() {
+        QUESTIONS_PER_ROUND = initialQuestionsPerRound;
+        questionsPerRoundInput.value = initialQuestionsPerRound;
+        questionsValue.textContent = initialQuestionsPerRound;
+    }
+
+    questionsCount.textContent = QUESTIONS_PER_ROUND;
+
     fetch('questions.json')
         .then(response => response.json())
         .then(data => {
@@ -42,7 +93,6 @@ function selectQuestions() {
 
     currentQuestions = unansweredQuestions.slice(0, QUESTIONS_PER_ROUND);
 
-    // If we don't have enough unanswered questions, add some answered ones
     if (currentQuestions.length < QUESTIONS_PER_ROUND) {
         let answeredQuestions = allQuestions.filter(q => answeredCorrectly.has(q.question));
         shuffleArray(answeredQuestions);
@@ -72,15 +122,14 @@ function loadQuestion() {
 
     const question = currentQuestions[currentQuestionIndex];
     document.getElementById('question').textContent = question.question;
-    
+
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
     document.getElementById('next-step').classList.add('hidden');
-    
-    // Shuffle the answers for this question
+
     const shuffledAnswers = [...question.answers];
     shuffleArray(shuffledAnswers);
-    
+
     shuffledAnswers.forEach(answer => {
         const button = document.createElement('button');
         button.textContent = answer.text;
@@ -142,6 +191,7 @@ function saveProgress() {
         answeredCorrectly: Array.from(answeredCorrectly)
     };
     localStorage.setItem('quizProgress', JSON.stringify(progress));
+    localStorage.setItem('questionsPerRound', QUESTIONS_PER_ROUND);
 }
 
 function loadProgress() {
@@ -149,8 +199,7 @@ function loadProgress() {
     if (savedProgress) {
         const progress = JSON.parse(savedProgress);
         answeredCorrectly = new Set(progress.answeredCorrectly);
-        
-        // Update the start screen with progress information
+
         const progressInfo = document.getElementById('progress-info');
         progressInfo.textContent = `You've correctly answered ${answeredCorrectly.size} out of ${allQuestions.length} questions.`;
     }
