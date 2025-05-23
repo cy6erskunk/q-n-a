@@ -75,3 +75,179 @@ button:hover {
 .hidden {
     display: none;
 }
+
+/* Settings Button */
+.settings-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-button:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.settings-button svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Settings Dialog */
+dialog {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.dialog-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.dialog-content {
+    padding: 1.5rem;
+}
+
+.dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    border-radius: 0 0 8px 8px;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    line-height: 1;
+    color: #666;
+    border-radius: 4px;
+    margin-left: 1rem;
+}
+
+.close-button:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.slider {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+button.primary {
+    background-color: #4CAF50;
+    color: white;
+    min-width: 80px;
+    padding: 0.5rem 1rem;
+}
+
+button.primary:hover {
+    background-color: #45a049;
+}
+
+button.secondary {
+    background-color: #757575;
+    color: white;
+    min-width: 80px;
+    padding: 0.5rem 1rem;
+}
+
+button.secondary:hover {
+    background-color: #616161;
+}
+
+.reset-section {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border: 1px solid #e9ecef;
+}
+
+.reset-content h3 {
+    margin: 0 0 0.5rem 0;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.reset-description {
+    color: #6c757d;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+}
+
+button.danger {
+    background-color: #fff;
+    color: #f44336;
+    border: 1px solid #f5c2c7;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+button.danger:hover {
+    background-color: #f8d7da;
+    border-color: #f1aeb5;
+}
+
+button.danger:active {
+    background-color: #f1aeb5;
+    border-color: #ea868f;
+}
+
+/* Ensure dialog is centered on mobile */
+@media (max-width: 480px) {
+    dialog {
+        margin: 1rem auto;
+    }
+}
