@@ -28,14 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const examQuestionsCountDisplay = document.getElementById('exam-questions-count-display');
     const settingsDialog = document.getElementById('settings-dialog');
 
-    // Initialize settings
     let initialQuestionsPerRound = QUESTIONS_PER_ROUND;
     let initialExamQuestionsCount = EXAM_QUESTIONS_COUNT;
 
-    // Initialize exam questions slider value
     examQuestionsValue.textContent = examQuestionsCountInput.value;
 
-    // Load saved settings if they exist
     if (localStorage.getItem('questionsPerRound')) {
         QUESTIONS_PER_ROUND = parseInt(localStorage.getItem('questionsPerRound'));
         initialQuestionsPerRound = QUESTIONS_PER_ROUND;
@@ -53,19 +50,15 @@ document.addEventListener('DOMContentLoaded', () => {
         examQuestionsCountDisplay.textContent = savedCount;
     }
 
-    // Start exam mode from start screen
     startExamButton.addEventListener('click', () => {
         isExamMode = true;
         startQuiz();
     });
 
-    // Start exam mode from end screen
     startExamEndButton.addEventListener('click', () => {
         isExamMode = true;
         startQuiz();
     });
-
-    // Initial values are now set at the top with the rest of the settings
 
     startButton.addEventListener('click', () => {
         isExamMode = false;
@@ -73,7 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     nextRoundButton.addEventListener('click', () => {
-        // Keep the current mode (exam or practice) when starting a new round
         startQuiz();
     });
 
@@ -96,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
         settingsDialog.close();
     });
     saveSettings.addEventListener('click', () => {
-        // Save practice questions count
         const newPracticeValue = parseInt(questionsPerRoundInput.value);
         if (newPracticeValue >= 1 && newPracticeValue <= 50) {
             QUESTIONS_PER_ROUND = newPracticeValue;
@@ -105,7 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('questionsPerRound', newPracticeValue);
         }
 
-        // Save exam questions count
         const newExamValue = parseInt(examQuestionsCountInput.value);
         if (newExamValue >= 5 && newExamValue <= 100) {
             EXAM_QUESTIONS_COUNT = newExamValue;
@@ -146,8 +136,6 @@ document.addEventListener('DOMContentLoaded', () => {
         examQuestionsCountDisplay.textContent = initialExamQuestionsCount;
     }
 
-    // Settings are now loaded at the top of the event listener
-
     fetch('questions.json')
         .then(response => response.json())
         .then(data => {
@@ -182,27 +170,21 @@ function selectQuestions() {
 }
 
 function startQuiz() {
-    // Reset the UI
     document.getElementById('start-screen').classList.add('hidden');
     document.getElementById('end-screen').classList.add('hidden');
     document.getElementById('quiz-screen').classList.remove('hidden');
     document.getElementById('settings-button').classList.add('hidden');
 
-    // Clear any previous result messages
     const resultElement = document.getElementById('result');
     if (resultElement) {
         resultElement.textContent = '';
         resultElement.style.color = '';
     }
 
-    // Reset quiz state
     currentQuestionIndex = 0;
     score = 0;
 
-    // Set the number of questions based on mode
     QUESTIONS_PER_ROUND = isExamMode ? EXAM_QUESTIONS_COUNT : QUESTIONS_PER_ROUND;
-
-    // Start the quiz
     selectQuestions();
     loadQuestion();
 }
@@ -218,24 +200,19 @@ function loadQuestion() {
 
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
-    optionsContainer.style.color = ''; // Reset color
+    optionsContainer.style.color = '';
 
-    // Update progress text
-    const progressText = `Question ${currentQuestionIndex + 1} of ${QUESTIONS_PER_ROUND}`;
-    document.getElementById('progress').textContent = progressText;
+    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${QUESTIONS_PER_ROUND}`;
 
-    // Reset UI elements
     document.getElementById('result').textContent = '';
     document.getElementById('explanation').textContent = '';
 
-    // Only show score in practice mode
     if (!isExamMode) {
         document.getElementById('score').textContent = `Score: ${score} / ${currentQuestionIndex}`;
     } else {
         document.getElementById('score').textContent = '';
     }
 
-    // Hide next step in exam mode
     if (isExamMode) {
         document.getElementById('next-step').classList.add('hidden');
     }
@@ -249,11 +226,6 @@ function loadQuestion() {
         button.onclick = () => checkAnswer(answer, question);
         optionsContainer.appendChild(button);
     });
-
-    document.getElementById('result').textContent = '';
-    document.getElementById('explanation').textContent = '';
-    // Progress is already updated at the start of the function
-    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${currentQuestions.length}`;
 }
 
 function checkAnswer(selectedOption, question) {
@@ -262,11 +234,9 @@ function checkAnswer(selectedOption, question) {
     const resultElement = document.getElementById('result');
     const optionsContainer = document.getElementById('options');
 
-    // Update score if answer is correct
     if (selectedOption.isCorrect) {
         score++;
         if (!isExamMode) {
-            // Show feedback for practice mode
             optionsContainer.innerHTML = '';
             optionsContainer.textContent = selectedOption.text;
             optionsContainer.style.color = 'green';
@@ -276,7 +246,6 @@ function checkAnswer(selectedOption, question) {
             explanationElement.textContent = selectedOption.explanation || '';
         }
     } else if (!isExamMode) {
-        // Show feedback for incorrect answer in practice mode
         optionsContainer.innerHTML = '';
         optionsContainer.textContent = selectedOption.text;
         optionsContainer.style.color = 'red';
@@ -285,20 +254,15 @@ function checkAnswer(selectedOption, question) {
         explanationElement.textContent = selectedOption.explanation || '';
     }
 
-    // Move to next question or end quiz
     currentQuestionIndex++;
 
     if (isExamMode) {
-        // In exam mode, automatically move to next question or end quiz
         if (currentQuestionIndex < currentQuestions.length) {
-            // No need to update scoreElement here - loadQuestion will handle the progress
-            // Small delay to show the question change
             setTimeout(loadQuestion, 100);
         } else {
             endQuiz();
         }
     } else {
-        // In practice mode, show next button and score
         const nextStep = document.getElementById('next-step');
         nextStep.classList.remove('hidden');
         const nextButton = document.getElementById('next-button');
@@ -314,7 +278,6 @@ function endQuiz() {
     const endScreen = document.getElementById('end-screen');
     const finalScore = document.getElementById('final-score');
 
-    // Hide quiz screen and show end screen
     quizScreen.classList.add('hidden');
     endScreen.classList.remove('hidden');
     document.getElementById('settings-button').classList.remove('hidden');
@@ -323,11 +286,9 @@ function endQuiz() {
         const percentage = Math.round((score / EXAM_QUESTIONS_COUNT) * 100);
         finalScore.textContent = `You scored ${score} out of ${EXAM_QUESTIONS_COUNT} (${percentage}%)`;
 
-        // Clear any existing messages
         const existingMessages = document.querySelectorAll('#end-screen p:not(#final-score):not(#total-score)');
         existingMessages.forEach(msg => msg.remove());
 
-        // Add pass/fail message
         const message = document.createElement('p');
         if (percentage >= 80) {
             message.textContent = 'Excellent! You passed the exam with flying colors!';
@@ -338,13 +299,11 @@ function endQuiz() {
         }
         finalScore.parentNode.insertBefore(message, finalScore.nextSibling);
 
-        // Reset exam mode
         isExamMode = false;
     } else {
         finalScore.textContent = `You scored ${score} out of ${QUESTIONS_PER_ROUND}`;
     }
 
-    // Update total score
     document.getElementById('total-score').textContent = `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
 
     saveProgress();
