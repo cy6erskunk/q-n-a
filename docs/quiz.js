@@ -200,8 +200,7 @@ function startQuiz() {
     score = 0;
 
     // Set the number of questions based on mode
-    QUESTIONS_PER_ROUND = isExamMode ? EXAM_QUESTIONS_COUNT :
-        parseInt(document.getElementById('questions-count').textContent) || INITIAL_QUESTIONS_PER_ROUND;
+    QUESTIONS_PER_ROUND = isExamMode ? EXAM_QUESTIONS_COUNT : QUESTIONS_PER_ROUND;
 
     // Start the quiz
     selectQuestions();
