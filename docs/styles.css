@@ -10,6 +10,7 @@ body {
     color: #333;
     line-height: 1.6;
 }
+
 .container {
     background-color: white;
     padding: 2.5rem;
@@ -21,6 +22,7 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 h1 {
     color: #2c3e50;
     margin-bottom: 1.5rem;
@@ -34,12 +36,14 @@ h3 {
     font-size: 1.4rem;
     font-weight: 600;
 }
+
 .options {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
     margin-top: 1rem;
 }
+
 .primary-btn {
     padding: 0.8rem 2rem;
     font-size: 1rem;
@@ -99,13 +103,19 @@ h3 {
     background: #e8ecf5;
     border-color: #c2cfe0;
 }
-#result, #score, #explanation, #progress {
+
+#result,
+#score,
+#explanation,
+#progress {
     margin-top: 1rem;
     font-weight: bold;
 }
+
 #score {
     color: #4CAF50;
 }
+
 #explanation {
     font-weight: normal;
     font-style: italic;
@@ -133,7 +143,7 @@ h3 {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 /* Start Screen Styles */
