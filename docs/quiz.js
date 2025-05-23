@@ -349,7 +349,6 @@ function endQuiz() {
     document.getElementById('total-score').textContent = `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
 
     saveProgress();
-    updateProgressInfo();
 }
 
 function resetQuiz() {
