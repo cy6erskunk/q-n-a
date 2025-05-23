@@ -308,6 +308,18 @@ dialog::backdrop {
     gap: 8px;
 }
 
+.exam-questions-group {
+    margin-top: 20px;
+}
+
+.start-buttons,
+.end-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
 /* Style for sliders */
 .slider {
     width: 100%;
