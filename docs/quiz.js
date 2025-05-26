@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const examQuestionsCountInput = document.getElementById('exam-questions-count');
     const examQuestionsValue = document.getElementById('exam-questions-value');
     const examQuestionsCountDisplay = document.getElementById('exam-questions-count-display');
+    const examQuestionsCountEnd = document.getElementById('exam-questions-count-end');
     const settingsDialog = document.getElementById('settings-dialog');
 
     let initialQuestionsPerRound = QUESTIONS_PER_ROUND;
@@ -48,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         examQuestionsCountInput.value = savedCount;
         examQuestionsValue.textContent = savedCount;
         examQuestionsCountDisplay.textContent = savedCount;
+        examQuestionsCountEnd.textContent = savedCount;
     }
 
     startExamButton.addEventListener('click', () => {
@@ -100,6 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (newExamValue >= 5 && newExamValue <= 100) {
             EXAM_QUESTIONS_COUNT = newExamValue;
             examQuestionsCountDisplay.textContent = newExamValue;
+            examQuestionsCountEnd.textContent = newExamValue;
             localStorage.setItem('examQuestionsCount', newExamValue);
         }
 
@@ -134,6 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
         examQuestionsCountInput.value = initialExamQuestionsCount;
         examQuestionsValue.textContent = initialExamQuestionsCount;
         examQuestionsCountDisplay.textContent = initialExamQuestionsCount;
+        examQuestionsCountEnd.textContent = initialExamQuestionsCount;
     }
 
     fetch('questions.json')
