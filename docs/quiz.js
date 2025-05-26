@@ -229,9 +229,7 @@ function loadQuestion() {
         document.getElementById('score').textContent = '';
     }
 
-    if (isExamMode) {
-        document.getElementById('next-step').classList.add('hidden');
-    }
+    document.getElementById('next-step').classList.add('hidden');
     document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${questionsPerRoundValue}`;
 }
 
