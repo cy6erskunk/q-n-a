@@ -6,8 +6,11 @@ let answeredCorrectly = new Set();
 let isExamMode = false;
 
 const INITIAL_QUESTIONS_PER_ROUND = 5;
-let EXAM_QUESTIONS_COUNT = 30;
+const INITIAL_EXAM_QUESTIONS_COUNT = 30;
+let EXAM_QUESTIONS_COUNT = parseInt(localStorage.getItem('examQuestionsCount')) || INITIAL_EXAM_QUESTIONS_COUNT;
 let QUESTIONS_PER_ROUND = parseInt(localStorage.getItem('questionsPerRound')) || INITIAL_QUESTIONS_PER_ROUND;
+let questionsPerRoundValue = QUESTIONS_PER_ROUND;
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
@@ -160,7 +163,7 @@ function selectQuestions() {
     let unansweredQuestions = allQuestions.filter(q => !answeredCorrectly.has(q.question));
     shuffleArray(unansweredQuestions);
 
-    currentQuestions = unansweredQuestions.slice(0, QUESTIONS_PER_ROUND);
+    currentQuestions = unansweredQuestions.slice(0, questionsPerRoundValue);
 
     if (currentQuestions.length < QUESTIONS_PER_ROUND) {
         let answeredQuestions = allQuestions.filter(q => answeredCorrectly.has(q.question));
@@ -188,7 +191,7 @@ function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
 
-    QUESTIONS_PER_ROUND = isExamMode ? EXAM_QUESTIONS_COUNT : QUESTIONS_PER_ROUND;
+    questionsPerRoundValue = isExamMode ? EXAM_QUESTIONS_COUNT : QUESTIONS_PER_ROUND;
     selectQuestions();
     loadQuestion();
 }
@@ -229,7 +232,7 @@ function loadQuestion() {
     if (isExamMode) {
         document.getElementById('next-step').classList.add('hidden');
     }
-    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${QUESTIONS_PER_ROUND}`;
+    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${questionsPerRoundValue}`;
 }
 
 function checkAnswer(selectedOption, question) {
