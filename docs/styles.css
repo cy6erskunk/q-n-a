@@ -13,11 +13,11 @@ body {
 
 .container {
     background-color: white;
-    padding: 2.5rem;
-    border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -30,13 +30,6 @@ h1 {
     font-size: 2.2rem;
 }
 
-h3 {
-    color: #2c3e50;
-    margin: 0 0 1rem 0;
-    font-size: 1.4rem;
-    font-weight: 600;
-}
-
 .options {
     display: grid;
     grid-template-columns: 1fr;
@@ -44,64 +37,44 @@ h3 {
     margin-top: 1rem;
 }
 
-.primary-btn {
+.btn {
     padding: 0.8rem 2rem;
     font-size: 1rem;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: background-color 0.3s ease-out;
     width: 100%;
     max-width: 200px;
-    margin: 0 auto;
+}
+
+#start-screen .btn,
+#end-screen .btn {
+    font-weight: 600;
+}
+
+.primary-btn {
+    background-color: rgba(76, 175, 80, 0.6);
+    color: white;
+    border: 2px solid #4CAF50;
 }
 
 .primary-btn:hover {
     background-color: #45a049;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(74, 110, 224, 0.3);
+}
+
+.full-width-btn {
+    width: 100%;
+    max-width: none;
 }
 
 .secondary-btn {
-    padding: 0.8rem 2rem;
-    font-size: 1rem;
-    font-weight: 600;
     background-color: #fff;
     color: #4a6ee0;
-    border: 2px solid #4a6ee0;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 1rem;
-    width: 100%;
-    max-width: 200px;
+    border: 2px solid rgb(74, 110, 224);
 }
 
 .secondary-btn:hover {
-    background-color: #f0f3ff;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(74, 110, 224, 0.2);
-}
-
-.number-btn {
-    background: #f5f7fa;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    width: 32px;
-    height: 32px;
-    font-size: 1.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.number-btn:hover {
-    background: #e8ecf5;
-    border-color: #c2cfe0;
+    background-color: rgba(74, 110, 224, 0.3);
 }
 
 #result,
@@ -393,7 +366,7 @@ button.secondary:hover {
 .reset-content h3 {
     margin: 0 0 0.5rem 0;
     color: #212529;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 

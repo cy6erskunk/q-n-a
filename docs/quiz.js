@@ -206,7 +206,16 @@ function loadQuestion() {
     optionsContainer.innerHTML = '';
     optionsContainer.style.color = '';
 
-    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${QUESTIONS_PER_ROUND}`;
+    const shuffledAnswers = [...question.answers];
+    shuffleArray(shuffledAnswers);
+
+    shuffledAnswers.forEach(answer => {
+        const button = document.createElement('button');
+        button.classList.add('btn', 'full-width-btn');
+        button.textContent = answer.text;
+        button.onclick = () => checkAnswer(answer, question);
+        optionsContainer.appendChild(button);
+    });
 
     document.getElementById('result').textContent = '';
     document.getElementById('explanation').textContent = '';
@@ -220,16 +229,7 @@ function loadQuestion() {
     if (isExamMode) {
         document.getElementById('next-step').classList.add('hidden');
     }
-
-    const shuffledAnswers = [...question.answers];
-    shuffleArray(shuffledAnswers);
-
-    shuffledAnswers.forEach(answer => {
-        const button = document.createElement('button');
-        button.textContent = answer.text;
-        button.onclick = () => checkAnswer(answer, question);
-        optionsContainer.appendChild(button);
-    });
+    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${QUESTIONS_PER_ROUND}`;
 }
 
 function checkAnswer(selectedOption, question) {
@@ -267,8 +267,7 @@ function checkAnswer(selectedOption, question) {
             endQuiz();
         }
     } else {
-        const nextStep = document.getElementById('next-step');
-        nextStep.classList.remove('hidden');
+        document.getElementById('next-step').classList.remove('hidden');
         const nextButton = document.getElementById('next-button');
         nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Quiz';
         nextButton.onclick = loadQuestion;
