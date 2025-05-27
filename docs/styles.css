@@ -38,43 +38,17 @@ h1 {
 }
 
 .btn {
-    padding: 0.8rem 2rem;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease-out;
-    width: 100%;
-    max-width: 200px;
-}
-
-#start-screen .btn,
-#end-screen .btn {
-    font-weight: 600;
-}
-
-.primary-btn {
-    background-color: rgba(76, 175, 80, 0.6);
-    color: white;
-    border: 2px solid #4CAF50;
-}
-
-.primary-btn:hover {
-    background-color: #45a049;
+    border: none;
 }
 
 .full-width-btn {
     width: 100%;
     max-width: none;
-}
-
-.secondary-btn {
-    background-color: #fff;
-    color: #4a6ee0;
-    border: 2px solid rgb(74, 110, 224);
-}
-
-.secondary-btn:hover {
-    background-color: rgba(74, 110, 224, 0.3);
 }
 
 #result,
@@ -337,7 +311,6 @@ button.primary {
     background-color: #4CAF50;
     color: white;
     min-width: 80px;
-    padding: 0.5rem 1rem;
 }
 
 button.primary:hover {
@@ -348,7 +321,6 @@ button.secondary {
     background-color: #757575;
     color: white;
     min-width: 80px;
-    padding: 0.5rem 1rem;
 }
 
 button.secondary:hover {
@@ -382,9 +354,9 @@ button.danger {
     color: #f44336;
     border: 1px solid #f5c2c7;
     width: 100%;
-    padding: 0.5rem 1rem;
     font-weight: 500;
     transition: all 0.2s ease;
+    border-radius: 0;
 }
 
 button.danger:hover {
