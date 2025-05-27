@@ -5,12 +5,13 @@ let score = 0;
 let answeredCorrectly = new Set();
 let isExamMode = false;
 
-const INITIAL_QUESTIONS_PER_ROUND = 5;
-const INITIAL_EXAM_QUESTIONS_COUNT = 30;
-let EXAM_QUESTIONS_COUNT = parseInt(localStorage.getItem('examQuestionsCount')) || INITIAL_EXAM_QUESTIONS_COUNT;
-let QUESTIONS_PER_ROUND = parseInt(localStorage.getItem('questionsPerRound')) || INITIAL_QUESTIONS_PER_ROUND;
-let questionsPerRoundValue = QUESTIONS_PER_ROUND;
-
+const QUESTIONS_PER_QUIZ_DEFAULT = 5;
+const QUESTIONS_PER_EXAM_DEFAULT = 30;
+let questionCountPerExam = parseInt(localStorage.getItem('examQuestionsCount')) || QUESTIONS_PER_EXAM_DEFAULT;
+let questionCountPerQuiz = parseInt(localStorage.getItem('questionsPerRound')) || QUESTIONS_PER_QUIZ_DEFAULT;
+let currentQuestionsAmount = questionCountPerQuiz;
+let initialQuestionCountPerQuiz = questionCountPerQuiz;
+let initialQuestionCountPerExam = questionCountPerExam;
 
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
@@ -32,28 +33,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const examQuestionsCountEnd = document.getElementById('exam-questions-count-end');
     const settingsDialog = document.getElementById('settings-dialog');
 
-    let initialQuestionsPerRound = QUESTIONS_PER_ROUND;
-    let initialExamQuestionsCount = EXAM_QUESTIONS_COUNT;
-
     examQuestionsValue.textContent = examQuestionsCountInput.value;
 
-    if (localStorage.getItem('questionsPerRound')) {
-        QUESTIONS_PER_ROUND = parseInt(localStorage.getItem('questionsPerRound'));
-        initialQuestionsPerRound = QUESTIONS_PER_ROUND;
-        questionsPerRoundInput.value = QUESTIONS_PER_ROUND;
-        questionsValue.textContent = QUESTIONS_PER_ROUND;
-        questionsCount.textContent = QUESTIONS_PER_ROUND;
-    }
 
-    if (localStorage.getItem('examQuestionsCount')) {
-        const savedCount = parseInt(localStorage.getItem('examQuestionsCount'));
-        EXAM_QUESTIONS_COUNT = savedCount;
-        initialExamQuestionsCount = savedCount;
-        examQuestionsCountInput.value = savedCount;
-        examQuestionsValue.textContent = savedCount;
-        examQuestionsCountDisplay.textContent = savedCount;
-        examQuestionsCountEnd.textContent = savedCount;
-    }
+    questionsPerRoundInput.value = questionCountPerQuiz;
+    questionsValue.textContent = questionCountPerQuiz;
+    questionsCount.textContent = questionCountPerQuiz;
+
+    examQuestionsCountInput.value = questionCountPerExam;
+    examQuestionsValue.textContent = questionCountPerExam;
+    examQuestionsCountDisplay.textContent = questionCountPerExam;
+    examQuestionsCountEnd.textContent = questionCountPerExam;
 
     startExamButton.addEventListener('click', () => {
         isExamMode = true;
@@ -78,9 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
     exitButton.addEventListener('click', confirmExit);
 
     settingsButton.addEventListener('click', () => {
-        initialQuestionsPerRound = QUESTIONS_PER_ROUND;
-        questionsPerRoundInput.value = QUESTIONS_PER_ROUND;
-        questionsValue.textContent = QUESTIONS_PER_ROUND;
+        questionsPerRoundInput.value = questionCountPerQuiz;
+        questionsValue.textContent = questionCountPerQuiz;
         settingsDialog.showModal();
     });
 
@@ -95,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     saveSettings.addEventListener('click', () => {
         const newPracticeValue = parseInt(questionsPerRoundInput.value);
         if (newPracticeValue >= 1 && newPracticeValue <= 50) {
-            QUESTIONS_PER_ROUND = newPracticeValue;
+            questionCountPerQuiz = newPracticeValue;
             questionsValue.textContent = newPracticeValue;
             questionsCount.textContent = newPracticeValue;
             localStorage.setItem('questionsPerRound', newPracticeValue);
@@ -103,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const newExamValue = parseInt(examQuestionsCountInput.value);
         if (newExamValue >= 5 && newExamValue <= 100) {
-            EXAM_QUESTIONS_COUNT = newExamValue;
+            questionCountPerExam = newExamValue;
             examQuestionsCountDisplay.textContent = newExamValue;
             examQuestionsCountEnd.textContent = newExamValue;
             localStorage.setItem('examQuestionsCount', newExamValue);
@@ -132,15 +121,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function resetToInitialValues() {
-        QUESTIONS_PER_ROUND = initialQuestionsPerRound;
-        questionsPerRoundInput.value = initialQuestionsPerRound;
-        questionsValue.textContent = initialQuestionsPerRound;
+        questionCountPerQuiz = initialQuestionCountPerQuiz;
+        questionsPerRoundInput.value = initialQuestionCountPerQuiz;
+        questionsValue.textContent = initialQuestionCountPerQuiz;
 
-        EXAM_QUESTIONS_COUNT = initialExamQuestionsCount;
-        examQuestionsCountInput.value = initialExamQuestionsCount;
-        examQuestionsValue.textContent = initialExamQuestionsCount;
-        examQuestionsCountDisplay.textContent = initialExamQuestionsCount;
-        examQuestionsCountEnd.textContent = initialExamQuestionsCount;
+        questionCountPerExam = initialQuestionCountPerExam;
+        examQuestionsCountInput.value = initialQuestionCountPerExam;
+        examQuestionsValue.textContent = initialQuestionCountPerExam;
+        examQuestionsCountDisplay.textContent = initialQuestionCountPerExam;
+        examQuestionsCountEnd.textContent = initialQuestionCountPerExam;
     }
 
     fetch('questions.json')
@@ -163,13 +152,13 @@ function selectQuestions() {
     let unansweredQuestions = allQuestions.filter(q => !answeredCorrectly.has(q.question));
     shuffleArray(unansweredQuestions);
 
-    currentQuestions = unansweredQuestions.slice(0, questionsPerRoundValue);
+    currentQuestions = unansweredQuestions.slice(0, currentQuestionsAmount);
 
-    if (currentQuestions.length < QUESTIONS_PER_ROUND) {
+    if (currentQuestions.length < currentQuestionsAmount) {
         let answeredQuestions = allQuestions.filter(q => answeredCorrectly.has(q.question));
         shuffleArray(answeredQuestions);
         currentQuestions = currentQuestions.concat(
-            answeredQuestions.slice(0, QUESTIONS_PER_ROUND - currentQuestions.length)
+            answeredQuestions.slice(0, currentQuestionsAmount - currentQuestions.length)
         );
     }
 
@@ -191,7 +180,7 @@ function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
 
-    questionsPerRoundValue = isExamMode ? EXAM_QUESTIONS_COUNT : QUESTIONS_PER_ROUND;
+    currentQuestionsAmount = isExamMode ? questionCountPerExam : questionCountPerQuiz;
     selectQuestions();
     loadQuestion();
 }
@@ -230,7 +219,7 @@ function loadQuestion() {
     }
 
     document.getElementById('next-step').classList.add('hidden');
-    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${questionsPerRoundValue}`;
+    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${currentQuestionsAmount}`;
 }
 
 function checkAnswer(selectedOption, question) {
@@ -287,8 +276,8 @@ function endQuiz() {
     document.getElementById('settings-button').classList.remove('hidden');
 
     if (isExamMode) {
-        const percentage = Math.round((score / EXAM_QUESTIONS_COUNT) * 100);
-        finalScore.textContent = `You scored ${score} out of ${EXAM_QUESTIONS_COUNT} (${percentage}%)`;
+        const percentage = Math.round((score / questionCountPerExam) * 100);
+        finalScore.textContent = `You scored ${score} out of ${questionCountPerExam} (${percentage}%)`;
 
         const existingMessages = document.querySelectorAll('#end-screen p:not(#final-score):not(#total-score)');
         existingMessages.forEach(msg => msg.remove());
@@ -305,7 +294,7 @@ function endQuiz() {
 
         isExamMode = false;
     } else {
-        finalScore.textContent = `You scored ${score} out of ${QUESTIONS_PER_ROUND}`;
+        finalScore.textContent = `You scored ${score} out of ${questionCountPerQuiz}`;
     }
 
     document.getElementById('total-score').textContent = `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
@@ -316,6 +305,8 @@ function endQuiz() {
 function resetQuiz() {
     answeredCorrectly.clear();
     localStorage.removeItem('quizProgress');
+    localStorage.removeItem('examQuestionsCount');
+    localStorage.removeItem('questionsPerRound');
     document.getElementById('settings-button').classList.remove('hidden');
     location.reload();
 }
@@ -325,7 +316,7 @@ function saveProgress() {
         answeredCorrectly: Array.from(answeredCorrectly)
     };
     localStorage.setItem('quizProgress', JSON.stringify(progress));
-    localStorage.setItem('questionsPerRound', QUESTIONS_PER_ROUND);
+    localStorage.setItem('questionsPerRound', questionCountPerQuiz);
 }
 
 function loadProgress() {
