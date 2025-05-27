@@ -1,13 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #f5f7fa;
     padding: 20px;
+    color: #333;
+    line-height: 1.6;
 }
+
 .container {
     background-color: white;
     padding: 2rem;
@@ -16,36 +19,50 @@ body {
     text-align: center;
     max-width: 600px;
     width: 100%;
+    position: relative;
+    overflow: hidden;
 }
+
 h1 {
-    color: #333;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 2.2rem;
 }
+
 .options {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
     margin-top: 1rem;
 }
-button {
+
+.btn {
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease-out;
+    border: none;
 }
-button:hover {
-    background-color: #45a049;
+
+.full-width-btn {
+    width: 100%;
+    max-width: none;
 }
-#result, #score, #explanation, #progress {
+
+#result,
+#score,
+#explanation,
+#progress {
     margin-top: 1rem;
     font-weight: bold;
 }
+
 #score {
     color: #4CAF50;
 }
+
 #explanation {
     font-weight: normal;
     font-style: italic;
@@ -73,7 +90,73 @@ button:hover {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
+}
+
+/* Start Screen Styles */
+.mode-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.mode-option {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 1px solid #e1e6f0;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+
+.mode-option:hover {
+    border-color: #c2cfe0;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.mode-option p {
+    color: #5a6b8c;
+    margin: 0.5rem 0;
+}
+
+.questions-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.questions-selector span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    min-width: 40px;
+    display: inline-block;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #8a94a6;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #e1e6f0;
+}
+
+.divider:not(:empty)::before {
+    margin-right: 1.5rem;
+}
+
+.divider:not(:empty)::after {
+    margin-left: 1.5rem;
 }
 
 /* Settings Button */
@@ -167,7 +250,50 @@ dialog::backdrop {
 
 .form-group {
     margin-bottom: 1.5rem;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.exam-questions-group {
+    margin-top: 20px;
+}
+
+.start-buttons,
+.end-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Style for sliders */
+.slider {
+    width: 100%;
+    margin: 0.5rem 0 1rem;
+}
+
+/* Style for number input */
+input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+/* Style for slider labels */
+.form-group label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Ensure proper spacing for the exam settings */
+#exam-questions-count-container {
+    margin-top: 15px;
 }
 
 .form-group label {
@@ -185,7 +311,6 @@ button.primary {
     background-color: #4CAF50;
     color: white;
     min-width: 80px;
-    padding: 0.5rem 1rem;
 }
 
 button.primary:hover {
@@ -196,7 +321,6 @@ button.secondary {
     background-color: #757575;
     color: white;
     min-width: 80px;
-    padding: 0.5rem 1rem;
 }
 
 button.secondary:hover {
@@ -214,7 +338,7 @@ button.secondary:hover {
 .reset-content h3 {
     margin: 0 0 0.5rem 0;
     color: #212529;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -230,9 +354,9 @@ button.danger {
     color: #f44336;
     border: 1px solid #f5c2c7;
     width: 100%;
-    padding: 0.5rem 1rem;
     font-weight: 500;
     transition: all 0.2s ease;
+    border-radius: 0;
 }
 
 button.danger:hover {
