@@ -374,37 +374,16 @@ b) have such power of attorney issued to a person who has achieved his/her major
 
 ### o.31
 
-| _| Article | Amount | Date of payment | To be paid to  | By whom ||
-|---|---|---|---|---|---|---|
-|Entry to World <br>Championships <br>after closing date|o.56|150 euros per entry|With the<br>entry |FIE|By the <br>National Federation |
-| Entry to other FIE competitions after closing date until the Tuesday preceding the competition|o.61.4 a)|150 euros per entry|With the|FIE|By the |
-
-
-Entry to other FIE competitions after closing date until the Tuesday preceding the competition o.61.4 a) 150 euros With the FIE By the 
-
-competitions after a) per entry entry National 
-
-closing date until the Federation 
-
-Tuesday preceding 
-
-the competition 
-
-Entry to other FIE o.61.4 250 euros With the FIE By the 
-
-competitions after b) per entry entry National 
-
-closing date, from Federation the Wednesday and until the day (12 noon local time) preceding the competition.
-
-If a fencer or team duly entered does not turn up o.85.4, o.87.3, o.61.5 500 euros per fencer or team On receipt of notification FIE By the National Federation of the fine
-
-Participation of a fencer or team not properly entered or without a valid FIE licence for the current season o.61.6 1000 euros per improper participation On receipt of notification FIE By the organiser of the fine
-
-Required number of referees not respected as the information is sent to the organiser o.25.1.b 1000 euros per referee At the same time Organiser By the National Federation
-
-Deadline to send the invitation not respected o.51 1000 euros On receipt of notification FIE By the National Federation of the fine
-
-Deadline to send the invitation for Zonal Championships not respected o.52 500 euros On receipt of notification FIE By the National Federation of the fine 
+| Infraction | Article | Amount | When due | Who is notified | Who pays |
+|------------|---------|--------|----------|-----------------|----------|
+| Entry to World Championships after closing date | o.56 | 150 euros per entry | With the entry | FIE | By the National Federation |
+| Entry to other FIE competitions after closing date until the Tuesday preceding the competition | o.61.4 a) | 150 euros per entry | With the entry | FIE | By the National Federation |
+| Entry to other FIE competitions after closing date, from the Wednesday and until the day (12 noon local time) preceding the competition | o.61.4 b) | 250 euros per entry | With the entry | FIE | By the National Federation |
+| If a fencer or team duly entered does not turn up | o.85.4, o.87.3, o.61.5 | 500 euros per fencer or team | On receipt of notification of the fine | FIE | By the National Federation |
+| Participation of a fencer or team not properly entered or without a valid FIE licence for the current season | o.61.6 | 1000 euros per improper participation | On receipt of notification of the fine | FIE | By the organiser |
+| Required number of referees not respected as the information is sent to the organiser | o.25.1.b | 1000 euros per referee | At the same time as the information is sent to the organiser | Organiser | By the National Federation |
+| Deadline to send the invitation not respected | o.51 | 1000 euros | On receipt of notification of the fine | FIE | By the National Federation |
+| Deadline to send the invitation for Zonal Championships not respected | o.52 | 500 euros | On receipt of notification of the fine | FIE | By the National Federation |
 
 # PART B: PROCEDURES BEFORE THE COMPETITIONS 
 
