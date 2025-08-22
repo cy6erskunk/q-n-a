@@ -18,159 +18,120 @@ The official competitions of the FIE are organised according to the following ru
 
 ### o.2
 
-## 1 The official competitions of the FIE are open to fencers (individual or team) of all FIE member countries. 
+1. The official competitions of the FIE are open to fencers (individual or team) of all FIE member countries. 
 
-2 Every competitor or designated official in a competition, irrespective of his status, is required to be licensed for the current season (cf. Statutes, Chapter IX). 
+2. Every competitor or designated official in a competition, irrespective of his status, is required to be licensed for the current season (cf. Statutes, Chapter IX). 
 
 ## Types of Competition 
 
 ### o.3
-
-These Rules are obligatory without modification for the ‘Official Competitions of the FIE’, viz.: 
-
+These Rules are obligatory without modification for the 'Official Competitions of the FIE', viz.: 
 - The fencing events at the Olympic Games 
-
 - The World Championships in all categories 
-
 - The Grands Prix 
-
 - The competitions of the World Cup, junior and senior 
-
 - The Zonal Championships, junior and senior 
-
 - The Satellite competitions 
 
 ## Criteria for World Cup Competition Admission 
 
 ### o.4
-
 An individual competition can only be classed or kept as a World Cup competition if it satisfies the following criteria. 
-
-## 1 Participation must include fencers: 
-
+1. Participation must include fencers: 
 - from at least eight countries, for senior competitions in Europe; 
-
 - from at least five countries, for senior competitions outside Europe; 
-
 - from at least five countries, for junior competitions. 
-
-## 2 Participation must include a minimum of ten fencers listed in the top 32 in the official ranking of the FIE and representing at least five different countries for senior competitions in Europe (no requirement for competitions outside Europe). 
-
-## 3 The competition must be attended by at least four FIE A or B Grade referees of different nationalities.
-
-## 4 The Rules of the FIE must be faithfully applied, as well as the specifications for World Cup competitions. The organisers must use automatic judging equipment of which the prototype has been approved by the SEMI. 
-
-## 5 The finals must take place in a hall in which there is space allocated to the public. 
-
-## 6 There must be a sufficient number of pistes to allow the first round to take place in no more than two series of pools. 
-
-## 7 During the finals, the organisers must display signs on the piste indicating the names and nationalities of the fencers. 
-
-## 8 For the presentation of the prizes, the protocol rules of the FIE must be applied (cf. FIE Administrative Rules). 
-
-## 9 There must be a medical doctor present on the premises of the competition for the whole duration of the competition. 
-
-## 10 There must be an anti-doping test conforming to the regulations of the FIE (cf. o.107 and the FIE Anti-Doping Rules). 
+2. Participation must include a minimum of ten fencers listed in the top 32 in the official ranking of the FIE and representing at least five different countries for senior competitions in Europe (no requirement for competitions outside Europe). 
+3. The competition must be attended by at least four FIE A or B Grade referees of different nationalities.
+4. The Rules of the FIE must be faithfully applied, as well as the specifications for World Cup competitions. The organisers must use automatic judging equipment of which the prototype has been approved by the SEMI. 
+5. The finals must take place in a hall in which there is space allocated to the public. 
+6. There must be a sufficient number of pistes to allow the first round to take place in no more than two series of pools. 
+7. During the finals, the organisers must display signs on the piste indicating the names and nationalities of the fencers. 
+8. For the presentation of the prizes, the protocol rules of the FIE must be applied (cf. FIE Administrative Rules). 
+9. There must be a medical doctor present on the premises of the competition for the whole duration of the competition. 
+10. There must be an anti-doping test conforming to the regulations of the FIE (cf. o.107 and the FIE Anti-Doping Rules). 
 
 # Chapter 2 
-
 # GLOSSARY 
 
 ## Assaults and bouts 
 
 ### o.5
-
-A friendly combat between two fencers is called an assault . When the score of such an assault 
-
-is kept to determine a result in an individual competition it is called a bout .
-
-The three sections of a direct elimination bout are called periods .
-
-In a match (cf o.6) between teams each of the nine bouts is called a relay .
+A friendly combat between two fencers is called an assault. When the score of such an assault is kept to determine a result in an individual competition it is called a bout.
+The three sections of a direct elimination bout are called periods.
+In a match (cf o.6) between teams each of the nine bouts is called a relay.
 
 ## Match 
 
 ### o.6
-
-The aggregate of the relays fought between the fencers of two different teams is called a match .
+The aggregate of the relays fought between the fencers of two different teams is called a match.
 
 ## Competition 
 
 ### o.7
-
-## 1 A competition is the aggregate of the bouts (individual competitions) or of the matches (team competitions) required to determine the winner of the event. 
-
-## 2 Competitions are distinguished by weapons, by the competitors’ sex, by their age and by the fact that they are for individuals or for teams. 
+1. A competition is the aggregate of the bouts (individual competitions) or of the matches (team competitions) required to determine the winner of the event. 
+2. Competitions are distinguished by weapons, by the competitors' sex, by their age and by the fact that they are for individuals or for teams.
 
 ## Tournament 
 
 ### o.8
-
 Tournament is the name given to a number of competitions, individual and team, held at the same place, at the same period and under the same aegis. 
 
 ## Championship 
 
 ### o.9
-
 A championship is the name given to a competition held to determine the best fencer or the best team at each weapon for a federation, for a specific region or for the world and for a specific period of time.
 
 # Chapter 3 
-
-# BODIES RESPONSIBLE FOR 
-
-# ORGANISATION AND CONTROL 
+# BODIES RESPONSIBLE FOR ORGANISATION AND CONTROL 
 
 ## The Organising Committee 
 
 ### o.10
-
-1 The Organising Committee is the group of persons responsible for organising the competition. 
-
-2 The Organising Committee must take note of the instructions in the Specifications (‘Cahier des Charges’) specific to each category of competition. 
-
-3. If possible, both genders should be represented in the Organising Committee. 
+1. The Organising Committee is the group of persons responsible for organising the competition. 
+2. The Organising Committee must take note of the instructions in the Specifications ('Cahier des Charges') specific to each category of competition. 
+3. If possible, both genders should be represented in the Organising Committee.
 
 ## The Central Office of the FIE 
 
 ### o.11
-
 The Central Office of the FIE controls the activities of the Directoire Technique at the Olympic Games, the World Championships, the Junior and Cadet and Veterans World Championships, as described in Article o.12. 
 
 ## Supervision by the FIE 
 
 ### o.12
 
-1 With the aim of ensuring that the rules are observed at the World Championships and Olympic Games, the President and the members of the Bureau of the FIE have the right to attend all meetings of the Directoire Technique and of the official delegates of the FIE. The Directoire Technique is obliged to give them notice of such meetings. 
+1. With the aim of ensuring that the rules are observed at the World Championships and Olympic Games, the President and the members of the Bureau of the FIE have the right to attend all meetings of the Directoire Technique and of the official delegates of the FIE. The Directoire Technique is obliged to give them notice of such meetings. 
 
-2 It is the responsibility of the Bureau of the FIE or of its designated representative to settle any disputes, other than concerning discipline, which arise at World Championships. With respect to disciplinary actions, see t.143.4 and t.175.2. 
+2. It is the responsibility of the Bureau of the FIE or of its designated representative to settle any disputes, other than concerning discipline, which arise at World Championships. With respect to disciplinary actions, see t.143.4 and t.175.2.
 
 ## Technical delegate of the FIE 
 
 ### o.13
 
-1 The Technical delegate of the FIE, who represents the FIE in accordance with the Olympic Rules for Regional Games, will be chosen by the President of the FIE, after consultation with the Executive Committee, according to criteria of recognised technical abilities. 
+1. The Technical delegate of the FIE, who represents the FIE in accordance with the Olympic Rules for Regional Games, will be chosen by the President of the FIE, after consultation with the Executive Committee, according to criteria of recognised technical abilities. 
 
-2 The expenses incurred by this representative (tourist-class air fare, hotel and board) will be paid by the Organising Committee. 
+2. The expenses incurred by this representative (tourist-class air fare, hotel and board) will be paid by the Organising Committee.
 
 ## The Directoire Technique 
 
 ### o.14
 
-The technical organisation of competitions is entrusted to a Directoire Technique , the functions and scope of whose activities are described in the Rules ( cf. t.139-141, o.15 - o.17 ). 
+The technical organisation of competitions is entrusted to a Directoire Technique, the functions and scope of whose activities are described in the Rules (cf. t.139-141, o.15 - o.17).
 
 ## The Directoire Technique and the FIE delegates at official competitions 
 
 ### o.15
 
-1 Apart from the specific areas of competence which are the responsibility of the other FIE technical delegates specified hereafter, the technical management of the official competitions of the FIE is entrusted to a Directoire Technique .
+1. Apart from the specific areas of competence which are the responsibility of the other FIE technical delegates specified hereafter, the technical management of the official competitions of the FIE is entrusted to a Directoire Technique .
 
-2 The members of the Directoire Technique and the other official delegates of the FIE cannot act in any other capacity at the competition, such as team captain, official delegate of their federation, referee, competitor, etc. 
+2. The members of the Directoire Technique and the other official delegates of the FIE cannot act in any other capacity at the competition, such as team captain, official delegate of their federation, referee, competitor, etc. 
 
-3 The Directoire Technique and the official delegates of the FIE must always attend events from beginning to end, so as to solve any problem which could arise and thus ensure that the event continues to run smoothly. 
+3. The Directoire Technique and the official delegates of the FIE must always attend events from beginning to end, so as to solve any problem which could arise and thus ensure that the event continues to run smoothly. 
 
-4 All the decisions of the Directoire Technique and the official delegates of the FIE must be displayed sufficiently in advance on a clearly visible notice-board to be consulted by the fencers and officials. In principle, fencers and officials are kept informed by their heads of delegation or captains, and they may not make any complaint against changes in the timetable or any other matter about which information has been displayed within the stipulated time limits. 
+4. All the decisions of the Directoire Technique and the official delegates of the FIE must be displayed sufficiently in advance on a clearly visible notice-board to be consulted by the fencers and officials. In principle, fencers and officials are kept informed by their heads of delegation or captains, and they may not make any complaint against changes in the timetable or any other matter about which information has been displayed within the stipulated time limits. 
 
-5 The day before an individual or team competition, the DT must download the entry file, the day before the competition, from 12:00 noon local time from the FIE website. 
+5. The day before an individual or team competition, the DT must download the entry file, the day before the competition, from 12:00 noon local time from the FIE website. 
 
 - In individual competitions, the DT must publish and send to the FIE the pools and the relevant schedules, as well as the list of exempt fencers for senior competitions, no later than 4:00 p.m. (local time). No addition may be made to pools already published unless they come from pools starting at the same time (cf o.67.1). 
 
@@ -180,11 +141,9 @@ The technical organisation of competitions is entrusted to a Directoire Techniqu
 
 ### o.16
 
-The Directoire Technique is composed of people who have the experience and competence 
+The Directoire Technique is composed of people who have the experience and competence to organise competitions. 
 
-to organise competitions. 
-
-1 World Championships and Olympic Games. 
+1. World Championships and Olympic Games. 
 
 a) For the Olympic Games the Directoire Technique is composed of six members of different nationalities, one of whom must represent the country where the competition is held. 
 
@@ -194,7 +153,7 @@ b) For the World Championships, the Directoire Technique is composed of 8 member
 
 c) The Directoire Technique (the President and the remaining members, one of whom will be in charge of the protocol) is appointed by the Executive Committee of the FIE. 
 
-2 World Cup and Grands Prix competitions .
+2. World Cup and Grands Prix competitions .
 
 The Directoire Technique is composed of three qualified persons from the country where the competition is held or invited by them. There must be at least one member from each gender. 
 
@@ -202,11 +161,11 @@ The Directoire Technique is composed of three qualified persons from the country
 
 ### o.17
 
-1 The functions of the Directoire Technique include the strict organisation of the different events, except the responsibilities of the other delegates of the FIE (cf o.12, o.19, o.20, o.21, o.22). It has the obligation to see that the Rules are adhered to and cannot decide on any departure from the Rules except when circumstances arise in which it is absolutely impossible to apply them. 
+1. The functions of the Directoire Technique include the strict organisation of the different events, except the responsibilities of the other delegates of the FIE (cf o.12, o.19, o.20, o.21, o.22). It has the obligation to see that the Rules are adhered to and cannot decide on any departure from the Rules except when circumstances arise in which it is absolutely impossible to apply them. 
 
-2 The Directoire Technique is responsible for the technical organisation of the competitions and for ensuring their smooth running.
+2. The Directoire Technique is responsible for the technical organisation of the competitions and for ensuring their smooth running.
 
-3 Hence: 
+3. Hence: 
 
 a) It ensures the co-ordination between the Organising Committee, the Directoire Technique, the official delegates of the FIE and the other functions of the FIE; 
 
@@ -224,7 +183,7 @@ g) It prepares the subsequent events sufficiently in advance to be able to warn 
 
 h) It supervises the dissemination of results. 
 
-4 Furthermore the Directoire Technique has disciplinary responsibility at competitions but only as a collective entity. In the event of a tied vote within the Directoire Technique, the vote of the 
+4. Furthermore the Directoire Technique has disciplinary responsibility at competitions but only as a collective entity. In the event of a tied vote within the Directoire Technique, the vote of the 
 
 Directoire Technique President is decisive .
 
@@ -242,13 +201,13 @@ When all delegate designations are taken together (across all types of competiti
 
 Should the availability of the delegates and continental representation allow it, there must be at least one delegate of each gender from each of the Refereeing, SEMI and Medical Commissions designated at World Championships. 
 
-1 World Championships 
+1. World Championships 
 
-A chief Refereeing delegate and 5 more Refereeing delegates, a chief SEMI delegate and 2 more SEMI delegates and 3 Medical delegates are appointed by the FIE Executive Committee following the recommendations of the respective commissions. 
+    A chief Refereeing delegate and 5 more Refereeing delegates, a chief SEMI delegate and 2 more SEMI delegates and 3 Medical delegates are appointed by the FIE Executive Committee following the recommendations of the respective commissions. 
 
-2 Grands Prix 
+2. Grands Prix 
 
-Two Refereeing delegates are appointed by the Executive Committee following the recommendation of the Refereeing Commission. 
+    Two Refereeing delegates are appointed by the Executive Committee following the recommendation of the Refereeing Commission. 
 
 3 Senior World Cup competitions 
 
@@ -258,21 +217,21 @@ One Refereeing delegate is appointed by the Executive Committee following the re
 
 ### o.19
 
-1 The SEMI delegates check the technical installations and the homologation of the various items of equipment. 
+1. The SEMI delegates check the technical installations and the homologation of the various items of equipment. 
 
-2 They organise the checking of the fencers’ equipment and oversee its efficient functioning. 
+2. They organise the checking of the fencers' equipment and oversee its efficient functioning. 
 
-3 They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
+3. They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
 
-4 They assist referees over material problems during matches.
+4. They assist referees over material problems during matches.
 
 ## The Refereeing delegates 
 
 ### o.20
 
-1 The functions of the Refereeing delegates include the strict and complete organisation of the refereeing of events, ensuring their perfect running. They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
+1. The functions of the Refereeing delegates include the strict and complete organisation of the refereeing of events, ensuring their perfect running. They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
 
-2 Hence: 
+2. Hence: 
 
 a) They organise the referee’s meeting on the day before the event. 
 
@@ -282,17 +241,17 @@ c) They observe the referees at work and make selections as mandated in articles
 
 d) They review protests and provide solutions in conformity with the instructions in article t.171. 
 
-3 For questions concerning the rules during FIE competitions (including the World Championships and Olympic Games), the Refereeing Commission delegate(s) alone are competent to judge a referee’s decision from the beginning to the end of the bout. 
+3. For questions concerning the rules during FIE competitions (including the World Championships and Olympic Games), the Refereeing Commission delegate(s) alone are competent to judge a referee's decision from the beginning to the end of the bout. 
 
-4 Furthermore, a Refereeing delegate is an entity who has disciplinary responsibility at competitions; Article t.139 ss defines the extent of his or her authority. 
+4. Furthermore, a Refereeing delegate is an entity who has disciplinary responsibility at competitions; Article t.139 ss defines the extent of his or her authority. 
 
 ## The Medical delegates 
 
 ### o.21
 
-1 The functions of the medical delegates include the strict and complete organisation of the medical aspect. They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
+1. The functions of the medical delegates include the strict and complete organisation of the medical aspect. They have the obligation to see that the Rules are adhered to and cannot themselves decide on any departure from the Rules except in circumstances in which it is absolutely impossible to apply them. 
 
-2 Hence, medical delegates: 
+2. Hence, medical delegates: 
 
 a) Verify the medical services and oversee their operation. 
 
@@ -304,15 +263,15 @@ c) Evaluate the medical situation and supervise the intervention or recognized t
 
 ### o.22
 
-1 The Organizing Committees of Grands Prix and World Cup events, individual and team, must ensure the presence of a supervisor of the FIE from a country other than that where the competition is held, whose task it will be to verify that the competition properly fulfils the World Cup criteria. 
+1. The Organizing Committees of Grands Prix and World Cup events, individual and team, must ensure the presence of a supervisor of the FIE from a country other than that where the competition is held, whose task it will be to verify that the competition properly fulfils the World Cup criteria. 
 
-2 The Supervisor is appointed by the Executive Committee of the FIE, at the suggestion of the FIE Bureau. 
+2. The Supervisor is appointed by the Executive Committee of the FIE, at the suggestion of the FIE Bureau. 
 
-3 At competitions where there is no Refereeing Commission delegate, no SEMI Commission delegate and no Medical Commission delegate, it is the Supervisor who fulfils these respective functions. 
+3. At competitions where there is no Refereeing Commission delegate, no SEMI Commission delegate and no Medical Commission delegate, it is the Supervisor who fulfils these respective functions. 
 
-4 The Supervisor settles any other disputes that might arise in World Cup and Grand Prix. 
+4. The Supervisor settles any other disputes that might arise in World Cup and Grand Prix. 
 
-5 The travel, board and lodging costs of the supervisor are the responsibility of the organisers, in accordance with the standards updated from time to time by the Executive Committee of the FIE. 
+5. The travel, board and lodging costs of the supervisor are the responsibility of the organisers, in accordance with the standards updated from time to time by the Executive Committee of the FIE. 
 
 ## This supervisor is either: 
 
@@ -328,19 +287,15 @@ c) Evaluate the medical situation and supervise the intervention or recognized t
 
 ### o.24
 
-1 Refereeing at World Championships is carried out by referees chosen by the Executive 
+1. Refereeing at World Championships is carried out by referees chosen by the Executive Committee of the FIE at the proposal of the Refereeing Commission.
 
-Committee of the FIE at the proposal of the Refereeing Commission. 
+2. Referees’ travel and board and lodging costs are paid by the Organising Committee, who in return will receive all the entry fees. 
 
-2 Referees’ travel and board and lodging costs are paid by the Organising Committee, who in return will receive all the entry fees. 
-
-3 Referees must attend the refereeing meeting that takes place the day before the World Championships. 
+3. Referees must attend the refereeing meeting that takes place the day before the World Championships. 
 
 ### o.25
 
-1 The number of FIE A or B Grade referees that must accompany teams to junior World Cup 
-
-competitions and satellite competitions is: 
+1. The number of FIE A or B Grade referees that must accompany teams to junior World Cup competitions and satellite competitions is:
 
 1–4 fencers: No obligation to provide a referee  
 
@@ -352,9 +307,9 @@ competitions and satellite competitions is:
 
 For junior World Cup competitions and satellite competitions, the name(s) of the referee(s) (who must have an FIE category in the weapon of the competition for which they are entered) must be notified via the FIE website 7 days before the competition (midnight, Lausanne time). 
 
-2 Should a national Federation not provide the required number of referees, a fine (cf o.31, table of financial penalties and fines) will be inflicted on it. 
+2. Should a national Federation not provide the required number of referees, a fine (cf o.31, table of financial penalties and fines) will be inflicted on it. 
 
-3 In addition, the FIE Supervisor of junior World Cup competitions is required to report on gender diversity of the registered referees through the FIE Supervisor’s report. 
+3. In addition, the FIE Supervisor of junior World Cup competitions is required to report on gender diversity of the registered referees through the FIE Supervisor’s report. 
 
 ### o.26
 
@@ -368,67 +323,44 @@ The additional referees required (not less than 5) will be provided by the organ
 
 The organising committee must appoint: 
 
-1 Scorers and time-keepers 
+1. Scorers and time-keepers 
 
-The Organizing committee must appoint, on their own responsibility, scorers whose duty it will be to keep the score-sheet for the bout, the pool or the match and maintain the score-boards, and a 
-
-time-keeper whose duty it will be to keep time for the duration of the bouts (cf. t.37ss). 
+The Organizing committee must appoint, on their own responsibility, scorers whose duty it will be to keep the score-sheet for the bout, the pool or the match and maintain the score-boards, and a time-keeper whose duty it will be to keep time for the duration of the bouts (cf. t.37ss).
 
 For finals , the Directoire Technique must appoint a delegate or a referee, neutral wherever possible, to supervise the time-keeper, the scorer and the person responsible for the scoring apparatus. 
 
-2 The Organising Committee must choose qualified persons , who pay careful attention to the signals given by the apparatus in order that they may be able to advise the Referee as to what the apparatus has registered, and warn him, even during the course of a bout, as to any abnormal phenomena which may occur. 
+2. The Organising Committee must choose qualified persons who pay careful attention to the signals given by the apparatus in order that they may be able to advise the Referee as to what the apparatus has registered, and warn him, even during the course of a bout, as to any abnormal phenomena which may occur.
 
-3 Experts 
+3. Experts
 
-a) For each tournament, the Organising Committee must appoint experts in matters relating to the electrical apparatus . These experts are placed under the supervision of the Directoire Technique. 
-
+a) For each tournament, the Organising Committee must appoint experts in matters relating to the electrical apparatus. These experts are placed under the supervision of the Directoire Technique.
 b) The experts may be consulted, separately or conjointly, by the referees or by the Directoire Technique regarding all questions relating to the electrical apparatus. 
-
 c) Members of the Committee for Electrical Apparatus and Equipment of the FIE (SEMI) who are present are ex officio qualified to act as experts. 
+4. Repairers
+For each tournament, the Organising Committee must ensure the presence of competent repairers to remedy faults in the electrical apparatus and, possibly, in the personal electrical equipment of the fencers.
 
-4 Repairers 
-
-For each tournament, the Organising Committee must ensure the presence of competent 
-
-repairers to remedy faults in the electrical apparatus and, possibly, in the personal electrical 
-
-equipment of the fencers. 
-
-## Checking of Equipment 
-
+## Checking of Equipment
 ### o.28
-
-The checking of the organization equipment , as well as the equipment of the fencers, must be 
-
-carried out in accordance with the rules to be found in the Material Rules by qualified personnel 
-
-designated by the Organizing committee. If there are present designated members of the 
-
-SEMI Commission, this function must be carried out by them or under their control .
+The checking of the organization equipment, as well as the equipment of the fencers, must be carried out in accordance with the rules to be found in the Material Rules by qualified personnel designated by the Organizing committee. If there are present designated members of the SEMI Commission, this function must be carried out by them or under their control.
 
 # Chapter 4 
-
 # AGE OF PARTICIPANTS 
 
 ### o.29
 
-1 No fencer may obtain an FIE licence, enabling him or her to enter for an official FIE competition, until he or she has reached their 13 th birthday. 
+1. No fencer may obtain an FIE licence, enabling him or her to enter for an official FIE competition, until he or she has reached their 13th birthday. 
 
-2 Fencers taking part in all the official FIE Cadet competitions must be under 17 years old at midnight on the 31 st December of the year preceding the year in which the competition takes place. 
+2. Fencers taking part in all the official FIE Cadet competitions must be under 17 years old at midnight on the 31st December of the year preceding the year in which the competition takes place. 
 
 Fencers taking part in all the official FIE Junior competitions, individual or team, must be under 20 years old at midnight on 31 st December of the year preceding the year in which the competition takes place. 
 
 To be eligible to compete in the current season's official events, including the current season's World Junior Championships, fencers must be under 20 years of age at midnight on 31 December of the current season. 
 
-3 Apart from the stipulations above, there is no maximum age limit for those taking part in any other official events of the FIE, except in regard to the different Veteran categories. 
+3. Apart from the stipulations above, there is no maximum age limit for those taking part in any other official events of the FIE, except in regard to the different Veteran categories. 
 
-4 All participants in an official competition of the FIE who are under the age of majority in the country in which such competition is being held must either: 
+4. All participants in an official competition of the FIE who are under the age of majority in the country in which such competition is being held must either: 
 
-a) be accompanied by a person who is a parent or guardian of the participant or who has been 
-
-delegated in a form valid in the country of the competition from a parent or guardian of such 
-
-participant to act on behalf of the participant regarding health-related issues; or 
+a) be accompanied by a person who is a parent or guardian of the participant or who has been delegated in a form valid in the country of the competition from a parent or guardian of such participant to act on behalf of the participant regarding health-related issues; or
 
 b) have such power of attorney issued to a person who has achieved his/her majority and who will be at the competition site during the competition and has agreed to accept the responsibility delineated in such power. 
 
@@ -442,97 +374,16 @@ b) have such power of attorney issued to a person who has achieved his/her major
 
 ### o.31
 
-Article Amount Date of To be By whom 
-
-payment paid to 
-
-Entry to World o.56 150 euros With the FIE By the 
-
-Championships per entry entry National 
-
-after closing date Federation 
-
-Entry to other FIE o.61.4 150 euros With the FIE By the 
-
-competitions after a) per entry entry National 
-
-closing date until the Federation 
-
-Tuesday preceding 
-
-the competition 
-
-Entry to other FIE o.61.4 250 euros With the FIE By the 
-
-competitions after b) per entry entry National 
-
-closing date, from Federation 
-
-the Wednesday and 
-
-until the day (12 
-
-noon local time) 
-
-preceding the 
-
-competition 
-
-If a fencer or team o.85.4, 500 euros On receipt FIE By the 
-
-duly entered does o.87.3, per fencer of National 
-
-not turn up o.61.5 or team notification Federation 
-
-of the fine 
-
-Participation of a o.61.6 1000 euros On receipt FIE By the 
-
-fencer or team not per of organiser 
-
-properly entered or improper notification 
-
-without a valid FIE participation of the fine 
-
-licence for the 
-
-current season
-
-Required number of o.25.1.b 1000 euros At the Organiser By the 
-
-referees not per referee same time National 
-
-respected as the Federation 
-
-information 
-
-is sent to 
-
-the 
-
-organiser 
-
-Deadline to send 
-
-the invitation not 
-
-respected o.51 1000 euros On receipt FIE By the 
-
-of National 
-
-notification Federation 
-
-of the fine 
-
-Deadline to send On receipt 
-
-the invitation for of 
-
-Zonal o.52 500 euros notification FIE By the 
-
-Championships not of the fine National 
-
-respected Federation 
+| Infraction | Article | Amount | When due | Who is notified | Who pays |
+|------------|---------|--------|----------|-----------------|----------|
+| Entry to World Championships after closing date | o.56 | 150 euros per entry | With the entry | FIE | By the National Federation |
+| Entry to other FIE competitions after closing date until the Tuesday preceding the competition | o.61.4 a) | 150 euros per entry | With the entry | FIE | By the National Federation |
+| Entry to other FIE competitions after closing date, from the Wednesday and until the day (12 noon local time) preceding the competition | o.61.4 b) | 250 euros per entry | With the entry | FIE | By the National Federation |
+| If a fencer or team duly entered does not turn up | o.85.4, o.87.3, o.61.5 | 500 euros per fencer or team | On receipt of notification of the fine | FIE | By the National Federation |
+| Participation of a fencer or team not properly entered or without a valid FIE licence for the current season | o.61.6 | 1000 euros per improper participation | On receipt of notification of the fine | FIE | By the organiser |
+| Required number of referees not respected as the information is sent to the organiser | o.25.1.b | 1000 euros per referee | At the same time as the information is sent to the organiser | Organiser | By the National Federation |
+| Deadline to send the invitation not respected | o.51 | 1000 euros | On receipt of notification of the fine | FIE | By the National Federation |
+| Deadline to send the invitation for Zonal Championships not respected | o.52 | 500 euros | On receipt of notification of the fine | FIE | By the National Federation |
 
 # PART B: PROCEDURES BEFORE THE COMPETITIONS 
 
@@ -743,33 +594,19 @@ The rules for the invitation to and participation in the Olympic Games are estab
 
 ## Regional Games 
 
-Technical officials and referees 
+## Technical officials and referees
 
 ### o.54
 
-The Olympic Rules for Regional Games stipulate that the control of all the technical 
+The Olympic Rules for Regional Games stipulate that the control of all the technical organisation of the Games, including appointing referees and officials, must be entrusted to the international federations. The Organising Committee must pay the expenses (tourist-class air fare, hotel and board) for the following officials:
 
-organisation of the Games , including appointing referees and officials, must be entrusted to the 
+1. **Directoire Technique**: Two foreign members if the Directoire Technique has three members; five foreign members if there are six members. The Directoire Technique is appointed by the Executive Committee of the FIE.
 
-international federations. The Organising Committee must pay the expenses (tourist-class air fare, hotel and board) for the following officials: 
+2. **Checking of Equipment**: One or two representatives of the SEMI Committee, depending on the importance of the fencing events at the Games. These representatives are appointed by the Executive Committee of the FIE.
 
-1 Directoire Technique: Two foreign members if the Directoire Technique has three members; 
+3. **Refereeing delegate**: A representative of the Refereeing Committee, appointed by the Executive Committee of the FIE.
 
-five foreign members if there are six members. The Directoire Technique is appointed by the 
-
-Executive Committee of the FIE. 
-
-2 Checking of Equipment: One or two representatives of the SEMI Committee , depending on 
-
-the importance of the fencing events at the Games. These representatives are appointed by the Executive Committee of the FIE. 
-
-3 Refereeing delegate: A representative of the Refereeing Committee , appointed by the 
-
-Executive Committee of the FIE.
-
-4 Neutral referees: At least two international referees from countries outside the region of the 
-
-Games, appointed by the Executive Committee of the FIE at the proposal of the Refereeing Commission. 
+4. **Neutral referees**: At least two international referees from countries outside the region of the Games, appointed by the Executive Committee of the FIE at the proposal of the Refereeing Commission. 
 
 # Chapter 3 
 
@@ -937,53 +774,46 @@ Composition of pools
 
 ### o.68
 
-1 The pools are composed taking account of the initial seeding in the competition, which is based on the latest official FIE ranking and by drawing lots among any fencers who are not in the ranking. The pools are composed using the following method :
+1. The pools are composed taking account of the initial seeding in the competition, which is based on the latest official FIE ranking and by drawing lots among any fencers who are not in the ranking. The pools are composed using the following method:
 
-Pool A B C
+   | Pool A | Pool B | Pool C |
+   |--------|--------|--------|
+   | 1      | 2      | 3      |
+   | 6      | 5      | 4      |
+   | 7      | 8      | 9      |
+   | 12     | 11     | 10     |
+   | 13     | 14     | 15     |
+   | 18     | 17     | 16     |
+   | 19     | 20     | 21     |
 
-Fencer ranked 1 2 3
-
-6 5 4
-
-7 8 9
-
-12 11 10 
-
-13 14 15 
-
-18 17 16 
-
-19 20 21
-
-2 The allocation of fencers in the pools must be made in such a way as to place fencers of the 
-
-same nationality in different pools, as far as possible. If a fencer is placed in a pool where there is already a fencer of the same nationality, he is moved one or more places down the ranking until he is placed in a pool without a fencer of the same nationality. If this is not possible, he must 
-
-remain in the original pool .
-
-3 The order of fencers on the pool sheet is decided by drawing lots. 
-
-4 The pools must be fenced up to the last bout .
+2. The allocation of fencers in the pools must be made in such a way as to place fencers of the same nationality in different pools, as far as possible. If a fencer is placed in a pool where there is already a fencer of the same nationality, he is moved one or more places down the ranking until he is placed in a pool without a fencer of the same nationality. If this is not possible, he must remain in the original pool.
+3. The order of fencers on the pool sheet is decided by drawing lots.
+4. The pools must be fenced up to the last bout.
 
 ### o.69
 
-The order of bouts in the pools is as follows: 
+The order of bouts in the pools is as follows:
 
-1. Pool of seven 2. Pool of six 
-
+**Pool of seven:**
+```
 1–4 5–1 3–5 1–2 5–4 6–4
-
 2–5 4–3 1–6 4–3 1–6 2–3
-
 3–6 6–2 2–4 6–5 3–5 1–4
-
 7–1 5–7 7–3 3–1 4–2 5–2
-
 5–4 3–1 6–5 2–6 5–1 3–6
-
 2–3 4–6 1–2
-
 6–7 7–2 4–7
+```
+
+**Pool of six:**
+```
+1–2 3–1 4–2
+3–4 2–4 5–1
+5–6 6–3 3–5
+2–3 5–2 6–4
+4–5 1–6 1–4
+6–1 4–6 2–5
+```
 
 ### o.70
 
@@ -1325,23 +1155,21 @@ The organisation formulae for the Olympic Games are established by the Executive
 
 The organization formulae for the Regional Games are established by the Executive Committee, with the approval of the IOC. (See chapter 9 of the Administrative rules).
 
-# TEAM COMPETITIONS 
+# TEAM COMPETITIONS
 
-# A. SENIOR AND JUNIOR WORLD CHAMPIONSHIPS 
+## A. SENIOR AND JUNIOR WORLD CHAMPIONSHIPS
 
 ### o.97
 
-At each weapon teams consist of three fencers, with or without a reserve. 
-
-A team may begin a match only if it is complete .
+At each weapon, teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete.
 
 ### o.98
 
-1 The competition is run by integral direct elimination with a direct elimination table which may be incomplete (see table Annex b). 
+1. The competition is run by integral direct elimination with a direct elimination table which may be incomplete (see table Annex b).
 
-2 At the Junior and Senior World Championships the teams occupy the places in the table according to the most recent official team ranking of the FIE . The teams that are not classified occupy the last places in the table and will be separated by drawing of lots. 
+2. At the Junior and Senior World Championships, the teams occupy the places in the table according to the most recent official team ranking of the FIE. The teams that are not classified occupy the last places in the table and will be separated by drawing of lots.
 
-3 At the Senior and Junior World Championships, all places in the table up to 16th place are 
+3. At the Senior and Junior World Championships, all places in the table up to 16th place are
 
 fought for. From 17th place onwards teams are classified, within each round of the table, according to their initial place in the table. 
 
@@ -1449,89 +1277,33 @@ The organisation formulae for the Olympic Games are established by the Executive
 
 Video-refereeing is compulsory at all three weapons at Grand Prix, Senior World Cup individual and team competitions, the Junior and Cadet World Championships, the World Championships and Olympic Games, Zonal Championships and qualification events for the Olympic Games. It is optional at the Veteran World Championships. 
 
-1 For World Cup individual, Grand Prix competitions, Zone Championships and qualification events for the Olympic Games, video-refereeing is compulsory and must be used as soon as the timetable allows the competition to be run on 4 pistes or 8 pistes, and in any case, from the table 
+1. For World Cup individual, Grand Prix competitions, Zone Championships and qualification events for the Olympic Games, video-refereeing is compulsory and must be used as soon as the timetable allows the competition to be run on 4 pistes or 8 pistes, and in any case, from the table of 64. 
 
-of 64. 
-
-2 For World Cup team competitions, video-refereeing is compulsory as soon as the timetable 
-
-allows the competition to be run on only 4 pistes including the match for 3rd place, but 
-
+2. For World Cup team competitions, video-refereeing is compulsory as soon as the timetable allows the competition to be run on only 4 pistes including the match for 3rd place, but 
 excluding the other ranking matches. 
 
-3 For individual and team competitions of the Senior World Championships, video-refereeing is obligatory as soon as the timetable allows the competition to be run on a maximum of 8 
-
+3. For individual and team competitions of the Senior World Championships, video-refereeing is obligatory as soon as the timetable allows the competition to be run on a maximum of 8 
 pistes, all equipped for video-refereeing, including ranking matches table 5-8. 
 
-4 For individual competitions of the Junior and Cadet World Championships, video-refereeing is compulsory as soon as the timetable allows the competition to be run on a maximum of 8 pistes, all equipped for video-refereeing and in any case, from the table of 32. 
+4. For individual competitions of the Junior and Cadet World Championships, video-refereeing is compulsory as soon as the timetable allows the competition to be run on a maximum of 8 pistes, all equipped for video-refereeing and in any case, from the table of 32. 
 
-For team competitions video-refereeing is compulsory from the table of 16, including ranking matches table 5-8. 
+    For team competitions video-refereeing is compulsory from the table of 16, including ranking matches table 5-8. 
 
-5 For individual and team events at the Olympic Games, the video-refereeing system is mandatory 
-
+5. For individual and team events at the Olympic Games, the video-refereeing system is mandatory 
 in all three weapons, at all stages of the competition. 
 
-Competitions Individual event 
-
-VIDEO, from 
-
-Team event 
-
-VIDEO, from 
-
-Number of 
-
-pistes equipped 
-
-with VIDEO 
-
-Teams and ranking matches 
-
-Senior World Cup T 64 T16 4 or 8 T 1-8 
-
-Junior World Cup not mandatory not mandatory not mandatory not mandatory 
-
-Grand-Prix T 64 ------------- 4 or 8 -------------
-
-Senior World 
-
-Championships T 64 T16 4 or 8 T 1-8 
-
-Junior/Cadet 
-
-World 
-
-Championships T 32 T 16 
-
-(juniors) 8 T 1-8 
-
-Senior Zonal 
-
-Championship T 64 T 16 4 or 8 T 1-8
-
-Junior Zonal 
-
-Championship not mandatory not mandatory not mandatory not mandatory 
-
-Veteran World 
-
-Championships not mandatory not mandatory not mandatory not mandatory 
-
-Zonal 
-
-qualifying 
-
-events for the 
-
-Olympic 
-
-Games 
-
-Pools -------------
-
-- All pistes --------------
-
-Olympic Games Mandatory for all phases of the Olympic competition
+| Competition | Individual Event | Team Event | Number of pistes equipped with VIDEO | Teams and Ranking Matches |
+|-------------|------------------|------------|--------------------------------------|---------------------------|
+| Senior World Cup | T64 | T16 | 4 or 8 | T1-8 |
+| Junior World Cup | Not mandatory | Not mandatory | Not mandatory | Not mandatory |
+| Grand-Prix | T64 | - | 4 or 8 | - |
+| Senior World Championships | T64 | T16 | 4 or 8 | T1-8 |
+| Junior/Cadet World Championships | T32 | T16 (juniors) | 8 | T1-8 |
+| Senior Zonal Championship | T64 | T16 | 4 or 8 | T1-8 |
+| Junior Zonal Championship | Not mandatory | Not mandatory | - | - |
+| Veteran World Championships | Not mandatory | Not mandatory | - | - |
+| Zonal qualifying events for the Olympic Games | Pools | - | All pistes | - |
+| Olympic Games | Mandatory for all phases of the Olympic competition | Mandatory for all phases of the Olympic competition | Mandatory for all phases of the Olympic competition | Mandatory for all phases of the Olympic competition |
 
 # Chapter 3 
 
@@ -1603,29 +1375,22 @@ e) After each competition which is taken into account to establish the ranking, 
 
 f) Except where special rules apply, the official up-to-date FIE ranking is the deciding factor for all rankings, seedings, exemptions, etc. 
 
-2 Scale of points 
+2. **Scale of points**
 
-a) The ranking of Seniors and Juniors is based on the following points system :
+   a) The ranking of Seniors and Juniors is based on the following points system:
 
-1st place 32 points 
-
-2nd place 26 points 
-
-3rd place ex aequo 20 points 
-
-5th –8th places 14 points 
-
-9th –16th places 8 points 
-
-17th –32nd places 4 points 
-
-33rd –64th places 2 points 
-
-65th –96th places 1 point 
-
-97th -128 th 0.5 point 
-
-129th -256 th 0.25 point 
+   | Placement | Points |
+   |-----------|--------|
+   | 1st place | 32 points |
+   | 2nd place | 26 points |
+   | 3rd place ex aequo | 20 points |
+   | 5th – 8th places | 14 points |
+   | 9th – 16th places | 8 points |
+   | 17th – 32nd places | 4 points |
+   | 33rd – 64th places | 2 points |
+   | 65th – 96th places | 1 point |
+   | 97th - 128th | 0.5 point |
+   | 129th - 256th | 0.25 point |
 
 b) Points obtained in an individual World Cup competition are multiplied by a factor of 1. 
 
@@ -1640,7 +1405,6 @@ e) Points obtained in the individual events of the Olympic Games are multiplied 
 At the Olympic Games, fourth place is awarded 54 points. 
 
 f) Only fencers who have actually participated in a direct elimination table can receive any points. 
-
 3 Honours 
 
 The winner (first ranked fencer) of each senior official ranking of the FIE will be announced at 
@@ -1659,19 +1423,13 @@ a) The official Senior team ranking of the FIE takes into account a team’s bes
 
 The official Junior team ranking of the FIE takes into account a team’s best four results in the Junior Team World Cup competitions, irrespective of continent, plus the Junior World Championships and the Zonal Championships. 
 
-The official team ranking of the FIE is rolling and updated on a permanent basis :
+The official team ranking of the FIE is rolling and updated on a permanent basis:
 
 Team World Cup events are numbered in order of their scheduled dates in the calendar. 
 
-The points awarded in Event 1 of the current season replace the points awarded in Event 1 of the 
+The points awarded in Event 1 of the current season replace the points awarded in Event 1 of the previous season and so on. 
 
-previous season and so on. 
-
-If an event is cancelled during the current season, the points acquired in the corresponding event 
-
-of the previous season will be deleted on the date allocated to that event in the current season's 
-
-calendar. 
+If an event is cancelled during the current season, the points acquired in the corresponding event of the previous season will be deleted on the date allocated to that event in the current season's calendar. 
 
 b) Should several teams have equal points , the same rules shall apply as for the official FIE individual ranking (cf. o.108) 
 
@@ -1681,23 +1439,26 @@ c) Except where special rules apply, the updated official team ranking is the de
 
 a) The ranking will be based on the following scale of points: 
 
-1st place 64 points 10th place 24 points 
-
-2nd place 52 points 11th place 23 points 
-
-3rd place 40 points 12th place 22 points 
-
-4th place 36 points 13th place 21 points 
-
-5th place 32 points 14th place 20 points 
-
-6th place 30 points 15th place 19 points 
-
-7th place 28 points 16th place 18 points 
-
-8th place 26 points 17th –32nd 8 points 
-
-9th place 25 points 33rd to 64th 4 points 
+| | | |
+|---|---|---|
+| 1st place | 64 points |
+| 2nd place | 52 points |
+| 3rd place | 40 points |
+| 4th place | 36 points |
+| 5th place | 32 points |
+| 6th place | 30 points |
+| 7th place | 28 points |
+| 8th place | 26 points |
+| 9th place | 25 points |
+| 10th place | 24 points |
+| 11th place | 23 points |
+| 12th place | 22 points |
+| 13th place | 21 points |
+| 14th place | 20 points |
+| 15th place | 19 points |
+| 16th place | 18 points |
+| 17th –32nd | 8 points |
+| 33rd to 64th | 4 points |
 
 b) For the World Team Championships, the points indicated above are multiplied by two. 
 
@@ -1953,7 +1714,7 @@ Scores are awarded according to the following table:
 
 7 No fencer is eliminated after the pools. All the fencers participate in the direct elimination phase. 
 
-VETERANS TEAM EVENTS 
+## VETERANS TEAM EVENTS
 
 ### o.119
 
