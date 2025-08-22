@@ -1277,32 +1277,25 @@ The organisation formulae for the Olympic Games are established by the Executive
 
 Video-refereeing is compulsory at all three weapons at Grand Prix, Senior World Cup individual and team competitions, the Junior and Cadet World Championships, the World Championships and Olympic Games, Zonal Championships and qualification events for the Olympic Games. It is optional at the Veteran World Championships. 
 
-1 For World Cup individual, Grand Prix competitions, Zone Championships and qualification events for the Olympic Games, video-refereeing is compulsory and must be used as soon as the timetable allows the competition to be run on 4 pistes or 8 pistes, and in any case, from the table 
+1. For World Cup individual, Grand Prix competitions, Zone Championships and qualification events for the Olympic Games, video-refereeing is compulsory and must be used as soon as the timetable allows the competition to be run on 4 pistes or 8 pistes, and in any case, from the table of 64. 
 
-of 64. 
-
-2 For World Cup team competitions, video-refereeing is compulsory as soon as the timetable 
-
-allows the competition to be run on only 4 pistes including the match for 3rd place, but 
-
+2. For World Cup team competitions, video-refereeing is compulsory as soon as the timetable allows the competition to be run on only 4 pistes including the match for 3rd place, but 
 excluding the other ranking matches. 
 
-3 For individual and team competitions of the Senior World Championships, video-refereeing is obligatory as soon as the timetable allows the competition to be run on a maximum of 8 
-
+3. For individual and team competitions of the Senior World Championships, video-refereeing is obligatory as soon as the timetable allows the competition to be run on a maximum of 8 
 pistes, all equipped for video-refereeing, including ranking matches table 5-8. 
 
-4 For individual competitions of the Junior and Cadet World Championships, video-refereeing is compulsory as soon as the timetable allows the competition to be run on a maximum of 8 pistes, all equipped for video-refereeing and in any case, from the table of 32. 
+4. For individual competitions of the Junior and Cadet World Championships, video-refereeing is compulsory as soon as the timetable allows the competition to be run on a maximum of 8 pistes, all equipped for video-refereeing and in any case, from the table of 32. 
 
-For team competitions video-refereeing is compulsory from the table of 16, including ranking matches table 5-8. 
+    For team competitions video-refereeing is compulsory from the table of 16, including ranking matches table 5-8. 
 
-5 For individual and team events at the Olympic Games, the video-refereeing system is mandatory 
-
+5. For individual and team events at the Olympic Games, the video-refereeing system is mandatory 
 in all three weapons, at all stages of the competition. 
 
-| Competition | Individual Event | Team Event | Number of Pistols Equipped with VIDEO | Teams and Ranking Matches |
+| Competition | Individual Event | Team Event | Number of pistes equipped with VIDEO | Teams and Ranking Matches |
 |-------------|------------------|------------|--------------------------------------|---------------------------|
 | Senior World Cup | T64 | T16 | 4 or 8 | T1-8 |
-| Junior World Cup | Not mandatory | Not mandatory | - | - |
+| Junior World Cup | Not mandatory | Not mandatory | Not mandatory | Not mandatory |
 | Grand-Prix | T64 | - | 4 or 8 | - |
 | Senior World Championships | T64 | T16 | 4 or 8 | T1-8 |
 | Junior/Cadet World Championships | T32 | T16 (juniors) | 8 | T1-8 |
@@ -1310,7 +1303,7 @@ in all three weapons, at all stages of the competition.
 | Junior Zonal Championship | Not mandatory | Not mandatory | - | - |
 | Veteran World Championships | Not mandatory | Not mandatory | - | - |
 | Zonal qualifying events for the Olympic Games | Pools | - | All pistes | - |
-| Olympic Games | Mandatory for all phases | Mandatory for all phases | All pistes | All matches |
+| Olympic Games | Mandatory for all phases of the Olympic competition | Mandatory for all phases of the Olympic competition | Mandatory for all phases of the Olympic competition | Mandatory for all phases of the Olympic competition |
 
 # Chapter 3 
 
