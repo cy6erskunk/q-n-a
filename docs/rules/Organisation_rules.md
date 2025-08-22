@@ -1383,7 +1383,7 @@ f) Except where special rules apply, the official up-to-date FIE ranking is the 
    |-----------|--------|
    | 1st place | 32 points |
    | 2nd place | 26 points |
-   | 3rd place (ex aequo) | 20 points |
+   | 3rd place ex aequo | 20 points |
    | 5th – 8th places | 14 points |
    | 9th – 16th places | 8 points |
    | 17th – 32nd places | 4 points |
@@ -1423,19 +1423,13 @@ a) The official Senior team ranking of the FIE takes into account a team’s bes
 
 The official Junior team ranking of the FIE takes into account a team’s best four results in the Junior Team World Cup competitions, irrespective of continent, plus the Junior World Championships and the Zonal Championships. 
 
-The official team ranking of the FIE is rolling and updated on a permanent basis :
+The official team ranking of the FIE is rolling and updated on a permanent basis:
 
 Team World Cup events are numbered in order of their scheduled dates in the calendar. 
 
-The points awarded in Event 1 of the current season replace the points awarded in Event 1 of the 
+The points awarded in Event 1 of the current season replace the points awarded in Event 1 of the previous season and so on. 
 
-previous season and so on. 
-
-If an event is cancelled during the current season, the points acquired in the corresponding event 
-
-of the previous season will be deleted on the date allocated to that event in the current season's 
-
-calendar. 
+If an event is cancelled during the current season, the points acquired in the corresponding event of the previous season will be deleted on the date allocated to that event in the current season's calendar. 
 
 b) Should several teams have equal points , the same rules shall apply as for the official FIE individual ranking (cf. o.108) 
 
@@ -1445,23 +1439,26 @@ c) Except where special rules apply, the updated official team ranking is the de
 
 a) The ranking will be based on the following scale of points: 
 
-1st place 64 points 10th place 24 points 
-
-2nd place 52 points 11th place 23 points 
-
-3rd place 40 points 12th place 22 points 
-
-4th place 36 points 13th place 21 points 
-
-5th place 32 points 14th place 20 points 
-
-6th place 30 points 15th place 19 points 
-
-7th place 28 points 16th place 18 points 
-
-8th place 26 points 17th –32nd 8 points 
-
-9th place 25 points 33rd to 64th 4 points 
+| | | |
+|---|---|---|
+| 1st place | 64 points |
+| 2nd place | 52 points |
+| 3rd place | 40 points |
+| 4th place | 36 points |
+| 5th place | 32 points |
+| 6th place | 30 points |
+| 7th place | 28 points |
+| 8th place | 26 points |
+| 9th place | 25 points |
+| 10th place | 24 points |
+| 11th place | 23 points |
+| 12th place | 22 points |
+| 13th place | 21 points |
+| 14th place | 20 points |
+| 15th place | 19 points |
+| 16th place | 18 points |
+| 17th –32nd | 8 points |
+| 33rd to 64th | 4 points |
 
 b) For the World Team Championships, the points indicated above are multiplied by two. 
 
