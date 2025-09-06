@@ -12,6 +12,6 @@
     "@types/node": "22.17.2"
   },
   "dependencies": {
-    "serve": "14.2.4"
+    "serve": "14.2.5"
   }
 }
