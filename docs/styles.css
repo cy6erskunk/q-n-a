@@ -1,21 +1,110 @@
+/* ============================================
+   Fencing Quiz - Professional Mobile-First CSS
+   ============================================ */
+
+/* Design Tokens */
+:root {
+    /* Colors - Professional palette */
+    --color-primary: #2563eb;
+    --color-primary-hover: #1d4ed8;
+    --color-primary-light: #dbeafe;
+
+    --color-secondary: #64748b;
+    --color-secondary-hover: #475569;
+    --color-secondary-light: #f1f5f9;
+
+    --color-success: #059669;
+    --color-success-light: #d1fae5;
+    --color-success-dark: #047857;
+
+    --color-danger: #dc2626;
+    --color-danger-light: #fee2e2;
+    --color-danger-hover: #fecaca;
+    --color-danger-border: #fca5a5;
+
+    /* Neutrals */
+    --color-bg: #f8fafc;
+    --color-surface: #ffffff;
+    --color-border: #e2e8f0;
+    --color-border-light: #f1f5f9;
+
+    /* Text */
+    --color-text-primary: #1e293b;
+    --color-text-secondary: #475569;
+    --color-text-muted: #64748b;
+    --color-text-light: #94a3b8;
+
+    /* Typography */
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+
+    /* Spacing */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+
+    /* Border radius */
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-full: 9999px;
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+
+    /* Transitions */
+    --transition-fast: 150ms ease;
+    --transition-normal: 200ms ease;
+    --transition-slow: 300ms ease;
+
+    /* Touch targets - minimum 44px for mobile accessibility */
+    --touch-target-min: 44px;
+}
+
+/* Base Styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font-family);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile browsers */
     margin: 0;
-    background-color: #f5f7fa;
-    padding: 20px;
-    color: #333;
+    background-color: var(--color-bg);
+    padding: var(--space-4);
+    color: var(--color-text-primary);
     line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
+/* Container */
 .container {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-surface);
+    padding: var(--space-6);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
     text-align: center;
     max-width: 600px;
     width: 100%;
@@ -23,27 +112,85 @@ body {
     overflow: hidden;
 }
 
+/* Typography */
 h1 {
-    color: #2c3e50;
-    margin-bottom: 1.5rem;
+    color: var(--color-text-primary);
+    margin: 0 0 var(--space-4);
     font-weight: 700;
-    font-size: 2.2rem;
+    font-size: var(--font-size-2xl);
+    line-height: 1.3;
+    letter-spacing: -0.02em;
 }
 
-.options {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin-top: 1rem;
+p {
+    margin: 0 0 var(--space-3);
+    color: var(--color-text-secondary);
 }
 
+/* Buttons - Mobile-first with proper touch targets */
 .btn {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--touch-target-min);
+    padding: var(--space-3) var(--space-5);
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    border-radius: var(--radius-md);
     cursor: pointer;
-    transition: background-color 0.3s ease-out;
+    transition: all var(--transition-normal);
     border: none;
+    text-decoration: none;
+    gap: var(--space-2);
+}
+
+.btn:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+button.primary {
+    background-color: var(--color-primary);
+    color: white;
+    min-width: 100px;
+}
+
+button.primary:hover {
+    background-color: var(--color-primary-hover);
+    box-shadow: var(--shadow-md);
+}
+
+button.secondary {
+    background-color: var(--color-secondary-light);
+    color: var(--color-text-primary);
+    min-width: 100px;
+}
+
+button.secondary:hover {
+    background-color: var(--color-border);
+}
+
+button.danger {
+    background-color: var(--color-surface);
+    color: var(--color-danger);
+    border: 1px solid var(--color-danger-hover);
+    width: 100%;
+    font-weight: 500;
+    transition: all var(--transition-normal);
+    border-radius: var(--radius-sm);
+}
+
+button.danger:hover {
+    background-color: var(--color-danger-light);
+    border-color: var(--color-danger-border);
+}
+
+button.danger:active {
+    background-color: var(--color-danger-hover);
 }
 
 .full-width-btn {
@@ -51,38 +198,125 @@ h1 {
     max-width: none;
 }
 
+/* Options Grid */
+.options {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+    margin-top: var(--space-4);
+}
+
+.options .btn {
+    width: 100%;
+    text-align: left;
+    padding: var(--space-4);
+    min-height: 52px;
+    background-color: var(--color-surface);
+    color: var(--color-text-primary);
+    border: 2px solid var(--color-border);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.options .btn:hover {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary-light);
+}
+
+/* Quiz feedback & scores */
 #result,
 #score,
 #explanation,
 #progress {
-    margin-top: 1rem;
-    font-weight: bold;
+    margin-top: var(--space-4);
+    font-weight: 600;
 }
 
 #score {
-    color: #4CAF50;
+    color: var(--color-success);
+    font-size: var(--font-size-lg);
 }
 
 #explanation {
-    font-weight: normal;
+    font-weight: 400;
     font-style: italic;
-    color: #666;
+    color: var(--color-text-muted);
     text-align: left;
+    background-color: var(--color-border-light);
+    padding: var(--space-4);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--color-primary);
 }
 
+#progress {
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+#question {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-primary);
+    font-weight: 500;
+    line-height: 1.6;
+    margin: var(--space-4) 0;
+}
+
+/* Next button styling */
+#next-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: var(--touch-target-min);
+    padding: var(--space-3) var(--space-6);
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    border: none;
+    background-color: var(--color-primary);
+    color: white;
+}
+
+#next-button:hover {
+    background-color: var(--color-primary-hover);
+    box-shadow: var(--shadow-md);
+}
+
+#next-button:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Exit button */
 .exit-button {
     position: absolute;
-    right: 10px;
+    top: var(--space-4);
+    right: var(--space-4);
     background-color: transparent;
     border: none;
-    font-size: 24px;
+    font-size: 28px;
     cursor: pointer;
-    color: #777;
-    transition: color 0.3s ease;
+    color: var(--color-text-light);
+    transition: color var(--transition-fast);
+    width: var(--touch-target-min);
+    height: var(--touch-target-min);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-full);
 }
 
 .exit-button:hover {
-    color: #333;
+    color: var(--color-text-primary);
+    background-color: var(--color-border-light);
+}
+
+.exit-button:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
 }
 
 #quiz-screen {
@@ -97,90 +331,99 @@ h1 {
 .mode-selection {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    margin: 2rem 0;
+    gap: var(--space-6);
+    margin: var(--space-6) 0;
 }
 
 .mode-option {
-    background: #fff;
-    border-radius: 12px;
-    padding: 2rem;
-    border: 1px solid #e1e6f0;
-    transition: all 0.3s ease;
+    background: var(--color-surface);
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    border: 1px solid var(--color-border);
+    transition: all var(--transition-normal);
     flex: 1;
 }
 
 .mode-option:hover {
-    border-color: #c2cfe0;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-md);
 }
 
 .mode-option p {
-    color: #5a6b8c;
-    margin: 0.5rem 0;
+    color: var(--color-text-muted);
+    margin: var(--space-2) 0;
 }
 
 .questions-selector {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    margin: 1.5rem 0;
+    gap: var(--space-4);
+    margin: var(--space-6) 0;
 }
 
 .questions-selector span {
-    font-size: 1.2rem;
+    font-size: var(--font-size-xl);
     font-weight: 600;
     min-width: 40px;
     display: inline-block;
+    color: var(--color-primary);
 }
 
 .divider {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #8a94a6;
+    color: var(--color-text-light);
     font-weight: 600;
-    margin: 0.5rem 0;
+    font-size: var(--font-size-sm);
+    margin: var(--space-2) 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .divider::before,
 .divider::after {
     content: '';
     flex: 1;
-    border-bottom: 1px solid #e1e6f0;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .divider:not(:empty)::before {
-    margin-right: 1.5rem;
+    margin-right: var(--space-4);
 }
 
 .divider:not(:empty)::after {
-    margin-left: 1.5rem;
+    margin-left: var(--space-4);
 }
 
 /* Settings Button */
 .settings-button {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: var(--space-4);
+    right: var(--space-4);
     background: none;
     border: none;
-    color: #666;
+    color: var(--color-text-light);
     cursor: pointer;
-    padding: 8px;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    width: 40px;
-    height: 40px;
+    padding: var(--space-2);
+    border-radius: var(--radius-full);
+    transition: all var(--transition-fast);
+    width: var(--touch-target-min);
+    height: var(--touch-target-min);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .settings-button:hover {
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: var(--color-border-light);
+    color: var(--color-text-primary);
+}
+
+.settings-button:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
 }
 
 .settings-button svg {
@@ -190,188 +433,336 @@ h1 {
 
 /* Settings Dialog */
 dialog {
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
     padding: 0;
-    max-width: 400px;
-    width: 90%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
+    max-width: 420px;
+    width: calc(100% - var(--space-8));
+    box-shadow: var(--shadow-xl);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+dialog[open] {
+    animation: dialog-in var(--transition-normal);
+}
+
+@keyframes dialog-in {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -48%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
 }
 
 .dialog-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
-    border-bottom: 1px solid #eee;
+    padding: var(--space-4) var(--space-5);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .dialog-header h2 {
     margin: 0;
-    font-size: 1.25rem;
-    color: #333;
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--color-text-primary);
 }
 
 .dialog-content {
-    padding: 1.5rem;
+    padding: var(--space-5);
 }
 
 .dialog-actions {
     display: flex;
     justify-content: flex-end;
-    gap: 0.75rem;
-    padding: 1rem 1.5rem;
-    background-color: #f9f9f9;
-    border-top: 1px solid #eee;
-    border-radius: 0 0 8px 8px;
+    gap: var(--space-3);
+    padding: var(--space-4) var(--space-5);
+    background-color: var(--color-border-light);
+    border-top: 1px solid var(--color-border);
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
 }
 
 .close-button {
     background: none;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     cursor: pointer;
-    padding: 0.25rem 0.5rem;
+    padding: var(--space-1) var(--space-2);
     line-height: 1;
-    color: #666;
-    border-radius: 4px;
-    margin-left: 1rem;
-}
-
-.close-button:hover {
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-.form-group {
-    margin-bottom: 1.5rem;
+    color: var(--color-text-light);
+    border-radius: var(--radius-sm);
+    transition: all var(--transition-fast);
+    width: 36px;
+    height: 36px;
     display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.exam-questions-group {
-    margin-top: 20px;
-}
-
-.start-buttons,
-.end-buttons {
-    margin-top: 20px;
-    display: flex;
-    gap: 20px;
+    align-items: center;
     justify-content: center;
 }
 
-/* Style for sliders */
-.slider {
-    width: 100%;
-    margin: 0.5rem 0 1rem;
+.close-button:hover {
+    background-color: var(--color-border);
+    color: var(--color-text-primary);
 }
 
-/* Style for number input */
-input[type="number"] {
-    width: 60px;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-left: 10px;
+.close-button:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
 }
 
-/* Style for slider labels */
+/* Form Elements */
+.form-group {
+    margin-bottom: var(--space-5);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
 .form-group label {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.5rem;
     font-weight: 500;
+    color: var(--color-text-primary);
+    font-size: var(--font-size-sm);
 }
 
-/* Ensure proper spacing for the exam settings */
-#exam-questions-count-container {
-    margin-top: 15px;
+.form-group label span {
+    font-weight: 600;
+    color: var(--color-primary);
+    background-color: var(--color-primary-light);
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-sm);
 }
 
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+.exam-questions-group {
+    margin-top: var(--space-5);
 }
 
+/* Slider styling */
 .slider {
     width: 100%;
-    margin: 1rem 0;
+    margin: var(--space-2) 0;
+    height: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--color-border);
+    border-radius: var(--radius-full);
+    outline: none;
 }
 
-button.primary {
-    background-color: #4CAF50;
-    color: white;
-    min-width: 80px;
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    background: var(--color-primary);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-sm);
 }
 
-button.primary:hover {
-    background-color: #45a049;
+.slider::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+    box-shadow: var(--shadow-md);
 }
 
-button.secondary {
-    background-color: #757575;
-    color: white;
-    min-width: 80px;
+.slider::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    background: var(--color-primary);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    border: none;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-sm);
 }
 
-button.secondary:hover {
-    background-color: #616161;
+.slider::-moz-range-thumb:hover {
+    transform: scale(1.1);
+    box-shadow: var(--shadow-md);
 }
 
+.slider:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Number input */
+input[type="number"] {
+    width: 60px;
+    padding: var(--space-2);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    margin-left: var(--space-2);
+    font-size: var(--font-size-base);
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+/* Exam questions container */
+#exam-questions-count-container {
+    margin-top: var(--space-4);
+}
+
+/* Reset section */
 .reset-section {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 1.5rem 0;
-    border: 1px solid #e9ecef;
+    background-color: var(--color-border-light);
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    margin: var(--space-5) 0 0;
+    border: 1px solid var(--color-border);
 }
 
 .reset-content h3 {
-    margin: 0 0 0.5rem 0;
-    color: #212529;
-    font-size: 1.2rem;
+    margin: 0 0 var(--space-2);
+    color: var(--color-text-primary);
+    font-size: var(--font-size-base);
     font-weight: 600;
 }
 
 .reset-description {
-    color: #6c757d;
-    font-size: 0.875rem;
-    margin: 0 0 1rem 0;
+    color: var(--color-text-muted);
+    font-size: var(--font-size-sm);
+    margin: 0 0 var(--space-4);
     line-height: 1.5;
 }
 
-button.danger {
-    background-color: #fff;
-    color: #f44336;
-    border: 1px solid #f5c2c7;
-    width: 100%;
-    font-weight: 500;
-    transition: all 0.2s ease;
-    border-radius: 0;
+/* Start & End buttons */
+.start-buttons,
+.end-buttons {
+    margin-top: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
 }
 
-button.danger:hover {
-    background-color: #f8d7da;
-    border-color: #f1aeb5;
+/* Progress info on start screen */
+#progress-info {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    background-color: var(--color-border-light);
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-md);
+    margin: var(--space-4) 0;
 }
 
-button.danger:active {
-    background-color: #f1aeb5;
-    border-color: #ea868f;
+#progress-info:empty {
+    display: none;
 }
 
-/* Ensure dialog is centered on mobile */
+/* Final score styling */
+#final-score {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+#total-score {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+/* ============================================
+   Responsive Breakpoints
+   ============================================ */
+
+/* Small phones */
+@media (max-width: 380px) {
+    body {
+        padding: var(--space-3);
+    }
+
+    .container {
+        padding: var(--space-4);
+    }
+
+    h1 {
+        font-size: var(--font-size-xl);
+    }
+
+    .dialog-content {
+        padding: var(--space-4);
+    }
+}
+
+/* Tablets and larger phones */
+@media (min-width: 480px) {
+    h1 {
+        font-size: var(--font-size-3xl);
+    }
+
+    .container {
+        padding: var(--space-8);
+    }
+
+    .start-buttons,
+    .end-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .options .btn {
+        padding: var(--space-4) var(--space-5);
+    }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+    dialog {
+        margin: auto;
+    }
+
+    .options {
+        gap: var(--space-4);
+    }
+}
+
+/* Ensure dialog is properly positioned on all screens */
 @media (max-width: 480px) {
     dialog {
-        margin: 1rem auto;
+        width: calc(100% - var(--space-6));
+        max-height: calc(100vh - var(--space-8));
+        overflow-y: auto;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    :root {
+        --color-border: #333;
+        --color-text-muted: #333;
+    }
+
+    .options .btn {
+        border-width: 3px;
     }
 }
