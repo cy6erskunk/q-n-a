@@ -248,6 +248,12 @@ button.danger:active {
     border-left: 3px solid var(--color-primary);
 }
 
+#explanation:empty,
+#result:empty,
+#score:empty {
+    display: none;
+}
+
 #progress {
     color: var(--color-text-muted);
     font-size: var(--font-size-sm);
