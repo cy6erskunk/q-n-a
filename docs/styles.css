@@ -299,8 +299,8 @@ button.danger:active {
 /* Exit button */
 .exit-button {
     position: absolute;
-    top: var(--space-4);
-    right: var(--space-4);
+    top: 0;
+    right: 0;
     background-color: transparent;
     border: none;
     font-size: 28px;
@@ -327,6 +327,12 @@ button.danger:active {
 
 #quiz-screen {
     position: relative;
+    padding-top: var(--space-2);
+}
+
+#quiz-screen h1,
+#quiz-screen p {
+    padding-right: calc(var(--touch-target-min) + var(--space-2));
 }
 
 .hidden {
