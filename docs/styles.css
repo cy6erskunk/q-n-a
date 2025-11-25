@@ -304,6 +304,7 @@ button.danger:active {
     background-color: transparent;
     border: none;
     font-size: 28px;
+    line-height: 1;
     cursor: pointer;
     color: var(--color-text-light);
     transition: color var(--transition-fast);
@@ -313,6 +314,7 @@ button.danger:active {
     align-items: center;
     justify-content: center;
     border-radius: var(--radius-full);
+    padding: 0;
 }
 
 .exit-button:hover {
