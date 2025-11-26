@@ -61,7 +61,7 @@ test('test', async ({ page }) => {
     console.log(`Dialog message: ${dialog.message()}`);
     dialog.dismiss().catch(() => { });
   });
-  await page.getByRole('button', { name: '×' }).click();
+  await page.getByRole('button', { name: 'Exit quiz' }).click();
 
   /* Answer 1 question */
   await page.getByRole('button').nth(4).click();
@@ -72,7 +72,7 @@ test('test', async ({ page }) => {
     console.log(`Dialog message: ${dialog.message()}`);
     dialog.accept().catch(() => { });
   });
-  await page.getByRole('button', { name: '×' }).click();
+  await page.getByRole('button', { name: 'Exit quiz' }).click();
 
   /* we are at the beginning again */
   // expect(await page.getByRole('button', { name: 'Start Quiz' })).toBeInViewport();
