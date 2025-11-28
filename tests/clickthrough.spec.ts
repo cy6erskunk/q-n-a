@@ -46,7 +46,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Finish Quiz' }).click();
 
   /* Reset quiz */
-  await page.getByLabel('Settings').click();
+  await page.getByRole('button', { name: 'Settings' }).click();
   await page.getByRole('button', { name: 'Reset All Progress' }).click();
 
   /* Start quiz */
