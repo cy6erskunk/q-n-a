@@ -708,10 +708,6 @@ input[type="number"]:focus {
 
 /* Desktop */
 @media (min-width: 768px) {
-    dialog {
-        margin: auto;
-    }
-
     .options {
         gap: var(--space-4);
     }
