@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetQuizButton = document.getElementById('reset-quiz-button');
     const exitButton = document.getElementById('exit-button');
     const settingsButton = document.getElementById('settings-button');
+    const settingsButtonEnd = document.getElementById('settings-button-end');
     const closeSettings = document.getElementById('close-settings');
     const cancelSettings = document.getElementById('cancel-settings');
     const saveSettings = document.getElementById('save-settings');
@@ -67,11 +68,14 @@ document.addEventListener('DOMContentLoaded', () => {
     resetQuizButton.addEventListener('click', resetQuiz);
     exitButton.addEventListener('click', confirmExit);
 
-    settingsButton.addEventListener('click', () => {
+    const openSettings = () => {
         questionsPerRoundInput.value = questionCountPerQuiz;
         questionsValue.textContent = questionCountPerQuiz;
         settingsDialog.showModal();
-    });
+    };
+
+    settingsButton.addEventListener('click', openSettings);
+    settingsButtonEnd.addEventListener('click', openSettings);
 
     closeSettings.addEventListener('click', () => {
         resetToInitialValues();
@@ -169,7 +173,6 @@ function startQuiz() {
     document.getElementById('start-screen').classList.add('hidden');
     document.getElementById('end-screen').classList.add('hidden');
     document.getElementById('quiz-screen').classList.remove('hidden');
-    document.getElementById('settings-button').classList.add('hidden');
 
     const resultElement = document.getElementById('result');
     if (resultElement) {
@@ -273,7 +276,6 @@ function endQuiz() {
 
     quizScreen.classList.add('hidden');
     endScreen.classList.remove('hidden');
-    document.getElementById('settings-button').classList.remove('hidden');
 
     if (isExamMode) {
         const percentage = Math.round((score / questionCountPerExam) * 100);
@@ -307,7 +309,6 @@ function resetQuiz() {
     localStorage.removeItem('quizProgress');
     localStorage.removeItem('examQuestionsCount');
     localStorage.removeItem('questionsPerRound');
-    document.getElementById('settings-button').classList.remove('hidden');
     location.reload();
 }
 
@@ -343,5 +344,4 @@ function exitQuiz() {
     document.getElementById('start-screen').classList.remove('hidden');
     document.getElementById('quiz-screen').classList.add('hidden');
     document.getElementById('end-screen').classList.add('hidden');
-    document.getElementById('settings-button').classList.remove('hidden');
 }
