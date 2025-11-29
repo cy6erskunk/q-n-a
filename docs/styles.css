@@ -413,40 +413,6 @@ button.danger:active {
     margin-left: var(--space-4);
 }
 
-/* Settings Button */
-.settings-button {
-    position: absolute;
-    top: var(--space-4);
-    right: var(--space-4);
-    background: none;
-    border: none;
-    color: var(--color-text-light);
-    cursor: pointer;
-    padding: var(--space-2);
-    border-radius: var(--radius-full);
-    transition: all var(--transition-fast);
-    width: var(--touch-target-min);
-    height: var(--touch-target-min);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.settings-button:hover {
-    background-color: var(--color-border-light);
-    color: var(--color-text-primary);
-}
-
-.settings-button:focus-visible {
-    outline: 2px solid var(--color-primary);
-    outline-offset: 2px;
-}
-
-.settings-button svg {
-    width: 24px;
-    height: 24px;
-}
-
 /* Settings Dialog */
 dialog {
     border: 1px solid var(--color-border);
