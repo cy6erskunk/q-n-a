@@ -20,8 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextRoundButton = document.getElementById('next-round-button');
     const resetQuizButton = document.getElementById('reset-quiz-button');
     const exitButton = document.getElementById('exit-button');
-    const settingsButton = document.getElementById('settings-button');
-    const settingsButtonEnd = document.getElementById('settings-button-end');
+    const settingsButtons = document.querySelectorAll('.settings-button');
     const closeSettings = document.getElementById('close-settings');
     const cancelSettings = document.getElementById('cancel-settings');
     const saveSettings = document.getElementById('save-settings');
@@ -74,8 +73,9 @@ document.addEventListener('DOMContentLoaded', () => {
         settingsDialog.showModal();
     };
 
-    settingsButton.addEventListener('click', openSettings);
-    settingsButtonEnd.addEventListener('click', openSettings);
+    settingsButtons.forEach(button => {
+        button.addEventListener('click', openSettings);
+    });
 
     closeSettings.addEventListener('click', () => {
         resetToInitialValues();
