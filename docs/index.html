@@ -40,10 +40,14 @@
             </div>
         </dialog>
         <div id="start-screen">
-            <h1>Welcome to the Fencing Quiz!</h1>
-            <p>Test your knowledge of fencing rules and regulations.</p>
-            <p>Each round consists of <span id="questions-count">5</span> questions.</p>
+            <h1 id="welcome-heading">Welcome to the Fencing Quiz!</h1>
+            <div id="welcome-text">
+                <p>Test your knowledge of fencing rules and regulations.</p>
+                <p>Each round consists of <span id="questions-count">5</span> questions.</p>
+            </div>
             <p id="progress-info"></p>
+            <p id="final-score" class="hidden"></p>
+            <p id="total-score" class="hidden"></p>
             <div class="start-buttons">
                 <button id="start-button" class="btn primary">Start Quiz</button>
                 <button id="start-exam" class="btn secondary">Start Exam (<span
@@ -64,19 +68,6 @@
                 <button id="next-button">Next Question</button>
             </p>
             <p id="score"></p>
-        </div>
-
-        <div id="end-screen" class="hidden">
-            <h1>Round Completed!</h1>
-            <p id="final-score"></p>
-            <p id="total-score"></p>
-            <div class="end-buttons">
-                <button id="next-round-button" class="btn primary">Start Next Round</button>
-                <button id="start-exam-end" class="btn secondary">Start Exam (<span
-                        id="exam-questions-count-end">30</span>
-                    questions)</button>
-                <button class="btn secondary settings-button">Settings</button>
-            </div>
         </div>
     </div>
     <script src="quiz.js"></script>

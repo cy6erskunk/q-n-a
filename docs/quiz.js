@@ -16,8 +16,6 @@ let initialQuestionCountPerExam = questionCountPerExam;
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
     const startExamButton = document.getElementById('start-exam');
-    const startExamEndButton = document.getElementById('start-exam-end');
-    const nextRoundButton = document.getElementById('next-round-button');
     const resetQuizButton = document.getElementById('reset-quiz-button');
     const exitButton = document.getElementById('exit-button');
     const settingsButtons = document.querySelectorAll('.settings-button');
@@ -30,11 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const examQuestionsCountInput = document.getElementById('exam-questions-count');
     const examQuestionsValue = document.getElementById('exam-questions-value');
     const examQuestionsCountDisplay = document.getElementById('exam-questions-count-display');
-    const examQuestionsCountEnd = document.getElementById('exam-questions-count-end');
     const settingsDialog = document.getElementById('settings-dialog');
 
     examQuestionsValue.textContent = examQuestionsCountInput.value;
-
 
     questionsPerRoundInput.value = questionCountPerQuiz;
     questionsValue.textContent = questionCountPerQuiz;
@@ -43,24 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
     examQuestionsCountInput.value = questionCountPerExam;
     examQuestionsValue.textContent = questionCountPerExam;
     examQuestionsCountDisplay.textContent = questionCountPerExam;
-    examQuestionsCountEnd.textContent = questionCountPerExam;
 
     startExamButton.addEventListener('click', () => {
         isExamMode = true;
         startQuiz();
     });
 
-    startExamEndButton.addEventListener('click', () => {
-        isExamMode = true;
-        startQuiz();
-    });
-
     startButton.addEventListener('click', () => {
         isExamMode = false;
-        startQuiz();
-    });
-
-    nextRoundButton.addEventListener('click', () => {
         startQuiz();
     });
 
@@ -96,7 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (newExamValue >= 5 && newExamValue <= 100) {
             questionCountPerExam = newExamValue;
             examQuestionsCountDisplay.textContent = newExamValue;
-            examQuestionsCountEnd.textContent = newExamValue;
             localStorage.setItem('examQuestionsCount', newExamValue);
         }
 
@@ -168,8 +153,15 @@ function selectQuestions() {
 }
 
 function startQuiz() {
+    // Reset start screen to initial state
+    document.getElementById('welcome-heading').textContent = 'Welcome to the Fencing Quiz!';
+    document.getElementById('welcome-text').classList.remove('hidden');
+    document.getElementById('final-score').classList.add('hidden');
+    document.getElementById('total-score').classList.add('hidden');
+    document.getElementById('start-button').textContent = 'Start Quiz';
+
+    // Hide start screen and show quiz screen
     document.getElementById('start-screen').classList.add('hidden');
-    document.getElementById('end-screen').classList.add('hidden');
     document.getElementById('quiz-screen').classList.remove('hidden');
 
     const resultElement = document.getElementById('result');
@@ -269,29 +261,33 @@ function checkAnswer(selectedOption, question) {
 
 function endQuiz() {
     const quizScreen = document.getElementById('quiz-screen');
-    const endScreen = document.getElementById('end-screen');
+    const startScreen = document.getElementById('start-screen');
     const finalScore = document.getElementById('final-score');
+    const welcomeHeading = document.getElementById('welcome-heading');
+    const welcomeText = document.getElementById('welcome-text');
+    const startButton = document.getElementById('start-button');
 
     quizScreen.classList.add('hidden');
-    endScreen.classList.remove('hidden');
+    startScreen.classList.remove('hidden');
+
+    // Update start screen to show results
+    welcomeHeading.textContent = 'Round Completed!';
+    welcomeText.classList.add('hidden');
+    finalScore.classList.remove('hidden');
+    document.getElementById('total-score').classList.remove('hidden');
+    startButton.textContent = 'Start Next Round';
 
     if (isExamMode) {
         const percentage = Math.round((score / questionCountPerExam) * 100);
-        finalScore.textContent = `You scored ${score} out of ${questionCountPerExam} (${percentage}%)`;
-
-        const existingMessages = document.querySelectorAll('#end-screen p:not(#final-score):not(#total-score)');
-        existingMessages.forEach(msg => msg.remove());
-
-        const message = document.createElement('p');
+        let message = '';
         if (percentage >= 80) {
-            message.textContent = 'Excellent! You passed the exam with flying colors!';
+            message = 'Excellent! You passed the exam with flying colors!';
         } else if (percentage >= 60) {
-            message.textContent = 'Good job! You passed the exam!';
+            message = 'Good job! You passed the exam!';
         } else {
-            message.textContent = 'Keep practicing! You can try again.';
+            message = 'Keep practicing! You can try again.';
         }
-        finalScore.parentNode.insertBefore(message, finalScore.nextSibling);
-
+        finalScore.textContent = `You scored ${score} out of ${questionCountPerExam} (${percentage}%)\n${message}`;
         isExamMode = false;
     } else {
         finalScore.textContent = `You scored ${score} out of ${questionCountPerQuiz}`;
@@ -339,7 +335,14 @@ function exitQuiz() {
     currentQuestions = [];
     currentQuestionIndex = 0;
     score = 0;
+
+    // Reset start screen to initial state
+    document.getElementById('welcome-heading').textContent = 'Welcome to the Fencing Quiz!';
+    document.getElementById('welcome-text').classList.remove('hidden');
+    document.getElementById('final-score').classList.add('hidden');
+    document.getElementById('total-score').classList.add('hidden');
+    document.getElementById('start-button').textContent = 'Start Quiz';
+
     document.getElementById('start-screen').classList.remove('hidden');
     document.getElementById('quiz-screen').classList.add('hidden');
-    document.getElementById('end-screen').classList.add('hidden');
 }
