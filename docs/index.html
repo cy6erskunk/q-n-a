@@ -1,76 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fencing Quiz</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
+  <body>
     <div id="quiz-container" class="container">
-        <dialog id="settings-dialog">
-            <div class="dialog-header">
-                <h2>Quiz Settings</h2>
-                <button id="close-settings" class="close-button" aria-label="Close settings">&times;</button>
-            </div>
-            <div class="dialog-content">
-                <div class="form-group">
-                    <label for="questions-per-round">Practice questions per round: <span
-                            id="questions-value">5</span></label>
-                    <input type="range" id="questions-per-round" min="1" max="50" value="5" class="slider">
-                </div>
-                <div class="form-group exam-questions-group">
-                    <label for="exam-questions-count">Exam questions: <span id="exam-questions-value">30</span></label>
-                    <input type="range" id="exam-questions-count" min="5" max="100" value="30" class="slider">
-                </div>
-                <div class="reset-section">
-                    <div class="reset-content">
-                        <h3>Reset Learning Progress</h3>
-                        <p class="reset-description">This will clear all your progress and reset the app to its initial
-                            state.</p>
-                        <button id="reset-quiz-button" class="btn danger">Reset All Progress</button>
-                    </div>
-                </div>
-            </div>
-            <div class="dialog-actions">
-                <button id="cancel-settings" class="btn secondary">Cancel</button>
-                <button id="save-settings" class="btn primary">OK</button>
-            </div>
-        </dialog>
-        <div id="start-screen">
-            <h1 id="welcome-heading">Welcome to the Fencing Quiz!</h1>
-            <div id="welcome-text">
-                <p>Test your knowledge of fencing rules and regulations.</p>
-                <p>Each round consists of <span id="questions-count">5</span> questions.</p>
-            </div>
-            <p id="progress-info"></p>
-            <p id="final-score" class="hidden"></p>
-            <p id="total-score" class="hidden"></p>
-            <div class="start-buttons">
-                <button id="start-button" class="btn primary">Start Quiz</button>
-                <button id="start-exam" class="btn secondary">Start Exam (<span
-                        id="exam-questions-count-display">30</span>
-                    questions)</button>
-                <button class="btn secondary settings-button">Settings</button>
-            </div>
+      <dialog id="settings-dialog">
+        <div class="dialog-header">
+          <h2>Quiz Settings</h2>
+          <button
+            id="close-settings"
+            class="close-button"
+            aria-label="Close settings"
+          >
+            &times;
+          </button>
         </div>
+        <div class="dialog-content">
+          <div class="form-group">
+            <label for="questions-per-round"
+              >Practice questions per round:
+              <span id="questions-value">5</span></label
+            >
+            <input
+              type="range"
+              id="questions-per-round"
+              min="1"
+              max="50"
+              value="5"
+              class="slider"
+            />
+          </div>
+          <div class="form-group exam-questions-group">
+            <label for="exam-questions-count"
+              >Exam questions: <span id="exam-questions-value">30</span></label
+            >
+            <input
+              type="range"
+              id="exam-questions-count"
+              min="5"
+              max="100"
+              value="30"
+              class="slider"
+            />
+          </div>
+          <div class="reset-section">
+            <div class="reset-content">
+              <h3>Reset Learning Progress</h3>
+              <p class="reset-description">
+                This will clear all your progress and reset the app to its
+                initial state.
+              </p>
+              <button id="reset-quiz-button" class="btn danger">
+                Reset All Progress
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="dialog-actions">
+          <button id="cancel-settings" class="btn secondary">Cancel</button>
+          <button id="save-settings" class="btn primary">OK</button>
+        </div>
+      </dialog>
+      <div id="start-screen">
+        <h1 id="welcome-heading">Welcome to the Fencing Quiz!</h1>
+        <div id="welcome-text">
+          <p>Test your knowledge of fencing rules and regulations.</p>
+          <p>
+            Each round consists of
+            <span id="questions-count">5</span> questions.
+          </p>
+        </div>
+        <p id="progress-info"></p>
+        <p id="final-score" class="hidden"></p>
+        <p id="total-score" class="hidden"></p>
+        <div class="start-buttons">
+          <button id="start-button" class="btn primary">Start Quiz</button>
+          <button id="start-exam" class="btn secondary">
+            Start Exam (<span id="exam-questions-count-display">30</span>
+            questions)
+          </button>
+          <button class="btn secondary settings-button">Settings</button>
+        </div>
+      </div>
 
-        <div id="quiz-screen" class="hidden">
-            <button id="exit-button" class="exit-button" aria-label="Exit quiz"></button>
-            <h1 id="progress"></h1>
-            <p id="question"></p>
-            <div id="options" class="options"></div>
-            <p id="result"></p>
-            <p id="explanation"></p>
-            <p id="next-step" class="hidden">
-                <button id="next-button">Next Question</button>
-            </p>
-            <p id="score"></p>
-        </div>
+      <div id="quiz-screen" class="hidden">
+        <button
+          id="exit-button"
+          class="exit-button"
+          aria-label="Exit quiz"
+        ></button>
+        <h1 id="progress"></h1>
+        <p id="question"></p>
+        <div id="options" class="options"></div>
+        <p id="result"></p>
+        <p id="explanation"></p>
+        <p id="next-step" class="hidden">
+          <button id="next-button">Next Question</button>
+        </p>
+        <p id="score"></p>
+      </div>
     </div>
     <script src="quiz.js"></script>
-</body>
-
+  </body>
 </html>
