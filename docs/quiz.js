@@ -116,7 +116,6 @@ document.addEventListener('DOMContentLoaded', () => {
         examQuestionsCountInput.value = initialQuestionCountPerExam;
         examQuestionsValue.textContent = initialQuestionCountPerExam;
         examQuestionsCountDisplay.textContent = initialQuestionCountPerExam;
-        examQuestionsCountEnd.textContent = initialQuestionCountPerExam;
     }
 
     fetch('questions.json')
