@@ -1,234 +1,208 @@
+/* ===== Reset & Base ===== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #f5f7fa;
-    padding: 20px;
+    background-color: #f5f5f5;
     color: #333;
     line-height: 1.6;
+    min-height: 100vh;
 }
 
-.container {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+/* ===== App Layout ===== */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 16px;
+}
+
+.app-header {
     text-align: center;
-    max-width: 600px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+    padding: 32px 0 24px;
 }
 
-h1 {
-    color: #2c3e50;
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-    font-size: 2.2rem;
+.app-header h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    letter-spacing: -0.02em;
 }
 
-.options {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.btn {
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-out;
-    border: none;
-}
-
-.full-width-btn {
-    width: 100%;
-    max-width: none;
-}
-
-#result,
-#score,
-#explanation,
-#progress {
-    margin-top: 1rem;
-    font-weight: bold;
-}
-
-#score {
-    color: #4CAF50;
-}
-
-#explanation {
-    font-weight: normal;
-    font-style: italic;
-    color: #666;
-    text-align: left;
-}
-
-.exit-button {
-    position: absolute;
-    right: 10px;
-    background-color: transparent;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
+.app-subtitle {
     color: #777;
-    transition: color 0.3s ease;
+    font-size: 0.938rem;
+    margin-top: 4px;
 }
 
-.exit-button:hover {
-    color: #333;
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
 }
 
-#quiz-screen {
-    position: relative;
+.app-footer {
+    text-align: center;
+    padding: 40px 0 24px;
+    color: #999;
+    font-size: 0.813rem;
 }
 
+/* ===== Hidden ===== */
 .hidden {
     display: none !important;
 }
 
-/* Start Screen Styles */
-.mode-selection {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin: 2rem 0;
-}
-
-.mode-option {
+/* ===== Card ===== */
+.card {
     background: #fff;
-    border-radius: 12px;
-    padding: 2rem;
-    border: 1px solid #e1e6f0;
-    transition: all 0.3s ease;
-    flex: 1;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    padding: 24px;
 }
 
-.mode-option:hover {
-    border-color: #c2cfe0;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-}
-
-.mode-option p {
-    color: #5a6b8c;
-    margin: 0.5rem 0;
-}
-
-.questions-selector {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin: 1.5rem 0;
-}
-
-.questions-selector span {
-    font-size: 1.2rem;
-    font-weight: 600;
-    min-width: 40px;
+/* ===== Buttons ===== */
+.btn {
     display: inline-block;
-}
-
-.divider {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #8a94a6;
+    padding: 12px 24px;
+    font-size: 0.938rem;
     font-weight: 600;
-    margin: 0.5rem 0;
-}
-
-.divider::before,
-.divider::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid #e1e6f0;
-}
-
-.divider:not(:empty)::before {
-    margin-right: 1.5rem;
-}
-
-.divider:not(:empty)::after {
-    margin-left: 1.5rem;
-}
-
-/* Settings Button */
-.settings-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: none;
+    border-radius: 10px;
+    cursor: pointer;
     border: none;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.btn-dark {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: #333;
+}
+
+.btn-outline {
+    background: #fff;
+    color: #1a1a1a;
+    border: 1px solid #d0d0d0;
+}
+
+.btn-outline:hover {
+    background: #f5f5f5;
+    border-color: #bbb;
+}
+
+.btn-primary {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #333;
+}
+
+.btn-secondary {
+    background: #f5f5f5;
+    color: #333;
+    border: 1px solid #d0d0d0;
+}
+
+.btn-secondary:hover {
+    background: #eee;
+}
+
+.btn-danger {
+    background: #fff;
+    color: #e53935;
+    border: 1px solid #ffcdd2;
+    width: 100%;
+    font-weight: 500;
+}
+
+.btn-danger:hover {
+    background: #ffebee;
+    border-color: #ef9a9a;
+}
+
+/* ===== Settings Button ===== */
+.settings-button {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
     color: #666;
     cursor: pointer;
     padding: 8px;
     border-radius: 50%;
-    transition: all 0.3s ease;
     width: 40px;
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.2s ease;
+    z-index: 10;
 }
 
 .settings-button:hover {
-    background-color: #f0f0f0;
+    background: #f5f5f5;
     color: #333;
 }
 
 .settings-button svg {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
-/* Settings Dialog */
+/* ===== Settings Dialog ===== */
 dialog {
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
     padding: 0;
     max-width: 400px;
     width: 90%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 dialog::backdrop {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .dialog-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 16px 20px;
     border-bottom: 1px solid #eee;
 }
 
 .dialog-header h2 {
     margin: 0;
-    font-size: 1.25rem;
-    color: #333;
+    font-size: 1.125rem;
+    color: #1a1a1a;
 }
 
 .dialog-content {
-    padding: 1.5rem;
+    padding: 20px;
 }
 
 .dialog-actions {
     display: flex;
     justify-content: flex-end;
-    gap: 0.75rem;
-    padding: 1rem 1.5rem;
-    background-color: #f9f9f9;
+    gap: 8px;
+    padding: 12px 20px;
+    background: #fafafa;
     border-top: 1px solid #eee;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 12px 12px;
 }
 
 .close-button {
@@ -236,142 +210,483 @@ dialog::backdrop {
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    padding: 0.25rem 0.5rem;
+    padding: 4px 8px;
     line-height: 1;
-    color: #666;
+    color: #999;
     border-radius: 4px;
-    margin-left: 1rem;
 }
 
 .close-button:hover {
-    background-color: #f0f0f0;
+    background: #f0f0f0;
     color: #333;
 }
 
 .form-group {
-    margin-bottom: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.exam-questions-group {
-    margin-top: 20px;
-}
-
-.start-buttons,
-.end-buttons {
-    margin-top: 20px;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* Style for sliders */
-.slider {
-    width: 100%;
-    margin: 0.5rem 0 1rem;
-}
-
-/* Style for number input */
-input[type="number"] {
-    width: 60px;
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-left: 10px;
-}
-
-/* Style for slider labels */
-.form-group label {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-}
-
-/* Ensure proper spacing for the exam settings */
-#exam-questions-count-container {
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .form-group label {
     display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.exam-questions-group {
+    margin-top: 16px;
 }
 
 .slider {
     width: 100%;
-    margin: 1rem 0;
-}
-
-button.primary {
-    background-color: #4CAF50;
-    color: white;
-    min-width: 80px;
-}
-
-button.primary:hover {
-    background-color: #45a049;
-}
-
-button.secondary {
-    background-color: #757575;
-    color: white;
-    min-width: 80px;
-}
-
-button.secondary:hover {
-    background-color: #616161;
+    margin: 8px 0;
 }
 
 .reset-section {
-    background-color: #f8f9fa;
+    background: #fafafa;
     border-radius: 8px;
-    padding: 1rem;
-    margin: 1.5rem 0;
-    border: 1px solid #e9ecef;
+    padding: 16px;
+    margin-top: 20px;
+    border: 1px solid #eee;
 }
 
 .reset-content h3 {
-    margin: 0 0 0.5rem 0;
-    color: #212529;
-    font-size: 1.2rem;
+    margin: 0 0 4px;
+    font-size: 0.938rem;
     font-weight: 600;
+    color: #1a1a1a;
 }
 
 .reset-description {
-    color: #6c757d;
-    font-size: 0.875rem;
-    margin: 0 0 1rem 0;
+    color: #777;
+    font-size: 0.813rem;
+    margin: 0 0 12px;
     line-height: 1.5;
 }
 
-button.danger {
-    background-color: #fff;
-    color: #f44336;
-    border: 1px solid #f5c2c7;
-    width: 100%;
+/* ===== Start Screen / Welcome Card ===== */
+.welcome-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.welcome-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.welcome-subtitle {
+    color: #888;
+    font-size: 0.875rem;
+    margin-top: 4px;
+}
+
+/* Learning Progress */
+.learning-progress-section {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 20px 0;
+}
+
+.learning-progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.learning-progress-label {
+    font-weight: 700;
+    font-size: 0.938rem;
+    color: #1a1a1a;
+}
+
+.learning-progress-count {
+    font-size: 0.813rem;
+    color: #777;
     font-weight: 500;
+}
+
+/* Progress Bar */
+.progress-bar-track {
+    width: 100%;
+    height: 8px;
+    background: #e5e5e5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: #1a1a1a;
+    border-radius: 4px;
+    transition: width 0.4s ease;
+    width: 0%;
+}
+
+/* Mode Grid */
+.mode-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.mode-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mode-card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.mode-icon {
+    flex-shrink: 0;
+}
+
+.mode-card-desc {
+    color: #777;
+    font-size: 0.813rem;
+    line-height: 1.5;
+    flex: 1;
+    margin-bottom: 16px;
+}
+
+.mode-card .btn {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+}
+
+/* ===== Quiz Screen ===== */
+.quiz-progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.quiz-progress-label {
+    font-size: 0.813rem;
+    color: #777;
+    font-weight: 500;
+}
+
+.quiz-progress-count {
+    font-size: 0.813rem;
+    color: #777;
+    font-weight: 500;
+}
+
+.question-card {
+    margin-top: 20px;
+    position: relative;
+}
+
+.exit-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #bbb;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
     transition: all 0.2s ease;
-    border-radius: 0;
 }
 
-button.danger:hover {
-    background-color: #f8d7da;
-    border-color: #f1aeb5;
+.exit-button:hover {
+    background: #f5f5f5;
+    color: #666;
 }
 
-button.danger:active {
-    background-color: #f1aeb5;
-    border-color: #ea868f;
+.question-text {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-right: 32px;
 }
 
-/* Ensure dialog is centered on mobile */
+/* Answer Options */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 14px 16px;
+    background: #fff;
+    border: 2px solid #e5e5e5;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.938rem;
+    line-height: 1.4;
+    color: #333;
+    transition: border-color 0.2s ease;
+    font-family: inherit;
+}
+
+.option-btn:hover:not(:disabled) {
+    border-color: #ccc;
+    background: #fafafa;
+}
+
+.option-btn:disabled {
+    cursor: default;
+}
+
+.option-radio {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    border-radius: 50%;
+    border: 2px solid #d0d0d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+}
+
+.option-text {
+    flex: 1;
+}
+
+/* Correct Answer */
+.option-btn.correct {
+    border-color: #4caf50;
+    background: #f1f9f1;
+}
+
+.option-btn.correct .option-radio {
+    border-color: #4caf50;
+    background: #4caf50;
+    color: #fff;
+}
+
+.option-btn.correct .option-text {
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+/* Incorrect Answer */
+.option-btn.incorrect {
+    border-color: #e53935;
+    background: #fef5f5;
+}
+
+.option-btn.incorrect .option-radio {
+    border-color: #e53935;
+    background: #e53935;
+    color: #fff;
+}
+
+.option-btn.incorrect .option-text {
+    color: #c62828;
+    font-weight: 600;
+}
+
+/* Feedback Section */
+.feedback-section {
+    margin-top: 20px;
+    padding: 16px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.result-text {
+    font-weight: 700;
+    font-size: 0.938rem;
+    margin-bottom: 8px;
+}
+
+.result-text.correct {
+    color: #4caf50;
+}
+
+.result-text.incorrect {
+    color: #e53935;
+}
+
+.explanation-text {
+    color: #666;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+/* Next Step */
+.next-step {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.next-step .btn {
+    min-width: 160px;
+}
+
+/* ===== End Screen / Results ===== */
+.results-card {
+    text-align: center;
+    padding: 40px 24px;
+}
+
+.results-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 24px;
+}
+
+/* Score Circle */
+.score-circle-wrapper {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 24px;
+}
+
+.score-circle {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.score-bg {
+    fill: none;
+    stroke: #e8e8e8;
+    stroke-width: 8;
+}
+
+.score-fill {
+    fill: none;
+    stroke: #1a1a1a;
+    stroke-width: 8;
+    stroke-linecap: round;
+    stroke-dasharray: 314.16;
+    stroke-dashoffset: 314.16;
+    transition: stroke-dashoffset 0.8s ease;
+}
+
+.score-percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1a1a1a;
+}
+
+.final-score {
+    font-size: 1.063rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.score-message {
+    color: #777;
+    font-size: 0.875rem;
+    margin-bottom: 24px;
+}
+
+.total-score {
+    color: #999;
+    font-size: 0.813rem;
+    margin-bottom: 24px;
+}
+
+.results-btn {
+    min-width: 200px;
+    padding: 14px 32px;
+}
+
+/* ===== Responsive: Tablet+ ===== */
+@media (min-width: 768px) {
+    .app-header h1 {
+        font-size: 2.25rem;
+    }
+
+    .app-subtitle {
+        font-size: 1rem;
+    }
+
+    .card {
+        padding: 32px;
+    }
+
+    .question-text {
+        font-size: 1.25rem;
+    }
+
+    .option-btn {
+        padding: 16px 20px;
+        font-size: 1rem;
+    }
+
+    .results-card {
+        padding: 48px 32px;
+    }
+
+    .settings-button {
+        top: 24px;
+        right: 24px;
+    }
+}
+
+/* ===== Very small screens ===== */
+@media (max-width: 400px) {
+    .mode-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .app {
+        padding: 0 12px;
+    }
+
+    .score-circle-wrapper {
+        width: 130px;
+        height: 130px;
+    }
+
+    .score-percentage {
+        font-size: 2rem;
+    }
+}
+
+/* ===== Dialog mobile ===== */
 @media (max-width: 480px) {
     dialog {
-        margin: 1rem auto;
+        margin: 16px auto;
     }
 }
