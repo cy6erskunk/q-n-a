@@ -11,7 +11,7 @@
 <body>
     <div class="app">
         <header id="app-header" class="app-header">
-            <div class="app-header-content">
+            <div class="app-header-content" role="button" tabindex="0" aria-label="Go to home screen">
                 <h1>Fencing Rules Quiz</h1>
                 <p class="app-subtitle">Test your knowledge of fencing rules and refereeing</p>
             </div>
@@ -120,7 +120,7 @@
                 </div>
 
                 <div class="card question-card">
-                    <button id="exit-button" class="exit-button">&times;</button>
+                    <button id="exit-button" class="exit-button" aria-label="Exit session">&times;</button>
                     <p id="question" class="question-text"></p>
 
                     <div id="options" class="options"></div>

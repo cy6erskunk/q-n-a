@@ -67,7 +67,14 @@ document.addEventListener('DOMContentLoaded', () => {
     resetQuizButton.addEventListener('click', resetQuiz);
     exitButton.addEventListener('click', confirmExit);
 
-    document.getElementById('app-header').querySelector('.app-header-content').addEventListener('click', goHome);
+    const headerContent = document.getElementById('app-header').querySelector('.app-header-content');
+    headerContent.addEventListener('click', goHome);
+    headerContent.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            goHome();
+        }
+    });
 
     settingsButton.addEventListener('click', () => {
         questionsPerRoundInput.value = questionCountPerQuiz;
@@ -202,6 +209,7 @@ function loadQuestion() {
     shuffledAnswers.forEach(answer => {
         const button = document.createElement('button');
         button.classList.add('option-btn');
+        if (answer.isCorrect) button.dataset.correct = 'true';
         button.innerHTML = `<span class="option-radio"></span><span class="option-text">${escapeHtml(answer.text)}</span>`;
         button.onclick = () => checkAnswer(answer, question, button);
         optionsContainer.appendChild(button);
@@ -228,11 +236,9 @@ function checkAnswer(selectedOption, question, selectedButton) {
     }
 
     if (!isExamMode) {
-        // Find and highlight the correct answer
-        const correctAnswer = question.answers.find(a => a.isCorrect);
+        // Find and highlight the correct answer by data attribute
         buttons.forEach(btn => {
-            const btnText = btn.querySelector('.option-text').textContent;
-            if (btnText === correctAnswer.text) {
+            if (btn.dataset.correct === 'true') {
                 btn.classList.add('correct');
                 btn.querySelector('.option-radio').innerHTML = CHECKMARK_SVG;
             }
