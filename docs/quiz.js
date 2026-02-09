@@ -67,6 +67,8 @@ document.addEventListener('DOMContentLoaded', () => {
     resetQuizButton.addEventListener('click', resetQuiz);
     exitButton.addEventListener('click', confirmExit);
 
+    document.getElementById('app-header').querySelector('.app-header-content').addEventListener('click', goHome);
+
     settingsButton.addEventListener('click', () => {
         questionsPerRoundInput.value = questionCountPerQuiz;
         questionsValue.textContent = questionCountPerQuiz;
@@ -275,7 +277,7 @@ function checkAnswer(selectedOption, question, selectedButton) {
     } else {
         document.getElementById('next-step').classList.remove('hidden');
         const nextButton = document.getElementById('next-button');
-        nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Quiz';
+        nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Session';
         nextButton.onclick = loadQuestion;
         saveProgress();
     }
@@ -288,6 +290,9 @@ function endQuiz() {
     quizScreen.classList.add('hidden');
     endScreen.classList.remove('hidden');
     document.getElementById('settings-button').classList.remove('hidden');
+
+    document.getElementById('results-title').textContent =
+        isExamMode ? 'Exam Completed!' : 'Session Completed!';
 
     const totalQuestions = currentQuestionsAmount;
     const percentage = Math.round((score / totalQuestions) * 100);
@@ -395,4 +400,24 @@ function exitQuiz() {
     document.getElementById('end-screen').classList.add('hidden');
     document.getElementById('settings-button').classList.remove('hidden');
     updateLearningProgress();
+}
+
+function goHome() {
+    const quizScreen = document.getElementById('quiz-screen');
+    const endScreen = document.getElementById('end-screen');
+    const startScreen = document.getElementById('start-screen');
+
+    // Already on start screen
+    if (!startScreen.classList.contains('hidden')) return;
+
+    // During quiz, ask for confirmation
+    if (!quizScreen.classList.contains('hidden')) {
+        confirmExit();
+        return;
+    }
+
+    // From end screen, go directly home
+    if (!endScreen.classList.contains('hidden')) {
+        exitQuiz();
+    }
 }

@@ -22,10 +22,10 @@ test('test', async ({ page }) => {
   await page.getByRole('button').nth(4).click();
 
   /* Finish quiz */
-  await page.getByRole('button', { name: 'Finish Quiz' }).click();
+  await page.getByRole('button', { name: 'Finish Session' }).click();
 
   /* Start next round */
-  await page.getByRole('button', { name: 'Try Another Quiz' }).click();
+  await page.getByRole('button', { name: 'Try Another Session' }).click();
 
   /* Answer 5 questions */
   await page.getByRole('button').nth(4).click();
@@ -43,7 +43,7 @@ test('test', async ({ page }) => {
   await page.getByRole('button').nth(4).click();
 
   /* Finish quiz */
-  await page.getByRole('button', { name: 'Finish Quiz' }).click();
+  await page.getByRole('button', { name: 'Finish Session' }).click();
 
   /* Reset quiz */
   await page.getByLabel('Settings').click();

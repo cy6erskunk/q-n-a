@@ -26,6 +26,14 @@ body {
 .app-header {
     text-align: center;
     padding: 32px 0 24px;
+    position: relative;
+    max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.app-header-content {
+    cursor: pointer;
 }
 
 .app-header h1 {
@@ -135,9 +143,10 @@ main {
 
 /* ===== Settings Button ===== */
 .settings-button {
-    position: fixed;
-    top: 16px;
-    right: 16px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
     background: #fff;
     border: 1px solid #e5e5e5;
     color: #666;
@@ -170,6 +179,7 @@ dialog {
     padding: 0;
     max-width: 400px;
     width: 90%;
+    margin: auto;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
@@ -656,11 +666,6 @@ dialog::backdrop {
 
     .results-card {
         padding: 48px 32px;
-    }
-
-    .settings-button {
-        top: 24px;
-        right: 24px;
     }
 }
 
