@@ -4,7 +4,7 @@ test('test', async ({ page }) => {
   await page.goto('http://localhost:3000/');
 
   /* Start quiz */
-  await page.getByRole('button', { name: 'Start Quiz' }).click();
+  await page.getByRole('button', { name: 'Start Study Session' }).click();
 
   /* Answer 5 questions */
   await page.getByRole('button').nth(4).click();
@@ -22,10 +22,10 @@ test('test', async ({ page }) => {
   await page.getByRole('button').nth(4).click();
 
   /* Finish quiz */
-  await page.getByRole('button', { name: 'Finish Quiz' }).click();
+  await page.getByRole('button', { name: 'Finish Session' }).click();
 
   /* Start next round */
-  await page.getByRole('button', { name: 'Start Next Round' }).click();
+  await page.getByRole('button', { name: 'Try Another Session' }).click();
 
   /* Answer 5 questions */
   await page.getByRole('button').nth(4).click();
@@ -43,14 +43,14 @@ test('test', async ({ page }) => {
   await page.getByRole('button').nth(4).click();
 
   /* Finish quiz */
-  await page.getByRole('button', { name: 'Finish Quiz' }).click();
+  await page.getByRole('button', { name: 'Finish Session' }).click();
 
   /* Reset quiz */
   await page.getByLabel('Settings').click();
   await page.getByRole('button', { name: 'Reset All Progress' }).click();
 
   /* Start quiz */
-  await page.getByRole('button', { name: 'Start Quiz' }).click();
+  await page.getByRole('button', { name: 'Start Study Session' }).click();
 
   /* Answer 1 question */
   await page.getByRole('button').nth(4).click();
@@ -61,7 +61,7 @@ test('test', async ({ page }) => {
     console.log(`Dialog message: ${dialog.message()}`);
     dialog.dismiss().catch(() => { });
   });
-  await page.getByRole('button', { name: '×' }).click();
+  await page.getByRole('button', { name: 'Exit session' }).click();
 
   /* Answer 1 question */
   await page.getByRole('button').nth(4).click();
@@ -72,9 +72,9 @@ test('test', async ({ page }) => {
     console.log(`Dialog message: ${dialog.message()}`);
     dialog.accept().catch(() => { });
   });
-  await page.getByRole('button', { name: '×' }).click();
+  await page.getByRole('button', { name: 'Exit session' }).click();
 
   /* we are at the beginning again */
-  // expect(await page.getByRole('button', { name: 'Start Quiz' })).toBeInViewport();
-  await page.getByRole('button', { name: 'Start Quiz' }).click();
+  // expect(await page.getByRole('button', { name: 'Start Study Session' })).toBeInViewport();
+  await page.getByRole('button', { name: 'Start Study Session' }).click();
 });

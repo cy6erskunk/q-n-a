@@ -13,10 +13,18 @@ let currentQuestionsAmount = questionCountPerQuiz;
 let initialQuestionCountPerQuiz = questionCountPerQuiz;
 let initialQuestionCountPerExam = questionCountPerExam;
 
+const CHECKMARK_SVG = '<svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>';
+const X_SVG = '<svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>';
+
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
     const startExamButton = document.getElementById('start-exam');
-    const startExamEndButton = document.getElementById('start-exam-end');
     const nextRoundButton = document.getElementById('next-round-button');
     const resetQuizButton = document.getElementById('reset-quiz-button');
     const exitButton = document.getElementById('exit-button');
@@ -30,11 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const examQuestionsCountInput = document.getElementById('exam-questions-count');
     const examQuestionsValue = document.getElementById('exam-questions-value');
     const examQuestionsCountDisplay = document.getElementById('exam-questions-count-display');
-    const examQuestionsCountEnd = document.getElementById('exam-questions-count-end');
     const settingsDialog = document.getElementById('settings-dialog');
 
     examQuestionsValue.textContent = examQuestionsCountInput.value;
-
 
     questionsPerRoundInput.value = questionCountPerQuiz;
     questionsValue.textContent = questionCountPerQuiz;
@@ -43,14 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
     examQuestionsCountInput.value = questionCountPerExam;
     examQuestionsValue.textContent = questionCountPerExam;
     examQuestionsCountDisplay.textContent = questionCountPerExam;
-    examQuestionsCountEnd.textContent = questionCountPerExam;
 
     startExamButton.addEventListener('click', () => {
-        isExamMode = true;
-        startQuiz();
-    });
-
-    startExamEndButton.addEventListener('click', () => {
         isExamMode = true;
         startQuiz();
     });
@@ -66,6 +66,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     resetQuizButton.addEventListener('click', resetQuiz);
     exitButton.addEventListener('click', confirmExit);
+
+    const headerContent = document.getElementById('app-header').querySelector('.app-header-content');
+    headerContent.addEventListener('click', goHome);
+    headerContent.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            goHome();
+        }
+    });
 
     settingsButton.addEventListener('click', () => {
         questionsPerRoundInput.value = questionCountPerQuiz;
@@ -94,7 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (newExamValue >= 5 && newExamValue <= 100) {
             questionCountPerExam = newExamValue;
             examQuestionsCountDisplay.textContent = newExamValue;
-            examQuestionsCountEnd.textContent = newExamValue;
             localStorage.setItem('examQuestionsCount', newExamValue);
         }
 
@@ -129,7 +137,6 @@ document.addEventListener('DOMContentLoaded', () => {
         examQuestionsCountInput.value = initialQuestionCountPerExam;
         examQuestionsValue.textContent = initialQuestionCountPerExam;
         examQuestionsCountDisplay.textContent = initialQuestionCountPerExam;
-        examQuestionsCountEnd.textContent = initialQuestionCountPerExam;
     }
 
     fetch('questions.json')
@@ -171,12 +178,6 @@ function startQuiz() {
     document.getElementById('quiz-screen').classList.remove('hidden');
     document.getElementById('settings-button').classList.add('hidden');
 
-    const resultElement = document.getElementById('result');
-    if (resultElement) {
-        resultElement.textContent = '';
-        resultElement.style.color = '';
-    }
-
     currentQuestionIndex = 0;
     score = 0;
 
@@ -194,58 +195,81 @@ function loadQuestion() {
     const question = currentQuestions[currentQuestionIndex];
     document.getElementById('question').textContent = question.question;
 
+    // Update progress bar
+    document.getElementById('progress-counter').textContent = `${currentQuestionIndex + 1} of ${currentQuestionsAmount}`;
+    const progressPercentage = ((currentQuestionIndex + 1) / currentQuestionsAmount) * 100;
+    document.getElementById('quiz-progress-fill').style.width = progressPercentage + '%';
+
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';
-    optionsContainer.style.color = '';
 
     const shuffledAnswers = [...question.answers];
     shuffleArray(shuffledAnswers);
 
     shuffledAnswers.forEach(answer => {
         const button = document.createElement('button');
-        button.classList.add('btn', 'full-width-btn');
-        button.textContent = answer.text;
-        button.onclick = () => checkAnswer(answer, question);
+        button.classList.add('option-btn');
+        if (answer.isCorrect) button.dataset.correct = 'true';
+        button.innerHTML = `<span class="option-radio"></span><span class="option-text">${escapeHtml(answer.text)}</span>`;
+        button.onclick = () => checkAnswer(answer, question, button);
         optionsContainer.appendChild(button);
     });
 
+    // Reset feedback
     document.getElementById('result').textContent = '';
     document.getElementById('explanation').textContent = '';
-
-    if (!isExamMode) {
-        document.getElementById('score').textContent = `Score: ${score} / ${currentQuestionIndex}`;
-    } else {
-        document.getElementById('score').textContent = '';
-    }
-
+    document.getElementById('feedback-section').classList.add('hidden');
     document.getElementById('next-step').classList.add('hidden');
-    document.getElementById('progress').textContent = `Question ${currentQuestionIndex + 1} of ${currentQuestionsAmount}`;
 }
 
-function checkAnswer(selectedOption, question) {
-    const explanationElement = document.getElementById('explanation');
-    const scoreElement = document.getElementById('score');
-    const resultElement = document.getElementById('result');
+function checkAnswer(selectedOption, question, selectedButton) {
     const optionsContainer = document.getElementById('options');
+    const buttons = optionsContainer.querySelectorAll('.option-btn');
+
+    // Disable all buttons
+    buttons.forEach(btn => {
+        btn.disabled = true;
+    });
 
     if (selectedOption.isCorrect) {
         score++;
-        if (!isExamMode) {
-            optionsContainer.innerHTML = '';
-            optionsContainer.textContent = selectedOption.text;
-            optionsContainer.style.color = 'green';
+    }
+
+    if (!isExamMode) {
+        // Find and highlight the correct answer by data attribute
+        buttons.forEach(btn => {
+            if (btn.dataset.correct === 'true') {
+                btn.classList.add('correct');
+                btn.querySelector('.option-radio').innerHTML = CHECKMARK_SVG;
+            }
+        });
+
+        if (selectedOption.isCorrect) {
             answeredCorrectly.add(question.question);
-            resultElement.textContent = 'Correct!';
-            resultElement.style.color = 'green';
-            explanationElement.textContent = selectedOption.explanation || '';
+        } else {
+            selectedButton.classList.add('incorrect');
+            selectedButton.querySelector('.option-radio').innerHTML = X_SVG;
         }
-    } else if (!isExamMode) {
-        optionsContainer.innerHTML = '';
-        optionsContainer.textContent = selectedOption.text;
-        optionsContainer.style.color = 'red';
-        resultElement.textContent = 'Incorrect!';
-        resultElement.style.color = 'red';
-        explanationElement.textContent = selectedOption.explanation || '';
+
+        // Show feedback
+        const resultElement = document.getElementById('result');
+        const explanationElement = document.getElementById('explanation');
+        const feedbackSection = document.getElementById('feedback-section');
+
+        feedbackSection.classList.remove('hidden');
+
+        if (selectedOption.isCorrect) {
+            resultElement.textContent = 'Correct!';
+            resultElement.className = 'result-text correct';
+        } else {
+            resultElement.textContent = 'Incorrect';
+            resultElement.className = 'result-text incorrect';
+        }
+
+        // Strip "Correct." / "Incorrect." prefix from explanation
+        let explanation = selectedOption.explanation || '';
+        explanation = explanation.replace(/^(Correct|Incorrect)\.?\s*/i, '');
+        explanationElement.textContent = explanation;
     }
 
     currentQuestionIndex++;
@@ -259,9 +283,8 @@ function checkAnswer(selectedOption, question) {
     } else {
         document.getElementById('next-step').classList.remove('hidden');
         const nextButton = document.getElementById('next-button');
-        nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Quiz';
+        nextButton.textContent = currentQuestionIndex < currentQuestions.length ? 'Next Question' : 'Finish Session';
         nextButton.onclick = loadQuestion;
-        scoreElement.textContent = `Score: ${score} / ${currentQuestionIndex}`;
         saveProgress();
     }
 }
@@ -269,37 +292,76 @@ function checkAnswer(selectedOption, question) {
 function endQuiz() {
     const quizScreen = document.getElementById('quiz-screen');
     const endScreen = document.getElementById('end-screen');
-    const finalScore = document.getElementById('final-score');
 
     quizScreen.classList.add('hidden');
     endScreen.classList.remove('hidden');
     document.getElementById('settings-button').classList.remove('hidden');
 
+    document.getElementById('results-title').textContent =
+        isExamMode ? 'Exam Completed!' : 'Session Completed!';
+
+    const totalQuestions = currentQuestionsAmount;
+    const percentage = Math.round((score / totalQuestions) * 100);
+
+    // Update circular score indicator
+    updateScoreCircle(percentage);
+
+    // Update score text
+    document.getElementById('final-score').innerHTML =
+        `<strong>${score}</strong> correct out of <strong>${totalQuestions}</strong> questions`;
+
+    // Score message
+    let message = '';
     if (isExamMode) {
-        const percentage = Math.round((score / questionCountPerExam) * 100);
-        finalScore.textContent = `You scored ${score} out of ${questionCountPerExam} (${percentage}%)`;
-
-        const existingMessages = document.querySelectorAll('#end-screen p:not(#final-score):not(#total-score)');
-        existingMessages.forEach(msg => msg.remove());
-
-        const message = document.createElement('p');
         if (percentage >= 80) {
-            message.textContent = 'Excellent! You passed the exam with flying colors!';
+            message = 'Excellent! You passed the exam with flying colors!';
         } else if (percentage >= 60) {
-            message.textContent = 'Good job! You passed the exam!';
+            message = 'Good job! You passed the exam!';
         } else {
-            message.textContent = 'Keep practicing! You can try again.';
+            message = 'Keep practicing! You can try again.';
         }
-        finalScore.parentNode.insertBefore(message, finalScore.nextSibling);
-
-        isExamMode = false;
     } else {
-        finalScore.textContent = `You scored ${score} out of ${questionCountPerQuiz}`;
+        if (percentage >= 80) {
+            message = "Excellent! You're on your way to becoming a knowledgeable referee.";
+        } else if (percentage >= 60) {
+            message = "Good job! You're on your way to becoming a knowledgeable referee.";
+        } else {
+            message = "Keep practicing! You'll improve with more study sessions.";
+        }
+    }
+    document.getElementById('score-message').textContent = message;
+
+    document.getElementById('total-score').textContent =
+        `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
+
+    if (isExamMode) {
+        isExamMode = false;
     }
 
-    document.getElementById('total-score').textContent = `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
-
     saveProgress();
+}
+
+function updateScoreCircle(percentage) {
+    const circle = document.getElementById('score-fill');
+    const circumference = 2 * Math.PI * 50;
+    const offset = circumference * (1 - percentage / 100);
+
+    circle.style.strokeDasharray = circumference;
+    circle.style.strokeDashoffset = offset;
+
+    document.getElementById('score-percentage').textContent = percentage + '%';
+}
+
+function updateLearningProgress() {
+    const progressInfo = document.getElementById('progress-info');
+    const progressFill = document.getElementById('learning-progress-fill');
+    const learned = answeredCorrectly.size;
+    const total = allQuestions.length;
+
+    progressInfo.textContent = `${learned} of ${total} questions learned`;
+
+    const percentage = total > 0 ? (learned / total) * 100 : 0;
+    progressFill.style.width = percentage + '%';
 }
 
 function resetQuiz() {
@@ -324,10 +386,9 @@ function loadProgress() {
     if (savedProgress) {
         const progress = JSON.parse(savedProgress);
         answeredCorrectly = new Set(progress.answeredCorrectly);
-
-        const progressInfo = document.getElementById('progress-info');
-        progressInfo.textContent = `You've correctly answered ${answeredCorrectly.size} out of ${allQuestions.length} questions.`;
     }
+
+    updateLearningProgress();
 }
 
 function confirmExit() {
@@ -344,4 +405,25 @@ function exitQuiz() {
     document.getElementById('quiz-screen').classList.add('hidden');
     document.getElementById('end-screen').classList.add('hidden');
     document.getElementById('settings-button').classList.remove('hidden');
+    updateLearningProgress();
+}
+
+function goHome() {
+    const quizScreen = document.getElementById('quiz-screen');
+    const endScreen = document.getElementById('end-screen');
+    const startScreen = document.getElementById('start-screen');
+
+    // Already on start screen
+    if (!startScreen.classList.contains('hidden')) return;
+
+    // During quiz, ask for confirmation
+    if (!quizScreen.classList.contains('hidden')) {
+        confirmExit();
+        return;
+    }
+
+    // From end screen, go directly home
+    if (!endScreen.classList.contains('hidden')) {
+        exitQuiz();
+    }
 }
