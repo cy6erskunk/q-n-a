@@ -6,6 +6,7 @@ import {
     getUser,
     signIn,
     signUp,
+    signInWithGoogle,
     signOut,
 } from './auth.js';
 import {
@@ -140,6 +141,18 @@ function setupAuthUI() {
 
     signOutButton.addEventListener('click', async () => {
         await signOut();
+    });
+
+    // Google sign-in
+    const googleBtn = document.getElementById('google-signin');
+    googleBtn.addEventListener('click', async () => {
+        try {
+            await signInWithGoogle();
+        } catch (err) {
+            const authError = document.getElementById('auth-error');
+            authError.textContent = err.message;
+            authError.classList.remove('hidden');
+        }
     });
 
     // React to session changes

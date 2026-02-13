@@ -299,6 +299,41 @@ main {
     color: #555;
 }
 
+/* Auth Divider */
+.auth-divider {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    color: #999;
+    font-size: 0.813rem;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.auth-divider span {
+    padding: 0 12px;
+}
+
+/* Google Button */
+.google-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 24px;
+}
+
+.google-btn svg {
+    flex-shrink: 0;
+}
+
 /* ===== Sync Status ===== */
 .sync-status {
     font-size: 0.75rem;

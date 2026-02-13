@@ -52,6 +52,14 @@ export async function signUp(email, password, name) {
   return currentSession;
 }
 
+export async function signInWithGoogle() {
+  if (!authClient) throw new Error('Auth not configured');
+  await authClient.signIn.social({
+    provider: 'google',
+    callbackURL: window.location.origin + window.location.pathname,
+  });
+}
+
 export async function signOut() {
   if (!authClient) return;
   await authClient.signOut();
