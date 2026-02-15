@@ -1,13 +1,6 @@
-import { createAuthClient } from 'better-auth/client';
+import { client, neonEnabled } from './neon.js';
 
-const AUTH_URL = import.meta.env.VITE_NEON_AUTH_URL;
-
-// Auth is optional — if no URL is configured, all auth functions are no-ops
-export const authEnabled = Boolean(AUTH_URL);
-
-const authClient = authEnabled
-  ? createAuthClient({ baseURL: AUTH_URL })
-  : null;
+export const authEnabled = neonEnabled;
 
 // Current session state (null = not signed in, or auth not configured)
 let currentSession = null;
@@ -37,40 +30,40 @@ export function getUser() {
 }
 
 export async function signIn(email, password) {
-  if (!authClient) throw new Error('Auth not configured');
-  const result = await authClient.signIn.email({ email, password });
+  if (!client) throw new Error('Auth not configured');
+  const result = await client.auth.signIn.email({ email, password });
   if (result.error) throw new Error(result.error.message || 'Sign-in failed');
   await refreshSession();
   return currentSession;
 }
 
 export async function signUp(email, password, name) {
-  if (!authClient) throw new Error('Auth not configured');
-  const result = await authClient.signUp.email({ email, password, name });
+  if (!client) throw new Error('Auth not configured');
+  const result = await client.auth.signUp.email({ email, password, name });
   if (result.error) throw new Error(result.error.message || 'Sign-up failed');
   await refreshSession();
   return currentSession;
 }
 
 export async function signInWithGoogle() {
-  if (!authClient) throw new Error('Auth not configured');
-  await authClient.signIn.social({
+  if (!client) throw new Error('Auth not configured');
+  await client.auth.signIn.social({
     provider: 'google',
     callbackURL: window.location.origin + window.location.pathname,
   });
 }
 
 export async function signOut() {
-  if (!authClient) return;
-  await authClient.signOut();
+  if (!client) return;
+  await client.auth.signOut();
   currentSession = null;
   notifyListeners();
 }
 
 export async function refreshSession() {
-  if (!authClient) return null;
+  if (!client) return null;
   try {
-    const result = await authClient.getSession();
+    const result = await client.auth.getSession();
     currentSession = result.data || null;
   } catch {
     currentSession = null;
@@ -79,8 +72,8 @@ export async function refreshSession() {
   return currentSession;
 }
 
-// Initialize session on load (check if user has an existing session cookie)
+// Initialize session on load (check if user has an existing session)
 export async function initAuth() {
-  if (!authClient) return null;
+  if (!client) return null;
   return refreshSession();
 }

@@ -1,54 +1,39 @@
-import { getToken } from './auth.js';
+import { client, neonEnabled } from './neon.js';
 
-const DATA_API_URL = import.meta.env.VITE_NEON_DATA_API_URL;
-
-export const dataApiEnabled = Boolean(DATA_API_URL);
-
-function headers() {
-  const token = getToken();
-  if (!token) throw new Error('Not authenticated');
-  return {
-    'Authorization': `Bearer ${token}`,
-    'Content-Type': 'application/json',
-  };
-}
+export const dataApiEnabled = neonEnabled;
 
 // Fetch the current user's progress (RLS filters to their row automatically)
 export async function fetchProgress() {
-  const res = await fetch(`${DATA_API_URL}/user_progress?select=*`, {
-    headers: headers(),
-  });
-  if (!res.ok) throw new Error(`Failed to fetch progress: ${res.status}`);
-  const rows = await res.json();
-  return rows[0] || null;
+  const { data, error } = await client
+    .from('user_progress')
+    .select('*')
+    .maybeSingle();
+  if (error) throw new Error(`Failed to fetch progress: ${error.message}`);
+  return data;
 }
 
 // Upsert user progress (insert or update via PostgREST conflict resolution)
 // user_id is auto-set from JWT via DEFAULT (auth.user_id())
-export async function saveProgressToCloud(data) {
-  const res = await fetch(`${DATA_API_URL}/user_progress?on_conflict=user_id`, {
-    method: 'POST',
-    headers: {
-      ...headers(),
-      'Prefer': 'return=representation,resolution=merge-duplicates',
-    },
-    body: JSON.stringify({
-      answered_correctly: data.answeredCorrectly,
-      questions_per_round: data.questionsPerRound,
-      exam_questions_count: data.examQuestionsCount,
+export async function saveProgressToCloud(progressData) {
+  const { data, error } = await client
+    .from('user_progress')
+    .upsert({
+      answered_correctly: progressData.answeredCorrectly,
+      questions_per_round: progressData.questionsPerRound,
+      exam_questions_count: progressData.examQuestionsCount,
       updated_at: new Date().toISOString(),
-    }),
-  });
-  if (!res.ok) throw new Error(`Failed to save progress: ${res.status}`);
-  const rows = await res.json();
-  return rows[0];
+    }, { onConflict: 'user_id' })
+    .select()
+    .maybeSingle();
+  if (error) throw new Error(`Failed to save progress: ${error.message}`);
+  return data;
 }
 
 // Delete the current user's progress (RLS ensures only their row is deleted)
 export async function deleteProgressFromCloud() {
-  const res = await fetch(`${DATA_API_URL}/user_progress?select=*`, {
-    method: 'DELETE',
-    headers: headers(),
-  });
-  if (!res.ok) throw new Error(`Failed to delete progress: ${res.status}`);
+  const { error } = await client
+    .from('user_progress')
+    .delete()
+    .neq('user_id', '');  // PostgREST requires a filter on DELETE
+  if (error) throw new Error(`Failed to delete progress: ${error.message}`);
 }
