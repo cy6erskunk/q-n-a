@@ -1,3 +1,21 @@
+import {
+    authEnabled,
+    initAuth,
+    onSessionChange,
+    getSession,
+    getUser,
+    signIn,
+    signUp,
+    signInWithGoogle,
+    signOut,
+} from './auth.js';
+import {
+    dataApiEnabled,
+    fetchProgress,
+    saveProgressToCloud,
+    deleteProgressFromCloud,
+} from './api.js';
+
 let allQuestions = [];
 let currentQuestions = [];
 let currentQuestionIndex = 0;
@@ -21,6 +39,258 @@ function escapeHtml(text) {
     div.textContent = text;
     return div.innerHTML;
 }
+
+function isAuthenticated() {
+    return Boolean(getSession());
+}
+
+function canSyncToCloud() {
+    return authEnabled && dataApiEnabled && isAuthenticated();
+}
+
+// ─── Auth UI ───────────────────────────────────────────────
+
+function setupAuthUI() {
+    const authButton = document.getElementById('auth-button');
+    const userInfo = document.getElementById('user-info');
+    const userEmail = document.getElementById('user-email');
+    const signOutButton = document.getElementById('sign-out-button');
+    const authDialog = document.getElementById('auth-dialog');
+    const closeAuth = document.getElementById('close-auth');
+    const tabSignin = document.getElementById('tab-signin');
+    const tabSignup = document.getElementById('tab-signup');
+    const authForm = document.getElementById('auth-form');
+    const nameField = document.getElementById('name-field');
+    const authDialogTitle = document.getElementById('auth-dialog-title');
+    const authSubmit = document.getElementById('auth-submit');
+    const authError = document.getElementById('auth-error');
+    const authSwitchText = document.getElementById('auth-switch-text');
+    const authSwitchBtn = document.getElementById('auth-switch-btn');
+
+    if (!authEnabled) return;
+
+    // Show the sign-in button
+    authButton.classList.remove('hidden');
+
+    let isSignUpMode = false;
+
+    function setMode(signUp) {
+        isSignUpMode = signUp;
+        if (signUp) {
+            tabSignup.classList.add('active');
+            tabSignin.classList.remove('active');
+            nameField.classList.remove('hidden');
+            authDialogTitle.textContent = 'Sign Up';
+            authSubmit.textContent = 'Sign Up';
+            authSwitchText.textContent = 'Already have an account?';
+            authSwitchBtn.textContent = 'Sign In';
+            document.getElementById('auth-password').autocomplete = 'new-password';
+        } else {
+            tabSignin.classList.add('active');
+            tabSignup.classList.remove('active');
+            nameField.classList.add('hidden');
+            authDialogTitle.textContent = 'Sign In';
+            authSubmit.textContent = 'Sign In';
+            authSwitchText.textContent = "Don't have an account?";
+            authSwitchBtn.textContent = 'Sign Up';
+            document.getElementById('auth-password').autocomplete = 'current-password';
+        }
+        authError.classList.add('hidden');
+    }
+
+    authButton.addEventListener('click', () => {
+        setMode(false);
+        authDialog.showModal();
+    });
+
+    closeAuth.addEventListener('click', () => authDialog.close());
+    authDialog.addEventListener('click', (e) => {
+        if (e.target === authDialog) authDialog.close();
+    });
+
+    tabSignin.addEventListener('click', () => setMode(false));
+    tabSignup.addEventListener('click', () => setMode(true));
+    authSwitchBtn.addEventListener('click', () => setMode(!isSignUpMode));
+
+    authForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        authError.classList.add('hidden');
+        authSubmit.disabled = true;
+        authSubmit.textContent = isSignUpMode ? 'Signing up...' : 'Signing in...';
+
+        const email = document.getElementById('auth-email').value;
+        const password = document.getElementById('auth-password').value;
+        const name = document.getElementById('auth-name').value;
+
+        try {
+            if (isSignUpMode) {
+                await signUp(email, password, name || email.split('@')[0]);
+            } else {
+                await signIn(email, password);
+            }
+            authDialog.close();
+            authForm.reset();
+        } catch (err) {
+            authError.textContent = err.message;
+            authError.classList.remove('hidden');
+        } finally {
+            authSubmit.disabled = false;
+            authSubmit.textContent = isSignUpMode ? 'Sign Up' : 'Sign In';
+        }
+    });
+
+    signOutButton.addEventListener('click', async () => {
+        await signOut();
+    });
+
+    // Google sign-in
+    const googleBtn = document.getElementById('google-signin');
+    googleBtn.addEventListener('click', async () => {
+        try {
+            await signInWithGoogle();
+        } catch (err) {
+            const authError = document.getElementById('auth-error');
+            authError.textContent = err.message;
+            authError.classList.remove('hidden');
+        }
+    });
+
+    // React to session changes
+    onSessionChange((session) => {
+        if (session) {
+            authButton.classList.add('hidden');
+            userInfo.classList.remove('hidden');
+            userEmail.textContent = session.user?.email || '';
+            onSignIn();
+        } else {
+            authButton.classList.remove('hidden');
+            userInfo.classList.add('hidden');
+            userEmail.textContent = '';
+        }
+    });
+}
+
+// ─── Cloud sync ────────────────────────────────────────────
+
+function showSyncStatus(message) {
+    const el = document.getElementById('sync-status');
+    if (!el) return;
+    el.textContent = message;
+    el.classList.remove('hidden');
+    setTimeout(() => el.classList.add('hidden'), 3000);
+}
+
+async function onSignIn() {
+    if (!canSyncToCloud()) return;
+
+    try {
+        showSyncStatus('Syncing progress...');
+        const cloudData = await fetchProgress();
+
+        if (cloudData) {
+            // Merge: union of local + cloud answered questions
+            const cloudSet = new Set(cloudData.answered_correctly || []);
+            const localSet = answeredCorrectly;
+            const merged = new Set([...localSet, ...cloudSet]);
+
+            const localOnly = [...localSet].filter(q => !cloudSet.has(q));
+            const cloudOnly = [...cloudSet].filter(q => !localSet.has(q));
+
+            answeredCorrectly = merged;
+
+            // Use cloud settings if local hasn't been customized
+            if (cloudData.questions_per_round && !localStorage.getItem('questionsPerRound')) {
+                questionCountPerQuiz = cloudData.questions_per_round;
+                initialQuestionCountPerQuiz = questionCountPerQuiz;
+            }
+            if (cloudData.exam_questions_count && !localStorage.getItem('examQuestionsCount')) {
+                questionCountPerExam = cloudData.exam_questions_count;
+                initialQuestionCountPerExam = questionCountPerExam;
+            }
+
+            // Upload merged data if local had questions cloud didn't
+            if (localOnly.length > 0) {
+                await saveCurrentProgressToCloud();
+            }
+
+            // Update localStorage with merged data
+            saveProgressToLocal();
+            updateSettingsUI();
+        } else {
+            // No cloud data — upload local progress
+            await saveCurrentProgressToCloud();
+        }
+
+        updateLearningProgress();
+        showSyncStatus('Progress synced');
+    } catch (err) {
+        console.error('Sync failed:', err);
+        showSyncStatus('Sync failed');
+    }
+}
+
+async function saveCurrentProgressToCloud() {
+    if (!canSyncToCloud()) return;
+    try {
+        await saveProgressToCloud({
+            answeredCorrectly: Array.from(answeredCorrectly),
+            questionsPerRound: questionCountPerQuiz,
+            examQuestionsCount: questionCountPerExam,
+        });
+    } catch (err) {
+        console.error('Cloud save failed:', err);
+    }
+}
+
+// ─── Local persistence ────────────────────────────────────
+
+function saveProgressToLocal() {
+    const progress = {
+        answeredCorrectly: Array.from(answeredCorrectly),
+    };
+    localStorage.setItem('quizProgress', JSON.stringify(progress));
+    localStorage.setItem('questionsPerRound', questionCountPerQuiz);
+}
+
+function loadProgressFromLocal() {
+    const savedProgress = localStorage.getItem('quizProgress');
+    if (savedProgress) {
+        const progress = JSON.parse(savedProgress);
+        answeredCorrectly = new Set(progress.answeredCorrectly);
+    }
+}
+
+// ─── Combined save/load ───────────────────────────────────
+
+function saveProgress() {
+    saveProgressToLocal();
+    saveCurrentProgressToCloud();
+}
+
+function loadProgress() {
+    loadProgressFromLocal();
+    updateLearningProgress();
+}
+
+// ─── Settings UI helpers ──────────────────────────────────
+
+function updateSettingsUI() {
+    const questionsPerRoundInput = document.getElementById('questions-per-round');
+    const questionsValue = document.getElementById('questions-value');
+    const questionsCount = document.getElementById('questions-count');
+    const examQuestionsCountInput = document.getElementById('exam-questions-count');
+    const examQuestionsValue = document.getElementById('exam-questions-value');
+    const examQuestionsCountDisplay = document.getElementById('exam-questions-count-display');
+
+    questionsPerRoundInput.value = questionCountPerQuiz;
+    questionsValue.textContent = questionCountPerQuiz;
+    questionsCount.textContent = questionCountPerQuiz;
+    examQuestionsCountInput.value = questionCountPerExam;
+    examQuestionsValue.textContent = questionCountPerExam;
+    examQuestionsCountDisplay.textContent = questionCountPerExam;
+}
+
+// ─── DOMContentLoaded ─────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
     const startButton = document.getElementById('start-button');
@@ -106,6 +376,12 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('examQuestionsCount', newExamValue);
         }
 
+        initialQuestionCountPerQuiz = questionCountPerQuiz;
+        initialQuestionCountPerExam = questionCountPerExam;
+
+        // Sync settings to cloud
+        saveCurrentProgressToCloud();
+
         settingsDialog.close();
     });
 
@@ -139,11 +415,17 @@ document.addEventListener('DOMContentLoaded', () => {
         examQuestionsCountDisplay.textContent = initialQuestionCountPerExam;
     }
 
+    // Set up auth UI (no-op if auth not configured)
+    setupAuthUI();
+
+    // Load questions, then progress, then try cloud sync
     fetch('questions.json')
         .then(response => response.json())
         .then(data => {
             allQuestions = data;
             loadProgress();
+            // Initialize auth and sync (non-blocking)
+            initAuth();
         })
         .catch(error => console.error('Error loading questions:', error));
 });
@@ -369,26 +651,14 @@ function resetQuiz() {
     localStorage.removeItem('quizProgress');
     localStorage.removeItem('examQuestionsCount');
     localStorage.removeItem('questionsPerRound');
-    document.getElementById('settings-button').classList.remove('hidden');
-    location.reload();
-}
 
-function saveProgress() {
-    const progress = {
-        answeredCorrectly: Array.from(answeredCorrectly)
-    };
-    localStorage.setItem('quizProgress', JSON.stringify(progress));
-    localStorage.setItem('questionsPerRound', questionCountPerQuiz);
-}
-
-function loadProgress() {
-    const savedProgress = localStorage.getItem('quizProgress');
-    if (savedProgress) {
-        const progress = JSON.parse(savedProgress);
-        answeredCorrectly = new Set(progress.answeredCorrectly);
+    // Also clear cloud data if signed in
+    if (canSyncToCloud()) {
+        deleteProgressFromCloud().catch(err => console.error('Cloud delete failed:', err));
     }
 
-    updateLearningProgress();
+    document.getElementById('settings-button').classList.remove('hidden');
+    location.reload();
 }
 
 function confirmExit() {
