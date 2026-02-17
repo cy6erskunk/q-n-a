@@ -197,6 +197,7 @@ async function onSignIn() {
             const cloudOnly = [...cloudSet].filter(q => !localSet.has(q));
 
             answeredCorrectly = merged;
+            const wasMigrated = migrateProgressToIds();
 
             // Use cloud settings if local hasn't been customized
             if (cloudData.questions_per_round && !localStorage.getItem('questionsPerRound')) {
@@ -208,8 +209,8 @@ async function onSignIn() {
                 initialQuestionCountPerExam = questionCountPerExam;
             }
 
-            // Upload merged data if local had questions cloud didn't
-            if (localOnly.length > 0) {
+            // Upload merged data if local had questions cloud didn't, or if migration occurred
+            if (localOnly.length > 0 || wasMigrated) {
                 await saveCurrentProgressToCloud();
             }
 
@@ -258,6 +259,32 @@ function loadProgressFromLocal() {
         const progress = JSON.parse(savedProgress);
         answeredCorrectly = new Set(progress.answeredCorrectly);
     }
+}
+
+// ─── Progress migration ───────────────────────────────────
+
+// Migrates progress stored as question text (old format) to question IDs (new format).
+// Returns true if any entries were migrated.
+function migrateProgressToIds() {
+    const textToId = new Map(allQuestions.map(q => [q.question, q.id]));
+    const migrated = new Set();
+    let needsMigration = false;
+
+    for (const item of answeredCorrectly) {
+        const id = textToId.get(item);
+        if (id !== undefined) {
+            migrated.add(id);
+            needsMigration = true;
+        } else {
+            migrated.add(item);
+        }
+    }
+
+    if (needsMigration) {
+        answeredCorrectly = migrated;
+    }
+
+    return needsMigration;
 }
 
 // ─── Combined save/load ───────────────────────────────────
@@ -424,6 +451,9 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             allQuestions = data;
             loadProgress();
+            if (migrateProgressToIds()) {
+                saveProgress();
+            }
             // Initialize auth and sync (non-blocking)
             initAuth();
         })
@@ -438,13 +468,13 @@ function shuffleArray(array) {
 }
 
 function selectQuestions() {
-    let unansweredQuestions = allQuestions.filter(q => !answeredCorrectly.has(q.question));
+    let unansweredQuestions = allQuestions.filter(q => !answeredCorrectly.has(q.id));
     shuffleArray(unansweredQuestions);
 
     currentQuestions = unansweredQuestions.slice(0, currentQuestionsAmount);
 
     if (currentQuestions.length < currentQuestionsAmount) {
-        let answeredQuestions = allQuestions.filter(q => answeredCorrectly.has(q.question));
+        let answeredQuestions = allQuestions.filter(q => answeredCorrectly.has(q.id));
         shuffleArray(answeredQuestions);
         currentQuestions = currentQuestions.concat(
             answeredQuestions.slice(0, currentQuestionsAmount - currentQuestions.length)
@@ -527,7 +557,7 @@ function checkAnswer(selectedOption, question, selectedButton) {
         });
 
         if (selectedOption.isCorrect) {
-            answeredCorrectly.add(question.question);
+            answeredCorrectly.add(question.id);
         } else {
             selectedButton.classList.add('incorrect');
             selectedButton.querySelector('.option-radio').innerHTML = X_SVG;
