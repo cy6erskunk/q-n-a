@@ -544,8 +544,8 @@
       },
       {
         "isCorrect": false,
-        "text": "On the on-guard lines",
-        "explanation": "Incorrect. The fencers are placed in the middle of the piste, not on the on-guard lines, before the additional minute begins."
+        "text": "At the exact center line of the piste, facing each other",
+        "explanation": "Incorrect. The fencers are not placed at the single center line. According to t.22.8, they are placed on guard in the middle of the piste, meaning each fencer is placed behind the on-guard line on their respective side (2 meters from the center)."
       },
       {
         "isCorrect": false,
