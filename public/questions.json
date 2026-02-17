@@ -1618,17 +1618,17 @@
       {
         "isCorrect": false,
         "text": "Will be penalized with a Yellow Card (warning for a 1st group offense)",
-        "explanation": "This is incorrect. The penalty is a red card for a 2nd group offense, not a yellow card."
+        "explanation": "This is incorrect. Per t.55.2 this offence belongs to the 2nd group, and t.166 specifies that every 2nd group offence, including the first infringement, is penalised by a RED CARD — not a yellow card."
       },
       {
         "isCorrect": false,
         "text": "Will be penalized with a Black Card (exclusion from the competition)",
-        "explanation": "This is incorrect. The penalty is a red card for a 2nd group offense, not a black card."
+        "explanation": "This is incorrect. Per t.55.2 this offence belongs to the 2nd group, and t.166 specifies that every 2nd group offence is penalised by a RED CARD — not a black card."
       },
       {
         "isCorrect": false,
         "text": "Will not be penalized, but the hit will be annulled",
-        "explanation": "This is incorrect. The fencer will be penalized with a red card for a 2nd group offense, and any hit registered will be annulled."
+        "explanation": "This is incorrect. Per t.55.2 the fencer will be penalised as specified for the offences of the 2nd group, which per t.166 means a RED CARD (penalty hit); the registered hit is also annulled."
       }
     ],
     "quotes": {
