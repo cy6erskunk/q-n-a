@@ -612,7 +612,7 @@
         "explanation": "This is incorrect. The referee does not alter the correct distance but leaves a fencer who already had one foot behind the rear line in the same position."
       }
     ],
-    "qotes": {
+    "quotes": {
       "t.22.8": "The competitors may not be replaced on guard, at their correct distance, in such a way as to place behind the rear line of the piste a fencer who was in front of that line when the bout was halted",
       "t.22.9": "If a fencer has crossed the lateral boundaries of the piste, with one or both feet, he must be placed on guard at the correct distance even if this means that he is placed behind the rear line and thus causes a hit to be awarded against him. (cf t.35.1, t.146)."
     },
@@ -804,7 +804,7 @@
       {
         "isCorrect": false,
         "text": "The referee should ask the fencer to adjust their hair so it no longer covers the valid surface, name, or nationality.",
-        "explanation": "This is correct. According to t.115.2, the referee must ensure that the fencer’s hair is properly fastened and does not cover any valid surface or the name and nationality. If the issue is fixed immediately, no penalty is applied."
+        "explanation": "This is incorrect. According to t.115.2, when the hair does not conform before the start of the bout, the referee must apply the penalties for group 1 offences (starting with a yellow card), not simply ask the fencer to adjust without penalty."
       },
       {
         "isCorrect": false,
@@ -942,24 +942,24 @@
     "question": "Can a fencer who has been allowed a break for medical reasons following an injury resume the fight before the five-minute period has ended?",
     "answers": [
       {
-        "isCorrect": true,
+        "isCorrect": false,
         "text": "Yes, the fencer can resume the fight before the five-minute break has ended if they feel ready.",
-        "explanation": "This is correct. The rules allow the fencer to resume the bout at any point during the five-minute medical break, provided they feel ready to continue and the referee agrees."
+        "explanation": "This is incorrect. According to t.45.1, only the doctor and/or medical provider on duty can determine the length of time of treatment required. The fencer cannot resume simply because they feel ready; the doctor determines when treatment is complete."
       },
       {
         "isCorrect": false,
         "text": "No, the fencer must wait for the entire five-minute period to pass before resuming the bout.",
-        "explanation": "This is incorrect. The fencer is allowed to resume the bout as soon as they are ready, even if the five-minute break has not fully elapsed."
+        "explanation": "This is incorrect. The five minutes is the maximum duration of the break, not a mandatory waiting period. The doctor determines the required treatment time, which may be shorter than five minutes."
       },
       {
-        "isCorrect": false,
+        "isCorrect": true,
         "text": "Yes, but only if the competition doctor approves it.",
-        "explanation": "This is incorrect. The competition doctor's approval is required to initiate the break, but the fencer can resume the bout without needing further medical clearance if they feel ready before the five minutes are over."
+        "explanation": "This is correct. According to t.45.1, only the doctor and/or medical provider on duty can determine the length of time of treatment required when a medical time-out is granted. The break lasts no longer than 5 minutes, but the doctor decides when treatment is complete and the fencer may resume."
       },
       {
         "isCorrect": false,
         "text": "No, the fencer must wait for the referee to signal the end of the break period.",
-        "explanation": "This is incorrect. The fencer does not need to wait for the referee to signal the end of the full five minutes. They can resume the bout once they feel ready."
+        "explanation": "This is incorrect. It is not the referee but the doctor/medical provider on duty who determines the length of treatment required (see t.45.1). The fencer may resume before the full five minutes if the doctor determines that treatment is complete."
       }
     ],
     "quotes": {
@@ -1555,26 +1555,26 @@
       {
         "isCorrect": true,
         "text": "Yes, the referee can consult the video at any time before making a decision",
-        "explanation": "According to technical rule t.62.3, at all weapons and at any time, the referee may consult his monitor before making a decision."
+        "explanation": "According to technical rule t.62.2, at all weapons and at any time, the referee may consult his monitor before making a decision."
       },
       {
         "isCorrect": false,
         "text": "No, the referee can only consult the video upon request from a fencer",
-        "explanation": "This is incorrect. The referee can consult the video at any time before making a decision."
+        "explanation": "This is incorrect. The referee can consult the video at any time before making a decision (see t.62.2)."
       },
       {
         "isCorrect": false,
         "text": "Only in case of equal scores at the end of a match for the decisive hit",
-        "explanation": "This is incorrect. While the referee must use video-refereeing in this case, they can also consult the video at any other time."
+        "explanation": "This is incorrect. While the referee must use video-refereeing in this case (t.62.3), they can also consult the video at any other time per t.62.2."
       },
       {
         "isCorrect": false,
         "text": "Only if the video consultant requests it",
-        "explanation": "This is incorrect. While the video consultant can request the referee to use video-refereeing, the referee can also consult the video at their own initiative."
+        "explanation": "This is incorrect. While the video consultant can request the referee to use video-refereeing (t.62.4), the referee can also consult the video at their own initiative per t.62.2."
       }
     ],
     "quotes": {
-      "t.62.3": "At all weapons and at any time, the referee may consult his monitor before making a decision."
+      "t.62.2": "At all weapons and at any time, the referee may consult his monitor before making a decision."
     },
     "id": "3e173fbd-d187-4719-ab44-a85f86d14966"
   },
