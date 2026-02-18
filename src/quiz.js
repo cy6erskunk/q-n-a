@@ -702,15 +702,22 @@ function updateScoreCircle(percentage) {
 }
 
 function updateLearningProgress() {
+    const progressLabel = document.getElementById('learning-progress-label');
     const progressInfo = document.getElementById('progress-info');
     const progressFill = document.getElementById('learning-progress-fill');
     const learned = allQuestions.filter(q => isLearned(q.id)).length;
     const total = allQuestions.length;
 
-    progressInfo.textContent = `${learned} of ${total} questions learned`;
+    // Weighted percentage: each correct answer contributes 1/(total * CORRECT_ANSWERS_REQUIRED)
+    const totalRequired = total * CORRECT_ANSWERS_REQUIRED;
+    const totalCorrect = allQuestions.reduce(
+        (sum, q) => sum + Math.min(getCorrectCount(q.id), CORRECT_ANSWERS_REQUIRED), 0
+    );
+    const completionPercentage = totalRequired > 0 ? (totalCorrect / totalRequired) * 100 : 0;
 
-    const percentage = total > 0 ? (learned / total) * 100 : 0;
-    progressFill.style.width = percentage + '%';
+    progressLabel.textContent = `Learning Progress ${completionPercentage.toFixed(1)}%`;
+    progressInfo.textContent = `${learned} of ${total} questions learned`;
+    progressFill.style.width = completionPercentage + '%';
 }
 
 function resetQuiz() {
