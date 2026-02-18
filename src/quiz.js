@@ -207,10 +207,10 @@ async function onSignIn() {
                 merged.set(id, Math.max(merged.get(id) || 0, count));
             }
 
-            // Check if local has any newer data than cloud
+            // Check if local has any data cloud doesn't (higher counts or missing IDs)
             const localHasNewer = [...questionProgress.entries()].some(
                 ([id, count]) => count > (cloudProgress.get(id) || 0)
-            );
+            ) || [...questionProgress.keys()].some(id => !cloudProgress.has(id));
 
             questionProgress = merged;
             const wasMigrated = migrateProgressToIds();
@@ -516,8 +516,8 @@ function selectQuestions() {
 
     // Build prioritized pool: not started → partially learned → fully learned
     const pool = [...groups[0], ...groups[1], ...groups[2], ...groups[3]];
+    // Slice maintains the priority order: least-learned questions come first
     currentQuestions = pool.slice(0, currentQuestionsAmount);
-    shuffleArray(currentQuestions);
 }
 
 function startQuiz() {
