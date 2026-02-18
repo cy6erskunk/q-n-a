@@ -197,7 +197,7 @@ async function onSignIn() {
             } else {
                 // New format: object mapping questionId -> correct count
                 cloudProgress = new Map(
-                    Object.entries(cloudData.answered_correctly || {}).map(([k, v]) => [k, Number(v)])
+                    Object.entries(cloudData.answered_correctly || {}).map(([k, v]) => [k, normalizeCount(v)])
                 );
             }
 
@@ -275,7 +275,7 @@ function loadProgressFromLocal() {
         const progress = JSON.parse(savedProgress);
         if (progress.questionProgress) {
             // New format: object mapping questionId -> correct count
-            questionProgress = new Map(Object.entries(progress.questionProgress).map(([k, v]) => [k, Number(v)]));
+            questionProgress = new Map(Object.entries(progress.questionProgress).map(([k, v]) => [k, normalizeCount(v)]));
         } else if (progress.answeredCorrectly) {
             // Old format: array of question IDs answered correctly once
             questionProgress = new Map(progress.answeredCorrectly.map(id => [id, 1]));
@@ -489,6 +489,11 @@ function shuffleArray(array) {
     }
 }
 
+function normalizeCount(value) {
+    const n = Number(value);
+    return Number.isFinite(n) && n > 0 ? Math.floor(n) : 0;
+}
+
 function getCorrectCount(questionId) {
     return questionProgress.get(questionId) || 0;
 }
@@ -674,7 +679,7 @@ function endQuiz() {
     }
     document.getElementById('score-message').textContent = message;
 
-    const learnedCount = [...questionProgress.values()].filter(c => c >= CORRECT_ANSWERS_REQUIRED).length;
+    const learnedCount = allQuestions.filter(q => isLearned(q.id)).length;
     document.getElementById('total-score').textContent =
         `Total Questions Learned: ${learnedCount} / ${allQuestions.length}`;
 
@@ -699,7 +704,7 @@ function updateScoreCircle(percentage) {
 function updateLearningProgress() {
     const progressInfo = document.getElementById('progress-info');
     const progressFill = document.getElementById('learning-progress-fill');
-    const learned = [...questionProgress.values()].filter(count => count >= CORRECT_ANSWERS_REQUIRED).length;
+    const learned = allQuestions.filter(q => isLearned(q.id)).length;
     const total = allQuestions.length;
 
     progressInfo.textContent = `${learned} of ${total} questions learned`;
