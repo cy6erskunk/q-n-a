@@ -915,14 +915,17 @@ dialog::backdrop {
 /* ===== Rule Article Popup ===== */
 #rule-dialog {
     max-width: 560px;
-    max-height: 80vh;
     overflow: hidden;
     padding: 0;
+    /* Vertically center on all screen sizes, overriding the mobile
+       "margin: 16px auto" rule that would pin it to the top */
+    margin: auto;
 }
 
 #rule-dialog[open] {
     display: flex;
     flex-direction: column;
+    max-height: 80vh;
 }
 
 #rule-dialog .dialog-header {
@@ -933,6 +936,7 @@ dialog::backdrop {
     overflow-y: auto;
     padding: 20px;
     flex: 1;
+    min-height: 0; /* allows the flex child to shrink and scroll */
     font-size: 0.875rem;
     color: #444;
     line-height: 1.7;
@@ -958,7 +962,7 @@ dialog::backdrop {
 }
 
 @media (max-width: 480px) {
-    #rule-dialog {
-        max-height: 90vh;
+    #rule-dialog[open] {
+        max-height: 85vh;
     }
 }
