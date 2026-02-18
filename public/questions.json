@@ -1322,22 +1322,22 @@
       {
         "isCorrect": true,
         "text": "Yes, the fencer at fault is penalized and any hit scored by this fencer is annulled",
-        "explanation": "According to technical rule t.25.2, it is forbidden for a fencer to cause corps à corps intentionally to avoid being hit. If such an offence occurs, the Referee will penalise the fencer at fault and any hit scored by the fencer at fault is annulled."
+        "explanation": "According to technical rule t.25.2, it is forbidden for a fencer to cause corps à corps intentionally to avoid being hit. If such an offence occurs, the Referee will penalise the fencer at fault and any hit scored by the fencer at fault is annulled. [See t.25.2]"
       },
       {
         "isCorrect": false,
         "text": "No, if the other fencer scored a hit, no penalty is applied",
-        "explanation": "This is incorrect. The fencer who causes intentional corps à corps is penalized regardless of whether the opponent scored a hit or not."
+        "explanation": "This is incorrect. The fencer who causes intentional corps à corps is penalized regardless of whether the opponent scored a hit or not. [See t.25.2]"
       },
       {
         "isCorrect": false,
         "text": "Only if the referee determines that the hit of the fencer subjected to the fault was valid",
-        "explanation": "This is incorrect. The penalty for causing intentional corps à corps is applied independently of whether a hit was scored by either fencer."
+        "explanation": "This is incorrect. The penalty for causing intentional corps à corps is applied independently of whether a hit was scored by either fencer. [See t.25.2]"
       },
       {
         "isCorrect": false,
         "text": "Only if the hit scored by the fencer who caused the corps à corps was on target",
-        "explanation": "This is incorrect. Any hit scored by the fencer who caused intentional corps à corps is annulled, whether on target or not."
+        "explanation": "This is incorrect. Any hit scored by the fencer who caused intentional corps à corps is annulled, whether on target or not. [See t.25.2]"
       }
     ],
     "quotes": {
