@@ -1759,22 +1759,22 @@
       {
         "isCorrect": true,
         "text": "Yes, the hit must be cancelled",
-        "explanation": "According to technical rule t.56.7, when a competitor against whom a hit has been registered has broken his blade, the hit must be annulled unless the breaking of the blade has occurred clearly after the hit has been registered. In this case, since the blade broke during the action, and not clearly after the hit was registered, the hit must be annulled."
+        "explanation": "According to technical rule t.56.7, when a competitor against whom a hit has been registered has broken his blade, the hit must be annulled unless the breaking of the blade has occurred clearly after the hit has been registered. In this case, since the blade broke during the action, and not clearly after the hit was registered, the hit must be annulled. [See t.56.7]"
       },
       {
         "isCorrect": false,
         "text": "No, the hit is not cancelled",
-        "explanation": "This is incorrect. The hit must be annulled if the breaking of the blade occurred during the action, not clearly after the hit was registered."
+        "explanation": "This is incorrect. The hit must be annulled if the breaking of the blade occurred during the action, not clearly after the hit was registered. [See t.56.7]"
       },
       {
         "isCorrect": false,
         "text": "Only if the blade broke before the hit was registered",
-        "explanation": "This is incorrect. The rule states that the hit must be annulled unless the breaking of the blade occurred clearly after the hit was registered. If it broke during the action, the hit is annulled."
+        "explanation": "This is incorrect. The rule states that the hit must be annulled unless the breaking of the blade occurred clearly after the hit was registered. If it broke during the action, the hit is annulled. [See t.56.7]"
       },
       {
         "isCorrect": false,
         "text": "Only if the broken blade caused a malfunction in the electrical apparatus",
-        "explanation": "This is incorrect. The rule does not require a malfunction in the electrical apparatus; it only considers the timing of the blade breaking relative to the hit registration."
+        "explanation": "This is incorrect. The rule does not require a malfunction in the electrical apparatus; it only considers the timing of the blade breaking relative to the hit registration. [See t.56.7]"
       }
     ],
     "quotes": {
