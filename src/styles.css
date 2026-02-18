@@ -916,10 +916,13 @@ dialog::backdrop {
 #rule-dialog {
     max-width: 560px;
     max-height: 80vh;
-    display: flex;
-    flex-direction: column;
     overflow: hidden;
     padding: 0;
+}
+
+#rule-dialog[open] {
+    display: flex;
+    flex-direction: column;
 }
 
 #rule-dialog .dialog-header {
