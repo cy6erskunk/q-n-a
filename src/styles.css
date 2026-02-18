@@ -917,26 +917,15 @@ dialog::backdrop {
     max-width: 560px;
     overflow: hidden;
     padding: 0;
-    /* Vertically center on all screen sizes, overriding the mobile
-       "margin: 16px auto" rule that would pin it to the top */
-    margin: auto;
-}
-
-#rule-dialog[open] {
-    display: flex;
-    flex-direction: column;
-    max-height: 80vh;
-}
-
-#rule-dialog .dialog-header {
-    flex-shrink: 0;
+    margin: auto; /* override the mobile "margin:16px auto" to keep it centred */
 }
 
 .rule-dialog-body {
     overflow-y: auto;
     padding: 20px;
-    flex: 1;
-    min-height: 0; /* allows the flex child to shrink and scroll */
+    /* Cap body height directly so overflow-y:auto always kicks in.
+       64px ≈ dialog header (16px top padding + ~29px h2 + 16px bottom padding + 1px border). */
+    max-height: calc(80vh - 64px);
     font-size: 0.875rem;
     color: #444;
     line-height: 1.7;
@@ -962,7 +951,7 @@ dialog::backdrop {
 }
 
 @media (max-width: 480px) {
-    #rule-dialog[open] {
-        max-height: 85vh;
+    .rule-dialog-body {
+        max-height: calc(85vh - 64px);
     }
 }
