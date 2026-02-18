@@ -15,6 +15,7 @@ import {
     saveProgressToCloud,
     deleteProgressFromCloud,
 } from './api.js';
+import { renderExplanationHtml, openRuleArticle } from './rules.js';
 
 let allQuestions = [];
 let currentQuestions = [];
@@ -336,6 +337,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const examQuestionsValue = document.getElementById('exam-questions-value');
     const examQuestionsCountDisplay = document.getElementById('exam-questions-count-display');
     const settingsDialog = document.getElementById('settings-dialog');
+    const ruleDialog = document.getElementById('rule-dialog');
+
+    // ─── Rule article popup ────────────────────────────────
+    document.getElementById('close-rule-dialog').addEventListener('click', () => {
+        ruleDialog.close();
+    });
+    ruleDialog.addEventListener('click', (e) => {
+        if (e.target === ruleDialog) ruleDialog.close();
+    });
 
     examQuestionsValue.textContent = examQuestionsCountInput.value;
 
@@ -581,7 +591,11 @@ function checkAnswer(selectedOption, question, selectedButton) {
         // Strip "Correct." / "Incorrect." prefix from explanation
         let explanation = selectedOption.explanation || '';
         explanation = explanation.replace(/^(Correct|Incorrect)\.?\s*/i, '');
-        explanationElement.textContent = explanation;
+        explanationElement.innerHTML = renderExplanationHtml(explanation);
+        const ruleDialog = document.getElementById('rule-dialog');
+        explanationElement.querySelectorAll('.rule-ref').forEach(btn => {
+            btn.addEventListener('click', () => openRuleArticle(btn.dataset.article, ruleDialog));
+        });
     }
 
     currentQuestionIndex++;
