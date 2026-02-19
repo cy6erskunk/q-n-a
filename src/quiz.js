@@ -20,11 +20,12 @@ let allQuestions = [];
 let currentQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-let answeredCorrectly = new Set();
+let questionProgress = new Map(); // questionId -> number of times answered correctly
 let isExamMode = false;
 
 const QUESTIONS_PER_QUIZ_DEFAULT = 5;
 const QUESTIONS_PER_EXAM_DEFAULT = 30;
+const CORRECT_ANSWERS_REQUIRED = 3;
 let questionCountPerExam = parseInt(localStorage.getItem('examQuestionsCount')) || QUESTIONS_PER_EXAM_DEFAULT;
 let questionCountPerQuiz = parseInt(localStorage.getItem('questionsPerRound')) || QUESTIONS_PER_QUIZ_DEFAULT;
 let currentQuestionsAmount = questionCountPerQuiz;
@@ -188,15 +189,30 @@ async function onSignIn() {
         const cloudData = await fetchProgress();
 
         if (cloudData) {
-            // Merge: union of local + cloud answered questions
-            const cloudSet = new Set(cloudData.answered_correctly || []);
-            const localSet = answeredCorrectly;
-            const merged = new Set([...localSet, ...cloudSet]);
+            // Convert cloud data to Map, handling both old array format and new object format
+            let cloudProgress;
+            if (Array.isArray(cloudData.answered_correctly)) {
+                // Old format: array of IDs answered correctly once
+                cloudProgress = new Map((cloudData.answered_correctly || []).map(id => [id, 1]));
+            } else {
+                // New format: object mapping questionId -> correct count
+                cloudProgress = new Map(
+                    Object.entries(cloudData.answered_correctly || {}).map(([k, v]) => [k, normalizeCount(v)])
+                );
+            }
 
-            const localOnly = [...localSet].filter(q => !cloudSet.has(q));
-            const cloudOnly = [...cloudSet].filter(q => !localSet.has(q));
+            // Merge: take the max correct count for each question
+            const merged = new Map(questionProgress);
+            for (const [id, count] of cloudProgress) {
+                merged.set(id, Math.max(merged.get(id) || 0, count));
+            }
 
-            answeredCorrectly = merged;
+            // Check if local has any data cloud doesn't (higher counts or missing IDs)
+            const localHasNewer = [...questionProgress.entries()].some(
+                ([id, count]) => count > (cloudProgress.get(id) || 0)
+            ) || [...questionProgress.keys()].some(id => !cloudProgress.has(id));
+
+            questionProgress = merged;
             const wasMigrated = migrateProgressToIds();
 
             // Use cloud settings if local hasn't been customized
@@ -209,8 +225,8 @@ async function onSignIn() {
                 initialQuestionCountPerExam = questionCountPerExam;
             }
 
-            // Upload merged data if local had questions cloud didn't, or if migration occurred
-            if (localOnly.length > 0 || wasMigrated) {
+            // Upload merged data if local had newer progress or migration occurred
+            if (localHasNewer || wasMigrated) {
                 await saveCurrentProgressToCloud();
             }
 
@@ -234,7 +250,7 @@ async function saveCurrentProgressToCloud() {
     if (!canSyncToCloud()) return;
     try {
         await saveProgressToCloud({
-            answeredCorrectly: Array.from(answeredCorrectly),
+            answeredCorrectly: Object.fromEntries(questionProgress),
             questionsPerRound: questionCountPerQuiz,
             examQuestionsCount: questionCountPerExam,
         });
@@ -247,7 +263,7 @@ async function saveCurrentProgressToCloud() {
 
 function saveProgressToLocal() {
     const progress = {
-        answeredCorrectly: Array.from(answeredCorrectly),
+        questionProgress: Object.fromEntries(questionProgress),
     };
     localStorage.setItem('quizProgress', JSON.stringify(progress));
     localStorage.setItem('questionsPerRound', questionCountPerQuiz);
@@ -257,7 +273,13 @@ function loadProgressFromLocal() {
     const savedProgress = localStorage.getItem('quizProgress');
     if (savedProgress) {
         const progress = JSON.parse(savedProgress);
-        answeredCorrectly = new Set(progress.answeredCorrectly);
+        if (progress.questionProgress) {
+            // New format: object mapping questionId -> correct count
+            questionProgress = new Map(Object.entries(progress.questionProgress).map(([k, v]) => [k, normalizeCount(v)]));
+        } else if (progress.answeredCorrectly) {
+            // Old format: array of question IDs answered correctly once
+            questionProgress = new Map(progress.answeredCorrectly.map(id => [id, 1]));
+        }
     }
 }
 
@@ -267,21 +289,21 @@ function loadProgressFromLocal() {
 // Returns true if any entries were migrated.
 function migrateProgressToIds() {
     const textToId = new Map(allQuestions.map(q => [q.question, q.id]));
-    const migrated = new Set();
+    const migrated = new Map();
     let needsMigration = false;
 
-    for (const item of answeredCorrectly) {
+    for (const [item, count] of questionProgress) {
         const id = textToId.get(item);
         if (id !== undefined) {
-            migrated.add(id);
+            migrated.set(id, count);
             needsMigration = true;
         } else {
-            migrated.add(item);
+            migrated.set(item, count);
         }
     }
 
     if (needsMigration) {
-        answeredCorrectly = migrated;
+        questionProgress = migrated;
     }
 
     return needsMigration;
@@ -467,21 +489,35 @@ function shuffleArray(array) {
     }
 }
 
+function normalizeCount(value) {
+    const n = Number(value);
+    return Number.isFinite(n) && n > 0 ? Math.floor(n) : 0;
+}
+
+function getCorrectCount(questionId) {
+    return questionProgress.get(questionId) || 0;
+}
+
+function isLearned(questionId) {
+    return getCorrectCount(questionId) >= CORRECT_ANSWERS_REQUIRED;
+}
+
 function selectQuestions() {
-    let unansweredQuestions = allQuestions.filter(q => !answeredCorrectly.has(q.id));
-    shuffleArray(unansweredQuestions);
-
-    currentQuestions = unansweredQuestions.slice(0, currentQuestionsAmount);
-
-    if (currentQuestions.length < currentQuestionsAmount) {
-        let answeredQuestions = allQuestions.filter(q => answeredCorrectly.has(q.id));
-        shuffleArray(answeredQuestions);
-        currentQuestions = currentQuestions.concat(
-            answeredQuestions.slice(0, currentQuestionsAmount - currentQuestions.length)
-        );
+    // Group questions by correct answer count: 0, 1, 2, and 3+ (learned)
+    // Priority: least learned first (count=0 before count=1 before count=2 before count=3+)
+    const groups = [[], [], [], []];
+    for (const q of allQuestions) {
+        const count = getCorrectCount(q.id);
+        const groupIndex = Math.min(count, CORRECT_ANSWERS_REQUIRED);
+        groups[groupIndex].push(q);
     }
+    // Shuffle within each group for random ordering within same learning stage
+    groups.forEach(g => shuffleArray(g));
 
-    shuffleArray(currentQuestions);
+    // Build prioritized pool: not started → partially learned → fully learned
+    const pool = [...groups[0], ...groups[1], ...groups[2], ...groups[3]];
+    // Slice maintains the priority order: least-learned questions come first
+    currentQuestions = pool.slice(0, currentQuestionsAmount);
 }
 
 function startQuiz() {
@@ -557,7 +593,7 @@ function checkAnswer(selectedOption, question, selectedButton) {
         });
 
         if (selectedOption.isCorrect) {
-            answeredCorrectly.add(question.id);
+            questionProgress.set(question.id, getCorrectCount(question.id) + 1);
         } else {
             selectedButton.classList.add('incorrect');
             selectedButton.querySelector('.option-radio').innerHTML = X_SVG;
@@ -643,8 +679,9 @@ function endQuiz() {
     }
     document.getElementById('score-message').textContent = message;
 
+    const learnedCount = allQuestions.filter(q => isLearned(q.id)).length;
     document.getElementById('total-score').textContent =
-        `Total Questions Answered Correctly: ${answeredCorrectly.size} / ${allQuestions.length}`;
+        `Total Questions Learned: ${learnedCount} / ${allQuestions.length}`;
 
     if (isExamMode) {
         isExamMode = false;
@@ -665,19 +702,26 @@ function updateScoreCircle(percentage) {
 }
 
 function updateLearningProgress() {
+    const progressLabel = document.getElementById('learning-progress-label');
     const progressInfo = document.getElementById('progress-info');
     const progressFill = document.getElementById('learning-progress-fill');
-    const learned = answeredCorrectly.size;
+    const learned = allQuestions.filter(q => isLearned(q.id)).length;
     const total = allQuestions.length;
 
-    progressInfo.textContent = `${learned} of ${total} questions learned`;
+    // Weighted percentage: each correct answer contributes 1/(total * CORRECT_ANSWERS_REQUIRED)
+    const totalRequired = total * CORRECT_ANSWERS_REQUIRED;
+    const totalCorrect = allQuestions.reduce(
+        (sum, q) => sum + Math.min(getCorrectCount(q.id), CORRECT_ANSWERS_REQUIRED), 0
+    );
+    const completionPercentage = totalRequired > 0 ? (totalCorrect / totalRequired) * 100 : 0;
 
-    const percentage = total > 0 ? (learned / total) * 100 : 0;
-    progressFill.style.width = percentage + '%';
+    progressLabel.textContent = `Learning Progress ${completionPercentage.toFixed(1)}%`;
+    progressInfo.textContent = `${learned} of ${total} questions learned`;
+    progressFill.style.width = completionPercentage + '%';
 }
 
 function resetQuiz() {
-    answeredCorrectly.clear();
+    questionProgress.clear();
     localStorage.removeItem('quizProgress');
     localStorage.removeItem('examQuestionsCount');
     localStorage.removeItem('questionsPerRound');
