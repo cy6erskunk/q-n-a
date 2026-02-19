@@ -91,7 +91,7 @@ export async function openRuleArticle(articleRef, dialog) {
             return;
         }
         if (result.articleRef !== result.originalRef) {
-            titleEl.textContent = `Article ${result.originalRef} (see ${result.articleRef})`;
+            titleEl.textContent = `Article ${result.articleRef}`;
         }
         bodyEl.innerHTML = articleContentToHtml(result.content);
         // Wire up any cross-reference buttons inside the popup
