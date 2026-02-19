@@ -23,7 +23,7 @@ function extractArticle(markdown, articleRef) {
         const match = headerRe.exec(markdown);
         if (!match) continue;
         const afterHeader = markdown.slice(match.index + match[0].length);
-        const nextHeader = /^###\s/m.exec(afterHeader);
+        const nextHeader = /^#{1,3}\s/m.exec(afterHeader);
         const content = (nextHeader ? afterHeader.slice(0, nextHeader.index) : afterHeader).trim();
         return { articleRef: candidate, originalRef: articleRef, content };
     }
