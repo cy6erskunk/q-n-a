@@ -887,3 +887,71 @@ dialog::backdrop {
         margin: 16px auto;
     }
 }
+
+/* ===== Rule Reference Buttons ===== */
+.rule-ref {
+    background: none;
+    border: none;
+    color: #1a6ecc;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: #a0c0e8;
+}
+
+.rule-ref:hover {
+    color: #0a4a99;
+    text-decoration-color: #0a4a99;
+}
+
+.rule-ref:focus-visible {
+    outline: 2px solid #1a6ecc;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* ===== Rule Article Popup ===== */
+#rule-dialog {
+    max-width: 560px;
+    overflow: hidden;
+    padding: 0;
+    margin: auto; /* override the mobile "margin:16px auto" to keep it centred */
+}
+
+.rule-dialog-body {
+    overflow-y: auto;
+    padding: 20px;
+    /* Cap body height directly so overflow-y:auto always kicks in.
+       64px ≈ dialog header (16px top padding + ~29px h2 + 16px bottom padding + 1px border). */
+    max-height: calc(80vh - 64px);
+    font-size: 0.875rem;
+    color: #444;
+    line-height: 1.7;
+}
+
+.rule-dialog-body p {
+    margin-bottom: 0.75rem;
+}
+
+.rule-dialog-body p:last-child {
+    margin-bottom: 0;
+}
+
+.rule-loading,
+.rule-not-found,
+.rule-error {
+    color: #999;
+    font-style: italic;
+}
+
+.rule-error {
+    color: #e53935;
+}
+
+@media (max-width: 480px) {
+    .rule-dialog-body {
+        max-height: calc(85vh - 64px);
+    }
+}
