@@ -424,17 +424,17 @@
       {
         "isCorrect": false,
         "text": "Yes, but only if the fencer is at a close distance",
-        "explanation": "Incorrect. The rules do not permit the hand to slip along the handle during an offensive action at any distance unless the handle has a special device."
+        "explanation": "Incorrect. The rules do not permit the hand to slip along the handle during an offensive action at any distance unless the handle has a special device. [See t.21.2]"
       },
       {
         "isCorrect": false,
         "text": "Yes, if the fencer is using a foil",
-        "explanation": "Incorrect. The rule applies to all weapons, not just foil. The hand should not slip along the handle unless there is a special device."
+        "explanation": "Incorrect. The rule applies to all weapons, not just foil. The hand should not slip along the handle unless there is a special device. [See t.21.2]"
       },
       {
         "isCorrect": false,
         "text": "Yes, but only in direct elimination bouts",
-        "explanation": "Incorrect. The rule applies universally, and the hand slipping along the handle during an offensive action is not allowed."
+        "explanation": "Incorrect. The rule applies universally, and the hand slipping along the handle during an offensive action is not allowed. [See t.21.2]"
       }
     ],
     "quotes": {
@@ -453,17 +453,17 @@
       {
         "isCorrect": false,
         "text": "Yes, if it is part of an offensive action",
-        "explanation": "Incorrect. The FIE rules strictly prohibit the use of the weapon as a throwing weapon under any circumstances."
+        "explanation": "Incorrect. The FIE rules strictly prohibit the use of the weapon as a throwing weapon under any circumstances. [See t.21.2]"
       },
       {
         "isCorrect": false,
         "text": "Yes, if the opponent agrees to it",
-        "explanation": "Incorrect. The weapon must always be held in hand and cannot be thrown, regardless of the opponent's consent."
+        "explanation": "Incorrect. The weapon must always be held in hand and cannot be thrown, regardless of the opponent's consent. [See t.21.2]"
       },
       {
         "isCorrect": false,
         "text": "Yes, but only in épée",
-        "explanation": "Incorrect. The rule applies to all three weapons. The weapon must not be used as a throwing weapon in any form of fencing."
+        "explanation": "Incorrect. The rule applies to all three weapons. The weapon must not be used as a throwing weapon in any form of fencing. [See t.21.2]"
       }
     ],
     "quotes": {
@@ -482,17 +482,17 @@
       {
         "isCorrect": false,
         "text": "Yes, if the fencer is left-handed",
-        "explanation": "Incorrect. The rule applies equally to all fencers, regardless of their dominant hand. The fencer cannot change hands without special permission."
+        "explanation": "Incorrect. The rule applies equally to all fencers, regardless of their dominant hand. The fencer cannot change hands without special permission. [See t.21.4]"
       },
       {
         "isCorrect": false,
         "text": "Yes, but only after scoring a valid hit",
-        "explanation": "Incorrect. A fencer cannot change their sword arm before the end of the bout unless the referee grants special permission due to injury."
+        "explanation": "Incorrect. A fencer cannot change their sword arm before the end of the bout unless the referee grants special permission due to injury. [See t.21.4]"
       },
       {
         "isCorrect": false,
         "text": "Yes, if the weapon becomes faulty",
-        "explanation": "Incorrect. The fencer can only change the weapon, not the sword arm, unless special permission is granted for injury."
+        "explanation": "Incorrect. The fencer can only change the weapon, not the sword arm, unless special permission is granted for injury. [See t.21.4]"
       }
     ],
     "quotes": {
@@ -511,17 +511,17 @@
       {
         "isCorrect": false,
         "text": "In the center of the piste",
-        "explanation": "Incorrect. The fencers are only placed in the center of the piste after a valid hit or at the beginning of a period. In this case, they must return to their previous positions."
+        "explanation": "Incorrect. The fencers are only placed in the center of the piste after a valid hit or at the beginning of a period. In this case, they must return to their previous positions. [See t.22.7]"
       },
       {
         "isCorrect": false,
         "text": "1 meter back from their previous positions",
-        "explanation": "Incorrect. There is no rule requiring the fencers to step back after a penalty with no hit awarded. They return to their previous positions on the piste."
+        "explanation": "Incorrect. There is no rule requiring the fencers to step back after a penalty with no hit awarded. They return to their previous positions on the piste. [See t.22.7]"
       },
       {
         "isCorrect": false,
         "text": "On the on-guard line",
-        "explanation": "Incorrect. The fencers are only placed on the on-guard line at the start of a bout, not after a halt where no hits have been awarded."
+        "explanation": "Incorrect. The fencers are only placed on the on-guard line at the start of a bout, not after a halt where no hits have been awarded. [See t.22.7]"
       }
     ],
     "quotes": {
@@ -540,7 +540,7 @@
       {
         "isCorrect": false,
         "text": "At their last positions before the halt",
-        "explanation": "Incorrect. The fencers are placed on guard in the middle of the piste before the additional minute, not at their last positions."
+        "explanation": "Incorrect. The fencers are placed on guard in the middle of the piste before the additional minute, not at their last positions. [See t.22.8]"
       },
       {
         "isCorrect": false,
@@ -550,7 +550,7 @@
       {
         "isCorrect": false,
         "text": "1 meter back from the center",
-        "explanation": "Incorrect. The rule mandates that the fencers be placed directly in the middle of the piste before the additional minute starts."
+        "explanation": "Incorrect. The rule mandates that the fencers be placed directly in the middle of the piste before the additional minute starts. [See t.22.8]"
       }
     ],
     "quotes": {
@@ -564,22 +564,22 @@
       {
         "isCorrect": false,
         "text": "Fencers should be placed on guard at the end of the piste where the penalty was given.",
-        "explanation": "This is incorrect. The penalty hit resulting from a red card is treated similarly to a valid hit, meaning fencers are placed on guard in the middle of the piste after the penalty is awarded (t.22.6). They are not placed at the end of the piste where the penalty was issued."
+        "explanation": "This is incorrect. The penalty hit resulting from a red card is treated similarly to a valid hit, meaning fencers are placed on guard in the middle of the piste after the penalty is awarded (t.22.6). They are not placed at the end of the piste where the penalty was issued. [See t.22.6, t.22.5]"
       },
       {
         "isCorrect": true,
         "text": "Fencers should be placed on guard in the middle of the piste after the penalty hit is awarded.",
-        "explanation": "This is correct. When a penalty hit is awarded after a red card, it is treated similarly to a valid hit. As per t.22.6, fencers are placed on guard in the middle of the piste after a hit is scored."
+        "explanation": "This is correct. When a penalty hit is awarded after a red card, it is treated similarly to a valid hit. As per t.22.6, fencers are placed on guard in the middle of the piste after a hit is scored. [See t.22.6, t.22.5]"
       },
       {
         "isCorrect": false,
         "text": "Fencers should be placed back at their previous positions on the piste.",
-        "explanation": "This is incorrect. After the penalty hit is awarded, the bout is resumed with the fencers placed in the middle of the piste (t.22.6), not in their previous positions."
+        "explanation": "This is incorrect. After the penalty hit is awarded, the bout is resumed with the fencers placed in the middle of the piste (t.22.6), not in their previous positions. [See t.22.6, t.22.5]"
       },
       {
         "isCorrect": false,
         "text": "Fencers should be placed at a distance such that their blades cannot touch in the 'point in line' position.",
-        "explanation": "This rule (t.22.5) applies during regular fencing, but it does not relate to how fencers are placed after a penalty hit is awarded. After a penalty hit, they should be placed on guard in the middle of the piste (t.22.6)."
+        "explanation": "This rule (t.22.5) applies during regular fencing, but it does not relate to how fencers are placed after a penalty hit is awarded. After a penalty hit, they should be placed on guard in the middle of the piste (t.22.6). [See t.22.6, t.22.5]"
       }
     ],
     "quotes": {
@@ -594,22 +594,22 @@
       {
         "isCorrect": false,
         "text": "Yes, the fencer can be placed behind the rear line as long as they maintain correct distance.",
-        "explanation": "This is incorrect. According to rule t.22.8, competitors may not be replaced on guard, at their correct distance, if it leads a fencer to cross the rear line with both feet."
+        "explanation": "This is incorrect. According to rule t.22.8, competitors may not be replaced on guard, at their correct distance, if it leads a fencer to cross the rear line with both feet. [See t.22.8, t.22.9]"
       },
       {
         "isCorrect": false,
         "text": "Yes, as long as no hits were scored during the action.",
-        "explanation": "This is incorrect. Whether or not a hit is scored does not change the rule that crossing the rear line results in a point for the opponent, per t.22.8."
+        "explanation": "This is incorrect. Whether or not a hit is scored does not change the rule that crossing the rear line results in a point for the opponent, per t.22.8. [See t.22.8, t.22.9]"
       },
       {
         "isCorrect": true,
         "text": "No, If he already had one foot behind the rear line, he remains in that position.",
-        "explanation": "This is correct, as per t.22.8."
+        "explanation": "This is correct, as per t.22.8. [See t.22.8, t.22.9]"
       },
       {
         "isCorrect": false,
         "text": "No, the referee should shorten the distance to avoid placing the fencer behind the rear line.",
-        "explanation": "This is incorrect. The referee does not alter the correct distance but leaves a fencer who already had one foot behind the rear line in the same position."
+        "explanation": "This is incorrect. The referee does not alter the correct distance but leaves a fencer who already had one foot behind the rear line in the same position. [See t.22.8, t.22.9]"
       }
     ],
     "quotes": {
@@ -624,7 +624,7 @@
       {
         "isCorrect": false,
         "text": "The fencers should be placed on guard at the center of the piste.",
-        "explanation": "This is incorrect. According to rule t.22, fencers are placed on guard in the center of the piste after a valid hit, not after crossing the lateral boundaries."
+        "explanation": "This is incorrect. According to rule t.22, fencers are placed on guard in the center of the piste after a valid hit, not after crossing the lateral boundaries. [See t.35.1]"
       },
       {
         "isCorrect": true,
@@ -634,12 +634,12 @@
       {
         "isCorrect": false,
         "text": "The fencers should be placed back at their previous positions, both behind the on-guard lines.",
-        "explanation": "This is incorrect. After an action where the lateral boundaries are crossed, the fencer who crossed the line is returned to their previous position and steps back one metre, not behind the on-guard lines."
+        "explanation": "This is incorrect. After an action where the lateral boundaries are crossed, the fencer who crossed the line is returned to their previous position and steps back one metre, not behind the on-guard lines. [See t.35.1]"
       },
       {
         "isCorrect": false,
         "text": "The fencers should be placed on guard where the crossing occurred.",
-        "explanation": "This is incorrect. The fencers are not placed where the crossing occurred. Instead, the fencer who crossed the line is returned to their previous position and steps back one metre."
+        "explanation": "This is incorrect. The fencers are not placed where the crossing occurred. Instead, the fencer who crossed the line is returned to their previous position and steps back one metre. [See t.35.1]"
       }
     ],
     "quotes": {
@@ -683,7 +683,7 @@
       {
         "isCorrect": false,
         "text": "The fencers should be placed on guard in the middle of the piste.",
-        "explanation": "This is incorrect. Rule t.22 states that fencers are placed in the middle of the piste after a valid hit. A lateral movement crossing does not involve a valid hit, so this rule does not apply."
+        "explanation": "This is incorrect. Rule t.22 states that fencers are placed in the middle of the piste after a valid hit. A lateral movement crossing does not involve a valid hit, so this rule does not apply. [See t.35.1]"
       },
       {
         "isCorrect": true,
@@ -698,7 +698,7 @@
       {
         "isCorrect": false,
         "text": "The fencers should be placed at a distance where their blades cannot touch.",
-        "explanation": "This is incorrect. The distance rule (t.22.5) applies during normal placement but does not relate to boundary crossings. Instead, the fencer who crossed the boundary is placed one meter back as a penalty for retreating off the piste."
+        "explanation": "This is incorrect. The distance rule (t.22.5) applies during normal placement but does not relate to boundary crossings. Instead, the fencer who crossed the boundary is placed one meter back as a penalty for retreating off the piste. [See t.35.1]"
       }
     ],
     "quotes": {
@@ -949,7 +949,7 @@
       {
         "isCorrect": false,
         "text": "No, the fencer must wait for the entire five-minute period to pass before resuming the bout.",
-        "explanation": "This is incorrect. The five minutes is the maximum duration of the break, not a mandatory waiting period. The doctor determines the required treatment time, which may be shorter than five minutes."
+        "explanation": "This is incorrect. The five minutes is the maximum duration of the break, not a mandatory waiting period. The doctor determines the required treatment time, which may be shorter than five minutes. [See t.45.1]"
       },
       {
         "isCorrect": true,
@@ -978,17 +978,17 @@
       {
         "isCorrect": false,
         "text": "Only in World Championships and Olympic Games",
-        "explanation": "This is incorrect. The requirement applies to all official FIE competitions, not just World Championships and Olympic Games."
+        "explanation": "This is incorrect. The requirement applies to all official FIE competitions, not just World Championships and Olympic Games. [See t.74]"
       },
       {
         "isCorrect": false,
         "text": "Only in individual competitions",
-        "explanation": "This is incorrect. The requirement applies to both individual and team competitions in all official FIE events."
+        "explanation": "This is incorrect. The requirement applies to both individual and team competitions in all official FIE events. [See t.74]"
       },
       {
         "isCorrect": false,
         "text": "Only in team competitions",
-        "explanation": "This is incorrect. The requirement applies to both individual and team competitions in all official FIE events."
+        "explanation": "This is incorrect. The requirement applies to both individual and team competitions in all official FIE events. [See t.74]"
       }
     ],
     "quotes": {
@@ -1007,17 +1007,17 @@
       {
         "isCorrect": false,
         "text": "Only in World Cup team events",
-        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just World Cup team events."
+        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just World Cup team events. [See t.74]"
       },
       {
         "isCorrect": false,
         "text": "Only in individual World Cup events",
-        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just individual World Cup events."
+        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just individual World Cup events. [See t.74]"
       },
       {
         "isCorrect": false,
         "text": "Only in Grand Prix competitions",
-        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just Grand Prix competitions."
+        "explanation": "This is incorrect. National logos are compulsory in all official FIE competitions, not just Grand Prix competitions. [See t.74]"
       }
     ],
     "quotes": {
@@ -1036,17 +1036,17 @@
       {
         "isCorrect": false,
         "text": "Yellow card (warning)",
-        "explanation": "This is incorrect. The penalty is not a yellow card but elimination from the competition."
+        "explanation": "This is incorrect. The penalty is not a yellow card but elimination from the competition. [See t.74]"
       },
       {
         "isCorrect": false,
         "text": "Red card (penalty hit)",
-        "explanation": "This is incorrect. The penalty is not a red card but elimination from the competition."
+        "explanation": "This is incorrect. The penalty is not a red card but elimination from the competition. [See t.74]"
       },
       {
         "isCorrect": false,
         "text": "Black card (exclusion from the tournament)",
-        "explanation": "This is incorrect. The penalty is elimination from the event in question, not a black card exclusion from the entire tournament."
+        "explanation": "This is incorrect. The penalty is elimination from the event in question, not a black card exclusion from the entire tournament. [See t.74]"
       }
     ],
     "quotes": {
@@ -1065,17 +1065,17 @@
       {
         "isCorrect": false,
         "text": "Yellow card to the team captain",
-        "explanation": "This is incorrect. The penalty is elimination of the team, not a yellow card to the team captain."
+        "explanation": "This is incorrect. The penalty is elimination of the team, not a yellow card to the team captain. [See t.118.1]"
       },
       {
         "isCorrect": false,
         "text": "Red card to the team",
-        "explanation": "This is incorrect. The penalty is elimination of the team, not a red card."
+        "explanation": "This is incorrect. The penalty is elimination of the team, not a red card. [See t.118.1]"
       },
       {
         "isCorrect": false,
         "text": "The team starts with a penalty point in the first match",
-        "explanation": "This is incorrect. The penalty is elimination of the team, not starting with a penalty point."
+        "explanation": "This is incorrect. The penalty is elimination of the team, not starting with a penalty point. [See t.118.1]"
       }
     ],
     "quotes": {
@@ -1094,17 +1094,17 @@
       {
         "isCorrect": false,
         "text": "Immediate elimination from the competition",
-        "explanation": "This is incorrect. The fencer is not immediately eliminated but is given three calls with progressive penalties."
+        "explanation": "This is incorrect. The fencer is not immediately eliminated but is given three calls with progressive penalties. [See t.119]"
       },
       {
         "isCorrect": false,
         "text": "Yellow card followed immediately by a red card",
-        "explanation": "This is incorrect. The penalty sequence is yellow card on first call, red card on second call, and elimination on third call."
+        "explanation": "This is incorrect. The penalty sequence is yellow card on first call, red card on second call, and elimination on third call. [See t.119]"
       },
       {
         "isCorrect": false,
         "text": "No penalty, the bout is postponed",
-        "explanation": "This is incorrect. Penalties are applied and the bout is not postponed for a fencer who fails to appear."
+        "explanation": "This is incorrect. Penalties are applied and the bout is not postponed for a fencer who fails to appear. [See t.119]"
       }
     ],
     "quotes": {
@@ -1123,17 +1123,17 @@
       {
         "isCorrect": false,
         "text": "The referee penalizes the more serious fault first (second group offence - red card for no weapon control mark)",
-        "explanation": "This is incorrect. The rules specify that the least serious fault should be penalized first."
+        "explanation": "This is incorrect. The rules specify that the least serious fault should be penalized first. [See t.158]"
       },
       {
         "isCorrect": false,
         "text": "The referee issues both penalties simultaneously (yellow and red cards)",
-        "explanation": "This is incorrect. The rules specify that the least serious fault should be penalized first, not simultaneously."
+        "explanation": "This is incorrect. The rules specify that the least serious fault should be penalized first, not simultaneously. [See t.158]"
       },
       {
         "isCorrect": false,
         "text": "The referee penalizes only the more serious fault and ignores the lesser one",
-        "explanation": "This is incorrect. The referee must penalize both faults, starting with the least serious."
+        "explanation": "This is incorrect. The referee must penalize both faults, starting with the least serious. [See t.158]"
       }
     ],
     "quotes": {
@@ -1147,22 +1147,22 @@
       {
         "isCorrect": true,
         "text": "Width: 1.5 meters, Length: 14 meters",
-        "explanation": "According to technical rules t.17.1 and t.18, the combat area of the piste is 1.50 meters wide and 14 meters long."
+        "explanation": "According to technical rules t.17.1 and t.18, the combat area of the piste is 1.50 meters wide and 14 meters long. [See t.17.1, t.18]"
       },
       {
         "isCorrect": false,
         "text": "Width: 2 meters, Length: 14 meters",
-        "explanation": "This is incorrect. The width is 1.5 meters, not 2 meters."
+        "explanation": "This is incorrect. The width is 1.5 meters, not 2 meters. [See t.17.1, t.18]"
       },
       {
         "isCorrect": false,
         "text": "Width: 1.5 meters, Length: 12 meters",
-        "explanation": "This is incorrect. The length is 14 meters, not 12 meters."
+        "explanation": "This is incorrect. The length is 14 meters, not 12 meters. [See t.17.1, t.18]"
       },
       {
         "isCorrect": false,
         "text": "Width: 1.8 meters, Length: 14 meters",
-        "explanation": "This is incorrect. The width is 1.5 meters, not 1.8 meters."
+        "explanation": "This is incorrect. The width is 1.5 meters, not 1.8 meters. [See t.17.1, t.18]"
       }
     ],
     "quotes": {
@@ -1187,12 +1187,12 @@
       {
         "isCorrect": false,
         "text": "They are considered part of the piste only in team competitions",
-        "explanation": "This is incorrect. The conductive safety borders do not form part of the piste in any competition."
+        "explanation": "This is incorrect. The conductive safety borders do not form part of the piste in any competition. [See t.18.3]"
       },
       {
         "isCorrect": false,
         "text": "They are considered part of the piste only for the finals",
-        "explanation": "This is incorrect. The conductive safety borders do not form part of the piste in any competition, including finals."
+        "explanation": "This is incorrect. The conductive safety borders do not form part of the piste in any competition, including finals. [See t.18.3]"
       }
     ],
     "quotes": {
@@ -1211,17 +1211,17 @@
       {
         "isCorrect": false,
         "text": "At least a mask and gloves",
-        "explanation": "This is incorrect. The rule requires full fencing clothing and equipment conforming to FIE regulations, not just a mask and gloves."
+        "explanation": "This is incorrect. The rule requires full fencing clothing and equipment conforming to FIE regulations, not just a mask and gloves. [See t.20.2]"
       },
       {
         "isCorrect": false,
         "text": "Any protective clothing, not necessarily conforming to FIE regulations",
-        "explanation": "This is incorrect. The clothing and equipment must conform to FIE regulations."
+        "explanation": "This is incorrect. The clothing and equipment must conform to FIE regulations. [See t.20.2]"
       },
       {
         "isCorrect": false,
         "text": "Warm-up suits are sufficient",
-        "explanation": "This is incorrect. The rule requires fencing clothing and equipment conforming to FIE regulations, not warm-up suits."
+        "explanation": "This is incorrect. The rule requires fencing clothing and equipment conforming to FIE regulations, not warm-up suits. [See t.20.2]"
       }
     ],
     "quotes": {
@@ -1240,17 +1240,17 @@
       {
         "isCorrect": false,
         "text": "Complete fencing equipment conforming to FIE regulations",
-        "explanation": "This is incorrect. While complete equipment is required for warming up with another fencer, for taking a lesson the minimum requirement is a mask and a glove."
+        "explanation": "This is incorrect. While complete equipment is required for warming up with another fencer, for taking a lesson the minimum requirement is a mask and a glove. [See t.20.2]"
       },
       {
         "isCorrect": false,
         "text": "A mask, a glove, and a fencing jacket",
-        "explanation": "This is incorrect. The minimum requirement for taking a lesson is only a mask and a glove."
+        "explanation": "This is incorrect. The minimum requirement for taking a lesson is only a mask and a glove. [See t.20.2]"
       },
       {
         "isCorrect": false,
         "text": "Only a mask",
-        "explanation": "This is incorrect. The minimum requirement for taking a lesson is a mask and a glove, not just a mask."
+        "explanation": "This is incorrect. The minimum requirement for taking a lesson is a mask and a glove, not just a mask. [See t.20.2]"
       }
     ],
     "quotes": {
@@ -1274,12 +1274,12 @@
       {
         "isCorrect": false,
         "text": "A coach only needs to wear a mask",
-        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, and a mask."
+        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, and a mask. [See t.20.2]"
       },
       {
         "isCorrect": false,
         "text": "A coach only needs to wear a plastron",
-        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, and a mask."
+        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, and a mask. [See t.20.2]"
       }
     ],
     "quotes": {
@@ -1298,17 +1298,17 @@
       {
         "isCorrect": false,
         "text": "Let the bout continue",
-        "explanation": "This is incorrect. The referee must stop the bout when corps à corps exists."
+        "explanation": "This is incorrect. The referee must stop the bout when corps à corps exists. [See t.25.1]"
       },
       {
         "isCorrect": false,
         "text": "Issue a yellow card to both fencers",
-        "explanation": "This is incorrect. Simple corps à corps does not result in a penalty card, but the referee must stop the bout."
+        "explanation": "This is incorrect. Simple corps à corps does not result in a penalty card, but the referee must stop the bout. [See t.25.1]"
       },
       {
         "isCorrect": false,
         "text": "Award a hit against the fencer who caused the corps à corps",
-        "explanation": "This is incorrect. Simple corps à corps does not result in a hit being awarded, but the referee must stop the bout."
+        "explanation": "This is incorrect. Simple corps à corps does not result in a hit being awarded, but the referee must stop the bout. [See t.25.1]"
       }
     ],
     "quotes": {
@@ -1327,17 +1327,17 @@
       {
         "isCorrect": false,
         "text": "No, if the other fencer scored a hit, no penalty is applied",
-        "explanation": "This is incorrect. The fencer who causes intentional corps à corps is penalized regardless of whether the opponent scored a hit or not."
+        "explanation": "This is incorrect. The fencer who causes intentional corps à corps is penalized regardless of whether the opponent scored a hit or not. [See t.25.2]"
       },
       {
         "isCorrect": false,
         "text": "Only if the referee determines that the hit of the fencer subjected to the fault was valid",
-        "explanation": "This is incorrect. The penalty for causing intentional corps à corps is applied independently of whether a hit was scored by either fencer."
+        "explanation": "This is incorrect. The penalty for causing intentional corps à corps is applied independently of whether a hit was scored by either fencer. [See t.25.2]"
       },
       {
         "isCorrect": false,
         "text": "Only if the hit scored by the fencer who caused the corps à corps was on target",
-        "explanation": "This is incorrect. Any hit scored by the fencer who caused intentional corps à corps is annulled, whether on target or not."
+        "explanation": "This is incorrect. Any hit scored by the fencer who caused intentional corps à corps is annulled, whether on target or not. [See t.25.2]"
       }
     ],
     "quotes": {
@@ -1356,17 +1356,17 @@
       {
         "isCorrect": false,
         "text": "No, it is forbidden and results in a yellow card",
-        "explanation": "This is incorrect. Ducking with the non-sword hand and the knee of rear leg touching the piste is permitted."
+        "explanation": "This is incorrect. Ducking with the non-sword hand and the knee of rear leg touching the piste is permitted. [See t.27.1]"
       },
       {
         "isCorrect": false,
         "text": "It is permitted only in foil and epee, but not in sabre",
-        "explanation": "This is incorrect. This action is permitted in all three weapons."
+        "explanation": "This is incorrect. This action is permitted in all three weapons. [See t.27.1]"
       },
       {
         "isCorrect": false,
         "text": "It is only permitted if the fencer does not lose balance",
-        "explanation": "This is incorrect. The rule permits this action without such conditions."
+        "explanation": "This is incorrect. The rule permits this action without such conditions. [See t.27.1]"
       }
     ],
     "quotes": {
@@ -1390,12 +1390,12 @@
       {
         "isCorrect": false,
         "text": "It is valid only if the fencer announces that he has passed the opponent",
-        "explanation": "This is incorrect. A hit made after passing is annulled regardless of any announcement."
+        "explanation": "This is incorrect. A hit made after passing is annulled regardless of any announcement. [See t.28.2]"
       },
       {
         "isCorrect": false,
         "text": "It is valid only in epee",
-        "explanation": "This is incorrect. The rule applies to all three weapons."
+        "explanation": "This is incorrect. The rule applies to all three weapons. [See t.28.2]"
       }
     ],
     "quotes": {
@@ -1414,17 +1414,17 @@
       {
         "isCorrect": false,
         "text": "No, such a hit is annulled",
-        "explanation": "This is incorrect. The hit is valid according to the rules."
+        "explanation": "This is incorrect. The hit is valid according to the rules. [See t.28.2]"
       },
       {
         "isCorrect": false,
         "text": "It is valid only if made within one second",
-        "explanation": "This is incorrect. The rule states the hit is valid if made 'immediately', without specifying a time limit."
+        "explanation": "This is incorrect. The rule states the hit is valid if made 'immediately', without specifying a time limit. [See t.28.2]"
       },
       {
         "isCorrect": false,
         "text": "It is valid only in sabre",
-        "explanation": "This is incorrect. The rule applies to all three weapons."
+        "explanation": "This is incorrect. The rule applies to all three weapons. [See t.28.2]"
       }
     ],
     "quotes": {
@@ -1443,17 +1443,17 @@
       {
         "isCorrect": false,
         "text": "From the table of 64",
-        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers)."
+        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers). [See t.48.2]"
       },
       {
         "isCorrect": false,
         "text": "From the table of 8",
-        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers)."
+        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers). [See t.48.2]"
       },
       {
         "isCorrect": false,
         "text": "For all direct elimination bouts",
-        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers)."
+        "explanation": "This is incorrect. Judges are mandatory only for the final (4 fencers). [See t.48.2]"
       }
     ],
     "quotes": {
@@ -1467,22 +1467,22 @@
       {
         "isCorrect": true,
         "text": "Yes, with a red card (penalty hit)",
-        "explanation": "According to technical rule t.45.3, if a fencer demands a break which is deemed by the delegate of the Medical Commission or the doctor on duty to be unjustified, the Referee will penalise that fencer as specified in Articles t.158-162, t.166, t.170 for the offences of the 2nd group, which means a red card (penalty hit)."
+        "explanation": "According to technical rule t.45.3, if a fencer demands a break which is deemed by the delegate of the Medical Commission or the doctor on duty to be unjustified, the Referee will penalise that fencer as specified in Articles t.158-162, t.166, t.170 for the offences of the 2nd group, which means a red card (penalty hit). [See t.45.3, t.166]"
       },
       {
         "isCorrect": false,
         "text": "Yes, with a yellow card (warning)",
-        "explanation": "This is incorrect. The penalty is a red card (penalty hit) for a 2nd group offense, not a yellow card."
+        "explanation": "This is incorrect. The penalty is a red card (penalty hit) for a 2nd group offense, not a yellow card. [See t.45.3, t.166]"
       },
       {
         "isCorrect": false,
         "text": "Yes, with a black card (exclusion)",
-        "explanation": "This is incorrect. The penalty is a red card (penalty hit) for a 2nd group offense, not a black card."
+        "explanation": "This is incorrect. The penalty is a red card (penalty hit) for a 2nd group offense, not a black card. [See t.45.3, t.166]"
       },
       {
         "isCorrect": false,
         "text": "No, there is no penalty",
-        "explanation": "This is incorrect. The fencer is penalized with a red card (penalty hit) for a 2nd group offense."
+        "explanation": "This is incorrect. The fencer is penalized with a red card (penalty hit) for a 2nd group offense. [See t.45.3, t.166]"
       }
     ],
     "quotes": {
@@ -1507,12 +1507,12 @@
       {
         "isCorrect": false,
         "text": "Yes, but only if two judges confirm having seen the hit",
-        "explanation": "This is incorrect. The rules state that only the indications of the electrical apparatus can be taken into consideration, with specific exceptions."
+        "explanation": "This is incorrect. The rules state that only the indications of the electrical apparatus can be taken into consideration, with specific exceptions. [See t.54.2]"
       },
       {
         "isCorrect": false,
         "text": "Yes, but only in the final phase of the competition",
-        "explanation": "This is incorrect. The rules apply throughout the competition, not just in the final phase."
+        "explanation": "This is incorrect. The rules apply throughout the competition, not just in the final phase. [See t.54.2]"
       }
     ],
     "quotes": {
@@ -1531,17 +1531,17 @@
       {
         "isCorrect": false,
         "text": "The team captain",
-        "explanation": "This is incorrect. Only the fencer on the piste can request a video review, not the team captain."
+        "explanation": "This is incorrect. Only the fencer on the piste can request a video review, not the team captain. [See t.60]"
       },
       {
         "isCorrect": false,
         "text": "Any member of the team",
-        "explanation": "This is incorrect. Only the fencer on the piste can request a video review, not any member of the team."
+        "explanation": "This is incorrect. Only the fencer on the piste can request a video review, not any member of the team. [See t.60]"
       },
       {
         "isCorrect": false,
         "text": "The fencer or the team captain",
-        "explanation": "This is incorrect. Only the fencer on the piste can request a video review."
+        "explanation": "This is incorrect. Only the fencer on the piste can request a video review. [See t.60]"
       }
     ],
     "quotes": {
@@ -1594,12 +1594,12 @@
       {
         "isCorrect": false,
         "text": "Only if new evidence becomes available",
-        "explanation": "This is incorrect. The rules state that once a decision is made after video review, no other review of the same action can be requested under any circumstances."
+        "explanation": "This is incorrect. The rules state that once a decision is made after video review, no other review of the same action can be requested under any circumstances. [See t.62.5]"
       },
       {
         "isCorrect": false,
         "text": "Only if the video consultant disagrees with the referee's decision",
-        "explanation": "This is incorrect. The decision made after video review is final, regardless of any disagreement."
+        "explanation": "This is incorrect. The decision made after video review is final, regardless of any disagreement. [See t.62.5]"
       }
     ],
     "quotes": {
@@ -1613,22 +1613,22 @@
       {
         "isCorrect": true,
         "text": "Will be penalized with a Red Card (penalty hit for a 2nd group offense)",
-        "explanation": "According to technical rule t.55.2, a competitor who, intentionally, causes the apparatus to register a hit by placing his point on the ground or on any surface other than that of his opponent will be penalised as specified in Articles t.158-162, t.166, t.170, for the offences of the 2nd group, which means a red card (penalty hit)."
+        "explanation": "According to technical rule t.55.2, a competitor who, intentionally, causes the apparatus to register a hit by placing his point on the ground or on any surface other than that of his opponent will be penalised as specified in Articles t.158-162, t.166, t.170, for the offences of the 2nd group, which means a red card (penalty hit). [See t.55.2, t.166]"
       },
       {
         "isCorrect": false,
         "text": "Will be penalized with a Yellow Card (warning for a 1st group offense)",
-        "explanation": "This is incorrect. Per t.55.2 this offence belongs to the 2nd group, and t.166 specifies that every 2nd group offence, including the first infringement, is penalised by a RED CARD — not a yellow card."
+        "explanation": "This is incorrect. Per t.55.2 this offence belongs to the 2nd group, and t.166 specifies that every 2nd group offence, including the first infringement, is penalised by a RED CARD — not a yellow card. [See t.55.2, t.166]"
       },
       {
         "isCorrect": false,
         "text": "Will be penalized with a Black Card (exclusion from the competition)",
-        "explanation": "This is incorrect. Per t.55.2 this offence belongs to the 2nd group, and t.166 specifies that every 2nd group offence is penalised by a RED CARD — not a black card."
+        "explanation": "This is incorrect. Per t.55.2 this offence belongs to the 2nd group, and t.166 specifies that every 2nd group offence is penalised by a RED CARD — not a black card. [See t.55.2, t.166]"
       },
       {
         "isCorrect": false,
         "text": "Will not be penalized, but the hit will be annulled",
-        "explanation": "This is incorrect. Per t.55.2 the fencer will be penalised as specified for the offences of the 2nd group, which per t.166 means a RED CARD (penalty hit); the registered hit is also annulled."
+        "explanation": "This is incorrect. Per t.55.2 the fencer will be penalised as specified for the offences of the 2nd group, which per t.166 means a RED CARD (penalty hit); the registered hit is also annulled. [See t.55.2, t.166]"
       }
     ],
     "quotes": {
@@ -1653,12 +1653,12 @@
       {
         "isCorrect": false,
         "text": "Yes, but only if the modification was made after the hit was registered",
-        "explanation": "This is incorrect. Any modification made before the referee gives their decision results in losing the right to annulment of the hit."
+        "explanation": "This is incorrect. Any modification made before the referee gives their decision results in losing the right to annulment of the hit. [See t.56.3]"
       },
       {
         "isCorrect": false,
         "text": "Yes, but only with the agreement of the opponent",
-        "explanation": "This is incorrect. The rule is clear that any unauthorized modification results in losing the right to annulment of the hit, regardless of the opponent's agreement."
+        "explanation": "This is incorrect. The rule is clear that any unauthorized modification results in losing the right to annulment of the hit, regardless of the opponent's agreement. [See t.56.3]"
       }
     ],
     "quotes": {
@@ -1682,12 +1682,12 @@
       {
         "isCorrect": false,
         "text": "Yes, but only within 10 seconds of the recommencement",
-        "explanation": "This is incorrect. Once the bout has recommenced, the fencer cannot claim annulment of a hit awarded before the recommencement, regardless of timing."
+        "explanation": "This is incorrect. Once the bout has recommenced, the fencer cannot claim annulment of a hit awarded before the recommencement, regardless of timing. [See t.56.4]"
       },
       {
         "isCorrect": false,
         "text": "Yes, if the referee agrees that the equipment was faulty",
-        "explanation": "This is incorrect. The rule states that once the bout has recommenced, no annulment can be claimed for hits awarded before the recommencement, regardless of the condition of the equipment."
+        "explanation": "This is incorrect. The rule states that once the bout has recommenced, no annulment can be claimed for hits awarded before the recommencement, regardless of the condition of the equipment. [See t.56.4]"
       }
     ],
     "quotes": {
@@ -1706,17 +1706,17 @@
       {
         "isCorrect": false,
         "text": "At least twice",
-        "explanation": "This is incorrect. The rule states that the fault must be observed at least once, not twice."
+        "explanation": "This is incorrect. The rule states that the fault must be observed at least once, not twice. [See t.56.6]"
       },
       {
         "isCorrect": false,
         "text": "At least three times",
-        "explanation": "This is incorrect. The rule states that the fault must be observed at least once, not three times."
+        "explanation": "This is incorrect. The rule states that the fault must be observed at least once, not three times. [See t.56.6]"
       },
       {
         "isCorrect": false,
         "text": "Every time a test is made",
-        "explanation": "This is incorrect. The rule specifically states that it is not necessary that the failure should repeat itself each time a test is made."
+        "explanation": "This is incorrect. The rule specifically states that it is not necessary that the failure should repeat itself each time a test is made. [See t.56.6]"
       }
     ],
     "quotes": {
@@ -1740,12 +1740,12 @@
       {
         "isCorrect": false,
         "text": "Yes, but only if the blade broke due to a faulty action",
-        "explanation": "This is incorrect. The timing of the break is what matters, not the cause. If the break occurs clearly after the hit is registered, the hit is not cancelled."
+        "explanation": "This is incorrect. The timing of the break is what matters, not the cause. If the break occurs clearly after the hit is registered, the hit is not cancelled. [See t.56.7]"
       },
       {
         "isCorrect": false,
         "text": "The referee decides at their discretion",
-        "explanation": "This is incorrect. The rule provides clear guidance: if the break occurs clearly after the hit is registered, the hit is not cancelled."
+        "explanation": "This is incorrect. The rule provides clear guidance: if the break occurs clearly after the hit is registered, the hit is not cancelled. [See t.56.7]"
       }
     ],
     "quotes": {
@@ -1764,17 +1764,17 @@
       {
         "isCorrect": false,
         "text": "No, the hit is not cancelled",
-        "explanation": "This is incorrect. The hit must be annulled if the breaking of the blade occurred during the action, not clearly after the hit was registered."
+        "explanation": "This is incorrect. The hit must be annulled if the breaking of the blade occurred during the action, not clearly after the hit was registered. [See t.56.7]"
       },
       {
         "isCorrect": false,
         "text": "Only if the blade broke before the hit was registered",
-        "explanation": "This is incorrect. The rule states that the hit must be annulled unless the breaking of the blade occurred clearly after the hit was registered. If it broke during the action, the hit is annulled."
+        "explanation": "This is incorrect. The rule states that the hit must be annulled unless the breaking of the blade occurred clearly after the hit was registered. If it broke during the action, the hit is annulled. [See t.56.7]"
       },
       {
         "isCorrect": false,
         "text": "Only if the broken blade caused a malfunction in the electrical apparatus",
-        "explanation": "This is incorrect. The rule does not require a malfunction in the electrical apparatus; it only considers the timing of the blade breaking relative to the hit registration."
+        "explanation": "This is incorrect. The rule does not require a malfunction in the electrical apparatus; it only considers the timing of the blade breaking relative to the hit registration. [See t.56.7]"
       }
     ],
     "quotes": {
@@ -1793,17 +1793,17 @@
       {
         "isCorrect": false,
         "text": "One possible appeal",
-        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals."
+        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals. [See t.61.1]"
       },
       {
         "isCorrect": false,
         "text": "Three possible appeals",
-        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals."
+        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals. [See t.61.1]"
       },
       {
         "isCorrect": false,
         "text": "Unlimited appeals",
-        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals."
+        "explanation": "This is incorrect. In direct elimination bouts, the fencer has two possible appeals. [See t.61.1]"
       }
     ],
     "quotes": {
@@ -1822,17 +1822,17 @@
       {
         "isCorrect": false,
         "text": "Two possible appeals per relay",
-        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay."
+        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay. [See t.61.2]"
       },
       {
         "isCorrect": false,
         "text": "One possible appeal per match",
-        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay, not just one per match."
+        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay, not just one per match. [See t.61.2]"
       },
       {
         "isCorrect": false,
         "text": "Three possible appeals per relay",
-        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay."
+        "explanation": "This is incorrect. The rule states that in team events, fencers have one possible appeal per relay. [See t.61.2]"
       }
     ],
     "quotes": {
@@ -1851,17 +1851,17 @@
       {
         "isCorrect": false,
         "text": "If the video consultant disagrees with the referee",
-        "explanation": "This is incorrect. The right to retain the appeal depends on whether the referee agrees with the fencer who appealed, not on disagreement between the referee and video consultant."
+        "explanation": "This is incorrect. The right to retain the appeal depends on whether the referee agrees with the fencer who appealed, not on disagreement between the referee and video consultant. [See t.61.1]"
       },
       {
         "isCorrect": false,
         "text": "If the opponent agrees with the appeal",
-        "explanation": "This is incorrect. The right to retain the appeal depends on whether the referee agrees with the fencer who appealed, not on the opponent's agreement."
+        "explanation": "This is incorrect. The right to retain the appeal depends on whether the referee agrees with the fencer who appealed, not on the opponent's agreement. [See t.61.1]"
       },
       {
         "isCorrect": false,
         "text": "If the fencer scores a hit after the appeal",
-        "explanation": "This is incorrect. Scoring a hit after the appeal has no bearing on retaining the right of appeal."
+        "explanation": "This is incorrect. Scoring a hit after the appeal has no bearing on retaining the right of appeal. [See t.61.1]"
       }
     ],
     "quotes": {
@@ -1880,17 +1880,17 @@
       {
         "isCorrect": false,
         "text": "Only the name on the back of the jacket",
-        "explanation": "This is incorrect. The national uniform includes more than just the name on the back."
+        "explanation": "This is incorrect. The national uniform includes more than just the name on the back. [See t.74]"
       },
       {
         "isCorrect": false,
         "text": "Only the national colors on the sleeve",
-        "explanation": "This is incorrect. The national uniform includes the national colors, the national logo, and the name and nationality on the back."
+        "explanation": "This is incorrect. The national uniform includes the national colors, the national logo, and the name and nationality on the back. [See t.74]"
       },
       {
         "isCorrect": false,
         "text": "Only the national logo on the mask",
-        "explanation": "This is incorrect. The national uniform includes the national colors, the national logo, and the name and nationality on the back of the jacket."
+        "explanation": "This is incorrect. The national uniform includes the national colors, the national logo, and the name and nationality on the back of the jacket. [See t.74]"
       }
     ],
     "quotes": {
@@ -1914,12 +1914,12 @@
       {
         "isCorrect": false,
         "text": "Yes, but only as official delegates of their national federation",
-        "explanation": "This is incorrect. The rule explicitly prohibits combining the referee function with activities such as being an official delegate of their national federation."
+        "explanation": "This is incorrect. The rule explicitly prohibits combining the referee function with activities such as being an official delegate of their national federation. [See t.46.2]"
       },
       {
         "isCorrect": false,
         "text": "Yes, but only as members of the Directoire Technique",
-        "explanation": "This is incorrect. The rule explicitly prohibits combining the referee function with activities such as being a member of the Directoire Technique."
+        "explanation": "This is incorrect. The rule explicitly prohibits combining the referee function with activities such as being a member of the Directoire Technique. [See t.46.2]"
       }
     ],
     "quotes": {
@@ -1938,17 +1938,17 @@
       {
         "isCorrect": false,
         "text": "Any member of the team",
-        "explanation": "This is incorrect. Only the team captain has this right in team events."
+        "explanation": "This is incorrect. Only the team captain has this right in team events. [See t.130]"
       },
       {
         "isCorrect": false,
         "text": "The team captain or the coach",
-        "explanation": "This is incorrect. Only the team captain has this right, not the coach."
+        "explanation": "This is incorrect. Only the team captain has this right, not the coach. [See t.130]"
       },
       {
         "isCorrect": false,
         "text": "The fencer involved in the disputed action",
-        "explanation": "This is incorrect. Only the team captain has this right, not individual fencers."
+        "explanation": "This is incorrect. Only the team captain has this right, not individual fencers. [See t.130]"
       }
     ],
     "quotes": {
@@ -1967,17 +1967,17 @@
       {
         "isCorrect": false,
         "text": "The coach",
-        "explanation": "This is incorrect. The appeal must be made by the fencer, not the coach."
+        "explanation": "This is incorrect. The appeal must be made by the fencer, not the coach. [See t.173]"
       },
       {
         "isCorrect": false,
         "text": "The team captain",
-        "explanation": "This is incorrect. In individual events, the appeal must be made by the fencer, not the team captain."
+        "explanation": "This is incorrect. In individual events, the appeal must be made by the fencer, not the team captain. [See t.173]"
       },
       {
         "isCorrect": false,
         "text": "Any official of the fencer's federation",
-        "explanation": "This is incorrect. The appeal must be made by the fencer, not any official of their federation."
+        "explanation": "This is incorrect. The appeal must be made by the fencer, not any official of their federation. [See t.173]"
       }
     ],
     "quotes": {
@@ -1996,17 +1996,17 @@
       {
         "isCorrect": false,
         "text": "The duration of a bout",
-        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not the entire bout."
+        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not the entire bout. [See t.8]"
       },
       {
         "isCorrect": false,
         "text": "The time allowed for a fencer to return to the on-guard position",
-        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not returning to the on-guard position."
+        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not returning to the on-guard position. [See t.8]"
       },
       {
         "isCorrect": false,
         "text": "The total time a fencer spends in a competition",
-        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not the entire competition time."
+        "explanation": "This is incorrect. Fencing time refers to the time for one simple action, not the entire competition time. [See t.8]"
       }
     ],
     "quotes": {
@@ -2020,7 +2020,7 @@
       {
         "isCorrect": false,
         "text": "One possible appeal in all bouts",
-        "explanation": "This is incorrect. The number of appeals depends on the stage of the competition."
+        "explanation": "This is incorrect. The number of appeals depends on the stage of the competition. [See t.61.1]"
       },
       {
         "isCorrect": true,
@@ -2030,12 +2030,12 @@
       {
         "isCorrect": false,
         "text": "Two possible appeals in all bouts",
-        "explanation": "This is incorrect. In pools, the fencer has one appeal per bout, and in direct elimination, two appeals."
+        "explanation": "This is incorrect. In pools, the fencer has one appeal per bout, and in direct elimination, two appeals. [See t.61.1]"
       },
       {
         "isCorrect": false,
         "text": "Three possible appeals in all bouts",
-        "explanation": "This is incorrect. In pools, the fencer has one appeal per bout, and in direct elimination, two appeals."
+        "explanation": "This is incorrect. In pools, the fencer has one appeal per bout, and in direct elimination, two appeals. [See t.61.1]"
       }
     ],
     "quotes": {
@@ -2054,17 +2054,17 @@
       {
         "isCorrect": false,
         "text": "Attack",
-        "explanation": "This is incorrect. The attack is an offensive action, not defensive."
+        "explanation": "This is incorrect. The attack is an offensive action, not defensive. [See t.9.2]"
       },
       {
         "isCorrect": false,
         "text": "Riposte",
-        "explanation": "This is incorrect. The riposte is an offensive action, not defensive."
+        "explanation": "This is incorrect. The riposte is an offensive action, not defensive. [See t.9.2]"
       },
       {
         "isCorrect": false,
         "text": "Counter-riposte",
-        "explanation": "This is incorrect. The counter-riposte is an offensive action, not defensive."
+        "explanation": "This is incorrect. The counter-riposte is an offensive action, not defensive. [See t.9.2]"
       }
     ],
     "quotes": {
@@ -2078,7 +2078,7 @@
       {
         "isCorrect": false,
         "text": "Parry",
-        "explanation": "This is incorrect. The parry is a defensive action, not offensive."
+        "explanation": "This is incorrect. The parry is a defensive action, not offensive. [See t.9.1]"
       },
       {
         "isCorrect": true,
@@ -2088,12 +2088,12 @@
       {
         "isCorrect": false,
         "text": "Circular parry",
-        "explanation": "This is incorrect. A circular parry (counter-parry) is a defensive action, not offensive."
+        "explanation": "This is incorrect. A circular parry (counter-parry) is a defensive action, not offensive. [See t.9.1]"
       },
       {
         "isCorrect": false,
         "text": "Direct parry",
-        "explanation": "This is incorrect. A direct parry is a defensive action, not offensive."
+        "explanation": "This is incorrect. A direct parry is a defensive action, not offensive. [See t.9.1]"
       }
     ],
     "quotes": {
@@ -2107,22 +2107,22 @@
       {
         "isCorrect": true,
         "text": "Yellow card for a 1st group offense",
-        "explanation": "According to technical rule t.172.2 and the table of offenses in t.170, if a fencer infringes the principle of not casting doubt on the referee's decision on a point of fact, they will be penalized with a yellow card for a 1st group offense."
+        "explanation": "According to technical rule t.172.2 and the table of offenses in t.170, if a fencer infringes the principle of not casting doubt on the referee's decision on a point of fact, they will be penalized with a yellow card for a 1st group offense. [See t.172.2, t.170]"
       },
       {
         "isCorrect": false,
         "text": "Red card for a 2nd group offense",
-        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense, not a red card."
+        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense, not a red card. [See t.172.2, t.170]"
       },
       {
         "isCorrect": false,
         "text": "Black card for a 3rd group offense",
-        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense, not a black card."
+        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense, not a black card. [See t.172.2, t.170]"
       },
       {
         "isCorrect": false,
         "text": "No penalty",
-        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense."
+        "explanation": "This is incorrect. An unjustified appeal is penalized with a yellow card for a 1st group offense. [See t.172.2, t.170]"
       }
     ],
     "quotes": {
@@ -2142,17 +2142,17 @@
       {
         "isCorrect": false,
         "text": "After scoring a hit",
-        "explanation": "This is incorrect. The fencer must keep the mask on until the referee calls 'Halt!', not just after scoring a hit."
+        "explanation": "This is incorrect. The fencer must keep the mask on until the referee calls 'Halt!', not just after scoring a hit. [See t.125]"
       },
       {
         "isCorrect": false,
         "text": "After leaving the piste",
-        "explanation": "This is incorrect. The rule states that the fencer, whether on or off the piste, must keep his mask on until the Referee calls 'Halt!'"
+        "explanation": "This is incorrect. The rule states that the fencer, whether on or off the piste, must keep his mask on until the Referee calls 'Halt!' [See t.125]"
       },
       {
         "isCorrect": false,
         "text": "After the opponent scores a hit",
-        "explanation": "This is incorrect. The fencer must keep the mask on until the referee calls 'Halt!', not just after the opponent scores a hit."
+        "explanation": "This is incorrect. The fencer must keep the mask on until the referee calls 'Halt!', not just after the opponent scores a hit. [See t.125]"
       }
     ],
     "quotes": {
@@ -2166,22 +2166,22 @@
       {
         "isCorrect": true,
         "text": "The fencer is allowed to fence as long as the under-plastron is regulation and gives sufficient protection",
-        "explanation": "The rules do not specify that the under-plastron must be specifically for left or right-handed fencers. According to technical rules t.20.2 and t.71, what matters is that the fencer has a regulation protective under-plastron. As long as the under-plastron meets the regulatory requirements and provides sufficient protection, the fencer is allowed to fence."
+        "explanation": "The rules do not specify that the under-plastron must be specifically for left or right-handed fencers. According to technical rules t.20.2 and t.71, what matters is that the fencer has a regulation protective under-plastron. As long as the under-plastron meets the regulatory requirements and provides sufficient protection, the fencer is allowed to fence. [See t.20.2, t.71]"
       },
       {
         "isCorrect": false,
         "text": "The fencer receives a yellow card and must change the under-plastron",
-        "explanation": "This is incorrect. There is no specific rule requiring a handedness-specific under-plastron, only that it must be regulation and provide sufficient protection."
+        "explanation": "This is incorrect. There is no specific rule requiring a handedness-specific under-plastron, only that it must be regulation and provide sufficient protection. [See t.20.2, t.71]"
       },
       {
         "isCorrect": false,
         "text": "The fencer is eliminated from the competition",
-        "explanation": "This is incorrect. There is no basis for elimination in this case, as long as the under-plastron meets regulatory requirements."
+        "explanation": "This is incorrect. There is no basis for elimination in this case, as long as the under-plastron meets regulatory requirements. [See t.20.2, t.71]"
       },
       {
         "isCorrect": false,
         "text": "The fencer must fence without an under-plastron",
-        "explanation": "This is incorrect and dangerous. Fencing without an under-plastron would violate rule t.71, which requires fencers to have a protective under-plastron."
+        "explanation": "This is incorrect and dangerous. Fencing without an under-plastron would violate rule t.71, which requires fencers to have a protective under-plastron. [See t.20.2, t.71]"
       }
     ],
     "quotes": {
@@ -2206,12 +2206,12 @@
       {
         "isCorrect": false,
         "text": "4 meters",
-        "explanation": "This is incorrect. The distance is not a fixed measurement but based on the criterion that in the 'point in line' position, the points of the two blades cannot make contact."
+        "explanation": "This is incorrect. The distance is not a fixed measurement but based on the criterion that in the 'point in line' position, the points of the two blades cannot make contact. [See t.22.5]"
       },
       {
         "isCorrect": false,
         "text": "A distance chosen by the referee",
-        "explanation": "This is incorrect. The rule specifies a clear criterion: in the 'point in line' position, the points of the two blades cannot make contact."
+        "explanation": "This is incorrect. The rule specifies a clear criterion: in the 'point in line' position, the points of the two blades cannot make contact. [See t.22.5]"
       }
     ],
     "quotes": {
@@ -2230,17 +2230,17 @@
       {
         "isCorrect": false,
         "text": "No, such a hit is valid",
-        "explanation": "This is incorrect. A hit made during or after a fall must be annulled according to the rules."
+        "explanation": "This is incorrect. A hit made during or after a fall must be annulled according to the rules. [See t.56.10]"
       },
       {
         "isCorrect": false,
         "text": "It depends on whether the fencer fell before or after the hit",
-        "explanation": "This is incorrect. The rule states clearly that a hit made during or after a fall must be annulled, without considering the timing of the fall relative to the hit."
+        "explanation": "This is incorrect. The rule states clearly that a hit made during or after a fall must be annulled, without considering the timing of the fall relative to the hit. [See t.56.10]"
       },
       {
         "isCorrect": false,
         "text": "Only if the fall was intentional",
-        "explanation": "This is incorrect. The rule does not distinguish between intentional and unintentional falls; all hits made during or after a fall must be annulled."
+        "explanation": "This is incorrect. The rule does not distinguish between intentional and unintentional falls; all hits made during or after a fall must be annulled. [See t.56.10]"
       }
     ],
     "quotes": {
@@ -2254,22 +2254,22 @@
       {
         "isCorrect": true,
         "text": "The hit by Y is annulled and Y receives a yellow card",
-        "explanation": "According to technical rule t.121.2 (referenced in t.170), irregular movements on the piste and intentional falls to avoid being hit are offenses of the 1st group, penalized with a yellow card (for a first offense). Furthermore, according to rule t.170, any hit scored by the fencer at fault in such cases is annulled."
+        "explanation": "According to technical rule t.121.2 (referenced in t.170), irregular movements on the piste and intentional falls to avoid being hit are offenses of the 1st group, penalized with a yellow card (for a first offense). Furthermore, according to rule t.170, any hit scored by the fencer at fault in such cases is annulled. [See t.121.2, t.170]"
       },
       {
         "isCorrect": false,
         "text": "The hit by Y is valid",
-        "explanation": "This is incorrect. Hits made by a fencer who intentionally falls to avoid being hit are annulled."
+        "explanation": "This is incorrect. Hits made by a fencer who intentionally falls to avoid being hit are annulled. [See t.121.2, t.170]"
       },
       {
         "isCorrect": false,
         "text": "The hit by Y is annulled and Y receives a red card",
-        "explanation": "This is incorrect. An intentional fall to avoid being hit is a 1st group offense, which for a first occurrence is penalized with a yellow card, not a red card."
+        "explanation": "This is incorrect. An intentional fall to avoid being hit is a 1st group offense, which for a first occurrence is penalized with a yellow card, not a red card. [See t.121.2, t.170]"
       },
       {
         "isCorrect": false,
         "text": "The hit by Y is annulled, but Y receives no penalty",
-        "explanation": "This is incorrect. An intentional fall to avoid being hit is a 1st group offense, which for a first occurrence is penalized with a yellow card."
+        "explanation": "This is incorrect. An intentional fall to avoid being hit is a 1st group offense, which for a first occurrence is penalized with a yellow card. [See t.121.2, t.170]"
       }
     ],
     "quotes": {
@@ -2289,17 +2289,17 @@
       {
         "isCorrect": false,
         "text": "From the point when the injury occurred",
-        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the injury occurred."
+        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the injury occurred. [See t.45.1]"
       },
       {
         "isCorrect": false,
         "text": "From the point when the referee stopped the bout",
-        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the referee stopped the bout."
+        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the referee stopped the bout. [See t.45.1]"
       },
       {
         "isCorrect": false,
         "text": "From the point when the fencer requested the break",
-        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the fencer requested the break."
+        "explanation": "This is incorrect. The break is timed from when the medical delegate or doctor gave their opinion, not from when the fencer requested the break. [See t.45.1]"
       }
     ],
     "quotes": {
@@ -2318,17 +2318,17 @@
       {
         "isCorrect": false,
         "text": "A maximum of 2 repetitions",
-        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not 2."
+        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not 2. [See t.62.1]"
       },
       {
         "isCorrect": false,
         "text": "A maximum of 6 repetitions",
-        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not 6."
+        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not 6. [See t.62.1]"
       },
       {
         "isCorrect": false,
         "text": "Unlimited repetitions",
-        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not unlimited."
+        "explanation": "This is incorrect. The maximum number of repetitions allowed is 4, not unlimited. [See t.62.1]"
       }
     ],
     "quotes": {
