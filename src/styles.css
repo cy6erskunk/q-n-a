@@ -914,7 +914,7 @@ dialog::backdrop {
 
 /* ===== Rule Article Popup ===== */
 #rule-dialog {
-    max-width: 560px;
+    max-width: 720px;
     overflow: hidden;
     padding: 0;
     margin: auto; /* override the mobile "margin:16px auto" to keep it centred */
@@ -937,6 +937,42 @@ dialog::backdrop {
 
 .rule-dialog-body p:last-child {
     margin-bottom: 0;
+}
+
+/* ===== Rule Article Tables ===== */
+.rule-table-wrap {
+    overflow-x: auto;
+    margin-bottom: 0.75rem;
+    -webkit-overflow-scrolling: touch;
+}
+
+.rule-table-wrap:last-child {
+    margin-bottom: 0;
+}
+
+.rule-table {
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+    width: max-content;
+    min-width: 100%;
+}
+
+.rule-table th,
+.rule-table td {
+    border: 1px solid #d0d7de;
+    padding: 5px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.rule-table th {
+    background: #f0f4f8;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.rule-table tbody tr:nth-child(even) {
+    background: #f9f9f9;
 }
 
 .rule-loading,

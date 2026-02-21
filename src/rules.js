@@ -33,6 +33,53 @@ function extractArticle(markdown, articleRef) {
 // Pattern that matches rule article numbers (e.g. t.38, o.99.5, t.38.2.b)
 const ARTICLE_REF_RE = /\b([ot]\.\d+(?:\.\d+)*(?:\.[a-z])?)\b/g;
 
+// Escape HTML and process inline markdown (bold, italic, article refs).
+function processInline(text) {
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        .replace(ARTICLE_REF_RE, '<button class="rule-ref" data-article="$1">$1</button>');
+}
+
+// Return true if the line is a markdown table separator (e.g. |---|---|).
+function isTableSeparator(line) {
+    return /^\|(\s*:?-+:?\s*\|)+$/.test(line.trim());
+}
+
+// Return true if the block looks like a markdown table.
+function isTable(block) {
+    const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+    return lines.length >= 2 && lines[0].startsWith('|') && lines.some(isTableSeparator);
+}
+
+// Convert a markdown table block to an HTML table wrapped in a scrollable div.
+function tableToHtml(block) {
+    const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+    const sepIdx = lines.findIndex(isTableSeparator);
+    if (sepIdx === -1) return `<p>${processInline(block)}</p>`;
+
+    const headerLines = lines.slice(0, sepIdx);
+    const bodyLines = lines.slice(sepIdx + 1);
+
+    const parseRow = line =>
+        line.replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+
+    const renderCells = (cells, tag) =>
+        cells.map(cell => `<${tag}>${processInline(cell)}</${tag}>`).join('');
+
+    const thead = headerLines
+        .map(line => `<tr>${renderCells(parseRow(line), 'th')}</tr>`)
+        .join('');
+    const tbody = bodyLines
+        .map(line => `<tr>${renderCells(parseRow(line), 'td')}</tr>`)
+        .join('');
+
+    return `<div class="rule-table-wrap"><table class="rule-table">${thead ? `<thead>${thead}</thead>` : ''}${tbody ? `<tbody>${tbody}</tbody>` : ''}</table></div>`;
+}
+
 // Convert article content (plain/light markdown) to safe HTML.
 // Also makes nested article cross-references clickable.
 function articleContentToHtml(text) {
@@ -41,14 +88,8 @@ function articleContentToHtml(text) {
         .map(para => para.trim())
         .filter(Boolean)
         .map(para => {
-            const safe = para
-                .replace(/&/g, '&amp;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;')
-                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-                .replace(/\*(.+?)\*/g, '<em>$1</em>')
-                .replace(ARTICLE_REF_RE, '<button class="rule-ref" data-article="$1">$1</button>');
-            return `<p>${safe.replace(/\n/g, '<br>')}</p>`;
+            if (isTable(para)) return tableToHtml(para);
+            return `<p>${processInline(para).replace(/\n/g, '<br>')}</p>`;
         })
         .join('');
 }
