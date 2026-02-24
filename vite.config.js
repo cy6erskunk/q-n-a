@@ -44,4 +44,8 @@ export default defineConfig({
         outDir: 'dist',
     },
     plugins: [rulesPlugin()],
+    test: {
+        environment: 'jsdom',
+        include: ['src/**/*.test.js'],
+    },
 });
