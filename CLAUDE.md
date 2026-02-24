@@ -4,6 +4,10 @@
 
 Vanilla JS + Vite SPA. No framework. Optional Neon Auth + Neon Data API for cloud sync (disabled when env vars are absent).
 
+## Development approach
+
+Development follows TDD: write tests first, then add the implementation to make them pass.
+
 ## Testing
 
 - **Unit tests**: vitest with jsdom environment — `npm test` (or `npm run test:watch` for watch mode)
