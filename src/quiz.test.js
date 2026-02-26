@@ -107,19 +107,16 @@ describe('shuffleArray', () => {
         expect(arr).toEqual([42]);
     });
 
-    it('produces different orderings over many iterations (probabilistic)', () => {
-        // Run 20 shuffles and check at least one differs from original order.
-        // The probability of all 20 keeping the exact same 5-element order is (1/120)^20 ≈ 0.
-        const original = [1, 2, 3, 4, 5];
-        let sawDifferent = false;
-        for (let i = 0; i < 20; i++) {
-            const arr = [...original];
-            shuffleArray(arr);
-            if (arr.join(',') !== original.join(',')) {
-                sawDifferent = true;
-                break;
-            }
-        }
-        expect(sawDifferent).toBe(true);
+    it('reorders elements according to Math.random', () => {
+        // Fisher-Yates on [1, 2, 3] with the mocked sequence:
+        // i=2: j = floor(0.5 * 3) = 1 → swap index 2 ↔ 1: [1, 3, 2]
+        // i=1: j = floor(0.0 * 2) = 0 → swap index 1 ↔ 0: [3, 1, 2]
+        const spy = vi.spyOn(Math, 'random')
+            .mockReturnValueOnce(0.5)
+            .mockReturnValueOnce(0.0);
+        const arr = [1, 2, 3];
+        shuffleArray(arr);
+        expect(arr).toEqual([3, 1, 2]);
+        spy.mockRestore();
     });
 });
