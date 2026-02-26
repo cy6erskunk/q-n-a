@@ -14,7 +14,7 @@ async function fetchRulesFile(type) {
 
 // Find the content of an article in the markdown text.
 // Falls back to progressively shorter refs: e.g. t.38.2.b → t.38.2 → t.38
-function extractArticle(markdown, articleRef) {
+export function extractArticle(markdown, articleRef) {
     const parts = articleRef.split('.');
     for (let len = parts.length; len >= 2; len--) {
         const candidate = parts.slice(0, len).join('.');
@@ -35,7 +35,7 @@ const ARTICLE_REF_RE = /\b([ot]\.\d+(?:\.\d+)*(?:\.[a-z])?)\b/g;
 
 // Convert article content (plain/light markdown) to safe HTML.
 // Also makes nested article cross-references clickable.
-function articleContentToHtml(text) {
+export function articleContentToHtml(text) {
     return text
         .split(/\n\s*\n/)
         .map(para => para.trim())

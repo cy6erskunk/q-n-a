@@ -492,14 +492,14 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error loading questions:', error));
 });
 
-function shuffleArray(array) {
+export function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
 
-function normalizeCount(value) {
+export function normalizeCount(value) {
     const n = Number(value);
     return Number.isFinite(n) && n > 0 ? Math.floor(n) : 0;
 }
