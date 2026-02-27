@@ -13,6 +13,8 @@ body {
     color: #333;
     line-height: 1.6;
     min-height: 100vh;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 /* ===== App Layout ===== */
@@ -944,6 +946,7 @@ dialog::backdrop {
     overflow-x: auto;
     margin-bottom: 0.75rem;
     -webkit-overflow-scrolling: touch;
+    font-size: 0.8125rem;
 }
 
 .rule-table-wrap:last-child {
