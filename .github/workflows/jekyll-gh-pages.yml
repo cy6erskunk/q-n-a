@@ -33,7 +33,7 @@ jobs:
           VITE_NEON_AUTH_URL: ${{ secrets.VITE_NEON_AUTH_URL }}
           VITE_NEON_DATA_API_URL: ${{ secrets.VITE_NEON_DATA_API_URL }}
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
