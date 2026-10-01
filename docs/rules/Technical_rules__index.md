@@ -1,4 +1,4 @@
-URL Source: https://static.fie.org/uploads/34/172615-technical%20rules%20ang.pdf
+Source: FIE Technical Rules, August 2026
 # Technical rules FIE 
 
 ## INDEX TO ARTICLES 
@@ -101,7 +101,7 @@ Blade (mere contact of): t.84, t.89.5, t.102, t.106.3.e
 
 Blocking the scoring apparatus: t.39 
 
-Bodywire: t.66, t.71-73, t.95.1, t.117, t.126, t.170 
+Bodywire: t.66, t.71-73, t.95.1, t.117, t.170 
 
 Bout (beginning, stopping, restarting): t.21, t.22.1, t.22.4, t.25, t.28, t.58, t.80, t.90, t.99, t.23, t.32-33 
 
@@ -133,7 +133,7 @@ Championship: t.66, t.73.2, t.159, t.167, t.169, t.170
 
 Change (of ends – referee - judges): t.30.3, t.48.4, t.50.4 
 
-Change (of hand, weapon, equipment): t.21.4, t.56, t.66.1. t.68.1, t.80, t.81.1, t.99.1, t.126 
+Change (of hand, weapon, equipment): t.21.4, t.56, t.66.1. t.68.1, t.80, t.81.1, t.99.1 
 
 Checking (equipment): t.47.2, t.56.9, t.64, t.65, t.66-70, t.73, t.114, t.137 
 
@@ -783,8 +783,6 @@ Scorers: t.47.2.e
 
 Season, active: t.47, 50.3, t.159, t.162.3, t.167.2, t.169, t.170 
 
-Shake hands: t.122 
-
 SEMI (Committee): t.56.7, t.66.1, t.73.2 
 
 Semi-final: t.18.3, t.50.5 
@@ -944,6 +942,3 @@ World Championships: t.66.1, t.73.2, t.159, t.167, t.169, t170
 World Cup: t.51, t.52, t.66.1, t.74 
 
 Yellow Card: t.20.2, t.119, t.162.1, t.163, t.165, t.168.1, t.170
-
-Links/Buttons:
-This page does not seem to contain any buttons/links.

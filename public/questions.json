@@ -594,27 +594,27 @@
       {
         "isCorrect": false,
         "text": "Yes, the fencer can be placed behind the rear line as long as they maintain correct distance.",
-        "explanation": "This is incorrect. According to rule t.22.8, competitors may not be replaced on guard, at their correct distance, if it leads a fencer to cross the rear line with both feet. [See t.22.8, t.22.9]"
+        "explanation": "This is incorrect. According to rule t.22.9, competitors may not be replaced on guard, at their correct distance, if it leads a fencer to cross the rear line with both feet. [See t.22.9, t.22.10]"
       },
       {
         "isCorrect": false,
         "text": "Yes, as long as no hits were scored during the action.",
-        "explanation": "This is incorrect. Whether or not a hit is scored does not change the rule that crossing the rear line results in a point for the opponent, per t.22.8. [See t.22.8, t.22.9]"
+        "explanation": "This is incorrect. Whether or not a hit is scored does not change the rule that crossing the rear line results in a point for the opponent, per t.22.9. [See t.22.9, t.22.10]"
       },
       {
         "isCorrect": true,
         "text": "No, If he already had one foot behind the rear line, he remains in that position.",
-        "explanation": "This is correct, as per t.22.8. [See t.22.8, t.22.9]"
+        "explanation": "This is correct, as per t.22.9. [See t.22.9, t.22.10]"
       },
       {
         "isCorrect": false,
         "text": "No, the referee should shorten the distance to avoid placing the fencer behind the rear line.",
-        "explanation": "This is incorrect. The referee does not alter the correct distance but leaves a fencer who already had one foot behind the rear line in the same position. [See t.22.8, t.22.9]"
+        "explanation": "This is incorrect. The referee does not alter the correct distance but leaves a fencer who already had one foot behind the rear line in the same position. [See t.22.9, t.22.10]"
       }
     ],
     "quotes": {
-      "t.22.8": "The competitors may not be replaced on guard, at their correct distance, in such a way as to place behind the rear line of the piste a fencer who was in front of that line when the bout was halted",
-      "t.22.9": "If a fencer has crossed the lateral boundaries of the piste, with one or both feet, he must be placed on guard at the correct distance even if this means that he is placed behind the rear line and thus causes a hit to be awarded against him. (cf t.35.1, t.146)."
+      "t.22.9": "The competitors may not be replaced on guard, at their correct distance, in such a way as to place behind the rear line of the piste a fencer who was in front of that line when the bout was halted",
+      "t.22.10": "If a fencer has crossed the lateral boundaries of the piste, with one or both feet, he must be placed on guard at the correct distance even if this means that he is placed behind the rear line and thus causes a technical hit to be awarded against him. (cf t.35.1, t.148)."
     },
     "id": "5780a54f-18ff-43dc-bcb2-12840693cca9"
   },
@@ -1079,7 +1079,7 @@
       }
     ],
     "quotes": {
-      "t.118.1": "When a fencer or complete team do not present themselves to the Referee at his first call, ten minutes before the time indicated to come onto the piste for the start of the pool or team match, or the start of the bouts of direct elimination (cf. Article t.66.1), the fencer or team concerned will be eliminated."
+      "t.118.1": "When a fencer or complete team do not present themselves to the Referee at his first call, ten minutes before the time indicated to come onto the piste for the start of the pool or team match, or the start of the bouts of direct elimination (cf. Article t.66.1, t.144.2), the fencer or team concerned will be eliminated."
     },
     "id": "14ce3261-50fa-44c7-b547-71795b83d872"
   },
@@ -1137,7 +1137,7 @@
       }
     ],
     "quotes": {
-      "t.158": "There are three types of penalty to be applied in the cases indicated in the table in Article t.170. If a referee has to penalise a fencer who has committed several faults at the same time, he should penalise the least serious fault first."
+      "t.158": "If a referee has to penalise a fencer who has committed several faults at the same time, he should penalise the least serious fault first."
     },
     "id": "2282472d-107d-49a1-85ee-224c66d96593"
   },
@@ -1205,8 +1205,8 @@
     "answers": [
       {
         "isCorrect": true,
-        "text": "Fencing clothing and equipment that conforms to the FIE regulations",
-        "explanation": "According to technical rule t.20.2, it is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition to wear fencing clothing and equipment which conforms with the FIE regulations."
+        "text": "Full fencing clothing and equipment that conforms to the FIE regulations, including breeches and long socks",
+        "explanation": "According to technical rule t.20.2, it is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition to wear full fencing clothing and equipment which conforms with the FIE regulations. This includes breeches and long socks in accordance with m.25."
       },
       {
         "isCorrect": false,
@@ -1221,11 +1221,11 @@
       {
         "isCorrect": false,
         "text": "Warm-up suits are sufficient",
-        "explanation": "This is incorrect. The rule requires fencing clothing and equipment conforming to FIE regulations, not warm-up suits. [See t.20.2]"
+        "explanation": "This is incorrect. The rule requires full fencing clothing and equipment conforming to FIE regulations, including breeches and long socks, not warm-up suits. [See t.20.2]"
       }
     ],
     "quotes": {
-      "t.20.2": "It is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition (including in the training halls linked to the competition) to wear fencing clothing and equipment which conforms with the FIE regulations."
+      "t.20.2": "It is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition (including in the training halls linked to the competition) to wear full fencing clothing and equipment which conforms with the FIE regulations. This includes breeches and long socks in accordance with m.25."
     },
     "id": "139e416f-0640-4dee-a20c-de0be7fefa91"
   },
@@ -1234,27 +1234,27 @@
     "answers": [
       {
         "isCorrect": true,
+        "text": "A mask, a glove, a chest protector, a top covering the torso and shoulders, and shorts reaching to within 10cm of the knees or lower",
+        "explanation": "According to technical rule t.20.2, any fencer taking a lesson must wear at least a mask, a glove, a chest protector, a top covering the torso and shoulders, and shorts which reach to within 10cm of the knees or lower."
+      },
+      {
+        "isCorrect": false,
         "text": "At least a mask and a glove",
-        "explanation": "According to technical rule t.20.2, any fencer taking a lesson must wear at least a mask and a glove."
+        "explanation": "This is incorrect. A mask and a glove alone are no longer sufficient: a chest protector, a top covering the torso and shoulders, and shorts reaching to within 10cm of the knees or lower are also required. [See t.20.2]"
       },
       {
         "isCorrect": false,
         "text": "Complete fencing equipment conforming to FIE regulations",
-        "explanation": "This is incorrect. While complete equipment is required for warming up with another fencer, for taking a lesson the minimum requirement is a mask and a glove. [See t.20.2]"
+        "explanation": "This is incorrect. Full fencing clothing is required for warming up or training with another fencer; for taking a lesson the minimum is a mask, a glove, a chest protector, a top covering the torso and shoulders, and shorts reaching to within 10cm of the knees or lower. [See t.20.2]"
       },
       {
         "isCorrect": false,
         "text": "A mask, a glove, and a fencing jacket",
-        "explanation": "This is incorrect. The minimum requirement for taking a lesson is only a mask and a glove. [See t.20.2]"
-      },
-      {
-        "isCorrect": false,
-        "text": "Only a mask",
-        "explanation": "This is incorrect. The minimum requirement for taking a lesson is a mask and a glove, not just a mask. [See t.20.2]"
+        "explanation": "This is incorrect. A fencing jacket is not required, but a chest protector, a top covering the torso and shoulders, and shorts reaching to within 10cm of the knees or lower are. [See t.20.2]"
       }
     ],
     "quotes": {
-      "t.20.2": "Any fencer taking a lesson must wear at least a mask and a glove."
+      "t.20.2": "Any fencer taking a lesson must wear at least a mask, a glove, a chest protector, a top covering the torso and shoulders, and shorts which reach to within 10cm of the knees or lower."
     },
     "id": "25d3f244-4b3d-4494-9343-3753444e3123"
   },
@@ -1264,26 +1264,26 @@
       {
         "isCorrect": false,
         "text": "Yes, coaches are exempt from protective equipment requirements",
-        "explanation": "This is incorrect. According to technical rule t.20.2, any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove and a mask conforming with the regulations."
+        "explanation": "This is incorrect. According to technical rule t.20.2, any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove, long trousers and a mask conforming with the regulations."
       },
       {
         "isCorrect": true,
-        "text": "No, a coach must wear at least a fencing master's plastron, a fencing glove, and a mask",
-        "explanation": "According to technical rule t.20.2, any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove and a mask conforming with the regulations."
+        "text": "No, a coach must wear at least a fencing master's plastron, a fencing glove, long trousers and a mask",
+        "explanation": "According to technical rule t.20.2, any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove, long trousers and a mask conforming with the regulations."
       },
       {
         "isCorrect": false,
         "text": "A coach only needs to wear a mask",
-        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, and a mask. [See t.20.2]"
+        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, long trousers and a mask. [See t.20.2]"
       },
       {
         "isCorrect": false,
         "text": "A coach only needs to wear a plastron",
-        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, and a mask. [See t.20.2]"
+        "explanation": "This is incorrect. The coach must wear at least a fencing master's plastron, a fencing glove, long trousers and a mask. [See t.20.2]"
       }
     ],
     "quotes": {
-      "t.20.2": "Any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove and a mask conforming with the regulations."
+      "t.20.2": "Any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove, long trousers and a mask conforming with the regulations."
     },
     "id": "b2808a6a-e1db-42c2-95a8-88348f053572"
   },
@@ -1569,8 +1569,8 @@
       },
       {
         "isCorrect": false,
-        "text": "Only if the video consultant requests it",
-        "explanation": "This is incorrect. While the video consultant can request the referee to use video-refereeing (t.62.4), the referee can also consult the video at their own initiative per t.62.2."
+        "text": "Only if the video-referee requests it",
+        "explanation": "This is incorrect. While the video-referee can request the referee to use video-refereeing (t.62.4), the referee can also consult the video at their own initiative per t.62.2."
       }
     ],
     "quotes": {
@@ -1584,12 +1584,12 @@
       {
         "isCorrect": false,
         "text": "Yes, the referee can consult the video as many times as needed",
-        "explanation": "This is incorrect. According to technical rule t.62.5, once the referee, together with the video consultant, has analyzed the action, the decision given is final and no other review of the same action can be requested."
+        "explanation": "This is incorrect. According to technical rule t.62.5, once the referee, together with the video-referee, has analyzed the action, the decision given is final and no other review of the same action can be requested."
       },
       {
         "isCorrect": true,
         "text": "No, once the referee has made a decision after consulting the video, it is final",
-        "explanation": "According to technical rule t.62.5, once the referee, together with the video consultant, has analyzed the action, the decision given is final and no other review of the same action can be requested."
+        "explanation": "According to technical rule t.62.5, once the referee, together with the video-referee, has analyzed the action, the decision given is final and no other review of the same action can be requested."
       },
       {
         "isCorrect": false,
@@ -1598,12 +1598,12 @@
       },
       {
         "isCorrect": false,
-        "text": "Only if the video consultant disagrees with the referee's decision",
+        "text": "Only if the video-referee disagrees with the referee's decision",
         "explanation": "This is incorrect. The decision made after video review is final, regardless of any disagreement. [See t.62.5]"
       }
     ],
     "quotes": {
-      "t.62.5": "Once the referee, together with the video consultant, has analysed the action, whether it is: - at the referee's initiative - at the request of the athlete - in case of a tied score, before the decisive hit - at the video consultant's request, the decision given by the referee is final and no other review of the same action can be requested."
+      "t.62.5": "Once the referee, together with the video-referee, has analysed the action, whether it is: - at the referee's initiative - at the request of the athlete - in case of a tied score, before the decisive hit - at the video-referee's request, the decision given by the referee is final and no other review of the same action can be requested."
     },
     "id": "74f54627-784a-4bae-8e62-36195f08f1fb"
   },
@@ -1850,8 +1850,8 @@
       },
       {
         "isCorrect": false,
-        "text": "If the video consultant disagrees with the referee",
-        "explanation": "This is incorrect. The right to retain the appeal depends on whether the referee agrees with the fencer who appealed, not on disagreement between the referee and video consultant. [See t.61.1]"
+        "text": "If the video-referee disagrees with the referee",
+        "explanation": "This is incorrect. The right to retain the appeal depends on whether the referee agrees with the fencer who appealed, not on disagreement between the referee and video-referee. [See t.61.1]"
       },
       {
         "isCorrect": false,
@@ -2186,7 +2186,7 @@
     ],
     "quotes": {
       "t.20.2": "Fencers arm, equip and clothe themselves and fence at their own responsibility and at their own risk.",
-      "t.71": "If a fencer appears on the piste: - with only one regulation weapon (cf. t.114, 115); or - with only one regulation bodywire; or - with only one regulation mask wire; or - with a weapon or a bodywire which does not work or which does not conform with the Rules; or - without his protective under-plastron (cf. t.64.5); or - with a conductive jacket which does not fully cover the valid target; or - with a mask whose 2nd security device is not securely fixed to the body of the mask; or - with clothing which does not conform with the Rules; the Referee will apply the penalties stipulated in Articles t.158-162, t.165, t.170, for the offences of the 1st group."
+      "t.71": "If a fencer appears on the piste: - with only one regulation weapon (cf. t.114, 115); or - with only one regulation bodywire; or - with only one regulation mask wire; or - with a weapon or a bodywire which does not work or which does not conform with the Rules; or - without his protective under-plastron (cf. t.64.5); or - with a conductive jacket which does not fully cover the valid target; or - with a mask whose 2nd security device is not securely fixed to the body of the mask; or - with clothing which does not conform with the Rules (control mark, size, logo, name on the jacket, etc.); the Referee will apply the penalties stipulated in Articles t.158-162, t.165, t.170, for the offences of the 1st group and the fencer should obtain a regular equipment in a time not exceeding 5 minutes."
     },
     "id": "79cd5873-ebfc-47ed-a8f2-d5ee18e0b3e6"
   },

@@ -1,4 +1,4 @@
-URL Source: https://static.fie.org/uploads/34/172615-technical%20rules%20ang.pdf
+Source: FIE Technical Rules, August 2026
 # Technical rules FIE 
 
 # TABLE OF CONTENTS 
@@ -195,7 +195,7 @@ FIE - Central Office, Disciplinary Commission, Executive Committee, TAS [t.143](
 
 Classification of penalties [t.144–145](Technical_rules.html#t144) 
 
-Penalties related to fencing [t.146–149](Technical_rules.html#t146) 
+Penalties related to fencing [t.147–149](Technical_rules.html#t147) 
 
 Disciplinary penalties [t.150–156](Technical_rules.html#t150) 
 

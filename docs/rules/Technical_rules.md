@@ -1,4 +1,4 @@
-URL Source: https://static.fie.org/uploads/34/172615-technical%20rules%20ang.pdf
+Source: FIE Technical Rules, August 2026
 # Technical rules FIE 
 
 # BOOK 1. TECHNICAL RULES 
@@ -51,7 +51,9 @@ EXPLANATION OF SOME TECHNICAL TERMS MOST COMMONLY USED IN THE JUDGING OF FENCING
 
 Preamble 
 
-### t.7 It is stressed that this section in no way replaces a treatise on fencing and is only included in order to help the reader understand the rules. 
+### t.7 
+
+It is stressed that this section in no way replaces a treatise on fencing and is only included in order to help the reader understand the rules. 
 
 Fencing time 
 
@@ -151,7 +153,9 @@ Any action made by the attacker against a stop hit made by his opponent.
 
 Defensive actions 
 
-### t.14 Parries are simple, direct, when they are made in the same line as the attack. 
+### t.14 
+
+Parries are simple, direct, when they are made in the same line as the attack. 
 
 They are circular ( counter-parries) when they are made in the opposite line to that of the attack. 
 
@@ -207,11 +211,11 @@ Responsibility of fencers
 
 1 Fencers arm, equip and clothe themselves and fence at their own responsibility and at their own risk .
 
-2 It is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition (including in the training halls linked to the competition) to wear fencing clothing and equipment which conforms with the FIE regulations. 
+2 It is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition (including in the training halls linked to the competition) to wear full fencing clothing and equipment which conforms with the FIE regulations. This includes breeches and long socks in accordance with m.25. 
 
-Any person giving a lesson must wear at least a fencing master’s plastron as well as a fencing glove and a mask conforming with the regulations. 
+Any person giving a lesson must wear at least a fencing master’s plastron as well as a fencing glove, long trousers and a mask conforming with the regulations. 
 
-Any fencer taking a lesson must wear at least a mask and a glove. 
+Any fencer taking a lesson must wear at least a mask, a glove, a chest protector, a top covering the torso and shoulders, and shorts which reach to within 10cm of the knees or lower. 
 
 The Supervisor of the competition or a member of the Directoire Technique must penalize any person not respecting this rule with a yellow card, followed by a black card in case of a repeated infringement. 
 
@@ -255,19 +259,17 @@ Coming on guard and placing of the fencers
 
 7 If no hit is awarded they are replaced in the position which they occupied when the bout was interrupted. 
 
-8 At the beginning of each period (in a direct elimination bout) and of any additional minute 
+8 At the beginning of each period (in a direct elimination bout) and of any additional minute of fencing time, the fencers are placed on guard in the middle of the piste. 
 
-of fencing time, the fencers are placed on guard in the middle of the piste. 
+9 The competitors may not be replaced on guard, at their correct distance , in such a way as to place behind the rear line of the piste a fencer who was in front of that line when the bout was halted. If he already had one foot behind the rear line, he remains in that position. 
 
-The competitors may not be replaced on guard, at their correct distance , in such a way as to place behind the rear line of the piste a fencer who was in front of that line when the bout was halted. If he already had one foot behind the rear line, he remains in that position. 
+10 If a fencer has crossed the lateral boundaries of the piste, with one or both feet, he must be placed on guard at the correct distance even if this means that he is placed behind the rear line and thus causes a technical hit to be awarded against him. (cf t.35.1, t.148). 
 
-9 If a fencer has crossed the lateral boundaries of the piste, with one or both feet, he must be placed on guard at the correct distance even if this means that he is placed behind the rear line and thus causes a hit to be awarded against him. (cf t.35.1, t.146). 
+11 Competitors come on guard when the Referee gives the order ‘On guard!’, after which the Referee asks, ‘Are you ready?’. On receiving an affirmative reply, or in the absence of a negative reply, he gives the command for fencing to commence with the word ‘Play!’. 
 
-10 Competitors come on guard when the Referee gives the order ‘ On guard! ’, after which the Referee asks, ‘ Are you ready? ’. On receiving an affirmative reply, or in the absence of a negative reply, he gives the command for fencing to commence with the word ‘ Play! ’. 
+12 The fencers must come on guard correctly and remain completely still until the command ‘Play!’ is given by the Referee. 
 
-11 The fencers must come on guard correctly and remain completely still until the command ‘Play!’ is given by the Referee. 
-
-12 At foil and sabre fencers may not come on guard in the ‘ in line ’ position. 
+13 At foil and sabre fencers may not come on guard in the ‘in line’ position. 
 
 Beginning, stopping and restarting the bout 
 
@@ -284,8 +286,6 @@ Beginning, stopping and restarting the bout
 5 The order ‘Halt!’ is also given if the play of the competitors is dangerous, confused, or 
 
 contrary to the Rules , if one of the competitors is disarmed or steps off the piste (cf. t.33, t.58). 
-
-6 The Referee may not allow a fencer to leave the piste , save in exceptional circumstances. If a competitor does so without permission he is liable to incur the penalties enumerated in Articles t.158-162, t.165, t.170, for the offences of the 1st group. 
 
 Fencing at close quarters 
 
@@ -343,7 +343,7 @@ Substitution and use of the non-sword hand and arm
 
 1 If during a bout the Referee notices that one of the fencers is making use of his non-sword arm and/or hand, or is protecting or covering the valid target with a non-valid surface, he can call for the help of two neutral judges who will be designated by the Directoire Technique. 
 
-2 These judges, one on each side of the piste, will watch all aspects of the fight and will indicate, by raising their hand or when asked by the Referee, if the non-sword arm or hand has been used, or if the fencer has protected or covered the valid target with a non-valid surface (cf. t.79, t.98, t.158-162, t.165, t.170). 
+2 These judges, one on each side of the piste, will watch all aspects of the fight and will indicate, by raising their hand or when asked by the Referee, if the non-sword arm or hand has been used, or if the fencer has protected or covered the valid target with a non-valid surface (cf. t.79, t.97, t.158-162, t.165, t.170). 
 
 3 The Referee may also make the fencers change places so that the fencer committing this fault does not have his back to the Referee. 
 
@@ -475,7 +475,7 @@ Timing
 
 ### t.43 
 
-1 The fencers may ask how much time they have left to fence each time that the fencing is interrupted. 
+1 The fencers may ask how much time they have left to fence each time that the fencing is interrupted if the time is not provided on the apparatus. 
 
 2 Any fencer who attempts improperly to cause or to prolong interruptions to the bout is penalised as specified in Articles t.158-162, t.165, t.170, for the offences of the 1st group. 
 
@@ -565,23 +565,23 @@ Judges
 
 4 The judges must change ends halfway through each bout or after each period in direct elimination bouts and after each bout in team matches, so as not to watch the same fencer the whole time. 
 
-Video consultants 
+5 Judges must be of a different nationality from the fencers, main referee and video-referee on the piste. 
+
+Video-referees 
 
 ### t.49
 
-Whenever video refereeing is used, there shall be designated video consultants who will watch the match live, then, should the need arise, subsequently on the video screen, and interact with the referee as specified in t.60-62, o.105. 
+Whenever video refereeing is used, there shall be designated video-referees who will watch the match live, then, should the need arise, subsequently on the video screen, and interact with the referee as specified in t.60-62, o.105. 
 
-The video-consultant must: 
+The video-referee must: 
 
-1. be a referee holding an FIE licence for the year in question; 
+1. be of a different nationality from the fencers on the piste; 
 
-2. have been trained to assist with the video; 
+2. be of a different nationality from the main referee; 
 
-3. be of a different nationality from the fencers on the piste; 
+3. be of a different nationality from the judges. 
 
-4. be of a different nationality from the main referee. 
-
-Designations of referees and video consultants 
+Designations of referees and video-referees 
 
 Individual competitions 
 
@@ -589,43 +589,41 @@ Individual competitions
 
 1 For the rounds of pools and the direct elimination table, the Refereeing Delegates select the referees by drawing lots. 
 
-2 For the pools , the referee must be of a different nationality from that any of the fencers in the pool. 
+2 For the pools , the referee must be of a different nationality from that any of the fencers in the pool if possible. 
 
-3 For the direct elimination tables at each weapon , the Refereeing Delegates establish, among the referees present, a list of the best referees at each weapon (according to the 
+3 For the direct elimination tables at each weapon , the Refereeing Delegates establish, among the referees present, a list of the best referees at each weapon (according to the grades obtained during the season). 
 
-grades obtained during the season). 
+For each quarter of the table, referees are assigned by drawing lots from among at least of 3 to 4 referees, to referee the bouts in the order of the table. They must be of a different nationality from that of any of the fencers participating in that quarter of the table if possible. Then, the video-referees will be assigned by drawing lots among a list of at least 3 to 4 referees. 
 
-For each quarter of the table, 4 referees are assigned by drawing lots from among at least of 4 to 5 referees, to referee the bouts in the order of the table, if possible. They must be of a different nationality from that of any of the fencers participating in that quarter of the table. 
-
-Then, the video consultants will be assigned by drawing lots among a list of at least 4 to 5 referees. 
+As well as the two groups of the referees and the video-referees could be assigned by drawing lots to referee the bouts in the order of the table. 
 
 Lots are drawn by the computer at each stage of the table but may be modified by the Refereeing Delegates in case of any problem with the computer programme, mistakes made by the operator of the computer programme and in case of conflicts between category A or B (FIE Statutes, CHAPTER XII - ETHICAL CODE). In any case where the computer draw is modified, it must be with the agreement of the Directoire Technique and signed by both the Refereeing Delegate and the President of the DT. 
 
-At each referees’ meeting before any competition, the referees will be asked to declare their potential conflicts of interest to the Refereeing Delegate or to the President of the Directoire technique (for junior competitions).This information must be notified to the FIE by the Refereeing Delegate or the Directoire technique President (for junior competitions). 
+At each referees’ meeting before any competition, the referees will be asked to declare their potential conflicts of interest to the Refereeing Delegate or to the President of the Directoire technique (for cadet and junior competitions). This information must be notified to the FIE by the Refereeing Delegate or the Directoire technique President (for cadet and junior competitions). 
 
 4 At the end of each round, the Refereeing Delegates can withdraw one or more referees whose performance was not satisfactory. This decision must be taken by the majority of the Refereeing Delegates present. However, a referee may not be changed during a bout except in exceptional circumstance. In such a case the decision, which must be well founded, must be taken by the majority of the Refereeing Delegates present (this rule is equally valid for team competitions). 
 
 5 For the final of 4, the Refereeing Delegates, immediately after the end of the direct elimination tables, select 4 referees by lot from among at least a list of 4 to 5 referees, who must be of a different nationality from any of the fencers. 
 
-15 minutes before the final, the Refereeing Delegates will draw lots to assign the referees for all the bouts at the same time, in the following order: 1 st semi-final, 2 nd semi-final. 
+15 minutes before the final, the Refereeing Delegates will draw lots to assign the referees for all the bouts at the same time, in the following order: 1st semi-final, 2nd semi-final. 
 
-As soon as the two semi-finals are over, the Refereeing Delegates will establish a list of 4 or 5 referees and draw lots to assign the referee and video consultant for the final as well as (at the OG) the referee and video consultant for the 3 rd place bout. 
+As soon as the two semi-finals are over, the Refereeing Delegates will establish a list of 4 or 5 referees and draw lots to assign the referee and video-referee for the final as well as (at the OG) the referee and video-referee for the 3rd place bout. 
 
 6 The drawing of lots is done with the help of a computer for the whole of the competition right through to the final. The computer programme must record each drawing of lots so that it is possible to know which referees were submitted for each draw. The computer programme should also be able to indicate whether the draw for any round was subsequently redone. 
 
-7 In conformity with articles t.50.2 and t.50.3, the designation of the video-consultant must be made by drawing lots using a computer programme. The name and nationality of the video- consultant must also be written on the pool or match sheet, beside those of the referee. 
+7 In conformity with articles t.50.2 and t.50.3, the designation of the video-referee must be made by drawing lots using a computer programme. The name and nationality of the video-referee must also be written on the pool or match sheet, beside those of the referee. 
 
 Team Competitions 
 
 ### t.51
 
-The same rules as those in article t.50, 3-7 are applied to the team competitions, with two referees per match. 
+The same rules as those in article t.50, 3, 4, 5, 6 and 7 are applied to the team competitions. 
 
-World Cup competitions 
+Cadet and Junior World Cups and Satellite competitions 
 
 ### t.52
 
-The Rules described in t.50 and t.51 above are applied by the Directoire Technique, assisted for the finals by the official FIE Refereeing delegate. 
+The Rules described in t.50 and t.51 should be applied if the number of referees allows it. 
 
 Method of judging hits 
 
@@ -677,13 +675,13 @@ without being asked by the Referee to do so, before the Referee has given his de
 
 7 When a competitor against whom a hit has been registered has broken his blade , the hit must be annulled unless the breaking of the blade has occurred clearly after the hit has been registered. 
 
-8 The Referee must pay particular attention to hits which do not register or which are registered abnormally . Should such defects be repeated, the Referee must ask amember of the SEMI Committee or an expert technician on duty to verify that the equipment conforms to the Rules. 
+8 The Referee must pay particular attention to hits which do not register or which are registered abnormally . Should such defects be repeated, the Referee must ask a member of the SEMI Committee or an expert technician on duty to verify that the equipment conforms to the Rules. 
 
 9 The Referee must ensure that nothing is altered in the competitors’ equipment or in the whole of the electrical apparatus before the expert carries out his check. 
 
 10 Hit made during or after a fall must be annulled. 
 
-11 A competitor who, intentionally drops his/her weapon during the fencing phrase will be penalised as specified in Articles t.166, t.170. However, a hit scored by the opponent is valid, provided that the action was started before the ‘Halt!’. 
+11 A competitor who, intentionally drops his/her weapon during the fencing phrase will be penalised as specified in Articles t.166 and t.170, for the offences of the 2nd group. However, a hit scored by the opponent is valid, provided that the action was started before the ‘Halt!’. 
 
 ### t.57
 
@@ -721,9 +719,9 @@ Should the referee agree with the fencer who appealed for the video-refereeing, 
 
 2 In team events , the fencers have one possible right to appeal to the video-refereeing per relay and they are entitled to retain this right should the referee agree with the appeal. 
 
-3 In the case of an appeal for video-refereeing, the referee will walk over to the video consultant, they will watch the video together and after having analysed the action, the referee will give his final decision. 
+3 In the case of an appeal for video-refereeing, the referee will walk over to the video-referee, they will watch the video together and after having analysed the action, the referee will give his final decision. 
 
-4 At the finals of the Oympic Games and at the finals of the Senior, Junior and Cadet World Championships, the replays of an action under review must be shown on a screen so as to be visible to the spectators. 
+4 At the finals of the Olympic Games and at the finals of the Senior, Junior and Cadet World Championships, the replays of an action under review must be shown on a screen so as to be visible to the spectators. 
 
 ### t.62 
 
@@ -733,9 +731,9 @@ Should the referee agree with the fencer who appealed for the video-refereeing, 
 
 3 If the fencers’ scores are equal at the end of the match , for the decisive hit, the referee must use the video-refereeing before even giving his decision. 
 
-4 The video consultant may at any time request that the referee use the video-refereeing. 
+4 The video-referee may at any time request that the referee use the video-refereeing. 
 
-5 Once the referee, together with the video consultant, has analysed the action, whether it is: 
+5 Once the referee, together with the video-referee, has analysed the action, whether it is: 
 
 - at the referee's initiative 
 
@@ -743,11 +741,11 @@ Should the referee agree with the fencer who appealed for the video-refereeing, 
 
 - in case of a tied score, before the decisive hit 
 
-- at the video consultant's request 
+- at the video-referee's request 
 
 the decision given by the referee is final and no other review of the same action can be requested. 
 
-6 Each time the referee consults the video, whether on his own initiative, following an appeal or at the suggestion of the video-consultant, the opinions of the referee and the video-consultant must be recorded on the match sheet. 
+6 Each time the referee consults the video, whether on his own initiative, following an appeal or at the suggestion of the video-referee, the opinions of the referee and the video-referee must be recorded on the match sheet. 
 
 ### t.63 
 
@@ -763,13 +761,13 @@ Before the start of each pool, team match or bout by direct elimination, the Ref
 
 2 at foil, the conductive jacket conforms to the provision of Article m.28 when each competitor is in the on guard position; 
 
-3 at épée, the fencer is wearing a jacket conforming to the regulations and that the material from which the clothing is made has not too smooth a surface; 
+3 at épée, the fencer is wearing a jacket conforming to the regulations and that the material from which the clothing is made has not too smooth a surface (cf. m.25.4.b); 
 
 4 at sabre, the conductive jacket conforms to the provision of Article m.34 when each competitor is in the on guard position. 
 
 5 at all three weapons, each fencer is wearing, under his jacket, a regulation protective under-plastron , made of cloth which can resist 800 Newtons. 
 
-6 at all three weapons, the fencer is not equipped with any electronic communication equipment which would allow a person off the piste to communicate with the fencer during the bout. 
+6 at all three weapons, the fencer is not equipped with any electronic communication equipment which would allow a person off the piste to communicate with the fencer during the bout (cf. t.73.1.g & 2). 
 
 ### t.65 
 
@@ -829,11 +827,13 @@ If a fencer appears on the piste:
 
 - with a mask whose 2nd security device is not securely fixed to the body of the mask; or 
 
-- with clothing which does not conform with the Rules; 
+- with clothing which does not conform with the Rules (control mark, size, logo, name on the jacket, etc.); 
 
-the Referee will apply the penalties stipulated in Articles t.158-162, t.165, t.170, for the offences of the 1st group. 
+the Referee will apply the penalties stipulated in Articles t.158-162, t.165, t.170, for the offences of the 1st group and the fencer should obtain a regular equipment in a time not exceeding 5 minutes. 
 
-### t.72 When during a bout an irregularity is found in the equipment which could be caused by conditions during the bout :
+### t.72 
+
+When during a bout an irregularity is found in the equipment which could be caused by conditions during the bout:
 
 Examples: 
 
@@ -849,7 +849,7 @@ the Referee will apply neither warning nor penalty and any hit scored with the e
 
 However, even during the course of a bout, any fencer whose weapon, at the moment he presents himself on guard and ready to fence, has a curve of the blade which exceeds that permitted (cf . m.8.6, m.16.2, m.23.4) commits an offence in the first group and will be penalised in accordance with Articles t.158-162, t.165, t.170. 
 
-Similarly, even during the course of a bout, any fencer whose mask, at the moment he presents himself on guard and ready to fence, is not securely held on his head by the 2nd security device, commits an offence in the first group and will be penalised in accordance with articles t.158-t.162, t.165, t.170. 
+Similarly, even during the course of a bout, any fencer whose mask, at the moment he presents himself on guard and ready to fence, is not securely held on his head by the 2nd security device (cf. m.25.7.f), commits an offence in the first group and will be penalised in accordance with articles t.158-t.162, t.165, t.170. 
 
 ### t.73 
 
@@ -921,7 +921,7 @@ Limitation of the target
 
 1 The valid target at foil excludes the limbs and the head. It is confined to the trunk, the upper limit being the collar up to 6 cm above the prominences of the collar bones; at the sides to the seams of the sleeves, which should cross the head of the humerus; and the lower limit following a horizontal line across the back joining the tops of the hip bones, thence by straight lines to the junction of the lines of the groin. It also includes the part of the bib beneath a horizontal line 1.5 - 2 cm below the chin which, in any case, may not be lower than the line of the shoulders (see Figure 4). 
 
-2 At foil, only hits which arrive on the valid target are counted. 
+2 At foil, only hits which arrive on the valid target are counted (except as provided in Article t.79.1.c). 
 
 Figure 4 Valid target at foil 
 
@@ -1159,7 +1159,7 @@ METHOD OF MAKING A HIT
 
 2 All hits made with the cutting edge, the flat or the back of the blade are counted as good (cuts and back cuts). 
 
-3 It is forbidden to hit with the guard . Any hits registered by hitting with the guard must be annulled, the fencer so hitting being penalised as specified in Articles t.158-163, t.165, t.170, for the offences of the 2nd group .
+3 It is forbidden to hit with the guard . Any hits registered by hitting with the guard must be annulled, the fencer so hitting being penalised as specified in Articles t.158-163, t.165, t.170, for the offences of the 1st group.
 
 4 Hits through the blade , that is to say those which touch at the same time the valid target and the sabre of the opponent, are valid whenever they arrive clearly on the target. 
 
@@ -1347,7 +1347,7 @@ Order and discipline
 
 Everybody taking part in or present at a fencing competition must respect the FIE statutes and rules, including but not limited to the FIE Ethical Code and Safeguarding Policy. They must remain orderly and must not disturb the smooth running of the competition . During bouts no one is allowed to go near the pistes , to give advice to the fencers , to criticise the Referee or the judges, to insult them or to attempt to influence them in any way. Even the 
 
-team captain must remain in the space assigned to him and he may only intervene in the situations and in the manner provided for in Article t.130 of the Rules. The Referee must stop immediately any activity which disturbs the smooth running of the bout which he is refereeing (cf. t.137.1–3). Any person who, for any reason, threatens or insults an official commits an offence of the 4th group and is penalised according to article t.169. 
+team captain must remain in the space assigned to him and he may only intervene in the situations and in the manner provided for in Article t.130 of the Rules. The Referee must stop immediately any activity which disturbs the smooth running of the bout which he is refereeing (cf. t.137.1–3). Any person who, for any reason, threatens or insults an official commits an offence of the 3rd group and is penalised according to article t.167-168. 
 
 Any person present who witnesses a breach of the FIE Ethical Code or the Safeguarding Policy must report this to the Safeguarding Officer if present, or to the Supervisor or to the Directoire Technique. 
 
@@ -1365,7 +1365,9 @@ The competitors
 
 Pledge of honour 
 
-### t.112 By the mere fact of entering a fencing competition, the fencers pledge their honour to observe the Rules and the decisions of the officials, to be respectful towards the referees and judges and scrupulously to obey the orders and injunctions of the Referee (cf.t. 158-163, t.169, t.170 ). 
+### t.112 
+
+By the mere fact of entering a fencing competition, the fencers pledge their honour to observe the Rules and the decisions of the officials, to be respectful towards the referees and judges and scrupulously to obey the orders and injunctions of the Referee (cf.t. 158-163, t.169, t.170 ). 
 
 Refusing to fence an opponent 
 
@@ -1401,7 +1403,7 @@ In the case of violation of this rule, the referee will apply the penalties for 
 
 ### t.116
 
-Under no circumstances should the fencers dress or undress in public except in the case of an accident duly recognised by the doctor on duty or by the representative of the Medical Commission (cf. t.126, t.158-162, t.165, t.170 .). Any infringement will be sanctioned for the offences of the 1st group. 
+Under no circumstances should the fencers dress or undress on the piste except in the case of an accident duly recognised by the doctor on duty or by the representative of the Medical Commission (cf. t.158-162, t.165, t.170.). Any infringement will be sanctioned for the offences of the 1st group. 
 
 ### t.117 
 
@@ -1415,7 +1417,7 @@ Before the start of the pool, the team match or the bouts of direct elimination
 
 (individual or team): 
 
-1 When a fencer or complete team do not present themselves to the Referee at his first call ,ten minutes before the time indicated to come onto the piste for the start of the pool or team match, or the start of the bouts of direct elimination (cf. Article t.66.1 ), the fencer or team concerned will be eliminated .
+1 When a fencer or complete team do not present themselves to the Referee at his first call ,ten minutes before the time indicated to come onto the piste for the start of the pool or team match, or the start of the bouts of direct elimination (cf. Article t.66.1, t.144.2), the fencer or team concerned will be eliminated .
 
 2 A team is considered complete when at least three fencers are present. 
 
@@ -1437,7 +1439,7 @@ c. A third and last call will be made, one minute after the second call, followe
 
 ### t.120 
 
-Should a fencer abandon a bout by leaving the piste (cf. t.23.6 ), he will be penalised as specified in Articles t.158-162, t.165, t.170, for the offences of the 1st group .
+The Referee may not allow a fencer to leave the piste, except in exceptional circumstances. If a competitor does so without permission he will be penalised as specified in Articles t.158-162, t.165, t.170, for the offences of the 1st group.
 
 Fencing etiquette 
 
@@ -1457,7 +1459,7 @@ The two fencers then perform the fencer's salute (cf. t.1) to their opponent, to
 
 If either or both of the two fencers refuse to comply with these rules, the Referee will penalise him/them as specified for offences of the 4 th group (cf. t.158-162, t.169, t.170). 
 
-Application: until the end of the 2024-2025 season 
+APPLICATION: current and from the 2026-2027 season 
 
 ### t.123 
 
@@ -1475,27 +1477,23 @@ Unwillingness to fight is sanctioned as follows (t.170):
 
 1 Individual events – Direct elimination 
 
-P-yellow cards and P-red Cards are awarded to both fencers simultaneously, starting with a P-Yellow card, followed by a P-Red card. The P-Black card is awarded as described in 1c) below. 
+P-red Cards are awarded to both fencers simultaneously. The P-Black card is awarded as described in 1.b) below. 
 
-a) When, for the first time, there is one minute of unwillingness to fight, the Referee sanctions both fencers with a P-yellow card. 
+a) When, for the first time, there is one minute of unwillingness to fight, the Referee sanctions both fencers with a P-red card. 
 
-b) When, for the second time, there is one minute of unwillingness to fight, the Referee sanctions both fencers with a P-red card. 
+b) When, for the second time, there is one minute of unwillingness to fight, a P-black card is awarded as follows: 
 
-c) When, for the third time, there is one minute of unwillingness to fight, a P-black card is awarded as follows: 
-
-i) If the scores of the two fencers are equal, the Referee sanctions the fencer with the lower initial seeding in the competition, which is based on the FIE ranking and by drawing lots among any fencers who are not in the ranking, with a P-Black card. The fencer with the higher initial seeding in the competition, which is based on the FIE ranking, wins the bout .
+i) If the scores of the two fencers are equal, the Referee sanctions the fencer with the lower initial seeding in the competition, which is based on the FIE ranking and by drawing lots among any fencers who are not in the ranking, with a P-Black card. The fencer with the higher initial seeding in the competition, which is based on the FIE ranking, wins the bout. 
 
 ii) If the scores of the two fencers are not equal, the Referee sanctions the fencer with the lower score with a P-Black card. The fencer with the higher score wins the bout. 
 
 2 Team events 
 
-P-Yellow, P-Red cards are awarded to the two teams simultaneously, starting with a P-Yellow card and followed by a P-Red card. The P-Black card is awarded as described in 2c) below. 
+P-Red cards are awarded to the two teams simultaneously. The P-Black card is awarded as described in 2.b) below. 
 
-a) When, for the first time, there is one minute of unwillingness to fight, the Referee sanctions both teams with a P-yellow card. 
+a) When, for the first time, there is one minute of unwillingness to fight, the Referee sanctions both teams with a P-red card. 
 
-b) When, for the second time, there is one minute of unwillingness to fight, the Referee sanctions both teams with a P-red card. 
-
-c) When, for the third time, there is one minute of unwillingness to fight, a P-Black card is awarded as follows: 
+b) When, for the second time, there is one minute of unwillingness to fight, a P-Black card is awarded as follows: 
 
 i) If the scores for the two teams are equal, the Referee sanctions the team with the lower initial seeding in the competition, which is based on the FIE ranking, with a P-Black card. The team with the higher initial seeding in the competition, which is based on the FIE ranking, wins the match. 
 
@@ -1503,17 +1501,17 @@ ii) If the scores for the two teams are not equal, the Referee sanctions the tea
 
 3 In both individual and team competitions 
 
-a) The P-yellow (warning), P-red (penalty hit) and P-black (the possible losing of a bout or match) cards received during any one bout or match (during all 9 relays) are valid only for that bout or match. They are not transferable to the following bout or match. 
+a) The P-red (penalty hit) and P-black (the possible losing of a bout or match) cards received during any one bout or match (during all 9 relays) are valid only for that bout or match. They are not transferable to the following bout or match. 
 
-No P-card (yellow, red or black) may be awarded in individual competitions at 14-14 or in team matches at 44-44. 
+No P-card (red or black) may be awarded in individual competitions at 14-14 or in team matches at 44-44. 
 
 b) In both individual and team competitions, fencers and teams who have lost the bout/match following the award of a P-Black card, will be ranked in the final results of the competition as having lost the bout/match. They receive the corresponding points. 
 
-c) In both individual and team competitions, the period/relay continues after the awarding of a P-Yellow or a P-Red card. 
+c) In both individual and team competitions, the period/relay continues after the awarding of a P-Red card. 
 
 d) The minute starts again after each hit, each hit off the target, each hit annulled, each penalty hit and at the beginning of each period or relay. 
 
-e) The referee must record these P-yellow, P-red and P-black cards separately on the score sheet. The sanctions awarded for unwillingness to fight are not cumulative with any other sanction awarded. 
+e) The referee must record these P-red and P-black cards separately on the score sheet. The sanctions awarded for unwillingness to fight are not cumulative with any other sanction awarded. 
 
 f) In both individual and team competitions, if, at the end of the regulation time, there is equality of scores, article t.124 does not apply and articles t.40.3 and t.41.5 will apply. 
 
@@ -1528,6 +1526,10 @@ The fencer, whether on or off the piste, must keep his mask on until the Referee
 ### t.127
 
 At the end of a bout, the Referee must bring together the two fencers, to announce clearly the score , which will be transmitted to the Directoire Technique. He must say clearly: ‘Mister X won against Mister Y with the following score…’ 
+
+At the end of a team match, the Referee must bring together the two teams, to announce clearly the score, which will be transmitted to the Directoire Technique. He must say clearly: ‘Team X won against Team Y with the following score…’ 
+
+Fencers must present in either national uniform (m.25) or national tracksuit. Fencers must not present on piste in a state of undress. 
 
 Personal effort 
 
@@ -1557,11 +1559,17 @@ The instructors, trainers and technicians
 
 ### t.131 
 
-1 During the direct elimination of the individual events, the fencer’s coach, medical staff and technicians are not allowed to remain near their fencers; the coaches are allowed to be inside the competition area in a place indicated by the organisers. 
+1 During the round of pools only fencers and referees are allowed inside the Piste Enclosure. The size of the piste enclosure must not exceed 40 meters by 10 meters. 
 
-2 The Referee may, whenever he considers it necessary, authorise a person to come briefly to the assistance of a fencer. 
+2 During the direct elimination of the individual events, the fencer’s coach, medical staff and technicians are not allowed to remain near their fencers; the coaches are allowed to be inside the competition area in a place indicated by the organisers. 
 
-3 Each nation which has a fencer taking part in the round of the competition in progress may designate a maximum of two people who have the right to be positioned near the Piste Enclosure, outside it but close to a point of access. The organisers must provide the necessary space for these people. 
+3 The Referee may, whenever he considers it necessary, authorise a person to come briefly to the assistance of a fencer. 
+
+4 Each nation which has a fencer taking part in the round of the competition in progress may designate a maximum of two people who have the right to be positioned near the Field of Play. The organisers must provide the necessary space for these people. 
+
+5 When inside the Field of Play, coaches and team captains must wear full length trousers, tops covering their torso and shoulders and closed shoes. 
+
+6 For World Championships, coaches and team captains inside the Field of Play must wear the tracksuit of the country they are representing. 
 
 ### t.132
 
@@ -1595,11 +1603,11 @@ The following are the competent disciplinary authorities:
 
 - the Referee (cf . t.137 ); 
 
-- the Refereeing Commission delegate(s); 
+- the Refereeing Commission delegate(s) (cf. o.20); 
 
-- the Directoire Technique (cf. t.139, o.15 to o.22 ); 
+- the Directoire Technique (cf. t.139, o.15 to o.17); 
 
-- the Supervisor; 
+- the Supervisor (cf. o.22); 
 
 - the Executive Committee of the IOC at the Olympic Games (cf .t.142 ); 
 
@@ -1833,11 +1841,11 @@ The types (groups) of penalty
 
 ### t.158
 
-There are three types of penalty to be applied in the cases indicated in the table in Article t.170. If a referee has to penalise a fencer who has committed several faults at the same time, he should penalise the least serious fault first. 
+If a referee has to penalise a fencer who has committed several faults at the same time, he should penalise the least serious fault first. 
 
 ### t.159 
 
-Penalties are cumulative and they are valid for the bout with the exception of those indicated by a BLACK CARD , which means exclusion from the competition, suspension for the remainder of the tournament and for the following 60 days of the active season (1 September – World Championships for the Juniors, and 1 September – World Championships for the Seniors), whether current or forthcoming, or both (cf.t.169.2). 
+Penalties are cumulative and they are valid for the bout with the exception of those indicated by a BLACK CARD , which means exclusion from the competition, suspension for the remainder of the tournament and for the following 60 days of the active season (1 September – World Championships for the Cadets and Juniors, and 1 September – World Championships for the Seniors), whether current or forthcoming, or both (cf.t.169.2). 
 
 ### t.160
 
@@ -1891,7 +1899,7 @@ The Third Group of offences
 
 1 The first infringement in the Third Group is penalised by a RED CARD (penalty hit), even if the fencer at fault has already received a RED CARD as a result of offences in the First or Second Groups. 
 
-2 If during the same bout the fencer commits the same or a different offence in this group, he is penalised with a BLACK CARD (exclusion from the competition, suspension from the remainder of the tournament and for the following 60 days of the active season (1 September – World Championships for the Juniors, and 1 September – World Championships for the Seniors), whether current or forthcoming). 
+2 If during the same bout the fencer commits the same or a different offence in this group, he is penalised with a BLACK CARD (exclusion from the competition, suspension from the remainder of the tournament and for the following 60 days of the active season (1 September – World Championships for the Cadets and Juniors, and 1 September – World Championships for the Seniors), whether current or forthcoming). 
 
 ### t.168 
 
@@ -1907,7 +1915,7 @@ The Fourth Group of Offences
 
 ### t.169 
 
-1 The first infringement in the Fourth Group, is penalised by a BLACK CARD (exclusion from the competition, suspension from the remainder of the tournament and for the following 60 days of the active season (1 September – World Championships for the Juniors, and 1 September – World Championships for the Seniors), whether current or forthcoming or both). 
+1 The first infringement in the Fourth Group, is penalised by a BLACK CARD (exclusion from the competition, suspension from the remainder of the tournament and for the following 60 days of the active season (1 September – World Championships for the Cadets and Juniors, and 1 September – World Championships for the Seniors), whether current or forthcoming or both). 
 
 2 Furthermore any black card awarded at a competition of the FIE or at a competition organized by any Confederation which has subscribed to the FIE disciplinary code shall be reported within 10 days to the President of the FIE, for him to assess whether the severity of the offence committed warrants the sending of the report made by the FIE supervisor or by the Directoire Technique to the president of the Legal Commission, requesting him to establish a Disciplinary Tribunal to determine if penalties in addition to those imposed at the competition should be imposed. 
 
@@ -1923,7 +1931,7 @@ This table is intended to be a convenient summary: it is not a substitute for th
 | 0.2 Absence of name on back due to changing a non-conforming jacket | t.75 | Elimination from the competition |
 | 0.3 Non presentation when first called by Referee ten minutes before time indicated for start of pool/team match/bouts of direct elimination | t.118 | Elimination from the competition |
 |0.4 Non presentation on the piste ready to fence when ordered by the Referee, after three calls at one-minute intervals |t.119 |  1st call - Y /2nd call - R / 3rd call -  Elimination |
-|0.5 Unwillingness to fight: the sanctions imposed are shown by specific P- cards which are not cumulative with any other sanction awarded. | t.124.1, t.124.2 | 1 st time P-Yellow / 2 nd time P-Red / 3rd time P-Black |
+|0.5 Unwillingness to fight: the sanctions imposed are shown by specific P- cards which are not cumulative with any other sanction awarded. | t.124.1, t.124.2 | 1st time P-Red / 2nd time P-Black |
 
 | 1st group | articles| 1st offence | 2nd offence | 3rd offence and subseq. |
 |---------|-------|----------|-----------|---------------------|
@@ -1940,7 +1948,7 @@ This table is intended to be a convenient summary: it is not a substitute for th
 | 1.12 At sabre, hit made with the guard *, any forward movement crossing the legs or feet * |t.96.3, t.101.5 | YELLOW | RED | RED |
 | 1.13 Refusal to obey the Referee | t.108, t.112 | YELLOW | RED | RED |
 | 1.14 Hair not conforming to the Rules | t.115.2 | YELLOW | RED | RED |
-| 1.15 Jostling, disorderly fencing * ; taking off mask before the Referee calls 'Halt!'; dressing or undressing on the piste |t.116, t.121.2, t.125, t.126 | YELLOW | RED | RED |
+| 1.15 Jostling, disorderly fencing * ; taking off mask before the Referee calls 'Halt!'; dressing or undressing on the piste |t.116, t.121.2, t.125 | YELLOW | RED | RED |
 | 1.16 Irregular movements on the piste *; hits made with violence *; Intentional fall to avoid the hit * |t.121.2 | YELLOW | RED | RED |
 | 1.17 Unjustified appeal, casting doubt on the decision of the referee on a point of fact. | t.172, t.173, t.174 | YELLOW | RED | RED |
 | 1.18 Entering the Piste enclosure without the Referee’s permission + |t.132.2 | YELLOW | RED | RED |
@@ -1982,8 +1990,8 @@ This table is intended to be a convenient summary: it is not a substitute for th
 | + | Special YELLOW CARD for the whole team and valid for the whole team match. If, during the same team match, a fencer commits an offence of the 1 st group the Referee penalises with a RED CARD each time. |
 |YELLOW CARD| Warning valid for the bout (whether one or several encounters). If a fencer commits an offence of the 1st group after having been penalised with a RED CARD, for whatever reason, he receives a further RED CARD. |
 | RED CARD | Penalty hit |
-| BLACK CARD | Exclusion from the competition , suspension from the remainder of the tournament and for the following 60 days of the active season (1st September – World Championships for the juniors and 1st September – World Championships for the seniors), whether current or forthcoming. |
-| P CARDS (t.124) | P-yellow (warning), P -red (penalty hit), P -black (possible loss of the bout or match). In both individual and team competitions, fencers and teams who have lost the bout/match following the award of a P-Black card, will be ranked in the final results of the competition as having lost the bout/match. They receive the corresponding points. |
+| BLACK CARD | Exclusion from the competition , suspension from the remainder of the tournament and for the following 60 days of the active season (1st September – World Championships for the cadet and juniors and 1st September – World Championships for the seniors), whether current or forthcoming. |
+| P CARDS (t.124) | P-red (penalty hit), P-black (possible loss of the bout or match). In both individual and team competitions, fencers and teams who have lost the bout/match following the award of a P-Black card, will be ranked in the final results of the competition as having lost the bout/match. They receive the corresponding points. |
 
 ## Chapter 5 
 
@@ -2001,7 +2009,7 @@ Against a decision of the Referee
 
 ### t.172 
 
-1 No appeal can be made against the decision of the Referee regarding a point of fact, except as permitted in o.105 and t.60-t.63 for video refereeing (cf. t.136.1/2, t.137.2). 
+1 No appeal can be made against the decision of the Referee regarding a point of fact, except as permitted in o.105 and t.60-t.62 for video refereeing (cf. t.136.1/2, t.137.2). 
 
 2 If a fencer infringes this principle, casting doubt on the decision of the Referee on a point of fact during the bout, he will be penalised according to the rules (cf. t.158-162, t.165, t.170 ), for the offences of the 1st group. But if the Referee is ignorant of or misunderstands a definite rule or applies it in a manner contrary to the Rules, an appeal on this matter may be entertained. A point of fact includes, but is not limited to, any ruling by the referee analysing what happened on the piste, such as the validity or priority of a hit, whether a fencer left the side or end of the piste or if a person’s behaviour is a Group 3 or Group 4 offence. 
 
