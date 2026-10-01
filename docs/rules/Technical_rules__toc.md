@@ -71,15 +71,15 @@ The Referee [t.46-47](Technical_rules.html#t46)
 
 Judges [t.48](Technical_rules.html#t48) 
 
-Video Consultants [t.49](Technical_rules.html#t49) 
+Video-referees [t.49](Technical_rules.html#t49) 
 
-#### Designation of referees and video consultants 
+#### Designation of referees and video-referees 
 
 Individual competitions [t.50](Technical_rules.html#t50) 
 
 Team competitions [t.51](Technical_rules.html#t51) 
 
-World Cup competitions [t.52](Technical_rules.html#t52) 
+Cadet and Junior World Cups and Satellite competitions [t.52](Technical_rules.html#t52) 
 
 #### Method of judging hits 
 

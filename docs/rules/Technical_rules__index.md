@@ -249,7 +249,7 @@ Direct parry: t.14,
 
 Direct riposte: t.11, t.86, t.105.1, 
 
-Direct elimination: t.22.8, t.39, t.42, t.48.4, t.50, t.61.1, t.64, t.65.2, t, 66.1, t.114, t.118, t.124.1, t.131.1, t.170 
+Direct elimination: t.22.8, t.39, t.42, t.48.4, t.50, t.61.1, t.64, t.65.2, t, 66.1, t.114, t.118, t.124.1, t.131.2, t.170 
 
 Direction of the bout: t.47, t.137 
 
@@ -405,7 +405,7 @@ Forbidden (blow with guard): t.96.3, t.170
 
 Forbidden (irregular actions): t.121.2, t.170 
 
-Forbidden (leave the piste without permission): t.23.6, t.170 
+Forbidden (leave the piste without permission): t.120, t.170 
 
 Forbidden (protection or substitution of valid target at foil and sabre): t.30, t.79, t.97.2, t.170 
 
@@ -551,15 +551,15 @@ Label of safety/guarantee: t.64.1, t.68.1
 
 Lamps: t.44.4, t.47.2.f, t.54.2, t.80 
 
-Leaving piste: t.23.6, t.26.2, t.33, t.36, t.78, t.94.5, t.98, t.120, t.123, t.147, t.170, t.172; see also «Crossing limits of piste» 
+Leaving piste: t.26.2, t.33, t.36, t.78, t.94.5, t.98, t.120, t.123, t.147, t.170, t.172; see also «Crossing limits of piste» 
 
 Left-hander: t.22 
 
 Length of piste: t.18; see also «Piste» 
 
-Licence, international: t.49, t.143.4 
+Licence, international: t.143.4 
 
-Licence, refereeing: t.47, t.49.1 
+Licence, refereeing: t.47 
 
 Limits of piste: t.18, t.19.3, t.28.3, t.33, t.34, t.35, t.148 ;see «Piste», «Crossing limits of piste», «Lines on piste» 
 
@@ -643,7 +643,7 @@ Organising Committee: t.68.3, t.111, t.129, t.142, t.157
 
 Orthopaedic (handle): t.21 
 
-P-cards (Yellow, Red, Black): t.124, t.170 
+P-cards (Red, Black): t.124, t.170 
 
 Parry: t.9.2, t.11, t.14, t.78, t.86, t.89.4, t.102.3, t.105, t.106.3/4 
 
@@ -663,11 +663,11 @@ Period (direct elimination bout): t.22.7, t.39, t.40, t.42, t.48.4. t.124.1
 
 Permanent suspension: t.139, t.144.2, t.145, t.153, t.156 
 
-Permission to leave piste: t.23.6, t.170 
+Permission to leave piste: t.120, t.170 
 
 Piste: t.17-19, t.22, t.33-36, t.94, t.170; see also below, and «Crossing limits of piste», Ground gained/lost» 
 
-Piste Enclosure: t.131.3, t.132, t.170 
+Piste Enclosure: t.131.1, t.132, t.170 
 
 Piste (place nearby for instructors, trainers, technicians): t.131, t.132 
 
@@ -853,7 +853,7 @@ Team enclosure: t.132.1
 
 Tearing out of spool: t.28.3 
 
-Technician: t.56.7, t.131.1, t.152 
+Technician: t.56.7, t.131.2, t.152 
 
 Temporary suspension: t.144.2, t.145.2, t.155, 
 
@@ -913,7 +913,7 @@ Vest: see «Jacket (conductive)», «Jacket (fencing)»
 
 Veterans: t.42 
 
-Video consultant: t.49, t.50, t.61.3, t.62 
+Video-referee: t.48.5, t.49, t.50, t.61.3, t.62 
 
 Video refereeing: t.49, t.60-62 
 

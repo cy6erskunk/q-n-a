@@ -1,5 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { extractArticle, articleContentToHtml, renderExplanationHtml } from './rules.js';
+import { readFileSync } from 'fs';
+import path from 'path';
 
 // ─── extractArticle ────────────────────────────────────────
 
@@ -158,5 +160,27 @@ describe('renderExplanationHtml', () => {
         const result = renderExplanationHtml('A & B');
         expect(result).not.toContain('&amp;amp;');
         expect(result).toContain('&amp;');
+    });
+});
+
+// ─── Technical_rules.md (real data) ────────────────────────
+
+describe('extractArticle on Technical_rules.md', () => {
+    const markdown = readFileSync(
+        path.resolve(__dirname, '../docs/rules/Technical_rules.md'),
+        'utf-8',
+    );
+
+    it.each([
+        ['t.7', 'It is stressed that this section'],
+        ['t.14', 'Parries are simple, direct'],
+        ['t.71', 'If a fencer appears on the piste'],
+        ['t.72', 'When during a bout an irregularity'],
+        ['t.112', 'By the mere fact of entering'],
+    ])('extracts %s as its own article', (ref, start) => {
+        const result = extractArticle(markdown, ref);
+        expect(result).not.toBeNull();
+        expect(result.articleRef).toBe(ref);
+        expect(result.content.startsWith(start)).toBe(true);
     });
 });

@@ -594,12 +594,12 @@
       {
         "isCorrect": false,
         "text": "Yes, the fencer can be placed behind the rear line as long as they maintain correct distance.",
-        "explanation": "This is incorrect. According to rule t.22.9, competitors may not be replaced on guard, at their correct distance, if it leads a fencer to cross the rear line with both feet. [See t.22.9, t.22.10]"
+        "explanation": "This is incorrect. According to rule t.22.9, competitors may not be replaced on guard, at their correct distance, in such a way as to place behind the rear line of the piste a fencer who was in front of that line when the bout was halted. Only crossing a lateral boundary (t.22.10) allows this. [See t.22.9, t.22.10]"
       },
       {
         "isCorrect": false,
         "text": "Yes, as long as no hits were scored during the action.",
-        "explanation": "This is incorrect. Whether or not a hit is scored does not change the rule that crossing the rear line results in a point for the opponent, per t.22.9. [See t.22.9, t.22.10]"
+        "explanation": "This is incorrect. Whether or not a hit was scored is irrelevant: per t.22.9, a fencer who was in front of the rear line when the bout was halted may never be replaced on guard behind it. [See t.22.9, t.22.10]"
       },
       {
         "isCorrect": true,

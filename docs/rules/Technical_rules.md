@@ -1935,7 +1935,7 @@ This table is intended to be a convenient summary: it is not a substitute for th
 
 | 1st group | articles| 1st offence | 2nd offence | 3rd offence and subseq. |
 |---------|-------|----------|-----------|---------------------|
-| 1.1 Leaving piste without permission |t.23.6 | YELLOW | RED | RED |
+| 1.1 Leaving piste without permission |t.120 | YELLOW | RED | RED |
 | 1.2 Corps à corps to avoid being hit *| t.25.2 | YELLOW | RED | RED |
 | 1.3 Turning back on opponent *| t.27.2 | YELLOW | RED | RED |
 | 1.4 Covering/substitution of valid target *| t.29.2, t.30.1, t.79, t.97 | YELLOW | RED | RED |
