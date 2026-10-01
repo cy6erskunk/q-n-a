@@ -1,4 +1,4 @@
-Source: FIE Technical Rules, August 2026
+URL Source: https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf
 # Technical rules FIE 
 
 # BOOK 1. TECHNICAL RULES 
