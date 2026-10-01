@@ -75,7 +75,7 @@ Awarding of hit not recorded: t.41.1, t.54, t.79, t.124, t.137.2, t.144, t.148, 
 
 Back: t.21.2, t.29.3, t.30.3, t.35.1, t.74.1, t.75.1, t.77.1, t.95.1, 
 
-Back foot: t.22.8, 
+Back foot: t.22.9, 
 
 Back of blade: t.96, t.105.2 
 
@@ -163,7 +163,7 @@ Confiscating defective equipment: t.70, t.73.1
 
 Confused fencing: t.23.5, t.58, 
 
-Contact (blade): t.13.1, t.22.4, t.84.1, t.89.5, t.102.1, t.105.2, t.106.4 
+Contact (blade): t.13.1, t.22.5, t.84.1, t.89.5, t.102.1, t.105.2, t.106.4 
 
 Contact (body): t.25, t.26 
 
@@ -203,7 +203,7 @@ Criticizing referees/judges: t.109
 
 Crossing legs (sabre): t.101.5, t.170 
 
-Crossing limits of piste: t.18, t.22.9, t.26.2, t.33-36, t.147-8, t.170 
+Crossing limits of piste: t.18, t.22.10, t.26.2, t.33-36, t.147-8, t.170 
 
 Curve in blade: t.72, t.170 
 
@@ -387,7 +387,7 @@ Flèche: t.9, t.25, t.26, t.28.3, t.32, t.35.3, t.83.2, t.121.2, t.148, t.170
 
 Flexibility (blade): t.21.3, t.105.2.b 
 
-Foil: t.21.3, t.22.12, t.24, t.33.4, t.64.2, t.68.1, t.76, t.77, t.79.1, t.82, t.89, t.170 
+Foil: t.21.3, t.22.13, t.24, t.33.4, t.64.2, t.68.1, t.76, t.77, t.79.1, t.82, t.89, t.170 
 
 Follow the phrase: t.13, t.24, t.47.2.f, t.106.4.f 
 
@@ -455,7 +455,7 @@ Hits (before ‘Play!’): t.55.1
 
 Hits (brutal): t.26.1, t.121.2, t.170 
 
-Hits (after crossing the boundaries of the piste): t.22.9, t.26.2, t.28.3, t.33, t.34, t.35, t.94.5, t.147 
+Hits (after crossing the boundaries of the piste): t.22.10, t.26.2, t.28.3, t.33, t.34, t.35, t.94.5, t.147 
 
 Hits (after ‘Halt!’): t.23.3, t.55.1 
 
@@ -659,7 +659,7 @@ Penalties (table of): t.170
 
 Penalties (types): t.144, t.158, t.162 
 
-Period (direct elimination bout): t.22.7, t.39, t.40, t.42, t.48.4. t.124.1 
+Period (direct elimination bout): t.22.8, t.39, t.40, t.42, t.48.4. t.124.1 
 
 Permanent suspension: t.139, t.144.2, t.145, t.153, t.156 
 
@@ -685,7 +685,7 @@ Plug (bodywire): t.47.2.d, t. t.95.1, t.115; see also «Bodywire»
 
 Plugging in of bodywire: t. 66.2, t.115 
 
-Point in line: t.15, t.22.4, t.22.12, t.84.1/2, t.89.4/5, t.102, t.106.3/4 
+Point in line: t.15, t.22.5, t.22.13, t.84.1/2, t.89.4/5, t.102, t.106.3/4 
 
 Pointe d’arrêt (button): t.68.3, t.72 
 
@@ -769,7 +769,7 @@ Right-handed: t.22
 
 Riposte: t.9, t.11, t.13.1, t.26.2, t.85.2, t.86, t.87, t.89.5.c/f, t.103.21, t.104.2, t.105.1, 106.3.c/f 
 
-Sabre: t.21.3, t.22.12, t.24, t.33.4, t.39, t.42, t.64.4, t.96 - t.106, t.170 
+Sabre: t.21.3, t.22.13, t.24, t.33.4, t.39, t.42, t.64.4, t.96 - t.106, t.170 
 
 Safety: t.20 
 
@@ -869,7 +869,7 @@ Throwing (weapon): t.21.2
 
 Thrusting (weapons of): t.76, t.90, t.96 
 
-Time (fencing): t.8, t.12.3, t.22.7, t.37, t.38, t.40-44, t.88, t.89.3, t.103.2, t.106.2 
+Time (fencing): t.8, t.12.3, t.22.8, t.37, t.38, t.40-44, t.88, t.89.3, t.103.2, t.106.2 
 
 Time (remaining/expiry): t.43 
 
