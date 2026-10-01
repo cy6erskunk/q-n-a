@@ -2166,26 +2166,26 @@
       {
         "isCorrect": true,
         "text": "The fencer is allowed to fence as long as the under-plastron is regulation and gives sufficient protection",
-        "explanation": "The rules do not specify that the under-plastron must be specifically for left or right-handed fencers. According to technical rules t.20.2 and t.71, what matters is that the fencer has a regulation protective under-plastron. As long as the under-plastron meets the regulatory requirements and provides sufficient protection, the fencer is allowed to fence. [See t.20.2, t.71]"
+        "explanation": "The rules do not specify that the under-plastron must be specifically for left or right-handed fencers. According to technical rules t.20.1 and t.71, what matters is that the fencer has a regulation protective under-plastron. As long as the under-plastron meets the regulatory requirements and provides sufficient protection, the fencer is allowed to fence. [See t.20.1, t.71]"
       },
       {
         "isCorrect": false,
         "text": "The fencer receives a yellow card and must change the under-plastron",
-        "explanation": "This is incorrect. There is no specific rule requiring a handedness-specific under-plastron, only that it must be regulation and provide sufficient protection. [See t.20.2, t.71]"
+        "explanation": "This is incorrect. There is no specific rule requiring a handedness-specific under-plastron, only that it must be regulation and provide sufficient protection. [See t.20.1, t.71]"
       },
       {
         "isCorrect": false,
         "text": "The fencer is eliminated from the competition",
-        "explanation": "This is incorrect. There is no basis for elimination in this case, as long as the under-plastron meets regulatory requirements. [See t.20.2, t.71]"
+        "explanation": "This is incorrect. There is no basis for elimination in this case, as long as the under-plastron meets regulatory requirements. [See t.20.1, t.71]"
       },
       {
         "isCorrect": false,
         "text": "The fencer must fence without an under-plastron",
-        "explanation": "This is incorrect and dangerous. Fencing without an under-plastron would violate rule t.71, which requires fencers to have a protective under-plastron. [See t.20.2, t.71]"
+        "explanation": "This is incorrect and dangerous. Fencing without an under-plastron would violate rule t.71, which requires fencers to have a protective under-plastron. [See t.20.1, t.71]"
       }
     ],
     "quotes": {
-      "t.20.2": "Fencers arm, equip and clothe themselves and fence at their own responsibility and at their own risk.",
+      "t.20.1": "Fencers arm, equip and clothe themselves and fence at their own responsibility and at their own risk.",
       "t.71": "If a fencer appears on the piste: - with only one regulation weapon (cf. t.114, 115); or - with only one regulation bodywire; or - with only one regulation mask wire; or - with a weapon or a bodywire which does not work or which does not conform with the Rules; or - without his protective under-plastron (cf. t.64.5); or - with a conductive jacket which does not fully cover the valid target; or - with a mask whose 2nd security device is not securely fixed to the body of the mask; or - with clothing which does not conform with the Rules (control mark, size, logo, name on the jacket, etc.); the Referee will apply the penalties stipulated in Articles t.158-162, t.165, t.170, for the offences of the 1st group and the fencer should obtain a regular equipment in a time not exceeding 5 minutes."
     },
     "id": "79cd5873-ebfc-47ed-a8f2-d5ee18e0b3e6"
