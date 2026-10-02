@@ -1,4 +1,4 @@
-URL Source: https://static.fie.org/uploads/34/172615-technical%20rules%20ang.pdf
+URL Source: https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf
 # Technical rules FIE 
 
 # TABLE OF CONTENTS 
@@ -71,15 +71,15 @@ The Referee [t.46-47](Technical_rules.html#t46)
 
 Judges [t.48](Technical_rules.html#t48) 
 
-Video Consultants [t.49](Technical_rules.html#t49) 
+Video-referees [t.49](Technical_rules.html#t49) 
 
-#### Designation of referees and video consultants 
+#### Designation of referees and video-referees 
 
 Individual competitions [t.50](Technical_rules.html#t50) 
 
 Team competitions [t.51](Technical_rules.html#t51) 
 
-World Cup competitions [t.52](Technical_rules.html#t52) 
+Cadet and Junior World Cups and Satellite competitions [t.52](Technical_rules.html#t52) 
 
 #### Method of judging hits 
 
@@ -195,7 +195,7 @@ FIE - Central Office, Disciplinary Commission, Executive Committee, TAS [t.143](
 
 Classification of penalties [t.144–145](Technical_rules.html#t144) 
 
-Penalties related to fencing [t.146–149](Technical_rules.html#t146) 
+Penalties related to fencing [t.147–149](Technical_rules.html#t147) 
 
 Disciplinary penalties [t.150–156](Technical_rules.html#t150) 
 
