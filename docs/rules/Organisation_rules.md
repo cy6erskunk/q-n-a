@@ -529,7 +529,7 @@ For World Championships , this invitation must be sent to every FIE member feder
 
 ## Invitations for international officials 
 
-World Championships 
+## World Championships
 
 ### o.48
 
@@ -570,7 +570,7 @@ f) The referees designated by the Executive Committee at the proposal of the Ref
 
 ## Grands Prix, Senior and Junior World Cups, Satellites 
 
-Official invitation 
+## Official invitation
 
 ### o.51
 
@@ -770,7 +770,7 @@ The Directoire Technique must then provide for each pool round, pools of 7 and 6
 
 number of fencers of their own nationality for all the pools to consist of 7 fencers. 
 
-Composition of pools 
+## Composition of pools
 
 ### o.68
 
@@ -891,27 +891,21 @@ b) When the pool contains, among the seven fencers,
 
 - three fencers of nationality A and two fencers of nationality B , or 
 
-- three fencers of nationality A, two fencers of nationality B and two fencers of nationality 
-
-C
+- three fencers of nationality A, two fencers of nationality B and two fencers of nationality C
 
 the three fencers of nationality A must be listed 1, 2 and 3 on the pool sheet, the two fencers of nationality B, 4 and 5, and the two fencers of nationality C, 6 and 7. 
 
 The order of bouts for the pool of seven, detailed in Article o.69, is no longer valid and must be replaced by the following order: 
 
-1–2 6–2 1–4 
-
-4–5 3–4 2–7 
-
-6–7 7–5 5–3 
-
-3–1 1–6 6–4 
-
-4–7 4–2 7–1 
-
-2–3 7–3 2–5 
-
-5–1 5–6 3–6 
+```
+1–2 6–2 1–4
+4–5 3–4 2–7
+6–7 7–5 5–3
+3–1 1–6 6–4
+4–7 4–2 7–1
+2–3 7–3 2–5
+5–1 5–6 3–6
+```
 
 ### o.71
 
@@ -949,7 +943,7 @@ f) In cases of absolute equality between two or more fencers, their seeding orde
 
 3 Should there be absolute equality among the last to qualify there is no barrage, and the fencers with equal indicators are all qualified, even if they are in excess of the number decided on. 
 
-Withdrawal 
+## Withdrawal
 
 ### o.74
 
@@ -979,7 +973,7 @@ The Organizing committee of a competition must publish the direct elimination bo
 
 2 A clock, incorporated into the electrical scoring apparatus, blocks the latter at the end of each period. 
 
-Withdrawal 
+## Withdrawal
 
 ### o.79
 
@@ -987,9 +981,9 @@ Withdrawal
 
 2 A fencer who is excluded is scratched from the direct elimination table and his results are annulled as if he had not taken part. The fencer is recorded without a classification at the end of the final classification list with the information “Excluded”. Cf. t.124.3.b, t.170.
 
-Order of bouts 
+## Order of bouts
 
-### o. 80 
+### o.80 
 
 1 In each round of the direct elimination table (256, 128, 64, 32, 16, 8 or 4), the bouts are always called in the order of the bout plan , starting at the top and ending at the bottom. 
 
@@ -997,7 +991,7 @@ Order of bouts
 
 3 A fencer must always be allowed a rest period of ten minutes between two consecutive bouts. 
 
-The final 
+## The final
 
 ### o.81
 
@@ -1005,7 +999,7 @@ The final
 
 2 The finals of both women’s and men’s events at the same weapon should preferably be held on the same day. 
 
-Classification 
+## Classification
 
 ### o.82
 
@@ -1031,7 +1025,7 @@ round and they are placed after those who qualified for the direct elimination.
 
 # C. MIXED FORMULA A. SENIOR WORLD CHAMPIONSHIPS, SENIOR WORLD CUPS AND GRAND PRIX 
 
-Mixed formula A 
+## Mixed formula A
 
 ### o.83
 
@@ -1107,7 +1101,7 @@ There will be no bout for the third place. The two fencers who lose the semi-fin
 
 # AND JUNIOR WORLD CUP COMPETITIONS AND ZONAL CHAMPIONSHIPS. 
 
-Mixed Formula B 
+## Mixed Formula B
 
 ### o.89
 
@@ -1343,7 +1337,7 @@ An anti-doping test must be carried out at all official competitions of the FIE 
 
 # RANKING 
 
-Official FIE individual ranking 
+## Official FIE individual ranking
 
 ### o.108
 
@@ -1494,11 +1488,11 @@ If there is still equality, the winner will be the one which has won the most br
 
 If there is still equality, both nations are declared winners, and both will receive the Grand Prix des nations. 
 
-PART E - VETERANS 
+## PART E - VETERANS
 
-BODIES RESPONSIBLE FOR ORGANISATION AND CONTROL 
+## BODIES RESPONSIBLE FOR ORGANISATION AND CONTROL
 
-Organising Committee Veterans 
+## Organising Committee Veterans
 
 ### o.111 
 
@@ -1514,7 +1508,7 @@ Two Refereeing delegates, one SEMI delegate and two Medical delegates must be th
 
 For the Veteran World Championships, of the 5 designated delegates there must be at least one of each gender, if the availability of the delegates and continental representation allow it. 
 
-Refereeing 
+## Refereeing
 
 ### o.113 
 
@@ -1522,7 +1516,7 @@ Refereeing at Veteran World Championships is carried out by referees appointed b
 
 Referees must attend the refereeing meeting that takes place the day before the World Championships. 
 
-AGE OF PARTICIPANTS 
+## AGE OF PARTICIPANTS
 
 ### o.114
 
@@ -1546,11 +1540,11 @@ d) Age group 70+: Must be at least 70 years old in the year of the competition.
 
 Application : during the test at the 2025 World Championships (not applicable in 2023 and 2024).
 
-Pre-competition procedures 
+## Pre-competition procedures
 
-PROGRAMMING 
+## PROGRAMMING
 
-VETERANS WORLD CHAMPIONSHIPS 
+## VETERANS WORLD CHAMPIONSHIPS
 
 ### o.115
 
@@ -1568,11 +1562,11 @@ VETERANS WORLD CHAMPIONSHIPS
 
 Application: during the test at the 2025 World Championships (not applicable in 2023 and 2024). 
 
-INVITATIONS 
+## INVITATIONS
 
-Invitation to international officials 
+## Invitation to international officials
 
-Veterans 
+## Veterans
 
 ### o.116
 
@@ -1594,11 +1588,11 @@ f) The referees appointed by the Executive Committee of the FIE.
 
 The officials a) to e) should preferably be selected from the Zone in which the Championships are being held. 
 
-ENTRIES 
+## ENTRIES
 
-Veterans World Championships 
+## Veterans World Championships
 
-Entries for competitions 
+## Entries for competitions
 
 ### o.117
 
@@ -1624,9 +1618,9 @@ From the Wednesday preceding the competition until 12 noon (local time) on the d
 
 6 The organisers of all official competitions must, at risk of a penalty of a fine payable to the FIE (cf o.31, table of financial penalties and fines), refuse any entry of either fencer or referee not in possession of an FIE license valid for the current season. 
 
-PROCEDURES DURING COMPETITIONS 
+## PROCEDURES DURING COMPETITIONS
 
-Composition of the pools for the individual Veterans championships 
+## Composition of the pools for the individual Veterans championships
 
 ### o.118
 

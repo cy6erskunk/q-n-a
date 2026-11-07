@@ -33,12 +33,16 @@ export function extractArticle(markdown, articleRef) {
 // Pattern that matches rule article numbers (e.g. t.38, o.99.5, t.38.2.b)
 const ARTICLE_REF_RE = /\b([ot]\.\d+(?:\.\d+)*(?:\.[a-z])?)\b/g;
 
-// Escape HTML and process inline markdown (bold, italic, article refs).
-function processInline(text) {
+function escapeHtml(text) {
     return text
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
+        .replace(/>/g, '&gt;');
+}
+
+// Escape HTML and process inline markdown (bold, italic, article refs).
+function processInline(text) {
+    return escapeHtml(text)
         .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.+?)\*/g, '<em>$1</em>')
         .replace(ARTICLE_REF_RE, '<button class="rule-ref" data-article="$1">$1</button>');
@@ -89,6 +93,8 @@ export function articleContentToHtml(text) {
         .filter(Boolean)
         .map(para => {
             if (isTable(para)) return tableToHtml(para);
+            const fence = /^```[^\n]*\n([\s\S]*?)\n```$/.exec(para);
+            if (fence) return `<pre class="rule-pre">${escapeHtml(fence[1])}</pre>`;
             return `<p>${processInline(para).replace(/\n/g, '<br>')}</p>`;
         })
         .join('');

@@ -47,21 +47,21 @@ In competition, the fencer's salute is a gesture of civility towards the opponen
 
 …
 
-EXPLANATION OF SOME TECHNICAL TERMS MOST COMMONLY USED IN THE JUDGING OF FENCING 
+## EXPLANATION OF SOME TECHNICAL TERMS MOST COMMONLY USED IN THE JUDGING OF FENCING
 
-Preamble 
+## Preamble
 
 ### t.7 
 
 It is stressed that this section in no way replaces a treatise on fencing and is only included in order to help the reader understand the rules. 
 
-Fencing time 
+## Fencing time
 
 ### t.8 
 
 Fencing time is the time required to perform one simple fencing action. 
 
-Offensive and defensive actions 
+## Offensive and defensive actions
 
 ### t.9 
 
@@ -79,11 +79,11 @@ Definition:
 
 - The parry is the defensive action made with the weapon to prevent an offensive action arriving. 
 
-Explanation: 
+## Explanation
 
-Offensive actions: 
+## Offensive actions
 
-The attack 
+## The attack
 
 ### t.10 
 
@@ -95,7 +95,7 @@ The action is simple when it is executed in one movement and is
 
 The action is compound when it is executed in several movements. 
 
-The riposte 
+## The riposte
 
 ### t.11
 
@@ -119,7 +119,7 @@ The riposte may be immediate or delayed , depending on what action takes place a
 
 - Riposte with a one–two : a riposte which hits the opponent in the same line as that in which the parry was formed but after the blade has first been into the opposite line, by passing under the opponent’s blade. 
 
-Counter-attacks 
+## Counter-attacks
 
 ### t.12
 
@@ -131,7 +131,7 @@ Counter-attacks are offensive or offensive–defensive actions made during the o
 
 3 The stop hit made within a period of fencing time , i.e. ‘in time’ (cf. t.88, t.105).
 
-Other offensive actions 
+## Other offensive actions
 
 ### t.13 
 
@@ -151,7 +151,7 @@ A new attack executed immediately after a return to the on-guard position .
 
 Any action made by the attacker against a stop hit made by his opponent. 
 
-Defensive actions 
+## Defensive actions
 
 ### t.14 
 
@@ -159,7 +159,7 @@ Parries are simple, direct, when they are made in the same line as the attack.
 
 They are circular ( counter-parries) when they are made in the opposite line to that of the attack. 
 
-The point in line position 
+## The point in line position
 
 ### t.15 
 
@@ -205,7 +205,7 @@ Five lines should be drawn very clearly on the piste at right angles to its leng
 
 ## THE FENCER’S EQUIPMENT (Weapons — Equipment — Clothing) 
 
-Responsibility of fencers 
+## Responsibility of fencers
 
 ### t.20 
 
@@ -225,7 +225,7 @@ The Supervisor of the competition or a member of the Directoire Technique must p
 
 ## FENCING 
 
-Method of holding the weapon 
+## Method of holding the weapon
 
 ### t.21
 
@@ -241,7 +241,7 @@ to back during an offensive action.
 
 4 The weapon must be used with one hand only ; a fencer may not change hands before the end of the bout, unless the Referee gives special permission in the case of injury to the hand or arm. 
 
-Coming on guard and placing of the fencers 
+## Coming on guard and placing of the fencers
 
 ### t.22 
 
@@ -271,7 +271,7 @@ Coming on guard and placing of the fencers
 
 13 At foil and sabre fencers may not come on guard in the ‘in line’ position. 
 
-Beginning, stopping and restarting the bout 
+## Beginning, stopping and restarting the bout
 
 ### t.23 
 
@@ -287,13 +287,13 @@ Beginning, stopping and restarting the bout
 
 contrary to the Rules , if one of the competitors is disarmed or steps off the piste (cf. t.33, t.58). 
 
-Fencing at close quarters 
+## Fencing at close quarters
 
 ### t.24 
 
 Fencing at close quarters is allowed so long as the competitors can wield their weapons correctly and the Referee can, at foil and sabre, follow the phrase. 
 
-Corps à corps 
+## Corps à corps
 
 ### t.25 
 
@@ -305,7 +305,7 @@ to avoid being hit, or to jostle his opponent. Should such an offence occur, the
 
 3 A fencer who either by a flèche attack or by advancing vigorously brings about a corps à corps even several times in succession (without brutality or violence ) does not transgress the basic conventions of fencing and commits no fault thereby (cf. t.32). 
 
-Corps à corps and fleche attacks 
+## Corps à corps and fleche attacks
 
 ### t.26 
 
@@ -313,7 +313,7 @@ Corps à corps and fleche attacks
 
 2 On the other hand the ‘ flèche which is made by running, even going past the opponent’, and without a corps à corps , is not forbidden: the Referee should not call ‘Halt!’ too soon, in order not to annul a possible riposte; if, when making such a running flèche without hitting his opponent, the fencer who makes the flèche crosses the lateral boundaries of the piste, he must be punished as laid down in Article t.35.3.
 
-Displacing the target and passing the opponent 
+## Displacing the target and passing the opponent
 
 ### t.27 
 
@@ -329,7 +329,7 @@ Displacing the target and passing the opponent
 
 3 If during a bout a fencer who has made a flèche attack has a hit registered against him and he continues to run beyond the extreme limit of the piste sufficiently far to cause his spool or the connecting line to his spool to be torn out , the hit which he has received will not be annulled (cf. t.147). 
 
-Substitution and use of the non-sword hand and arm 
+## Substitution and use of the non-sword hand and arm
 
 ### t.29 
 
@@ -347,7 +347,7 @@ Substitution and use of the non-sword hand and arm
 
 3 The Referee may also make the fencers change places so that the fencer committing this fault does not have his back to the Referee. 
 
-Ground gained or lost 
+## Ground gained or lost
 
 ### t.31
 
@@ -359,9 +359,9 @@ to keep fencing distance (cf. t.22.3/4).
 
 However, if the bout has been stopped on account of corps à corps , the fencers are replaced on guard in such a position that the competitor who has sustained the corps à corps is at the place which he previously occupied; this also applies if his opponent has subjected him to a flèche attack, even without corps à corps. 
 
-Crossing the limits of the piste 
+## Crossing the limits of the piste
 
-Stopping the bout 
+## Stopping the bout
 
 ### t.33 
 
@@ -373,13 +373,13 @@ Stopping the bout
 
 4 If one of the competitors leaves the piste with both feet , only a hit made by the fencer who remains on the piste with at least one foot, and at epee only, can be counted valid, even in the case of a double hit. For foil and sabre the convention must be applied. 
 
-Rear limits 
+## Rear limits
 
 ### t.34
 
 Should a competitor cross the rear limit of the piste completely- i.e. with both feet — a hit will be scored against him. 
 
-Lateral boundaries 
+## Lateral boundaries
 
 ### t.35 
 
@@ -389,13 +389,13 @@ Lateral boundaries
 
 3 A competitor who crosses one of the lateral boundaries of the piste with both feet — e.g. when making a flèche — to avoid being hit will be penalised as specified in Articles t.158-162, t.165, t.170, for the offences of the 1st group. Any hit made by the offending fencer is annulled. 
 
-Leaving the piste accidentally 
+## Leaving the piste accidentally
 
 ### t.36 
 
 A competitor who involuntarily crosses one of the boundaries of the piste as the result of any accidental cause (such as jostling) incurs no penalty whatever. 
 
-Duration of the bout 
+## Duration of the bout
 
 ### t.37 
 
@@ -447,7 +447,7 @@ c) In this case the score registered on the score-sheet is always the actual sco
 
 4 In this case the score recorded on the score-sheet is the real score achieved in the bout. 
 
-Team competitions 
+## Team competitions
 
 ### t.41 
 
@@ -465,13 +465,13 @@ The next two opponents fence until one or both* of their scores has reached ten 
 
 5 If at the end of regulation time for the last bout the scores are equal , the match continues for a deciding hit, with a maximum time limit of one minute, fought for by the fencers of the last bout in the match. Before the fencing recommences the Referee draws lots to decide who will be the winner if scores are still equal at the end of the extra minute. 
 
-Veterans 
+## Veterans
 
 ### t.42 
 
 The direct elimination bouts are for 10 hits or end when two periods of three minutes, with one minute rest between the periods, have passed. As an exception, at sabre, the first period ends either at the expiry of the three minutes or when one of the fencers has scored five hits. 
 
-Timing 
+## Timing
 
 ### t.43 
 
@@ -491,9 +491,7 @@ failure of the clock , the Referee must himself estimate how much fencing time i
 
 4 When wireless apparatus is used, no hits registered after the end of fencing time will be awarded even if a lamp is showing on the wireless apparatus. 
 
-Injuries and other medical reason , withdrawal of a competitor 
-
-Injuries or other medical reason , withdrawal of a competitor 
+## Injuries or other medical reason, withdrawal of a competitor
 
 ### t.45 
 
@@ -523,7 +521,7 @@ All breaks for a medical reason must be noted on the score-sheet for the bout, t
 
 2 Referees may not combine their function with any other activity during the tournament, such as member of the Directoire Technique, team captain, official delegate of their national federation, trainer, etc. 
 
-Referees 
+## Referees
 
 ### t.47 
 
@@ -553,7 +551,7 @@ j) Whenever necessary, the Referee should consult the experts concerning the ele
 
 k) The Referee must also supervise the state of the conductive piste and not allow the bout to commence or to continue if the conductive piste has holes in it which might affect the proper registering of hits. 
 
-Judges 
+## Judges
 
 ### t.48 
 
@@ -567,7 +565,7 @@ Judges
 
 5 Judges must be of a different nationality from the fencers, main referee and video-referee on the piste. 
 
-Video-referees 
+## Video-referees
 
 ### t.49
 
@@ -581,9 +579,9 @@ The video-referee must:
 
 3. be of a different nationality from the judges. 
 
-Designations of referees and video-referees 
+## Designations of referees and video-referees
 
-Individual competitions 
+## Individual competitions
 
 ### t.50 
 
@@ -613,21 +611,21 @@ As soon as the two semi-finals are over, the Refereeing Delegates will establish
 
 7 In conformity with articles t.50.2 and t.50.3, the designation of the video-referee must be made by drawing lots using a computer programme. The name and nationality of the video-referee must also be written on the pool or match sheet, beside those of the referee. 
 
-Team Competitions 
+## Team Competitions
 
 ### t.51
 
 The same rules as those in article t.50, 3, 4, 5, 6 and 7 are applied to the team competitions. 
 
-Cadet and Junior World Cups and Satellite competitions 
+## Cadet and Junior World Cups and Satellite competitions
 
 ### t.52
 
 The Rules described in t.50 and t.51 should be applied if the number of referees allows it. 
 
-Method of judging hits 
+## Method of judging hits
 
-Materiality of the hit 
+## Materiality of the hit
 
 ### t.53 
 
@@ -643,7 +641,7 @@ and when necessary by consulting the judges (cf. t.48).
 
 3 On the other hand, the Referee should, in the cases enumerated for each weapon, annul a hit registered by the apparatus (cf. t.80ss, t.94ss, t.99). 
 
-Annulment of a hit 
+## Annulment of a hit
 
 ### t.55 
 
@@ -693,7 +691,7 @@ doubtful and annulled.
 
 In accordance with the general rules ( cf. t.23.5 ) the Referee must stop the bout , even if no hit is registered by the apparatus, whenever the play becomes confused and he is no longer able to analyse the phrase. 
 
-Validity or priority of the hit 
+## Validity or priority of the hit
 
 ### t.59 
 
@@ -701,7 +699,7 @@ Validity or priority of the hit
 
 2 After reaching his decision regarding the materiality of a hit, the Referee, by applying the rules , decides which fencer was hit, whether both were hit (épée), or whether there was no valid hit ( cf. t.82ss, t.92, t.100 )
 
-Appeals for Video Refereeing 
+## Appeals for Video Refereeing
 
 ### t.60
 
@@ -751,7 +749,7 @@ the decision given by the referee is final and no other review of the same actio
 
 The Referee must use the following signals :
 
-Regulation equipment and checking of equipment by the referee 
+## Regulation equipment and checking of equipment by the referee
 
 ### t.64 
 
@@ -803,7 +801,7 @@ In addition to the checks mentioned above , the Referee of a bout may at any tim
 
 At the beginning of the bout the Referee will place the reserve equipment that has been checked near the appropriate end of the piste for the fencer concerned. 
 
-Non-regulation equipment 
+## Non-regulation equipment
 
 ### t.70 
 
@@ -905,7 +903,7 @@ If this is not done and except in cases of 'force majeure' the referee will elim
 
 # THE CONVENTIONS OF FENCING 
 
-METHOD OF MAKING A HIT 
+## METHOD OF MAKING A HIT
 
 ### t.76 
 
@@ -913,9 +911,9 @@ METHOD OF MAKING A HIT
 
 2 Pushing or letting drag the point of the electric weapon on the electric piste is forbidden during the actual bout (between ‘Play!’ and ‘Halt!’). Placing the weapon on the piste at any time to straighten it is also forbidden. Any breaking of these rules will be punished according to Articles t.158-162, t.165, t.170, for the offences of the 1st group. 
 
-TARGET 
+## TARGET
 
-Limitation of the target 
+## Limitation of the target
 
 ### t.77 
 
@@ -927,13 +925,13 @@ Figure 4 Valid target at foil
 
 > This diagram is for guidance purposes only . In case of any doubt the wording of the appropriate text takes precedence
 
-Hits off the target 
+## Hits off the target
 
 ### t.78
 
 A hit which is made on a part of the body other than the target (whether directly or as a result of a parry) or which arrives following a fencing fault or after going over the lateral boundary of the piste with both feet, is not counted as a valid hit, but stops the fencing phrase and annuls any subsequent hit. (cf t.79 ). 
 
-Extension of the valid target 
+## Extension of the valid target
 
 ### t.79 
 
@@ -947,7 +945,7 @@ c) However, hits which arrive off the target are counted as valid whenever, by r
 
 2 The referee may question the judges but he alone must decide whether or not the hit is valid. 
 
-ANNULMENT OF A HIT 
+## ANNULMENT OF A HIT
 
 ### t.80 
 
@@ -969,15 +967,15 @@ does not remain recorded on the apparatus.
 
 On the other hand, when the Referee has decided that a hit made by a competitor has priority, this hit shall not be annulled if subsequently it is found that a valid hit made by the opponent is registered as non-valid or that the weapon of the fencer against whom the hit was awarded is permanently registering a non-valid hit. 
 
-VALIDITY OR PRIORITY OF THE HIT 
+## VALIDITY OR PRIORITY OF THE HIT
 
-Preface 
+## Preface
 
 ### t.82 
 
 The Referee alone decides as to the validity or the priority of the hit by applying the following basic rules which are the conventions applicable to foil fencing. 
 
-Respect of the fencing phrase 
+## Respect of the fencing phrase
 
 ### t.83 
 
@@ -1023,7 +1021,7 @@ When a compound attack is made, if the opponent finds the blade during one of th
 
 When compound attacks are made, the opponent has the right to stop-hit ; but to be valid the stop hit must precede the conclusion of the attack by an interval of fencing time; that is to say that the stop hit must arrive before the attacker has begun the final movement of the attack. 
 
-JUDGING OF HITS 
+## JUDGING OF HITS
 
 ### t.89
 
@@ -1071,7 +1069,7 @@ parried and his opponent has made a riposte which is immediate , simple, and exe
 
 # THE CONVENTIONS OF FENCING 
 
-METHOD OF MAKING A HIT 
+## METHOD OF MAKING A HIT
 
 ### t.90 
 
@@ -1083,7 +1081,7 @@ straighten it is also forbidden.
 
 Any breaking of this rule will be penalised according to Articles t.158-162, t.165, t.170, for the offences of the 1st group. 
 
-THE TARGET 
+## THE TARGET
 
 ### t.91
 
@@ -1095,7 +1093,7 @@ Figure 5 Valid target at épée
 
 > This diagram is for guidance purposes only. In case of any doubt the wording of the appropriate text takes precedence.
 
-JUDGING OF HITS 
+## JUDGING OF HITS
 
 ### t.92
 
@@ -1103,7 +1101,7 @@ When both competitors are hit, and the apparatus registers both these hits as va
 
 double hit , that is to say a hit is scored against each competitor. 
 
-The annulment of hits 
+## The annulment of hits
 
 ### t.93
 
@@ -1151,7 +1149,7 @@ However, if the safety device prescribed by Article m.55.4 is missing or not fun
 
 # THE CONVENTIONS OF FENCING 
 
-METHOD OF MAKING A HIT 
+## METHOD OF MAKING A HIT
 
 ### t.96 
 
@@ -1165,7 +1163,7 @@ METHOD OF MAKING A HIT
 
 5 Placing the weapon on the piste at any time to straighten it is forbidden. Any breaking of this rule will be punished according to Articles t. 158-163, t.165, t.170, for the offences of the 1st group. 
 
-THE TARGET 
+## THE TARGET
 
 ### t.97 
 
@@ -1185,9 +1183,9 @@ Figure 6 Valid target at sabre
 
 > This diagram is for guidance purposes only . In case of any doubt the wording of the appropriate text takes precedence.
 
-JUDGING OF HITS 
+## JUDGING OF HITS
 
-MATERIALITY AND ANNULMENT OF HITS 
+## MATERIALITY AND ANNULMENT OF HITS
 
 ### t.99 
 
@@ -1203,15 +1201,15 @@ MATERIALITY AND ANNULMENT OF HITS
 
 (insulation of the interior and exterior of the guard, of the handle and of the pommel), there will be no annulment, even if a hit on the weapon causes a signal to register. 
 
-VALIDITY OR PRIORITY OF THE HIT 
+## VALIDITY OR PRIORITY OF THE HIT
 
-Preface 
+## Preface
 
 ### t.100 
 
 The Referee alone decides as to the validity or the priority of the hit by applying the following basic rules which are the conventions applicable to sabre fencing. 
 
-Respect of the fencing phrase 
+## Respect of the fencing phrase
 
 ### t.101 
 
@@ -1275,7 +1273,7 @@ a) The parry is properly carried out when, before the completion of the attack, 
 
 b) When a parry is properly executed, the attack by the opponent must be declared parried, and judged as such by the Referee, even if, as a result of its flexibility , the tip of the opponent’s weapon makes contact with the target. 
 
-Judging of hits 
+## Judging of hits
 
 ### t.106 
 
@@ -1325,7 +1323,7 @@ which has been followed by a riposte which is immediate, simple and executed in 
 
 ## APPLICATION 
 
-Persons subject to these rules 
+## Persons subject to these rules
 
 ### t.107 
 
@@ -1335,7 +1333,7 @@ fencing competition , including the spectators. (cf. t.109, t.110, t.133)
 
 2 In the following articles, all these persons are referred to as fencers .
 
-Order and discipline 
+## Order and discipline
 
 ### t.108 
 
@@ -1361,15 +1359,15 @@ Any breach of these rules will be punished as laid down in Articles t.158-162, t
 
 The Referee and/or the Directoire Technique, on their own authority or at the request of an official delegate of the FIE or of the Organising Committee, can decide to expel from the competition venue, with or without a warning, any person who by his/her gestures, attitude , or language or by breaching the FIE Safeguarding Policy disturbs the good order or smooth running of the event. 
 
-The competitors 
+## The competitors
 
-Pledge of honour 
+## Pledge of honour
 
 ### t.112 
 
 By the mere fact of entering a fencing competition, the fencers pledge their honour to observe the Rules and the decisions of the officials, to be respectful towards the referees and judges and scrupulously to obey the orders and injunctions of the Referee (cf.t. 158-163, t.169, t.170 ). 
 
-Refusing to fence an opponent 
+## Refusing to fence an opponent
 
 ### t.113 
 
@@ -1377,7 +1375,7 @@ Refusing to fence an opponent
 
 2 The FIE shall consider whether there are grounds, and to what extent, for taking sanctions against the national federation to which the disqualified competitor belongs (cf. FIE Statutes 1.2.4 and Rules Article t.170 ).
 
-Presence on time 
+## Presence on time
 
 ### t.114
 
@@ -1441,7 +1439,7 @@ c. A third and last call will be made, one minute after the second call, followe
 
 The Referee may not allow a fencer to leave the piste, except in exceptional circumstances. If a competitor does so without permission he will be penalised as specified in Articles t.158-162, t.165, t.170, for the offences of the 1st group.
 
-Fencing etiquette 
+## Fencing etiquette
 
 ### t.121 
 
@@ -1459,13 +1457,13 @@ The two fencers then perform the fencer's salute (cf. t.1) to their opponent, to
 
 If either or both of the two fencers refuse to comply with these rules, the Referee will penalise him/them as specified for offences of the 4 th group (cf. t.158-162, t.169, t.170). 
 
-APPLICATION: current and from the 2026-2027 season 
-
 ### t.123 
+
+*APPLICATION: current and from the 2026-2027 season*
 
 During or after a bout , even if the fencer has already left the piste, any act against the spirit of sportsmanship such as violently or dangerously throwing one’s mask or any other piece of equipment will be penalised as specified in article t.169 (c.f. t.108.1, 2 and t.109), for the offences of the 4th group . 
 
-Unwillingness to fight (Non-combativity) 
+## Unwillingness to fight (Non-combativity)
 
 ### t.124 
 
@@ -1531,13 +1529,13 @@ At the end of a team match, the Referee must bring together the two teams, to an
 
 Fencers must present in either national uniform (m.25) or national tracksuit. Fencers must not present on piste in a state of undress. 
 
-Personal effort 
+## Personal effort
 
 ### t.128
 
 Competitors must fence to their utmost ability in a sportsmanlike manner until the end of the competition in order to obtain the best possible classification, without giving away hits or seeking to be favoured by being given hits by anyone (cf. t.158-162, t.169, t.170 ). Any infringement will be sanctioned for the offences of the 4th group. 
 
-The team manager 
+## The team manager
 
 ### t.129
 
@@ -1545,7 +1543,7 @@ In all competitions, all competitors of the same nationality must be under the d
 
 team manager (who may or may not fence), who is responsible to the Directoire Technique or the Organising Committee for the discipline, conduct, and sportsmanship of the members of his team. 
 
-The team captain 
+## The team captain
 
 ### t.130
 
@@ -1555,7 +1553,7 @@ The procedure for claims is set out in articles t.172-175.
 
 The members of the team who have scrupulously abided by his decisions may not be held responsible by the relevant authorities. However, they are personally responsible for any actions they commit for which their team captain has not taken authority and for any offence committed by them in violation of the present Rules. 
 
-The instructors, trainers and technicians 
+## The instructors, trainers and technicians
 
 ### t.131 
 
@@ -1581,7 +1579,7 @@ Only the team captain and one coach have the right to be with the team fencers i
 
 2 During team competitions, no one has the right to enter the Piste Enclosure without the Referee’s permission. In the case of such an offence, the Referee will penalise the offending team as provided for in Articles t.158-162, t.165, t.170 . A warning imposed on a team is valid for the complete team match. Should a fencer, within the same match, commit another offence from the First Group, the Referee will penalise him on each occasion with a Red Card. 
 
-The spectators 
+## The spectators
 
 ### t.133
 Spectators are obliged not to interfere with the good order of a competition, to do nothing which may tend to influence the fencers or the Referee, and to respect the decisions of the latter even when they do not agree with them. They must obey any instructions which the Referee may deem it necessary to give them (cf . t.109-110, t.167-168, t.170 , penalties for the offences of the 3rd group). 
@@ -1590,12 +1588,12 @@ Spectators are obliged not to interfere with the good order of a competition, to
 
 ## THE DISCIPLINARY AUTHORITIES AND THEIR COMPETENCE 
 
-Preamble 
+## Preamble
 
 ### t.134
 The following articles only regulate discipline at competition venues. Depending on the gravity of the offences established, they do not exclude the application of the Disciplinary Code of the FIE (Chapter VII of the Statutes of the FIE) which completes or, if the case arises, takes priority over the following articles. 
 
-Jurisdictional bodies 
+## Jurisdictional bodies
 
 ### t.135
 
@@ -1621,7 +1619,7 @@ The following are the competent disciplinary authorities:
 
 See also Disciplinary Rules of the FIE (Chapter VII of the FIE Statutes). 
 
-Principle of jurisdiction 
+## Principle of jurisdiction
 
 ### t.136 
 
@@ -1631,7 +1629,7 @@ Principle of jurisdiction
 
 3 An appeal against a decision only suspends that decision when it can be judged immediately. 
 
-The Referee 
+## The Referee
 
 ### t.137 
 
@@ -1649,7 +1647,7 @@ penalise the competitors, either by refusing to award a hit which they have in f
 
 The Refereeing Commission delegate or the Supervisor (if there is no delegate) is the authority competent to deal with appeals against the decisions of the Referee. 
 
-The Directoire Technique at official FIE competitions (cf. o.15 – o.22) 
+## The Directoire Technique at official FIE competitions (cf. o.15 – o.22)
 
 ### t.139 
 
@@ -1675,13 +1673,13 @@ All the decisions of the Directoire Technique, the refereeing delegates or the s
 
 immediately enforceable . No appeal against a decision can suspend that decision during the competition. 
 
-The Executive Committee of the IOC at the Olympic Games 
+## The Executive Committee of the IOC at the Olympic Games
 
 ### t.142
 
 The Executive Committee of the International Olympic Committee (IOC) is the final arbiter for all disputes of a non-technical nature which may arise during the Olympic Games. It may intervene either on its own responsibility, or at the request of a National Olympic Committee, the FIE or the Organising Committee. 
 
-FIE Central Office, Disciplinary Commission, Executive Committee, Sports Arbitration Tribunal 
+## FIE Central Office, Disciplinary Commission, Executive Committee, Sports Arbitration Tribunal
 
 ### t.143 
 
@@ -1701,7 +1699,7 @@ See the Disciplinary Code of the FIE (Chapter VII of the FIE Statutes).
 
 ## PENALTIES 
 
-Classification of penalties 
+## Classification of penalties
 
 ### t.144
 
@@ -1745,25 +1743,25 @@ There are distinct categories of penalty applicable to different sorts of offenc
 
 See the Disciplinary Code of the FIE (Chapter VII of the FIE Statutes). 
 
-Penalties related to fencing 
+## Penalties related to fencing
 
 ### t.146 
 
 …………………… 
 
-Refusal to award a hit actually made 
+## Refusal to award a hit actually made
 
 ### t.147 
 
 Although a competitor may in fact have hit his opponent on the target, this hit may be disallowed , either because it did not arrive during the period of time during which fencing is allowed, or because the competitor had crossed the boundaries of the piste, or because of defects in the electrical equipment, or because violence was involved in the making of the hit, or because of other reasons as laid down in the Rules (according to the Technical Rules). 
 
-Award of a hit which has not in fact been received 
+## Award of a hit which has not in fact been received
 
 ### t.148
 
 A competitor may have a hit awarded against him which he has not in fact received, either because he has crossed the rear limit of the piste (cf. t.34 ), or because he has committed an offence which has prevented his opponent fencing (a flèche attack which jostles the opponent, the use of the unarmed hand while fencing, etc.) according to the Technical Rules. 
 
-Exclusion 
+## Exclusion
 
 ### t.149 
 
@@ -1771,9 +1769,9 @@ Exclusion
 
 2 A competitor who is excluded from a competition may not continue to take part in that competition, even if he is already qualified for promotion to the next round. He loses the right to his individual classification and all the fencers ranked after the disqualified fencer move up one place in the results of the competition. If necessary the two third places are decided according to their ranking for the composition of the table. Under all circumstances, only fencers who have actually received points in the competition can move up a place in the competition’s results. 
 
-DISCIPLINARY PENALTIES 
+## DISCIPLINARY PENALTIES
 
-Exclusion from the competition 
+## Exclusion from the competition
 
 ### t.150 
 
@@ -1781,7 +1779,7 @@ Exclusion from the competition
 
 2 The consequences of such exclusion for the competitor are the same as those described in Article t.149 above. 
 
-Expulsion from the venue of the competition or the tournament 
+## Expulsion from the venue of the competition or the tournament
 
 ### t.151 
 
@@ -1793,7 +1791,7 @@ Expulsion from the venue of the competition or the tournament
 
 All participants or non-competitors who participate in or are present at a competition (instructors, trainers, technicians, supporters, officials, spectators) may be expelled . Such expulsion has the effect of forbidding them access to the venue for the duration of the competition or tournament (cf. t.133, t.137.3, t.170 ). In no circumstances can the imposition of this penalty give cause for redress to anyone. 
 
-Disqualification 
+## Disqualification
 
 ### t.153 
 
@@ -1803,13 +1801,13 @@ Disqualification
 
 3 The consequences of disqualification are the same as those for exclusion from the competition (see Article t.149). 
 
-Censure 
+## Censure
 
 ### t.154
 
 In cases where a more severe disciplinary sanction is not justified, the fencer or the official may be sanctioned by censure .
 
-Temporary suspension 
+## Temporary suspension
 
 ### t.155 
 
@@ -1817,13 +1815,13 @@ Temporary suspension
 
 2 All other persons who are suspended are debarred from exercising their functions within the limits of time and place fixed when the suspension is imposed. 
 
-Permanent suspension 
+## Permanent suspension
 
 ### t.156
 
 Permanent suspension involves the same consequences as suspension, but is permanent. 
 
-ANNOUNCEMENT OF PENALTIES 
+## ANNOUNCEMENT OF PENALTIES
 
 ### t.157 
 
@@ -1837,7 +1835,7 @@ penalties applied during the competition and their reasons (cf. t.139.4 ).
 
 ## THE PENALTIES AND THE COMPETENT JURIDICAL AUTHORITIES 
 
-The types (groups) of penalty 
+## The types (groups) of penalty
 
 ### t.158
 
@@ -1873,7 +1871,7 @@ BLACK CARD , depending on the nature of the second offence (cf . t.170 ).
 
 All warnings ( YELLOW CARDS ), penalty hits ( RED CARDS ) and exclusions ( BLACK CARDS ) must be noted on the score-sheet of the bout, the pool or the match, together with the group to which they belong. 
 
-Competence 
+## Competence
 
 ### t.164
 
@@ -1881,19 +1879,19 @@ The offences and their penalties which appear in different articles of the Rules
 
 t.165–t.169 ). All these penalties are within the competence of the Referee , although the Directoire Technique still retains the right to intervene on its own initiative (cf. t.139.1–3 ). 
 
-The First Group of offences 
+## The First Group of offences
 
 ### t.165 
 
 The first infringement in this First Group is penalised by a YELLOW CARD (warning). If during the same bout the fencer commits the same or a different offence in this group the Referee penalises him on each occasion, with a RED CARD (penalty hit). If the fencer at fault has already been penalised by a RED CARD because of an offence listed in the Second or Third Group, he receives a further RED CARD for his first infringement relating to the First Group. 
 
-The Second Group of offences 
+## The Second Group of offences
 
 ### t.166 
 
 Every offence in the Second Group, including the first infringement, is penalised by a RED CARD (penalty hit). 
 
-The Third Group of offences 
+## The Third Group of offences
 
 ### t.167 
 
@@ -1911,7 +1909,7 @@ Any person not on the piste who disturbs the good order of the competition recei
 
 3 In the most serious cases concerning disturbance either on or off the piste, the Referee may exclude or expel the person at fault immediately .
 
-The Fourth Group of Offences 
+## The Fourth Group of Offences
 
 ### t.169 
 
@@ -1919,7 +1917,7 @@ The Fourth Group of Offences
 
 2 Furthermore any black card awarded at a competition of the FIE or at a competition organized by any Confederation which has subscribed to the FIE disciplinary code shall be reported within 10 days to the President of the FIE, for him to assess whether the severity of the offence committed warrants the sending of the report made by the FIE supervisor or by the Directoire Technique to the president of the Legal Commission, requesting him to establish a Disciplinary Tribunal to determine if penalties in addition to those imposed at the competition should be imposed. 
 
-### Offences and penalties 
+## Schedule of offences and penalties
 
 ### t.170 
 
@@ -1997,15 +1995,15 @@ This table is intended to be a convenient summary: it is not a substitute for th
 
 ## PROCEDURE 
 
-Basic principle 
+## Basic principle
 
 ### t.171 
 
 The various penalties are imposed by the competent authorities who will reach their decisions in an equitable manner, and will take into account the gravity of the offence and the circumstances in which it was committed (cf. t.135ss, t.158-162, t.176-178 ). 
 
-Protests and appeals 
+## Protests and appeals
 
-Against a decision of the Referee 
+## Against a decision of the Referee
 
 ### t.172 
 
@@ -2025,7 +2023,7 @@ This appeal must be made:
 
 If the Referee maintains his opinion, the Refereeing Commission delegate or the Supervisor (if there is no delegate) has the authority to settle an appeal (cf. t.141). If such an appeal is deemed to be unjustified , the fencer will be penalised in accordance with Articles t.158-162, t.165, t.170 .
 
-Other protests and appeals 
+## Other protests and appeals
 
 ### t.175 
 
@@ -2035,13 +2033,13 @@ Complaints and protests which are not concerned with a referee’s decision must
 
 If a complaint or protest contests a decision initially taken by the Directoire Technique or an official FIE delegate it should be addressed to the FIE Bureau in accordance with Articles 7.2 of the Statutes and t.140. 
 
-Method of decision 
+## Method of decision
 
 ### t.177 
 
 The decisions of the Directoire Technique are by majority vote , the chairman (president) having the casting vote in case of a tie. 
 
-Repetition of offence 
+## Repetition of offence
 
 ### t.178 
 

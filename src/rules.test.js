@@ -163,6 +163,17 @@ describe('renderExplanationHtml', () => {
     });
 });
 
+describe('articleContentToHtml code fences', () => {
+    it('renders a fenced block as preformatted text', () => {
+        const html = articleContentToHtml('Order:\n\n```\n1–2 3–1\n3–4 2–4\n```');
+        expect(html).toBe('<p>Order:</p><pre class="rule-pre">1–2 3–1\n3–4 2–4</pre>');
+    });
+
+    it('escapes HTML inside fenced blocks', () => {
+        expect(articleContentToHtml('```\n<b>\n```')).toBe('<pre class="rule-pre">&lt;b&gt;</pre>');
+    });
+});
+
 // ─── Technical_rules.md (real data) ────────────────────────
 
 describe('extractArticle on Technical_rules.md', () => {
@@ -182,5 +193,60 @@ describe('extractArticle on Technical_rules.md', () => {
         expect(result).not.toBeNull();
         expect(result.articleRef).toBe(ref);
         expect(result.content.startsWith(start)).toBe(true);
+    });
+});
+
+// ─── Article titles must not bleed into the previous article ──────────
+// In the source PDF each article's title is printed just above its number.
+// If that title line is left as plain text, it ends up as the last line of
+// the *previous* article's content (e.g. t.8 ending with "Offensive and
+// defensive actions", the title of t.9).
+
+describe.each([
+    ['Technical_rules.md', /^###\s+(t\.\d+)\s*$/gm],
+    ['Organisation_rules.md', /^###\s+(o\.\d+)\s*$/gm],
+])('article boundaries in %s', (file, headerRe) => {
+    const markdown = readFileSync(path.resolve(__dirname, `../docs/rules/${file}`), 'utf-8');
+    const refs = [...markdown.matchAll(headerRe)].map(m => m[1]);
+
+    // A short line with no closing punctuation looks like a stray heading.
+    const looksLikeTitle = line =>
+        line.length < 90 &&
+        !/[.;:,…)|`]$/.test(line) &&
+        !/^[-|>]/.test(line) &&
+        !/^[\d–\s]+$/.test(line); // bout-order rows like "1–2 6–2 1–4"
+
+    it('has article headers', () => {
+        expect(refs.length).toBeGreaterThan(100);
+    });
+
+    it.each(refs)('%s does not end with a stray title line', ref => {
+        const { content } = extractArticle(markdown, ref);
+        const lastLine = content.split('\n').map(l => l.trim()).filter(Boolean).pop();
+        if (lastLine === undefined) return; // empty placeholder article in the source
+        expect(looksLikeTitle(lastLine), `last line: "${lastLine}"`).toBe(false);
+    });
+});
+
+describe('specific article fixes', () => {
+    const technical = readFileSync(path.resolve(__dirname, '../docs/rules/Technical_rules.md'), 'utf-8');
+    const organisation = readFileSync(path.resolve(__dirname, '../docs/rules/Organisation_rules.md'), 'utf-8');
+
+    it('t.8 contains only its own text', () => {
+        expect(extractArticle(technical, 't.8').content)
+            .toBe('Fencing time is the time required to perform one simple fencing action.');
+    });
+
+    it('t.123 carries its own APPLICATION note instead of t.122', () => {
+        expect(extractArticle(technical, 't.122').content).not.toContain('APPLICATION');
+        expect(extractArticle(technical, 't.123').content.startsWith('*APPLICATION')).toBe(true);
+    });
+
+    it('t.169 does not swallow the t.170 table heading', () => {
+        expect(extractArticle(technical, 't.169').content).not.toMatch(/Offences and penalties/);
+    });
+
+    it('o.80 has a well-formed header', () => {
+        expect(extractArticle(organisation, 'o.80')?.articleRef).toBe('o.80');
     });
 });

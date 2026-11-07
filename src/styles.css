@@ -941,6 +941,20 @@ dialog::backdrop {
     margin-bottom: 0;
 }
 
+/* ===== Rule Article Preformatted Blocks (e.g. bout orders) ===== */
+.rule-pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    white-space: pre;
+    overflow-x: auto;
+    margin: 0 0 0.75rem;
+}
+
+.rule-pre:last-child {
+    margin-bottom: 0;
+}
+
 /* ===== Rule Article Tables ===== */
 .rule-table-wrap {
     overflow-x: auto;
