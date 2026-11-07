@@ -1917,7 +1917,7 @@ Any person not on the piste who disturbs the good order of the competition recei
 
 2 Furthermore any black card awarded at a competition of the FIE or at a competition organized by any Confederation which has subscribed to the FIE disciplinary code shall be reported within 10 days to the President of the FIE, for him to assess whether the severity of the offence committed warrants the sending of the report made by the FIE supervisor or by the Directoire Technique to the president of the Legal Commission, requesting him to establish a Disciplinary Tribunal to determine if penalties in addition to those imposed at the competition should be imposed. 
 
-## Schedule of offences and penalties
+## Offences and penalties
 
 ### t.170 
 

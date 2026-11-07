@@ -84,20 +84,46 @@ function tableToHtml(block) {
     return `<div class="rule-table-wrap"><table class="rule-table">${thead ? `<thead>${thead}</thead>` : ''}${tbody ? `<tbody>${tbody}</tbody>` : ''}</table></div>`;
 }
 
-// Convert article content (plain/light markdown) to safe HTML.
-// Also makes nested article cross-references clickable.
-export function articleContentToHtml(text) {
+// Render a run of plain markdown (no code fences) as paragraphs and tables.
+function paragraphsToHtml(text) {
     return text
         .split(/\n\s*\n/)
         .map(para => para.trim())
         .filter(Boolean)
         .map(para => {
             if (isTable(para)) return tableToHtml(para);
-            const fence = /^```[^\n]*\n([\s\S]*?)\n```$/.exec(para);
-            if (fence) return `<pre class="rule-pre">${escapeHtml(fence[1])}</pre>`;
             return `<p>${processInline(para).replace(/\n/g, '<br>')}</p>`;
         })
         .join('');
+}
+
+// Convert article content (plain/light markdown) to safe HTML.
+// ``` fenced blocks become <pre>; they may start right after a text line.
+// Also makes nested article cross-references clickable.
+export function articleContentToHtml(text) {
+    let html = '';
+    let buffer = [];
+    let fence = null; // lines of the open fenced block, or null
+    for (const line of text.split('\n')) {
+        const isFenceMarker = /^\s*```/.test(line);
+        if (fence) {
+            if (isFenceMarker) {
+                html += `<pre class="rule-pre">${escapeHtml(fence.join('\n'))}</pre>`;
+                fence = null;
+            } else {
+                fence.push(line);
+            }
+        } else if (isFenceMarker) {
+            html += paragraphsToHtml(buffer.join('\n'));
+            buffer = [];
+            fence = [];
+        } else {
+            buffer.push(line);
+        }
+    }
+    // An unclosed fence is shown as regular text rather than dropped.
+    if (fence) buffer.push('```', ...fence);
+    return html + paragraphsToHtml(buffer.join('\n'));
 }
 
 // Turn explanation text into HTML, wrapping rule references in clickable buttons.

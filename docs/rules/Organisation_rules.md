@@ -1488,7 +1488,7 @@ If there is still equality, the winner will be the one which has won the most br
 
 If there is still equality, both nations are declared winners, and both will receive the Grand Prix des nations. 
 
-## PART E - VETERANS
+# PART E - VETERANS
 
 ## BODIES RESPONSIBLE FOR ORGANISATION AND CONTROL
 

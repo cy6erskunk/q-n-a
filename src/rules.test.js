@@ -169,6 +169,22 @@ describe('articleContentToHtml code fences', () => {
         expect(html).toBe('<p>Order:</p><pre class="rule-pre">1–2 3–1\n3–4 2–4</pre>');
     });
 
+    it('handles a fence directly after a text line (no blank line)', () => {
+        const html = articleContentToHtml('**Pool of six:**\n```\n1–2 3–1\n```\n\nAfter.');
+        expect(html).toBe('<p><strong>Pool of six:</strong></p><pre class="rule-pre">1–2 3–1</pre><p>After.</p>');
+    });
+
+    it('keeps blank lines inside a fenced block', () => {
+        expect(articleContentToHtml('```\na\n\nb\n```')).toBe('<pre class="rule-pre">a\n\nb</pre>');
+    });
+
+    it('renders the o.69 bout orders without literal backticks', () => {
+        const markdown = readFileSync(path.resolve(__dirname, '../docs/rules/Organisation_rules.md'), 'utf-8');
+        const html = articleContentToHtml(extractArticle(markdown, 'o.69').content);
+        expect(html).not.toContain('```');
+        expect(html.match(/<pre class="rule-pre">/g)).toHaveLength(2);
+    });
+
     it('escapes HTML inside fenced blocks', () => {
         expect(articleContentToHtml('```\n<b>\n```')).toBe('<pre class="rule-pre">&lt;b&gt;</pre>');
     });
