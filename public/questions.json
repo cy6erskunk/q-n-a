@@ -2249,7 +2249,7 @@
     "id": "9334c650-a7fb-4675-826c-3c9c123aa270"
   },
   {
-    "question": "During the attack of fencer X, fencer Y intentional falls down to avoid the touch and hit the opponent X",
+    "question": "During an attack by fencer X, fencer Y intentionally falls down to avoid being hit and hits X. What is the referee's decision?",
     "answers": [
       {
         "isCorrect": true,
