@@ -13,10 +13,12 @@ Development follows TDD: write tests first, then add the implementation to make 
 - **Unit tests**: vitest with jsdom environment — `npm test` (or `npm run test:watch` for watch mode)
   - Test files live in `src/` alongside source files, named `*.test.js`
   - `src/rules.test.js` covers `extractArticle`, `articleContentToHtml`, `renderExplanationHtml`
+  - `src/rulesPages.test.js` covers the build-time rendering of `docs/rules/*.md` into `rules/*.html` pages (article anchors, cross-reference links)
   - `src/quiz.test.js` covers `normalizeCount`, `shuffleArray`; auth/api/rules modules are mocked via `vi.mock()`
 - **E2E tests**: Playwright — `npx playwright test`
   - Config: `playwright.config.ts`, tests in `tests/`
+- **CI** (`.github/workflows/`): `unit-tests.yml`, `e2e-tests.yml`, and `deploy-pages.yml` (builds the app plus rendered rules pages and deploys `dist/` to GitHub Pages on push to `main`)
 
 ## Dependencies
 
-Dependency updates are managed by Renovate (see `renovate.json`). `vitest` and `jsdom` are pinned to exact versions so Renovate opens explicit update PRs for them.
+Dependency updates are managed by Renovate (see `renovate.json`). `vitest`, `jsdom` and `marked` are pinned to exact versions so Renovate opens explicit update PRs for them.
