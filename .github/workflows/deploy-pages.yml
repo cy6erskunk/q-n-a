@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Deploy app and rendered rules to GitHub Pages
 
 on:
   push:

@@ -8,7 +8,7 @@ Run `npx playwright test` to click through the basic scenarios using [Playwright
 
 ## Rules
 
-Technical and organisation rules are generated from markdown files and are published with table of contents and index:
+Technical and organisation rules live as markdown in `docs/rules/`. At build time the Vite plugin in `vite.config.js` renders them (via `src/rulesPages.js`) into HTML pages, published with table of contents and index; with `npm run dev` they are served at `/rules/*.html` too:
 - [Technical rules](https://cyberskunk.xyz/q-n-a/rules/Technical_rules.html)
     - [ToC](https://cyberskunk.xyz/q-n-a/rules/Technical_rules__toc.html)
     - [Index](https://cyberskunk.xyz/q-n-a/rules/Technical_rules__index.html)
