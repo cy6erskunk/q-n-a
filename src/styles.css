@@ -659,9 +659,14 @@ dialog::backdrop {
     font-family: inherit;
 }
 
-.option-btn:hover:not(:disabled) {
-    border-color: #ccc;
-    background: #fafafa;
+/* Only on real hover devices: touch browsers keep :hover "stuck" on whatever
+   element ends up under the last tap, which shaded a random option after
+   pressing "Next Question". */
+@media (hover: hover) {
+    .option-btn:hover:not(:disabled) {
+        border-color: #ccc;
+        background: #fafafa;
+    }
 }
 
 .option-btn:disabled {
