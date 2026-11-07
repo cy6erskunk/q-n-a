@@ -533,6 +533,13 @@ dialog::backdrop {
     width: 0%;
 }
 
+/* Quiz bar: answered questions solid, the current question striped */
+#quiz-progress-fill {
+    background:
+        linear-gradient(to right, #1a1a1a var(--done, 0%), transparent var(--done, 0%)),
+        repeating-linear-gradient(-45deg, #1a1a1a 0 3px, #fff 3px 6px);
+}
+
 /* Mode Grid */
 .mode-grid {
     display: grid;

@@ -499,6 +499,17 @@ export function shuffleArray(array) {
     }
 }
 
+// Fill width covers questions up to and including the current one; the last
+// part of the fill (the current question) is drawn striped, the rest solid.
+export function quizProgressSegments(currentIndex, total) {
+    if (!(total > 0)) return { fillPercent: 0, donePercentOfFill: 0 };
+    const answeredOrCurrent = currentIndex + 1;
+    return {
+        fillPercent: (answeredOrCurrent / total) * 100,
+        donePercentOfFill: (currentIndex / answeredOrCurrent) * 100,
+    };
+}
+
 export function normalizeCount(value) {
     const n = Number(value);
     return Number.isFinite(n) && n > 0 ? Math.floor(n) : 0;
@@ -555,8 +566,10 @@ function loadQuestion() {
 
     // Update progress bar
     document.getElementById('progress-counter').textContent = `${currentQuestionIndex + 1} of ${currentQuestionsAmount}`;
-    const progressPercentage = ((currentQuestionIndex + 1) / currentQuestionsAmount) * 100;
-    document.getElementById('quiz-progress-fill').style.width = progressPercentage + '%';
+    const { fillPercent, donePercentOfFill } = quizProgressSegments(currentQuestionIndex, currentQuestionsAmount);
+    const quizProgressFill = document.getElementById('quiz-progress-fill');
+    quizProgressFill.style.width = fillPercent + '%';
+    quizProgressFill.style.setProperty('--done', donePercentOfFill + '%');
 
     const optionsContainer = document.getElementById('options');
     optionsContainer.innerHTML = '';

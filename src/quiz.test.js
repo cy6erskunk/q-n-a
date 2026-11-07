@@ -25,7 +25,7 @@ vi.mock('./rules.js', () => ({
     openRuleArticle: vi.fn(),
 }));
 
-const { normalizeCount, shuffleArray } = await import('./quiz.js');
+const { normalizeCount, shuffleArray, quizProgressSegments } = await import('./quiz.js');
 
 // ─── normalizeCount ────────────────────────────────────────
 
@@ -118,5 +118,28 @@ describe('shuffleArray', () => {
         shuffleArray(arr);
         expect(arr).toEqual([3, 1, 2]);
         spy.mockRestore();
+    });
+});
+
+// ─── quizProgressSegments ──────────────────────────────────
+
+describe('quizProgressSegments', () => {
+    it('on the first question the whole fill is the in-progress segment', () => {
+        expect(quizProgressSegments(0, 5)).toEqual({ fillPercent: 20, donePercentOfFill: 0 });
+    });
+
+    it('splits the fill into done questions and the current one', () => {
+        // Question 3 of 4: fill covers 3/4 of the track, 2 of those 3 parts are done
+        const { fillPercent, donePercentOfFill } = quizProgressSegments(2, 4);
+        expect(fillPercent).toBe(75);
+        expect(donePercentOfFill).toBeCloseTo(200 / 3);
+    });
+
+    it('on the last question the fill spans the full track', () => {
+        expect(quizProgressSegments(9, 10)).toEqual({ fillPercent: 100, donePercentOfFill: 90 });
+    });
+
+    it('returns zeros for a non-positive total', () => {
+        expect(quizProgressSegments(0, 0)).toEqual({ fillPercent: 0, donePercentOfFill: 0 });
     });
 });
