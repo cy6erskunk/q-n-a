@@ -33,12 +33,16 @@ export function extractArticle(markdown, articleRef) {
 // Pattern that matches rule article numbers (e.g. t.38, o.99.5, t.38.2.b)
 const ARTICLE_REF_RE = /\b([ot]\.\d+(?:\.\d+)*(?:\.[a-z])?)\b/g;
 
-// Escape HTML and process inline markdown (bold, italic, article refs).
-function processInline(text) {
+function escapeHtml(text) {
     return text
         .replace(/&/g, '&amp;')
         .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
+        .replace(/>/g, '&gt;');
+}
+
+// Escape HTML and process inline markdown (bold, italic, article refs).
+function processInline(text) {
+    return escapeHtml(text)
         .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
         .replace(/\*(.+?)\*/g, '<em>$1</em>')
         .replace(ARTICLE_REF_RE, '<button class="rule-ref" data-article="$1">$1</button>');
@@ -80,9 +84,8 @@ function tableToHtml(block) {
     return `<div class="rule-table-wrap"><table class="rule-table">${thead ? `<thead>${thead}</thead>` : ''}${tbody ? `<tbody>${tbody}</tbody>` : ''}</table></div>`;
 }
 
-// Convert article content (plain/light markdown) to safe HTML.
-// Also makes nested article cross-references clickable.
-export function articleContentToHtml(text) {
+// Render a run of plain markdown (no code fences) as paragraphs and tables.
+function paragraphsToHtml(text) {
     return text
         .split(/\n\s*\n/)
         .map(para => para.trim())
@@ -92,6 +95,35 @@ export function articleContentToHtml(text) {
             return `<p>${processInline(para).replace(/\n/g, '<br>')}</p>`;
         })
         .join('');
+}
+
+// Convert article content (plain/light markdown) to safe HTML.
+// ``` fenced blocks become <pre>; they may start right after a text line.
+// Also makes nested article cross-references clickable.
+export function articleContentToHtml(text) {
+    let html = '';
+    let buffer = [];
+    let fence = null; // lines of the open fenced block, or null
+    for (const line of text.split('\n')) {
+        const isFenceMarker = /^\s*```/.test(line);
+        if (fence) {
+            if (isFenceMarker) {
+                html += `<pre class="rule-pre">${escapeHtml(fence.join('\n'))}</pre>`;
+                fence = null;
+            } else {
+                fence.push(line);
+            }
+        } else if (isFenceMarker) {
+            html += paragraphsToHtml(buffer.join('\n'));
+            buffer = [];
+            fence = [];
+        } else {
+            buffer.push(line);
+        }
+    }
+    // An unclosed fence is shown as regular text rather than dropped.
+    if (fence) buffer.push('```', ...fence);
+    return html + paragraphsToHtml(buffer.join('\n'));
 }
 
 // Turn explanation text into HTML, wrapping rule references in clickable buttons.
