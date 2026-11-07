@@ -546,7 +546,7 @@ dialog::backdrop {
     transition: width 0.4s ease, --done 0.4s ease;
     background:
         linear-gradient(to right, #1a1a1a var(--done, 0%), transparent var(--done, 0%)),
-        repeating-linear-gradient(-45deg, #1a1a1a 0 3px, #fff 3px 6px);
+        repeating-linear-gradient(-45deg, #1a1a1a 0 3px, #e5e5e5 3px 6px);
 }
 
 /* Mode Grid */
