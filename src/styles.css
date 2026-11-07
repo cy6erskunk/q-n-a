@@ -533,8 +533,17 @@ dialog::backdrop {
     width: 0%;
 }
 
-/* Quiz bar: answered questions solid, the current question striped */
+/* Quiz bar: answered questions solid, the current question striped.
+   --done is registered so it animates together with width; otherwise the
+   solid part would jump ahead while the bar is still growing. */
+@property --done {
+    syntax: '<percentage>';
+    inherits: false;
+    initial-value: 0%;
+}
+
 #quiz-progress-fill {
+    transition: width 0.4s ease, --done 0.4s ease;
     background:
         linear-gradient(to right, #1a1a1a var(--done, 0%), transparent var(--done, 0%)),
         repeating-linear-gradient(-45deg, #1a1a1a 0 3px, #fff 3px 6px);
