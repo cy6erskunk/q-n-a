@@ -2,20 +2,33 @@ import { defineConfig } from 'vite';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { RULE_PAGES, renderRulesPage } from './src/rulesPages.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const RULE_FILES = ['Technical_rules.md', 'Organisation_rules.md'];
 const rulesDir = path.join(__dirname, 'docs/rules');
 
+// Serves/publishes the rules: raw markdown for the in-app article popups,
+// plus rendered HTML pages (rules, contents, index) for reading in a browser.
 function rulesPlugin() {
+    const renderPage = page =>
+        renderRulesPage(fs.readFileSync(path.join(rulesDir, page.md), 'utf-8'), {
+            title: page.title,
+            current: page.html,
+        });
+
     return {
         name: 'rules-static',
         configureServer(server) {
             server.middlewares.use('/rules', (req, res, next) => {
                 const urlPath = req.url.split('?')[0].replace(/^\//, '');
                 const filePath = path.join(rulesDir, urlPath);
-                if (RULE_FILES.includes(path.basename(filePath)) && fs.existsSync(filePath)) {
+                const page = RULE_PAGES.find(p => p.html === urlPath);
+                if (page) {
+                    res.setHeader('Content-Type', 'text/html; charset=utf-8');
+                    res.end(renderPage(page));
+                } else if (RULE_FILES.includes(path.basename(filePath)) && fs.existsSync(filePath)) {
                     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
                     res.end(fs.readFileSync(filePath));
                 } else {
@@ -33,6 +46,9 @@ function rulesPlugin() {
                         source: fs.readFileSync(filePath, 'utf-8'),
                     });
                 }
+            });
+            RULE_PAGES.forEach(page => {
+                this.emitFile({ type: 'asset', fileName: `rules/${page.html}`, source: renderPage(page) });
             });
         },
     };
