@@ -16,6 +16,12 @@ import {
     deleteProgressFromCloud,
 } from './api.js';
 import { renderExplanationHtml, openRuleArticle } from './rules.js';
+import {
+    QUESTION_LABELS,
+    filterQuestionsByLabels,
+    loadLabelFilters,
+    saveLabelFilters,
+} from './labels.js';
 
 let allQuestions = [];
 let currentQuestions = [];
@@ -23,6 +29,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let questionProgress = new Map(); // questionId -> number of times answered correctly
 let isExamMode = false;
+let labelFilters = loadLabelFilters();
 
 const QUESTIONS_PER_QUIZ_DEFAULT = 5;
 const QUESTIONS_PER_EXAM_DEFAULT = 30;
@@ -474,6 +481,8 @@ document.addEventListener('DOMContentLoaded', () => {
         examQuestionsCountDisplay.textContent = initialQuestionCountPerExam;
     }
 
+    setupLabelFilters();
+
     // Set up auth UI (no-op if auth not configured)
     setupAuthUI();
 
@@ -491,6 +500,40 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error loading questions:', error));
 });
+
+// ─── Label filters ────────────────────────────────────────
+
+function setupLabelFilters() {
+    const container = document.getElementById('label-filters');
+    for (const { id, name } of QUESTION_LABELS) {
+        const label = document.createElement('label');
+        label.className = 'label-toggle';
+        const input = document.createElement('input');
+        input.type = 'checkbox';
+        input.setAttribute('role', 'switch');
+        input.id = `label-filter-${id}`;
+        input.checked = labelFilters[id];
+        input.addEventListener('change', () => {
+            labelFilters = { ...labelFilters, [id]: input.checked };
+            saveLabelFilters(labelFilters);
+            updateAvailableQuestionsInfo();
+        });
+        const text = document.createElement('span');
+        text.textContent = name;
+        label.append(input, text);
+        container.appendChild(label);
+    }
+}
+
+function updateAvailableQuestionsInfo() {
+    const info = document.getElementById('label-filters-info');
+    if (!info) return;
+    const available = filterQuestionsByLabels(allQuestions, labelFilters).length;
+    info.textContent = `${available} of ${allQuestions.length} questions included`;
+    const empty = available === 0;
+    document.getElementById('start-button').disabled = empty;
+    document.getElementById('start-exam').disabled = empty;
+}
 
 export function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -523,12 +566,12 @@ function isLearned(questionId) {
     return getCorrectCount(questionId) >= CORRECT_ANSWERS_REQUIRED;
 }
 
-function selectQuestions() {
+export function pickQuestions(questions, progress, filters, amount) {
     // Group questions by correct answer count: 0, 1, 2, and 3+ (learned)
     // Priority: least learned first (count=0 before count=1 before count=2 before count=3+)
     const groups = [[], [], [], []];
-    for (const q of allQuestions) {
-        const count = getCorrectCount(q.id);
+    for (const q of filterQuestionsByLabels(questions, filters)) {
+        const count = progress.get(q.id) || 0;
         const groupIndex = Math.min(count, CORRECT_ANSWERS_REQUIRED);
         groups[groupIndex].push(q);
     }
@@ -538,7 +581,13 @@ function selectQuestions() {
     // Build prioritized pool: not started → partially learned → fully learned
     const pool = [...groups[0], ...groups[1], ...groups[2], ...groups[3]];
     // Slice maintains the priority order: least-learned questions come first
-    currentQuestions = pool.slice(0, currentQuestionsAmount);
+    return pool.slice(0, amount);
+}
+
+function selectQuestions() {
+    currentQuestions = pickQuestions(allQuestions, questionProgress, labelFilters, currentQuestionsAmount);
+    // The filtered pool may hold fewer questions than requested
+    currentQuestionsAmount = currentQuestions.length;
 }
 
 function startQuiz() {
@@ -745,6 +794,7 @@ function updateLearningProgress() {
     progressLabel.textContent = `Learning Progress ${completionPercentage.toFixed(1)}%`;
     progressInfo.textContent = `${learned} of ${total} questions learned`;
     progressFill.style.width = completionPercentage + '%';
+    updateAvailableQuestionsInfo();
 }
 
 function resetQuiz() {

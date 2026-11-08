@@ -25,7 +25,7 @@ vi.mock('./rules.js', () => ({
     openRuleArticle: vi.fn(),
 }));
 
-const { normalizeCount, shuffleArray, quizProgressSegments } = await import('./quiz.js');
+const { normalizeCount, shuffleArray, quizProgressSegments, pickQuestions } = await import('./quiz.js');
 
 // ─── normalizeCount ────────────────────────────────────────
 
@@ -141,5 +141,37 @@ describe('quizProgressSegments', () => {
 
     it('returns zeros for a non-positive total', () => {
         expect(quizProgressSegments(0, 0)).toEqual({ fillPercent: 0, donePercentOfFill: 0 });
+    });
+});
+
+// ─── pickQuestions ─────────────────────────────────────────
+
+describe('pickQuestions', () => {
+    const questions = [
+        { id: 'a' },
+        { id: 'b', labels: ['team'] },
+        { id: 'c', labels: ['fie'] },
+        { id: 'd' },
+    ];
+    const ids = qs => qs.map(q => q.id).sort();
+
+    it('excludes questions whose label filter is switched off', () => {
+        const picked = pickQuestions(questions, new Map(), { team: false, fie: false }, 10);
+        expect(ids(picked)).toEqual(['a', 'd']);
+    });
+
+    it('includes labeled questions when their filter is on', () => {
+        const picked = pickQuestions(questions, new Map(), { team: true, fie: false }, 10);
+        expect(ids(picked)).toEqual(['a', 'b', 'd']);
+    });
+
+    it('returns at most the requested amount', () => {
+        expect(pickQuestions(questions, new Map(), { team: true, fie: true }, 2)).toHaveLength(2);
+    });
+
+    it('prioritises less-learned questions within the filtered pool', () => {
+        const progress = new Map([['a', 3], ['d', 0]]);
+        const picked = pickQuestions(questions, progress, { team: false, fie: false }, 1);
+        expect(ids(picked)).toEqual(['d']);
     });
 });
