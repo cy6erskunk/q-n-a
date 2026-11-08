@@ -37,3 +37,14 @@ test('label toggles filter questions in the study session and persist', async ({
     await page.locator('#next-button').click();
   }
 });
+
+test('resetting all progress switches every label filter back on', async ({ page }) => {
+  await page.goto('http://localhost:3000/');
+  await page.getByRole('switch', { name: 'Team events' }).uncheck();
+
+  await page.getByLabel('Settings').click();
+  await page.getByRole('button', { name: 'Reset All Progress' }).click();
+
+  await expect(page.getByRole('switch', { name: 'Team events' })).toBeChecked();
+  await expect(page.getByRole('switch', { name: 'FIE events' })).toBeChecked();
+});

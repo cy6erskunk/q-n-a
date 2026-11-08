@@ -802,6 +802,7 @@ function resetQuiz() {
     localStorage.removeItem('quizProgress');
     localStorage.removeItem('examQuestionsCount');
     localStorage.removeItem('questionsPerRound');
+    localStorage.removeItem('labelFilters');
 
     // Also clear cloud data if signed in
     if (canSyncToCloud()) {
