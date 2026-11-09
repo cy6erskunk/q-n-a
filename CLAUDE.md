@@ -14,7 +14,8 @@ Development follows TDD: write tests first, then add the implementation to make 
   - Test files live in `src/` alongside source files, named `*.test.js`
   - `src/rules.test.js` covers `extractArticle`, `articleContentToHtml`, `renderExplanationHtml`
   - `src/rulesPages.test.js` covers the build-time rendering of `docs/rules/*.md` into `rules/*.html` pages (article anchors, cross-reference links)
-  - `src/quiz.test.js` covers `normalizeCount`, `shuffleArray`; auth/api/rules modules are mocked via `vi.mock()`
+  - `src/quiz.test.js` covers `normalizeCount`, `shuffleArray`, `pickQuestions`; auth/api/rules modules are mocked via `vi.mock()`
+  - `src/labels.test.js` covers question label filtering (`filterQuestionsByLabels`, persisted toggles) and validates the `labels` in `public/questions.json`
 - **E2E tests**: Playwright — `npx playwright test`
   - Config: `playwright.config.ts`, tests in `tests/`
 - **CI** (`.github/workflows/`): `unit-tests.yml`, `e2e-tests.yml`, and `deploy-pages.yml` (builds the app plus rendered rules pages and deploys `dist/` to GitHub Pages on push to `main`)
@@ -22,3 +23,7 @@ Development follows TDD: write tests first, then add the implementation to make 
 ## Dependencies
 
 Dependency updates are managed by Renovate (see `renovate.json`). `vitest`, `jsdom` and `marked` are pinned to exact versions so Renovate opens explicit update PRs for them.
+
+## Question labels
+
+Questions in `public/questions.json` may carry an optional `labels` array (known labels are defined in `QUESTION_LABELS` in `src/labels.js`: `team`, `fie`). The start screen shows a toggle per label; a labeled question is only used in study/exam sessions while all of its labels are switched on, and unlabeled questions are always used. Toggle state is stored in `localStorage` under `labelFilters`.

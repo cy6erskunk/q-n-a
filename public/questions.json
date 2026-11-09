@@ -153,7 +153,10 @@
         "explanation": "Incorrect. The referee must correct the order as soon as it is noticed and continue from there."
       }
     ],
-    "id": "5b09a47d-8430-488a-9055-ea526b5838b4"
+    "id": "5b09a47d-8430-488a-9055-ea526b5838b4",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "In a team match, if when the score is 9-5 in the second relay, the fencer in the lead scores a valid hit and at the same time the opponent receives a red card, what should the referee record on the score-sheet?",
@@ -179,7 +182,10 @@
         "explanation": "This answer is incorrect because, per the rules, a red card results in a penalty hit, which must be reflected in the score. The idea that a red card does not affect the score is false. [See t.41.1 and t.165]"
       }
     ],
-    "id": "460f17ef-0b3f-4dbf-a28e-134368923d7c"
+    "id": "460f17ef-0b3f-4dbf-a28e-134368923d7c",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "In a team match, when should the replacement of a team member by the reserve fencer be announced?",
@@ -208,7 +214,10 @@
     "quotes": {
       "o.99.5": "The announcement that a fencer is to be substituted must be made at the latest before the beginning of the bout preceding the next bout of the fencer who is to be replaced"
     },
-    "id": "4be3084b-6685-4b72-a24f-9ef14c9be638"
+    "id": "4be3084b-6685-4b72-a24f-9ef14c9be638",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "In a team competition, can a fencer who has been replaced fence again in the same match?",
@@ -237,7 +246,10 @@
     "quotes": {
       "o.99.5.a": "A fencer who has been replaced may fence one more time during that match, but only to replace the fencer who originally substituted him."
     },
-    "id": "5530f008-f8b1-4200-b189-d8d64f2f11e9"
+    "id": "5530f008-f8b1-4200-b189-d8d64f2f11e9",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "In a team competition, can a fencer who was replaced for medical reason fence again in the same match?",
@@ -266,7 +278,10 @@
     "quotes": {
       "o.99.6.b": "However, a competitor who is thus replaced cannot again take his place in the team during the same match."
     },
-    "id": "b8f650c6-3d13-4fda-b06e-54c3c028efe1"
+    "id": "b8f650c6-3d13-4fda-b06e-54c3c028efe1",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "In a team competition which relay/bout can a replaced fencer fence again in the same match?",
@@ -295,7 +310,10 @@
     "quotes": {
       "o.99.5.a": "A fencer who has been replaced may fence one more time during that match, but only to replace the fencer who originally substituted him."
     },
-    "id": "b8f93608-931e-455b-996b-ab1edea924e4"
+    "id": "b8f93608-931e-455b-996b-ab1edea924e4",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "In a team match if an injury is duly recognized by the competition doctor, can the reserve fencer continue the relay that the injured fencer has already begun?",
@@ -324,7 +342,10 @@
     "quotes": {
       "o.99.6.a": "If a member of a team is obliged to retire during a match as the result of an accident which has been duly recognised by a medical representative of the FIE, the captain of his team may ask to put in a reserve to continue the match at the point where the competitor who was obliged to retire withdrew, even during a bout in progress."
     },
-    "id": "ff5377b4-3bd7-4952-9c2d-6f798d117921"
+    "id": "ff5377b4-3bd7-4952-9c2d-6f798d117921",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "In a team match can a team start the match without a reserve fencer?",
@@ -353,7 +374,10 @@
     "quotes": {
       "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
     },
-    "id": "9f708408-15c8-4208-9220-4635c290a700"
+    "id": "9f708408-15c8-4208-9220-4635c290a700",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "In a team match can a team end the match with only two fencers?",
@@ -382,7 +406,10 @@
     "quotes": {
       "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
     },
-    "id": "5fb4341c-68c6-42aa-9b7b-d6e6be95b125"
+    "id": "5fb4341c-68c6-42aa-9b7b-d6e6be95b125",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "If in a team match, after the announcement that a fencer is to be substituted, an accident occurs in the bout which follows the request for a substitution, can the team captain annul that request?",
@@ -411,7 +438,10 @@
     "quotes": {
       "o.99.5.b": "If an accident occurs in the bout which follows the request for a substitution, the team captain may annul that request."
     },
-    "id": "a8399d7d-9104-493a-bb09-aab27871c3dc"
+    "id": "a8399d7d-9104-493a-bb09-aab27871c3dc",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "Except where there is a special device (attachment or orthopedic shape) can the hand be slipping along the handle from front to back during an offensive action?",
@@ -675,7 +705,10 @@
     "quotes": {
       "o.97": "At each weapon teams consist of three fencers, with or without a reserve. A team may begin a match only if it is complete."
     },
-    "id": "b5472301-8396-45f4-bb7b-0063beb36381"
+    "id": "b5472301-8396-45f4-bb7b-0063beb36381",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "If a fencer crosses the lateral boundaries of the piste with one or two feet following a lateral movement or a retreat, what should the referee do to replace the fencers on guard?",
@@ -994,7 +1027,10 @@
     "quotes": {
       "t.74": "For all official FIE competitions, every fencer must appear on the piste with clothing conforming to the rules as follows: 1) Name and nationality, in accordance with the rules, on the back of the jacket."
     },
-    "id": "05fef5f0-96bf-48f1-aa8d-5c81cc47f379"
+    "id": "05fef5f0-96bf-48f1-aa8d-5c81cc47f379",
+    "labels": [
+      "fie"
+    ]
   },
   {
     "question": "In which competitions is the wearing of national logos compulsory?",
@@ -1023,7 +1059,10 @@
     "quotes": {
       "t.74": "For all official FIE competitions, every fencer must appear on the piste with clothing conforming to the rules as follows: 2) Wearing his national uniform and logo (cf. m.25.3)."
     },
-    "id": "ee93abd6-6f44-4b15-bad6-d25c992b1ce6"
+    "id": "ee93abd6-6f44-4b15-bad6-d25c992b1ce6",
+    "labels": [
+      "fie"
+    ]
   },
   {
     "question": "What penalty is applied if the name and nationality on the jacket of fencer are missing in a senior team World Cup competition?",
@@ -1052,7 +1091,11 @@
     "quotes": {
       "t.74": "In case of violation of this rule, the referee will eliminate the fencer at fault from the event in question."
     },
-    "id": "a4e4fc21-d6ae-421a-920b-6af4b7c99036"
+    "id": "a4e4fc21-d6ae-421a-920b-6af4b7c99036",
+    "labels": [
+      "team",
+      "fie"
+    ]
   },
   {
     "question": "When a complete team does not present themselves to the Referee at his first call, ten minutes before the time indicated to come on to the piste for the start, what is the penalty?",
@@ -1081,7 +1124,10 @@
     "quotes": {
       "t.118.1": "When a fencer or complete team do not present themselves to the Referee at his first call, ten minutes before the time indicated to come onto the piste for the start of the pool or team match, or the start of the bouts of direct elimination (cf. Article t.66.1, t.144.2), the fencer or team concerned will be eliminated."
     },
-    "id": "14ce3261-50fa-44c7-b547-71795b83d872"
+    "id": "14ce3261-50fa-44c7-b547-71795b83d872",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "During the competition, when pools have started, what penalty is indicated for a fencer who fails to appear on the piste when called by the referee?",
@@ -1227,7 +1273,10 @@
     "quotes": {
       "t.20.2": "It is obligatory for any fencer who warms up or trains with another fencer on site at an official FIE competition (including in the training halls linked to the competition) to wear full fencing clothing and equipment which conforms with the FIE regulations. This includes breeches and long socks in accordance with m.25."
     },
-    "id": "139e416f-0640-4dee-a20c-de0be7fefa91"
+    "id": "139e416f-0640-4dee-a20c-de0be7fefa91",
+    "labels": [
+      "fie"
+    ]
   },
   {
     "question": "What is the minimum a fencer should wear if he is having a lesson at an FIE competition venue?",
@@ -1256,7 +1305,10 @@
     "quotes": {
       "t.20.2": "Any fencer taking a lesson must wear at least a mask, a glove, a chest protector, a top covering the torso and shoulders, and shorts which reach to within 10cm of the knees or lower."
     },
-    "id": "25d3f244-4b3d-4494-9343-3753444e3123"
+    "id": "25d3f244-4b3d-4494-9343-3753444e3123",
+    "labels": [
+      "fie"
+    ]
   },
   {
     "question": "Can a coach give a lesson without a mask and without a plastron at an FIE competition venue?",
@@ -1285,7 +1337,10 @@
     "quotes": {
       "t.20.2": "Any person giving a lesson must wear at least a fencing master's plastron as well as a fencing glove, long trousers and a mask conforming with the regulations."
     },
-    "id": "b2808a6a-e1db-42c2-95a8-88348f053572"
+    "id": "b2808a6a-e1db-42c2-95a8-88348f053572",
+    "labels": [
+      "fie"
+    ]
   },
   {
     "question": "In the case of a simple corps à corps (contact between two fencers), what should the referee do?",
@@ -1547,7 +1602,10 @@
     "quotes": {
       "t.60": "Both in team and individual events, only the fencer on the piste has the right to request a video review."
     },
-    "id": "843233e1-c595-4878-a40b-7029a5b7173f"
+    "id": "843233e1-c595-4878-a40b-7029a5b7173f",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "Apart from a request from one of the fencers, does the referee have other possibilities for consulting the video?",
@@ -1838,7 +1896,10 @@
     "quotes": {
       "t.61.2": "In team events, the fencers have one possible right to appeal to the video-refereeing per relay."
     },
-    "id": "7980291d-3f39-461e-a7d6-e41b6aecae9f"
+    "id": "7980291d-3f39-461e-a7d6-e41b6aecae9f",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "When may a fencer retain the right of appeal for video-refereeing in the same bout?",
@@ -1896,7 +1957,10 @@
     "quotes": {
       "t.74": "For all official FIE competitions, every fencer must appear on the piste with clothing conforming to the rules as follows: 1) Name and nationality, in accordance with the rules, on the back of the jacket. 2) Wearing his national uniform and logo (cf. m.25.3)."
     },
-    "id": "07b11d2a-5c8c-4a51-b447-6f4f0ccf489a"
+    "id": "07b11d2a-5c8c-4a51-b447-6f4f0ccf489a",
+    "labels": [
+      "fie"
+    ]
   },
   {
     "question": "May the referees combine their function with other activity during the tournament?",
@@ -1954,7 +2018,10 @@
     "quotes": {
       "t.130": "In team events, only the team captain has the right to be to approach the Referee and/or the refereeing delegates in order to decide with them any technical matters or to register protests."
     },
-    "id": "de53974b-87d1-45fd-a553-b08a747254f9"
+    "id": "de53974b-87d1-45fd-a553-b08a747254f9",
+    "labels": [
+      "team"
+    ]
   },
   {
     "question": "Who has the right in individual events to make an appeal to Referee against the decision of the Referee?",
