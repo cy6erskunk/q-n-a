@@ -16,7 +16,7 @@ import {
     deleteProgressFromCloud,
 } from './api.js';
 import { initAnalytics, trackPageview } from './analytics.js';
-import { parseRoute, routeHash, routePath } from './router.js';
+import { DIALOG_PATHS, parseRoute, routeHash, routePath } from './router.js';
 import { renderExplanationHtml, openRuleArticle } from './rules.js';
 import {
     QUESTION_LABELS,
@@ -110,8 +110,18 @@ function setupAuthUI() {
         authError.classList.add('hidden');
     }
 
+    // Report the dialog (and each switch between its modes) as a pageview
+    function showMode(signUp) {
+        setMode(signUp);
+        trackPageview(signUp ? DIALOG_PATHS.signUp : DIALOG_PATHS.signIn);
+    }
+
+    function switchMode(signUp) {
+        if (signUp !== isSignUpMode) showMode(signUp);
+    }
+
     authButton.addEventListener('click', () => {
-        setMode(false);
+        showMode(false);
         authDialog.showModal();
     });
 
@@ -120,9 +130,9 @@ function setupAuthUI() {
         if (e.target === authDialog) authDialog.close();
     });
 
-    tabSignin.addEventListener('click', () => setMode(false));
-    tabSignup.addEventListener('click', () => setMode(true));
-    authSwitchBtn.addEventListener('click', () => setMode(!isSignUpMode));
+    tabSignin.addEventListener('click', () => switchMode(false));
+    tabSignup.addEventListener('click', () => switchMode(true));
+    authSwitchBtn.addEventListener('click', () => switchMode(!isSignUpMode));
 
     authForm.addEventListener('submit', async (e) => {
         e.preventDefault();
@@ -411,6 +421,7 @@ document.addEventListener('DOMContentLoaded', () => {
         questionsPerRoundInput.value = questionCountPerQuiz;
         questionsValue.textContent = questionCountPerQuiz;
         settingsDialog.showModal();
+        trackPageview(DIALOG_PATHS.settings);
     });
 
     closeSettings.addEventListener('click', () => {

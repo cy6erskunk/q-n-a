@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { ROUTES, parseRoute, routeHash, routePath } from './router.js';
+import { ROUTES, DIALOG_PATHS, parseRoute, routeHash, routePath } from './router.js';
 
 describe('parseRoute', () => {
     it('maps the screen hashes to routes', () => {
@@ -41,5 +41,16 @@ describe('routePath', () => {
         expect(routePath('study')).toBe('/study');
         expect(routePath('exam')).toBe('/exam');
         expect(routePath('results')).toBe('/results');
+    });
+});
+
+describe('DIALOG_PATHS', () => {
+    it('gives the settings and sign-in/sign-up dialogs their own analytics paths', () => {
+        expect(DIALOG_PATHS).toEqual({ settings: '/settings', signIn: '/sign-in', signUp: '/sign-up' });
+    });
+
+    it('does not clash with any screen path', () => {
+        const screenPaths = ROUTES.map(routePath);
+        Object.values(DIALOG_PATHS).forEach(path => expect(screenPaths).not.toContain(path));
     });
 });

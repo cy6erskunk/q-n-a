@@ -16,7 +16,8 @@ Development follows TDD: write tests first, then add the implementation to make 
   - `src/rulesPages.test.js` covers the build-time rendering of `docs/rules/*.md` into `rules/*.html` pages (article anchors, cross-reference links)
   - `src/quiz.test.js` covers `normalizeCount`, `shuffleArray`, `pickQuestions`; auth/api/rules modules are mocked via `vi.mock()`
   - `src/analytics.test.js` covers `initAnalytics`, `trackPageview` and `stripUrl` (Vercel Web Analytics only injected when enabled)
-  - `src/router.test.js` covers the screen routes (`parseRoute`, `routeHash`, `routePath`)
+  - `src/router.test.js` covers the screen routes (`parseRoute`, `routeHash`, `routePath`) and `DIALOG_PATHS`
+  - `src/dialogTracking.test.js` loads `index.html` with `quiz.js` wired up and checks the pageviews for the settings and sign-in/sign-up dialogs
   - `src/labels.test.js` covers question label filtering (`filterQuestionsByLabels`, persisted toggles) and validates the `labels` in `public/questions.json`
 - **E2E tests**: Playwright — `npx playwright test`
   - Config: `playwright.config.ts`, tests in `tests/`
@@ -36,6 +37,8 @@ Questions in `public/questions.json` may carry an optional `labels` array (known
 Vercel Web Analytics (`@vercel/analytics`) is enabled only for builds running on Vercel (`VERCEL=1`): `vite.config.js` turns that into `import.meta.env.VITE_VERCEL_ANALYTICS` for the SPA (`src/analytics.js`) and adds the `/_vercel/insights/script.js` tag to the rendered rules pages. GitHub Pages and local builds don't load it.
 
 Auto-tracking is disabled because the Vercel script only counts path changes, and screens use hash URLs. Instead `showScreen()` in `src/quiz.js` reports every screen change with `trackPageview()` as `/`, `/study`, `/exam` or `/results`. `stripUrl` (`beforeSend`) drops query strings and hashes from every event.
+
+Dialogs have no URL but are tracked when they open (`DIALOG_PATHS` in `src/router.js`): `/settings`, and `/sign-in` or `/sign-up` for the auth dialog, including each switch between its two modes. Closing a dialog is not tracked.
 
 ## Screen URLs
 

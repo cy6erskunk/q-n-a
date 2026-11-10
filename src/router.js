@@ -17,3 +17,6 @@ export function routeHash(route) {
 export function routePath(route) {
     return route === 'home' ? '/' : `/${route}`;
 }
+
+// Analytics paths for dialogs, reported when they open (they have no URL of their own).
+export const DIALOG_PATHS = { settings: '/settings', signIn: '/sign-in', signUp: '/sign-up' };
