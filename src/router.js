@@ -20,3 +20,11 @@ export function routePath(route) {
 
 // Analytics paths for dialogs, reported when they open (they have no URL of their own).
 export const DIALOG_PATHS = { settings: '/settings', signIn: '/sign-in', signUp: '/sign-up' };
+
+// Rule article popups: one route for all of them, one path per article
+// (not under /rules/, which holds the static rules pages).
+export const RULE_POPUP_ROUTE = '/rule-popup';
+
+export function rulePopupPath(articleRef) {
+    return `${RULE_POPUP_ROUTE}/${articleRef}`;
+}

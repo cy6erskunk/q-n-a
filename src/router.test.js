@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { ROUTES, DIALOG_PATHS, parseRoute, routeHash, routePath } from './router.js';
+import { ROUTES, DIALOG_PATHS, RULE_POPUP_ROUTE, parseRoute, routeHash, routePath, rulePopupPath } from './router.js';
 
 describe('parseRoute', () => {
     it('maps the screen hashes to routes', () => {
@@ -52,5 +52,18 @@ describe('DIALOG_PATHS', () => {
     it('does not clash with any screen path', () => {
         const screenPaths = ROUTES.map(routePath);
         Object.values(DIALOG_PATHS).forEach(path => expect(screenPaths).not.toContain(path));
+    });
+});
+
+describe('rulePopupPath', () => {
+    it('gives every rule popup the /rule-popup route and a per-article path', () => {
+        expect(RULE_POPUP_ROUTE).toBe('/rule-popup');
+        expect(rulePopupPath('t.38')).toBe('/rule-popup/t.38');
+        expect(rulePopupPath('o.80.3')).toBe('/rule-popup/o.80.3');
+        expect(rulePopupPath('t.38.2.b')).toBe('/rule-popup/t.38.2.b');
+    });
+
+    it('does not clash with the static rules pages under /rules/', () => {
+        expect(rulePopupPath('t.38').startsWith('/rules/')).toBe(false);
     });
 });

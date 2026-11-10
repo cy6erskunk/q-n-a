@@ -64,4 +64,11 @@ describe('trackPageview', () => {
         trackPageview('/results', { pageview });
         expect(pageview).toHaveBeenCalledWith({ route: '/results', path: '/results' });
     });
+
+    it('accepts a separate route to group several paths', () => {
+        const pageview = vi.fn();
+        initAnalytics({ enabled: true, inject: vi.fn() });
+        trackPageview('/rule-popup/t.38', { route: '/rule-popup', pageview });
+        expect(pageview).toHaveBeenCalledWith({ route: '/rule-popup', path: '/rule-popup/t.38' });
+    });
 });

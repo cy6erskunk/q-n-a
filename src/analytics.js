@@ -31,9 +31,10 @@ export function initAnalytics({
     return true;
 }
 
-export function trackPageview(path, { pageview = vercelPageview } = {}) {
+// `route` groups several paths in the dashboard (e.g. all rule popups); defaults to the path.
+export function trackPageview(path, { route = path, pageview = vercelPageview } = {}) {
     if (!active) return;
-    pageview({ route: path, path });
+    pageview({ route, path });
 }
 
 export function resetAnalyticsForTests() {

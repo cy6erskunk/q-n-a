@@ -16,7 +16,8 @@ Development follows TDD: write tests first, then add the implementation to make 
   - `src/rulesPages.test.js` covers the build-time rendering of `docs/rules/*.md` into `rules/*.html` pages (article anchors, cross-reference links)
   - `src/quiz.test.js` covers `normalizeCount`, `shuffleArray`, `pickQuestions`; auth/api/rules modules are mocked via `vi.mock()`
   - `src/analytics.test.js` covers `initAnalytics`, `trackPageview` and `stripUrl` (Vercel Web Analytics only injected when enabled)
-  - `src/router.test.js` covers the screen routes (`parseRoute`, `routeHash`, `routePath`) and `DIALOG_PATHS`
+  - `src/router.test.js` covers the screen routes (`parseRoute`, `routeHash`, `routePath`) `DIALOG_PATHS` and `rulePopupPath`
+  - `src/rulePopupTracking.test.js` covers the pageviews for the rule article popup (`openRuleArticle`)
   - `src/dialogTracking.test.js` loads `index.html` with `quiz.js` wired up and checks the pageviews for the settings and sign-in/sign-up dialogs
   - `src/labels.test.js` covers question label filtering (`filterQuestionsByLabels`, persisted toggles) and validates the `labels` in `public/questions.json`
 - **E2E tests**: Playwright — `npx playwright test`
@@ -38,7 +39,7 @@ Vercel Web Analytics (`@vercel/analytics`) is enabled only for builds running on
 
 Auto-tracking is disabled because the Vercel script only counts path changes, and screens use hash URLs. Instead `showScreen()` in `src/quiz.js` reports every screen change with `trackPageview()` as `/`, `/study`, `/exam` or `/results`. `stripUrl` (`beforeSend`) drops query strings and hashes from every event.
 
-Dialogs have no URL but are tracked when they open (`DIALOG_PATHS` in `src/router.js`): `/settings`, and `/sign-in` or `/sign-up` for the auth dialog, including each switch between its two modes. Closing a dialog is not tracked.
+Dialogs have no URL but are tracked when they open (`DIALOG_PATHS` in `src/router.js`): `/settings`, and `/sign-in` or `/sign-up` for the auth dialog, including each switch between its two modes. The rule article popup reports `/rule-popup/<article>` (e.g. `/rule-popup/t.38.2.b`) under the shared route `/rule-popup`, both from explanations and from cross-references inside the popup. Closing a dialog is not tracked.
 
 ## Screen URLs
 
