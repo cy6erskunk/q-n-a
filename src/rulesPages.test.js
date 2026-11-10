@@ -70,6 +70,15 @@ describe('renderRulesPage', () => {
     it('escapes the title', () => {
         expect(renderRulesPage('', { title: 'A & <B>' })).toContain('<title>A &amp; &lt;B&gt;</title>');
     });
+
+    it('adds the Vercel Web Analytics script only when analytics is enabled', () => {
+        const script = '<script defer src="/_vercel/insights/script.js"></script>';
+        expect(renderRulesPage('# Hi', { title: 'T' })).not.toContain('_vercel/insights');
+        expect(renderRulesPage('# Hi', { title: 'T', analytics: false })).not.toContain('_vercel/insights');
+        const html = renderRulesPage('# Hi', { title: 'T', analytics: true });
+        expect(html).toContain(script);
+        expect(html.indexOf(script)).toBeLessThan(html.indexOf('</head>'));
+    });
 });
 
 // ─── Real rules data ───────────────────────────────────────

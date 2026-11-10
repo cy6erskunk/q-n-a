@@ -6,6 +6,10 @@ import { RULE_PAGES, renderRulesPage } from './src/rulesPages.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
+// Vercel sets VERCEL=1 during its builds. Web Analytics (/_vercel/insights) only
+// exists on Vercel deployments, so it stays off for GitHub Pages and local builds.
+const vercelAnalytics = Boolean(process.env.VERCEL);
+
 const RULE_FILES = ['Technical_rules.md', 'Organisation_rules.md'];
 const rulesDir = path.join(__dirname, 'docs/rules');
 
@@ -16,6 +20,7 @@ function rulesPlugin() {
         renderRulesPage(fs.readFileSync(path.join(rulesDir, page.md), 'utf-8'), {
             title: page.title,
             current: page.html,
+            analytics: vercelAnalytics,
         });
 
     return {
@@ -58,6 +63,9 @@ export default defineConfig({
     base: './',
     build: {
         outDir: 'dist',
+    },
+    define: {
+        'import.meta.env.VITE_VERCEL_ANALYTICS': JSON.stringify(vercelAnalytics),
     },
     plugins: [rulesPlugin()],
     test: {
