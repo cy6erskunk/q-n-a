@@ -110,7 +110,10 @@ tbody tr:nth-child(even) { background: var(--stripe); }
 `;
 
 // Render a rules markdown document into a complete standalone HTML page.
-export function renderRulesPage(markdown, { title, current } = {}) {
+// Vercel Web Analytics for the static rules pages (same script @vercel/analytics injects).
+const ANALYTICS_SCRIPT = '<script defer src="/_vercel/insights/script.js"></script>\n';
+
+export function renderRulesPage(markdown, { title, current, analytics = false } = {}) {
     const body = marked
         .parse(markdown)
         .replace(/<table>/g, '<div class="table-wrap"><table>')
@@ -125,7 +128,7 @@ export function renderRulesPage(markdown, { title, current } = {}) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${escapeHtml(title)}</title>
 <style>${STYLE}</style>
-</head>
+${analytics ? ANALYTICS_SCRIPT : ''}</head>
 <body>
 <nav class="top"><a href="../">← Quiz</a>${nav}</nav>
 <main>

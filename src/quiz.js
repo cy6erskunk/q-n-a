@@ -15,6 +15,7 @@ import {
     saveProgressToCloud,
     deleteProgressFromCloud,
 } from './api.js';
+import { initAnalytics } from './analytics.js';
 import { renderExplanationHtml, openRuleArticle } from './rules.js';
 import {
     QUESTION_LABELS,
@@ -350,6 +351,8 @@ function updateSettingsUI() {
 // ─── DOMContentLoaded ─────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
+    initAnalytics();
+
     const startButton = document.getElementById('start-button');
     const startExamButton = document.getElementById('start-exam');
     const nextRoundButton = document.getElementById('next-round-button');
