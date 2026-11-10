@@ -1,0 +1,69 @@
+import { describe, it, expect } from 'vitest';
+import { ROUTES, DIALOG_PATHS, RULE_POPUP_ROUTE, parseRoute, routeHash, routePath, rulePopupPath } from './router.js';
+
+describe('parseRoute', () => {
+    it('maps the screen hashes to routes', () => {
+        expect(parseRoute('#/study')).toBe('study');
+        expect(parseRoute('#/exam')).toBe('exam');
+        expect(parseRoute('#/results')).toBe('results');
+    });
+
+    it('treats an empty or root hash as home', () => {
+        expect(parseRoute('')).toBe('home');
+        expect(parseRoute('#')).toBe('home');
+        expect(parseRoute('#/')).toBe('home');
+    });
+
+    it('falls back to home for unknown hashes', () => {
+        expect(parseRoute('#/nope')).toBe('home');
+        expect(parseRoute('#study')).toBe('home');
+        expect(parseRoute('#/study/extra')).toBe('home');
+        expect(parseRoute('#/home')).toBe('home');
+    });
+});
+
+describe('routeHash', () => {
+    it('gives home no hash and every other route a #/ hash', () => {
+        expect(routeHash('home')).toBe('');
+        expect(routeHash('study')).toBe('#/study');
+        expect(routeHash('exam')).toBe('#/exam');
+        expect(routeHash('results')).toBe('#/results');
+    });
+
+    it('round-trips with parseRoute', () => {
+        ROUTES.forEach(route => expect(parseRoute(routeHash(route))).toBe(route));
+    });
+});
+
+describe('routePath', () => {
+    it('gives each route a distinct path for analytics', () => {
+        expect(routePath('home')).toBe('/');
+        expect(routePath('study')).toBe('/study');
+        expect(routePath('exam')).toBe('/exam');
+        expect(routePath('results')).toBe('/results');
+    });
+});
+
+describe('DIALOG_PATHS', () => {
+    it('gives the settings and sign-in/sign-up dialogs their own analytics paths', () => {
+        expect(DIALOG_PATHS).toEqual({ settings: '/settings', signIn: '/sign-in', signUp: '/sign-up' });
+    });
+
+    it('does not clash with any screen path', () => {
+        const screenPaths = ROUTES.map(routePath);
+        Object.values(DIALOG_PATHS).forEach(path => expect(screenPaths).not.toContain(path));
+    });
+});
+
+describe('rulePopupPath', () => {
+    it('gives every rule popup the /rule-popup route and a per-article path', () => {
+        expect(RULE_POPUP_ROUTE).toBe('/rule-popup');
+        expect(rulePopupPath('t.38')).toBe('/rule-popup/t.38');
+        expect(rulePopupPath('o.80.3')).toBe('/rule-popup/o.80.3');
+        expect(rulePopupPath('t.38.2.b')).toBe('/rule-popup/t.38.2.b');
+    });
+
+    it('does not clash with the static rules pages under /rules/', () => {
+        expect(rulePopupPath('t.38').startsWith('/rules/')).toBe(false);
+    });
+});

@@ -1,5 +1,8 @@
 // Rule reference popup: fetch markdown rule files and display article content.
 
+import { trackPageview } from './analytics.js';
+import { RULE_POPUP_ROUTE, rulePopupPath } from './router.js';
+
 const rulesCache = {};
 
 async function fetchRulesFile(type) {
@@ -155,6 +158,7 @@ export async function openRuleArticle(articleRef, dialog) {
     bodyEl.innerHTML = '<p class="rule-loading">Loading…</p>';
 
     if (!dialog.open) dialog.showModal();
+    trackPageview(rulePopupPath(articleRef), { route: RULE_POPUP_ROUTE });
 
     try {
         const markdown = await fetchRulesFile(type);

@@ -1,5 +1,7 @@
-import { describe, it, expect, vi } from 'vitest';
-import { initAnalytics } from './analytics.js';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { initAnalytics, trackPageview, stripUrl, resetAnalyticsForTests } from './analytics.js';
+
+beforeEach(() => resetAnalyticsForTests());
 
 describe('initAnalytics', () => {
     it('injects Vercel Web Analytics when enabled', () => {
@@ -23,8 +25,50 @@ describe('initAnalytics', () => {
     it('passes an explicit mode so the production script is used in production builds', () => {
         const inject = vi.fn();
         initAnalytics({ enabled: true, inject, production: true });
-        expect(inject).toHaveBeenCalledWith({ mode: 'production' });
+        expect(inject.mock.calls[0][0].mode).toBe('production');
         initAnalytics({ enabled: true, inject, production: false });
-        expect(inject).toHaveBeenLastCalledWith({ mode: 'development' });
+        expect(inject.mock.calls[1][0].mode).toBe('development');
+    });
+
+    it('disables auto-tracking (screens are tracked manually) and strips URLs before sending', () => {
+        const inject = vi.fn();
+        initAnalytics({ enabled: true, inject });
+        expect(inject.mock.calls[0][0].disableAutoTrack).toBe(true);
+        expect(inject.mock.calls[0][0].beforeSend).toBe(stripUrl);
+    });
+});
+
+describe('stripUrl', () => {
+    it('removes the query string and hash from the event URL', () => {
+        const event = { type: 'pageview', url: 'https://example.com/study?token=secret#/study' };
+        expect(stripUrl(event)).toEqual({ type: 'pageview', url: 'https://example.com/study' });
+    });
+
+    it('leaves clean URLs unchanged', () => {
+        const event = { type: 'pageview', url: 'https://example.com/' };
+        expect(stripUrl(event)).toEqual(event);
+    });
+});
+
+describe('trackPageview', () => {
+    it('does nothing while analytics is disabled', () => {
+        const pageview = vi.fn();
+        initAnalytics({ enabled: false, inject: vi.fn() });
+        trackPageview('/study', { pageview });
+        expect(pageview).not.toHaveBeenCalled();
+    });
+
+    it('sends a pageview with the screen path as both route and path when enabled', () => {
+        const pageview = vi.fn();
+        initAnalytics({ enabled: true, inject: vi.fn() });
+        trackPageview('/results', { pageview });
+        expect(pageview).toHaveBeenCalledWith({ route: '/results', path: '/results' });
+    });
+
+    it('accepts a separate route to group several paths', () => {
+        const pageview = vi.fn();
+        initAnalytics({ enabled: true, inject: vi.fn() });
+        trackPageview('/rule-popup/t.38', { route: '/rule-popup', pageview });
+        expect(pageview).toHaveBeenCalledWith({ route: '/rule-popup', path: '/rule-popup/t.38' });
     });
 });
