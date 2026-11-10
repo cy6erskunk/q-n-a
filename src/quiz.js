@@ -15,7 +15,8 @@ import {
     saveProgressToCloud,
     deleteProgressFromCloud,
 } from './api.js';
-import { initAnalytics } from './analytics.js';
+import { initAnalytics, trackPageview } from './analytics.js';
+import { parseRoute, routeHash, routePath } from './router.js';
 import { renderExplanationHtml, openRuleArticle } from './rules.js';
 import {
     QUESTION_LABELS,
@@ -28,6 +29,7 @@ let allQuestions = [];
 let currentQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
+let questionsLoaded = false;
 let questionProgress = new Map(); // questionId -> number of times answered correctly
 let isExamMode = false;
 let labelFilters = loadLabelFilters();
@@ -389,19 +391,9 @@ document.addEventListener('DOMContentLoaded', () => {
     examQuestionsValue.textContent = questionCountPerExam;
     examQuestionsCountDisplay.textContent = questionCountPerExam;
 
-    startExamButton.addEventListener('click', () => {
-        isExamMode = true;
-        startQuiz();
-    });
-
-    startButton.addEventListener('click', () => {
-        isExamMode = false;
-        startQuiz();
-    });
-
-    nextRoundButton.addEventListener('click', () => {
-        startQuiz();
-    });
+    startExamButton.addEventListener('click', () => startSession(true));
+    startButton.addEventListener('click', () => startSession(false));
+    nextRoundButton.addEventListener('click', () => startSession(false));
 
     resetQuizButton.addEventListener('click', resetQuiz);
     exitButton.addEventListener('click', confirmExit);
@@ -486,6 +478,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setupLabelFilters();
 
+    // Back/forward and manual hash edits switch screens
+    window.addEventListener('popstate', () => applyRoute());
+
     // Set up auth UI (no-op if auth not configured)
     setupAuthUI();
 
@@ -498,6 +493,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (migrateProgressToIds()) {
                 saveProgress();
             }
+            questionsLoaded = true;
+            applyRoute({ initial: true });
             // Initialize auth and sync (non-blocking)
             initAuth();
         })
@@ -594,10 +591,7 @@ function selectQuestions() {
 }
 
 function startQuiz() {
-    document.getElementById('start-screen').classList.add('hidden');
-    document.getElementById('end-screen').classList.add('hidden');
-    document.getElementById('quiz-screen').classList.remove('hidden');
-    document.getElementById('settings-button').classList.add('hidden');
+    showScreen('quiz');
 
     currentQuestionIndex = 0;
     score = 0;
@@ -717,12 +711,8 @@ function checkAnswer(selectedOption, question, selectedButton) {
 }
 
 function endQuiz() {
-    const quizScreen = document.getElementById('quiz-screen');
-    const endScreen = document.getElementById('end-screen');
-
-    quizScreen.classList.add('hidden');
-    endScreen.classList.remove('hidden');
-    document.getElementById('settings-button').classList.remove('hidden');
+    showScreen('end');
+    setUrl('replace');
 
     document.getElementById('results-title').textContent =
         isExamMode ? 'Exam Completed!' : 'Session Completed!';
@@ -816,9 +806,11 @@ function resetQuiz() {
     location.reload();
 }
 
+const EXIT_CONFIRMATION = 'Are you sure you want to exit?';
+
 function confirmExit() {
-    if (confirm("Are you sure you want to exit?")) {
-        exitQuiz();
+    if (confirm(EXIT_CONFIRMATION)) {
+        leaveSession();
     }
 }
 
@@ -826,10 +818,7 @@ function exitQuiz() {
     currentQuestions = [];
     currentQuestionIndex = 0;
     score = 0;
-    document.getElementById('start-screen').classList.remove('hidden');
-    document.getElementById('quiz-screen').classList.add('hidden');
-    document.getElementById('end-screen').classList.add('hidden');
-    document.getElementById('settings-button').classList.remove('hidden');
+    showScreen('start');
     updateLearningProgress();
 }
 
@@ -849,6 +838,92 @@ function goHome() {
 
     // From end screen, go directly home
     if (!endScreen.classList.contains('hidden')) {
+        leaveSession();
+    }
+}
+
+// ─── Screens & URLs ───────────────────────────────────────
+// Each screen has its own URL (see router.js). A session (study/exam/results)
+// occupies one history entry pushed on top of home, so Back always leads home.
+
+const SCREENS = { start: 'start-screen', quiz: 'quiz-screen', end: 'end-screen' };
+
+function showScreen(screen) {
+    Object.entries(SCREENS).forEach(([name, id]) => {
+        document.getElementById(id).classList.toggle('hidden', name !== screen);
+    });
+    document.getElementById('settings-button').classList.toggle('hidden', screen === 'quiz');
+    trackPageview(routePath(currentRoute()));
+}
+
+// The route of the screen currently shown.
+function currentRoute() {
+    if (!document.getElementById('quiz-screen').classList.contains('hidden')) {
+        return isExamMode ? 'exam' : 'study';
+    }
+    if (!document.getElementById('end-screen').classList.contains('hidden')) return 'results';
+    return 'home';
+}
+
+// Bring the URL in line with the current screen. 'push' adds a session entry
+// on top of home; 'replace' swaps the current entry, keeping its state.
+function setUrl(mode) {
+    const hash = routeHash(currentRoute());
+    if (location.hash === hash) return;
+    const url = hash || location.pathname + location.search;
+    if (mode === 'push') {
+        history.pushState({ session: true }, '', url);
+    } else {
+        history.replaceState(history.state, '', url);
+    }
+}
+
+function startSession(exam) {
+    const fromHome = currentRoute() === 'home';
+    isExamMode = exam;
+    startQuiz();
+    setUrl(fromHome ? 'push' : 'replace');
+}
+
+function leaveSession() {
+    exitQuiz();
+    if (history.state?.session) {
+        // Pop the session entry; the resulting popstate finds home already shown.
+        history.back();
+    } else {
+        // Opened directly on a session URL: there is no home entry to go back to.
+        setUrl('replace');
+    }
+}
+
+// Show the screen for the URL (on load, back/forward, or a manual hash edit).
+function applyRoute({ initial = false } = {}) {
+    if (!questionsLoaded) return;
+    const target = parseRoute(location.hash);
+    const before = currentRoute();
+    let current = before;
+
+    if (target !== current && (current === 'study' || current === 'exam')) {
+        if (!confirm(EXIT_CONFIRMATION)) {
+            // Stay in the session: put its entry back on top of the one navigated to.
+            history.pushState({ session: true }, '', routeHash(current));
+            return;
+        }
+        exitQuiz();
+        current = 'home';
+    }
+
+    if ((target === 'study' || target === 'exam') && target !== current) {
+        isExamMode = target === 'exam';
+        startQuiz();
+    } else if (target === 'home' && current === 'results') {
         exitQuiz();
     }
+
+    // Unavailable routes (e.g. #/results without a finished session) or unknown
+    // hashes are rewritten to the screen actually shown.
+    setUrl('replace');
+
+    // showScreen() reports screen changes; the first screen on load needs a pageview too.
+    if (initial && currentRoute() === before) trackPageview(routePath(before));
 }
